@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title上百人酷暑天挤货车偷渡美国已致10人死亡/Title</origin_text>
+	<relation id="2" pred="死亡" pattern="SBV-n(A0)_Pred[死亡]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[死亡]_VOB-ns(A)" taggedType="a" pred_id="15" tagged="false" instance="10人死亡/Title" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="10人" node_id="14" head_word="人" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="/Title" node_id="19" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="19" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>7月23日，在美国得克萨斯州圣安东尼奥，警方在事发现场调查。</origin_text>
+	<relation id="1" pred="事发" pattern="ADV-t(Ca)_ADV-在_POB-nr(Af)_SBV-n(Dm)_Pred[事发]_VOB-n(A0)" syntax_pattern="ADV-t(A)_ADV-在_POB-nr(A)_SBV-n(A)_Pred[事发]_VOB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="7月23日，在美国得克萨斯州圣安东尼奥，警方在事发现场调查" feature="1-1-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="7月23日" node_id="1" head_word="23日" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="美国得克萨斯州圣安东尼奥" node_id="7" head_word="东尼奥" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="POB-nr(Af)" syn_pattern="POB-nr(A)"/>
+			<sub_pattern node_id="3" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="警方" node_id="9" head_word="警方" sem_cat="Dm">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(Dm)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="3" content="现场调查" node_id="13" head_word="调查" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>德州警方称，当天对停放在一家沃尔玛店外的货车进行搜查，发现8人死亡，30人受伤，随后又有2人在医院中死亡，警方怀疑这是一起可怕的人口走私案。</origin_text>
+	<relation id="1" pred="搜查" pattern="ADV-t(Ca)_ADV-对_POB-n(Bo)_Pred[进行]_VOB-n{搜查}" syntax_pattern="ADV-t(A)_ADV-对_POB-n(A)_Pred[进行]_VOB-n{搜查}" taggedType="a" pred_id="15" tagged="true" instance="当天对停放在一家沃尔玛店外的货车进行搜查" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="当天" node_id="4" head_word="当天" sem_cat="Ca">
+			<sub_pattern node_id="4" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="货车" node_id="14" head_word="货车" sem_cat="Bo">
+			<sub_pattern node_id="14" sem_pattern="POB-n(Bo)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="5" sem_pattern="ADV-对" syn_pattern="ADV-对"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="怀疑" pattern="SBV-n(Dm)_Pred[怀疑]_SBV-r(Ca)_VOB-是_VOB-n(Da)" syntax_pattern="SBV-n(A)_Pred[怀疑]_SBV-r(A)_VOB-是_VOB-n(A)" taggedType="a" pred_id="38" tagged="true" instance="警方怀疑这是一起可怕的人口走私案" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="警方" node_id="37" head_word="警方" sem_cat="Dm">
+			<sub_pattern node_id="37" sem_pattern="SBV-n(Dm)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="这" node_id="39" head_word="这" sem_cat="Ca">
+			<sub_pattern node_id="39" sem_pattern="SBV-r(Ca)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="40" sem_pattern="VOB-是" syn_pattern="VOB-是"/>
+		</argument>
+		<argument id="2" content="一起可怕的人口走私案" node_id="46" head_word="走私案" sem_cat="Da">
+			<sub_pattern node_id="46" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>一名报案的沃尔玛雇员告诉警方，这辆货车停在沃尔玛店外面的停车场内。</origin_text>
+	<relation id="1" pred="告诉" pattern="SBV-n(Af)_Pred[告诉]_VOB-n(Dm)" syntax_pattern="SBV-n(A)_Pred[告诉]_VOB-n(A)" taggedType="a" pred_id="6" tagged="true" instance="一名报案的沃尔玛雇员告诉警方" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="一名报案的沃尔玛雇员" node_id="5" head_word="雇员" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="警方" node_id="7" head_word="警方" sem_cat="Dm">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dm)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="停" pattern="SBV-n(Bo)_Pred[停]_CMP-在_POB-f(A0)" syntax_pattern="SBV-n(A)_Pred[停]_CMP-在_POB-f(A)" taggedType="a" pred_id="12" tagged="false" instance="这辆货车停在沃尔玛店外面的停车场内" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这辆货车" node_id="11" head_word="货车" sem_cat="Bo">
+			<sub_pattern node_id="11" sem_pattern="SBV-n(Bo)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="停车场内" node_id="18" head_word="内" sem_cat="">
+			<sub_pattern node_id="18" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="13" sem_pattern="CMP-在" syn_pattern="CMP-在"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>周六，货车内的一名男子向这名雇员要水。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-f(A0)_Pred[de]_dobj-n(Af)" syntax_pattern="nsubj-f(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="4" tagged="false" instance="货车内的一名男子" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="货车内" node_id="3" head_word="内" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="nsubj-f(A0)" syn_pattern="nsubj-f(A)"/>
+		</argument>
+		<argument id="1" content="一名男子" node_id="7" head_word="男子" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="dobj-n(Af)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="要" pattern="ADV-t(Ca)_SBV-n(Af)_ADV-向_POB-n(Af)_Pred[要]_VOB-n(A0)" syntax_pattern="ADV-t(A)_SBV-n(A)_ADV-向_POB-n(A)_Pred[要]_VOB-n(A)" taggedType="a" pred_id="12" tagged="false" instance="周六，货车内的一名男子向这名雇员要水" feature="1-1-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="周六" node_id="0" head_word="周六" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="一名男子" node_id="7" head_word="男子" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="这名雇员" node_id="11" head_word="雇员" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="8" sem_pattern="ADV-向" syn_pattern="ADV-向"/>
+		</argument>
+		<argument id="3" content="水" node_id="13" head_word="水" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>该雇员给这名男子送水后，便打电话给警察，并要求他们进行检查。</origin_text>
+	<relation id="1" pred="送" pattern="SBV-n(Af)_ADV-给_POB-n(Af)_Pred[送]_VOB-n(A0)" syntax_pattern="SBV-n(A)_ADV-给_POB-n(A)_Pred[送]_VOB-n(A)" taggedType="a" pred_id="6" tagged="false" instance="该雇员给这名男子送水" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="该雇员" node_id="1" head_word="雇员" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="这名男子" node_id="5" head_word="男子" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="2" sem_pattern="ADV-给" syn_pattern="ADV-给"/>
+		</argument>
+		<argument id="2" content="水" node_id="7" head_word="水" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="打电话" pattern="ADV-f(A0)_Pred[打电话]_CMP-给_POB-n(Af)" syntax_pattern="ADV-f(A)_Pred[打电话]_CMP-给_POB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="后，便打电话给警察" feature="0-1-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="后" node_id="8" head_word="后" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="警察" node_id="13" head_word="警察" sem_cat="Af">
+			<sub_pattern node_id="13" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="12" sem_pattern="CMP-给" syn_pattern="CMP-给"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>当警方到达后，首先发现8人死在车内，另有30人受伤。</origin_text>
+	<relation id="1" pred="到达" pattern="SBV-n(Dm)_Pred[到达]_POB-f(A0)" syntax_pattern="SBV-n(A)_Pred[到达]_POB-f(A)" taggedType="a" pred_id="2" tagged="false" instance="警方到达后" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="警方" node_id="1" head_word="警方" sem_cat="Dm">
+			<sub_pattern node_id="1" sem_pattern="SBV-n(Dm)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="2" sem_pattern="ATT-到达" syn_pattern="ATT-到达"/>
+			<sub_pattern node_id="3" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+		</argument>
+		<argument id="1" content="后" node_id="3" head_word="后" sem_cat="">
+		</argument>
+	</relation>
+	<relation id="2" pred="有" pattern="SBV-n(A0)_ADV-在_POB-f(A1)_Pred[有]_VOB-n(A2)" syntax_pattern="SBV-n(A)_ADV-在_POB-f(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="15" tagged="false" instance="8人死在车内，另有30人" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="8人" node_id="8" head_word="人" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="车内" node_id="12" head_word="内" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="POB-f(A1)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="10" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="30人" node_id="17" head_word="人" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="VOB-n(A2)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="13">
+	<origin_text>其中17人情况危急，而另外13人情况也很严重，到周日下午，死亡人数增加到10人。</origin_text>
+	<relation id="1" pred="增加" pattern="ADV-到_VOB-t(Ca)_SBV-n(Dn)_Pred[增加]_VOB-n(A0)" syntax_pattern="ADV-到_VOB-t(A)_SBV-n(A)_Pred[增加]_VOB-n(A)" taggedType="a" pred_id="21" tagged="false" instance="周日下午，死亡人数增加到10人" feature="0-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="周日下午" node_id="17" head_word="下午" sem_cat="Ca">
+			<sub_pattern node_id="17" sem_pattern="VOB-t(Ca)" syn_pattern="VOB-t(A)"/>
+			<sub_pattern node_id="15" sem_pattern="ADV-到" syn_pattern="ADV-到"/>
+		</argument>
+		<argument id="1" content="死亡人数" node_id="20" head_word="人数" sem_cat="Dn">
+			<sub_pattern node_id="20" sem_pattern="SBV-n(Dn)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="10人" node_id="24" head_word="人" sem_cat="">
+			<sub_pattern node_id="24" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="14">
+	<origin_text>当时货车内还有一些人逃跑到树林中去，警方启动直升机在该地区进行搜寻。</origin_text>
+	<relation id="1" pred="还有" pattern="ADV-t(Ca)_SBV-f(A0)_Pred[还有]_VOB-n(A1)" syntax_pattern="ADV-t(A)_SBV-f(A)_Pred[还有]_VOB-n(A)" taggedType="a" pred_id="3" tagged="false" instance="当时货车内还有一些人" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="当时" node_id="0" head_word="当时" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="货车内" node_id="2" head_word="内" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="SBV-f(A0)" syn_pattern="SBV-f(A)"/>
+		</argument>
+		<argument id="2" content="一些人" node_id="5" head_word="人" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="搜寻" pattern="SBV-n(Dm)_ADV-在_POB-n(Cb)_Pred[进行]_VOB-n{搜寻}" syntax_pattern="SBV-n(A)_ADV-在_POB-n(A)_Pred[进行]_VOB-n{搜寻}" taggedType="a" pred_id="18" tagged="true" instance="警方启动直升机在该地区进行搜寻" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="警方" node_id="12" head_word="警方" sem_cat="Dm">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(Dm)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="该地区" node_id="17" head_word="地区" sem_cat="Cb">
+			<sub_pattern node_id="17" sem_pattern="POB-n(Cb)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="15" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="15">
+	<origin_text>美联社报道称，这辆货车内总计有38人，包括2名未成年人，国土安全部也在调查这个案子。</origin_text>
+	<relation id="1" pred="有" pattern="ADV-f(A0)_Pred[有]_VOB-n(A1)" syntax_pattern="ADV-f(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="10" tagged="false" instance="这辆货车内总计有38人" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这辆货车内" node_id="8" head_word="内" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="38人" node_id="12" head_word="人" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="调查" pattern="SBV-n(Dm)_Pred[调查]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[调查]_VOB-n(A)" taggedType="a" pred_id="24" tagged="false" instance="国土安全部也在调查这个案子" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="国土安全部" node_id="21" head_word="安全部" sem_cat="Dm">
+			<sub_pattern node_id="21" sem_pattern="SBV-n(Dm)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="这个案子" node_id="26" head_word="案子" sem_cat="">
+			<sub_pattern node_id="26" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="16">
+	<origin_text>警方搬运遇难者尸体。</origin_text>
+	<relation id="1" pred="搬运" pattern="SBV-n(Dm)_Pred[搬运]_VOB-n(Bk)" syntax_pattern="SBV-n(A)_Pred[搬运]_VOB-n(A)" taggedType="a" pred_id="1" tagged="true" instance="警方搬运遇难者尸体" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="警方" node_id="0" head_word="警方" sem_cat="Dm">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Dm)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="遇难者尸体" node_id="3" head_word="尸体" sem_cat="Bk">
+			<sub_pattern node_id="3" sem_pattern="VOB-n(Bk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="17">
+	<origin_text>当天当地气温最高达到摄氏38度，这辆货车内的空调系统出了问题。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-f(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-f(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="13" tagged="false" instance="这辆货车内的空调系统" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这辆货车内" node_id="12" head_word="内" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="nsubj-f(A0)" syn_pattern="nsubj-f(A)"/>
+		</argument>
+		<argument id="1" content="空调系统" node_id="15" head_word="系统" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="达到" pattern="ADV-t(Ca)_SBV-n(Dn)_Pred[达到]_VOB-q(Dn)" syntax_pattern="ADV-t(A)_SBV-n(A)_Pred[达到]_VOB-q(A)" taggedType="a" pred_id="4" tagged="true" instance="当天当地气温最高达到摄氏38度" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="当天" node_id="0" head_word="当天" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="当地气温" node_id="2" head_word="气温" sem_cat="Dn">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(Dn)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="38度" node_id="7" head_word="度" sem_cat="Dn">
+			<sub_pattern node_id="7" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="出" pattern="SBV-n(A0)_Pred[出]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[出]_VOB-n(A)" taggedType="a" pred_id="16" tagged="false" instance="空调系统出了问题" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="空调系统" node_id="15" head_word="系统" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="问题" node_id="18" head_word="问题" sem_cat="">
+			<sub_pattern node_id="18" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="18">
+	<origin_text>目前还不知道，这辆货车在沃尔玛已经停了多久。</origin_text>
+	<relation id="1" pred="知道" pattern="ADV-t(Ca)_Pred[知道]_SBV-n(Bo)_VOB-停_VOB-r(Ca)" syntax_pattern="ADV-t(A)_Pred[知道]_SBV-n(A)_VOB-停_VOB-r(A)" taggedType="a" pred_id="3" tagged="true" instance="目前还不知道，这辆货车在沃尔玛已经停了多久" feature="1-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="目前" node_id="0" head_word="目前" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="这辆货车" node_id="7" head_word="货车" sem_cat="Bo">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(Bo)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="11" sem_pattern="VOB-停" syn_pattern="VOB-停"/>
+		</argument>
+		<argument id="2" content="多久" node_id="13" head_word="多久" sem_cat="Ca">
+			<sub_pattern node_id="13" sem_pattern="VOB-r(Ca)" syn_pattern="VOB-r(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="19">
+	<origin_text>圣安东尼奥，当地拉美裔移民为遇难者祈祷。</origin_text>
+	<relation id="1" pred="祈祷" pattern="SBV-n(Af)_ADV-为_POB-n(Bk)_Pred[祈祷]" syntax_pattern="SBV-n(A)_ADV-为_POB-n(A)_Pred[祈祷]" taggedType="a" pred_id="8" tagged="true" instance="当地拉美裔移民为遇难者祈祷" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="当地拉美裔移民" node_id="5" head_word="移民" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="遇难者" node_id="7" head_word="遇难者" sem_cat="Bk">
+			<sub_pattern node_id="7" sem_pattern="POB-n(Bk)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="6" sem_pattern="ADV-为" syn_pattern="ADV-为"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="20">
+	<origin_text>目前，卡车司机已经被警方逮捕。</origin_text>
+	<relation id="1" pred="逮捕" pattern="ADV-t(Ca)_SBV-n(Af)_ADV-被_POB-n(Dm)_Pred[逮捕]" syntax_pattern="ADV-t(A)_SBV-n(A)_ADV-被_POB-n(A)_Pred[逮捕]" taggedType="a" pred_id="7" tagged="true" instance="目前，卡车司机已经被警方逮捕" feature="1-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="目前" node_id="0" head_word="目前" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="卡车司机" node_id="3" head_word="司机" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="警方" node_id="6" head_word="警方" sem_cat="Dm">
+			<sub_pattern node_id="6" sem_pattern="POB-n(Dm)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="5" sem_pattern="ADV-被" syn_pattern="ADV-被"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="21">
+	<origin_text>幸存者称，卡车内原有100多人，一部分人来自墨西哥。</origin_text>
+	<relation id="1" pred="称" pattern="SBV-n(Af)_Pred[称]_SBV-n(A0)_VOB-来自_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[称]_SBV-n(A)_VOB-来自_VOB-ns(A)" taggedType="a" pred_id="1" tagged="false" instance="幸存者称，幸存者卡车内原有100多人，一部分人来自墨西哥" feature="1-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="幸存者" node_id="0" head_word="幸存者" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="一部分人" node_id="12" head_word="人" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="13" sem_pattern="VOB-来自" syn_pattern="VOB-来自"/>
+		</argument>
+		<argument id="2" content="墨西哥" node_id="14" head_word="墨西哥" sem_cat="Cb">
+			<sub_pattern node_id="14" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="原有" pattern="SBV-n(Af)_ADV-f(A0)_Pred[原有]_VOB-n(A1)" syntax_pattern="SBV-n(A)_ADV-f(A)_Pred[原有]_VOB-n(A)" taggedType="a" pred_id="6" tagged="false" instance="幸存者卡车内原有100多人" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="幸存者(Z)" node_id="3" head_word="幸存者" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="卡车内" node_id="5" head_word="内" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="2" content="100多人" node_id="9" head_word="人" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="22">
+	<origin_text>据美国边境巡逻发布的通告显示，至少有4辆重型货车于7月进出德克萨斯州的边境口岸拉雷多。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-ns(Cb)_Pred[de]_dobj-n(Cb)" syntax_pattern="nsubj-ns(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="19" tagged="true" instance="德克萨斯州的边境口岸" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="德克萨斯州" node_id="18" head_word="德克萨斯州" sem_cat="Cb">
+			<sub_pattern node_id="18" sem_pattern="nsubj-ns(Cb)" syn_pattern="nsubj-ns(A)"/>
+		</argument>
+		<argument id="1" content="边境口岸" node_id="21" head_word="口岸" sem_cat="Cb">
+			<sub_pattern node_id="21" sem_pattern="dobj-n(Cb)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="进出" pattern="ADV-于_POB-t(Ca)_Pred[进出]_VOB-nr(Af)" syntax_pattern="ADV-于_POB-t(A)_Pred[进出]_VOB-nr(A)" taggedType="a" pred_id="17" tagged="true" instance="7月进出德克萨斯州的边境口岸拉雷多" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="7月" node_id="16" head_word="7月" sem_cat="Ca">
+			<sub_pattern node_id="16" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="15" sem_pattern="ADV-于" syn_pattern="ADV-于"/>
+		</argument>
+		<argument id="1" content="拉雷多" node_id="22" head_word="拉雷多" sem_cat="Af">
+			<sub_pattern node_id="22" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Cb)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="22" tagged="true" instance="边境口岸拉雷多" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="拉雷多" node_id="22" head_word="拉雷多" sem_cat="Af">
+			<sub_pattern node_id="22" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="边境口岸" node_id="21" head_word="口岸" sem_cat="Cb">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(Cb)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="23">
+	<origin_text>警方当时是在车内找到了38人，其余的或者是逃走了，或者是被接走了。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-n(Dm)_ADV-t(Ca)_Pred[是]_VOB-找到_VOB-n(A0)" syntax_pattern="SBV-n(A)_ADV-t(A)_Pred[是]_VOB-找到_VOB-n(A)" taggedType="a" pred_id="2" tagged="false" instance="警方当时是在车内找到了38人" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="警方" node_id="0" head_word="警方" sem_cat="Dm">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Dm)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="当时" node_id="1" head_word="当时" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="2" content="38人" node_id="9" head_word="人" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="6" sem_pattern="VOB-找到" syn_pattern="VOB-找到"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="24">
+	<origin_text>来自沃尔玛的监控录像也显示，事发前，曾有一些车经过这里，从该货车接走一些人，这些人也因此得以幸存。</origin_text>
+	<relation id="1" pred="有" pattern="SBV-n(A0)_ADV-f(A1)_Pred[有]_VOB-n(Bo)" syntax_pattern="SBV-n(A)_ADV-f(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="13" tagged="false" instance="来自_沃尔玛_的_监控_录像事发前，曾有一些车" feature="0-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="来自沃尔玛的监控录像(Z)" node_id="8" head_word="来自 沃尔玛 的 监控 录像" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="前" node_id="10" head_word="前" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="ADV-f(A1)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="2" content="一些车" node_id="15" head_word="车" sem_cat="Bo">
+			<sub_pattern node_id="15" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="接" pattern="SBV-n(A0)_ADV-从_POB-n(Bo)_Pred[接]_VOB-n(A1)" syntax_pattern="SBV-n(A)_ADV-从_POB-n(A)_Pred[接]_VOB-n(A)" taggedType="a" pred_id="23" tagged="false" instance="来自_沃尔玛_的_监控_录像从该货车接走一些人" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="来自沃尔玛的监控录像(Z)" node_id="19" head_word="来自 沃尔玛 的 监控 录像" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="该货车" node_id="22" head_word="货车" sem_cat="Bo">
+			<sub_pattern node_id="22" sem_pattern="POB-n(Bo)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="20" sem_pattern="ADV-从" syn_pattern="ADV-从"/>
+		</argument>
+		<argument id="2" content="一些人" node_id="26" head_word="人" sem_cat="">
+			<sub_pattern node_id="26" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="得以" pattern="SBV-n(A0)_ADV-c_POB-r(Cb)_Pred[得以]_VOB-n(A1)" syntax_pattern="SBV-n(A)_ADV-c_POB-r(A)_Pred[得以]_VOB-n(A)" taggedType="a" pred_id="33" tagged="false" instance="这些人也因此得以幸存" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这些人" node_id="29" head_word="人" sem_cat="">
+			<sub_pattern node_id="29" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="此" node_id="32" head_word="此" sem_cat="Cb">
+			<sub_pattern node_id="32" sem_pattern="POB-r(Cb)" syn_pattern="POB-r(A)"/>
+			<sub_pattern node_id="31" sem_pattern="ADV-c" syn_pattern="ADV-c"/>
+		</argument>
+		<argument id="2" content="幸存" node_id="34" head_word="幸存" sem_cat="">
+			<sub_pattern node_id="34" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="25">
+	<origin_text>美国上一次发生偷渡客大量死亡案是在2003年，当年德州南部一辆运送牛奶的货车上被发现19名偷渡者死亡，货车司机被判近34年的监禁。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-q(Dn)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-q(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="38" tagged="false" instance="近34年的监禁" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="近34年" node_id="37" head_word="年" sem_cat="Dn">
+			<sub_pattern node_id="37" sem_pattern="nsubj-q(Dn)" syn_pattern="nsubj-q(A)"/>
+		</argument>
+		<argument id="1" content="监禁" node_id="39" head_word="监禁" sem_cat="">
+			<sub_pattern node_id="39" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="SBV-n(A0)_Pred[是]_ADV-t(Ca)_SBV-f(A1)_VOB-发现" syntax_pattern="SBV-n(A)_Pred[是]_ADV-t(A)_SBV-f(A)_VOB-发现" taggedType="a" pred_id="10" tagged="false" instance="一次发生偷渡客大量死亡案是在2003年，当年德州南部一辆运送牛奶的货车上" feature="0-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="一次发生偷渡客大量死亡案" node_id="9" head_word="案" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="当年" node_id="14" head_word="当年" sem_cat="Ca">
+			<sub_pattern node_id="14" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+			<sub_pattern node_id="25" sem_pattern="VOB-发现" syn_pattern="VOB-发现"/>
+		</argument>
+		<argument id="2" content="一辆运送牛奶的货车上" node_id="23" head_word="上" sem_cat="">
+			<sub_pattern node_id="23" sem_pattern="SBV-f(A1)" syn_pattern="SBV-f(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="发现" pattern="ADV-在_POB-t(Ca)_Pred[发现]_SBV-n(Af)_VOB-死亡" syntax_pattern="ADV-在_POB-t(A)_Pred[发现]_SBV-n(A)_VOB-死亡" taggedType="a" pred_id="25" tagged="true" instance="2003年，当年德州南部一辆运送牛奶的货车上被发现19名偷渡者" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="2003年" node_id="12" head_word="2003年" sem_cat="Ca">
+			<sub_pattern node_id="12" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="11" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="19名偷渡者" node_id="28" head_word="偷渡者" sem_cat="Af">
+			<sub_pattern node_id="28" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="29" sem_pattern="VOB-死亡" syn_pattern="VOB-死亡"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="判" pattern="SBV-n(Af)_Pred[判]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[判]_VOB-n(A)" taggedType="a" pred_id="34" tagged="false" instance="货车司机被判近34年的监禁" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="货车司机" node_id="32" head_word="司机" sem_cat="Af">
+			<sub_pattern node_id="32" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="监禁" node_id="39" head_word="监禁" sem_cat="">
+			<sub_pattern node_id="39" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="26">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="27">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

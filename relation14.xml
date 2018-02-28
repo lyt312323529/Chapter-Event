@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title“双宋”撒狗粮停不下来，原来娱乐圈秀恩爱的小情侣这么多！</origin_text>
+	<relation id="2" pred="停" pattern="SBV-ns(Cb)_ADV-t(Ca)_Pred[停]" syntax_pattern="SBV-ns(A)_ADV-t(A)_Pred[停]" taggedType="a" pred_id="8" tagged="true" instance="Title“双宋”撒狗粮停" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="Title" node_id="1" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="1" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="双宋" node_id="3" head_word="双宋" sem_cat="Ca">
+			<sub_pattern node_id="3" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>/Title</origin_text>
+</sentence>
+<sentence id="8">
+	<origin_text>宋仲基和宋慧乔要结婚了！</origin_text>
+</sentence>
+<sentence id="9">
+	<origin_text>这种男神女神终成眷属的童话故事真的在现实中上演了！</origin_text>
+	<relation id="1" pred="成" pattern="SBV-n(Dh)_Pred[成]_VOB-n(Af)_ATT-u_SBV-n(Dk)" syntax_pattern="SBV-n(A)_Pred[成]_VOB-n(A)_ATT-u_SBV-n(A)" taggedType="a" pred_id="4" tagged="true" instance="这种男神女神终成眷属的童话故事" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="这种男神女神" node_id="2" head_word="女神" sem_cat="Dh">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(Dh)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="4" sem_pattern="DE-成" syn_pattern="DE-成"/>
+			<sub_pattern node_id="6" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="8" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="眷属" node_id="5" head_word="眷属" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="2" content="故事" node_id="8" head_word="故事" sem_cat="Dk">
+		</argument>
+	</relation>
+	<relation id="2" pred="上演" pattern="SBV-n(Dk)_ADV-在_POB-f(A0)_Pred[上演]" syntax_pattern="SBV-n(A)_ADV-在_POB-f(A)_Pred[上演]" taggedType="a" pred_id="13" tagged="false" instance="童话故事真的在现实中上演" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="童话故事" node_id="8" head_word="故事" sem_cat="Dk">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="现实中" node_id="12" head_word="中" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="10" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>相信大家这几天已经被喂足了双宋的钻石狗粮。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-t(Ca)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-t(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="11" tagged="false" instance="双宋的钻石狗粮" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="双宋" node_id="10" head_word="双宋" sem_cat="Ca">
+			<sub_pattern node_id="10" sem_pattern="nsubj-t(Ca)" syn_pattern="nsubj-t(A)"/>
+		</argument>
+		<argument id="1" content="钻石狗粮" node_id="13" head_word="狗粮" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="喂" pattern="SBV-r(A0)_ADV-q(Dn)_Pred[喂]_VOB-n(A1)" syntax_pattern="SBV-r(A)_ADV-q(A)_Pred[喂]_VOB-n(A)" taggedType="a" pred_id="7" tagged="false" instance="大家这几天已经被喂足了双宋的钻石狗粮" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="大家" node_id="1" head_word="大家" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="这几天" node_id="4" head_word="天" sem_cat="Dn">
+			<sub_pattern node_id="4" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="2" content="钻石狗粮" node_id="13" head_word="狗粮" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>不得不说，这对从剧中CP到假戏真做的情侣确实让人羡慕。</origin_text>
+	<relation id="1" pred="让" pattern="SBV-r(Ca)_ADV-对_POB-n(Af)_Pred[让]_VOB-n(A0)" syntax_pattern="SBV-r(A)_ADV-对_POB-n(A)_Pred[让]_VOB-n(A)" taggedType="a" pred_id="13" tagged="false" instance="这对从剧中CP到假戏真做的情侣确实让人" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这" node_id="3" head_word="这" sem_cat="Ca">
+			<sub_pattern node_id="3" sem_pattern="SBV-r(Ca)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="情侣" node_id="11" head_word="情侣" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="4" sem_pattern="ADV-对" syn_pattern="ADV-对"/>
+		</argument>
+		<argument id="2" content="人" node_id="14" head_word="人" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>而选择大方公开在嘉姐看来才是正确的秀恩爱方式！</origin_text>
+</sentence>
+<sentence id="13">
+	<origin_text>友情提示：前方暴击，单身误入。</origin_text>
+	<relation id="1" pred="提示" pattern="SBV-n(Db)_Pred[提示]_SBV-n(A0)_VOB-误入" syntax_pattern="SBV-n(A)_Pred[提示]_SBV-n(A)_VOB-误入" taggedType="a" pred_id="1" tagged="false" instance="友情提示：友情前方暴击，单身" feature="0-1-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="友情" node_id="0" head_word="友情" sem_cat="Db">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Db)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="单身" node_id="7" head_word="单身" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="8" sem_pattern="VOB-误入" syn_pattern="VOB-误入"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="暴击" pattern="SBV-n(Db)_ADV-f(Cb)_Pred[暴击]" syntax_pattern="SBV-n(A)_ADV-f(A)_Pred[暴击]" taggedType="a" pred_id="5" tagged="true" instance="友情前方暴击" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="友情(Z)" node_id="3" head_word="友情" sem_cat="Db">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Db)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="前方" node_id="4" head_word="前方" sem_cat="Cb">
+			<sub_pattern node_id="4" sem_pattern="ADV-f(Cb)" syn_pattern="ADV-f(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="14">
+	<origin_text>宋仲基：因为有了我要负责一辈子的女人。</origin_text>
+	<relation id="1" pred="负责" pattern="SBV-r(Af)_Pred[负责]_VOB-m(Dn)_ATT-u_VOB-n(Af)" syntax_pattern="SBV-r(A)_Pred[负责]_VOB-m(A)_ATT-u_VOB-n(A)" taggedType="a" pred_id="7" tagged="true" instance="我要负责一辈子的女人" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="我" node_id="5" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="7" sem_pattern="DE-负责" syn_pattern="DE-负责"/>
+			<sub_pattern node_id="9" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="10" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="1" content="一辈子" node_id="8" head_word="一辈子" sem_cat="Dn">
+			<sub_pattern node_id="8" sem_pattern="VOB-m(Dn)" syn_pattern="VOB-m(A)"/>
+		</argument>
+		<argument id="2" content="女人" node_id="10" head_word="女人" sem_cat="Af">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="15">
+	<origin_text>如果只是单纯的秀恩爱那真的未免太小瞧这波“狗粮”了，“双宋”公布的不是我们在一起了，而是我们要结婚了！</origin_text>
+	<relation id="1" pred="瞧" pattern="SBV-nr(Af)_ADV-r(A0)_Pred[瞧]_VOB-n(Br)" syntax_pattern="SBV-nr(A)_ADV-r(A)_Pred[瞧]_VOB-n(A)" taggedType="a" pred_id="10" tagged="false" instance="秀恩爱那真的未免太小瞧这波“狗粮”" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="秀恩爱" node_id="4" head_word="秀恩爱" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="那" node_id="5" head_word="那" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="ADV-r(A0)" syn_pattern="ADV-r(A)"/>
+		</argument>
+		<argument id="2" content="这波狗粮" node_id="15" head_word="粮" sem_cat="Br">
+			<sub_pattern node_id="15" sem_pattern="VOB-n(Br)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="SBV-r(Af)_ADV-在_POB-s(Af)_Pred[是]_SBV-r(Af)_VOB-结婚" syntax_pattern="SBV-r(A)_ADV-在_POB-s(A)_Pred[是]_SBV-r(A)_VOB-结婚" taggedType="a" pred_id="32" tagged="true" instance="我们在一起了，而是我们" feature="0-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我们" node_id="26" head_word="我们" sem_cat="Af">
+			<sub_pattern node_id="26" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="一起" node_id="28" head_word="一起" sem_cat="Af">
+			<sub_pattern node_id="28" sem_pattern="POB-s(Af)" syn_pattern="POB-s(A)"/>
+			<sub_pattern node_id="27" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="我们" node_id="33" head_word="我们" sem_cat="Af">
+			<sub_pattern node_id="33" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="35" sem_pattern="VOB-结婚" syn_pattern="VOB-结婚"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="16">
+	<origin_text>宋仲基更是通过经纪公司的官方微博给粉丝们写了一封信，大方的求祝福。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Dm)_Pred[de]_dobj-n(Dd)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="6" tagged="true" instance="经纪公司的官方" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="经纪公司" node_id="5" head_word="公司" sem_cat="Dm">
+			<sub_pattern node_id="5" sem_pattern="nsubj-n(Dm)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="官方" node_id="7" head_word="官方" sem_cat="Dd">
+			<sub_pattern node_id="7" sem_pattern="dobj-n(Dd)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="SBV-nr(Af)_Pred[是]_VOB-写_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[是]_VOB-写_VOB-n(A)" taggedType="a" pred_id="2" tagged="false" instance="宋仲基更是通过经纪公司的官方微博给粉丝们写了一封信" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="宋仲基" node_id="0" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="一封信" node_id="16" head_word="信" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="12" sem_pattern="VOB-写" syn_pattern="VOB-写"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="写" pattern="ADV-通过_POB-n(Dd)_ADV-给_POB-n(Br)_Pred[写]" syntax_pattern="ADV-通过_POB-n(A)_ADV-给_POB-n(A)_Pred[写]" taggedType="a" pred_id="12" tagged="true" instance="官方微博给粉丝们写" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="官方" node_id="7" head_word="官方" sem_cat="Dd">
+			<sub_pattern node_id="7" sem_pattern="POB-n(Dd)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="3" sem_pattern="ADV-通过" syn_pattern="ADV-通过"/>
+		</argument>
+		<argument id="1" content="粉丝" node_id="10" head_word="粉丝" sem_cat="Br">
+			<sub_pattern node_id="10" sem_pattern="POB-n(Br)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="9" sem_pattern="ADV-给" syn_pattern="ADV-给"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="17">
+	<origin_text>前几天的《军舰岛》试映会上，宋仲基在试映结束后和观众打招呼，问过好之后，开始边开玩笑边撒娇地说：“非常感谢大家拨空来看电影，如果大家给我们一些好评的话，我应该能更幸福地结婚的，老一辈人都说结婚是很现实的嘛，拜托大家了。”</origin_text>
+	<relation id="1" pred="打招呼" pattern="ADV-f(A0)_SBV-nr(Af)_ADV-在_POB-f(A1)_ADV-和_POB-n(Af)_Pred[打招呼]" syntax_pattern="ADV-f(A)_SBV-nr(A)_ADV-在_POB-f(A)_ADV-和_POB-n(A)_Pred[打招呼]" taggedType="a" pred_id="18" tagged="false" instance="《军舰岛》试映会上，宋仲基在试映结束后和观众打招呼" feature="0-1-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="军舰岛试映会上" node_id="9" head_word="上" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="宋仲基" node_id="11" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="后" node_id="15" head_word="后" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="POB-f(A1)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="12" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="3" content="观众" node_id="17" head_word="观众" sem_cat="Af">
+			<sub_pattern node_id="17" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="16" sem_pattern="ADV-和" syn_pattern="ADV-和"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="开玩笑" pattern="SBV-nr(Af)_ADV-f(Ca)_Pred[开玩笑]" syntax_pattern="SBV-nr(A)_ADV-f(A)_Pred[开玩笑]" taggedType="a" pred_id="28" tagged="true" instance="宋仲基问过好之后，开始边开玩笑" feature="0-1-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="宋仲基(Z)" node_id="20" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="20" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="之后" node_id="24" head_word="之后" sem_cat="Ca">
+			<sub_pattern node_id="24" sem_pattern="ADV-f(Ca)" syn_pattern="ADV-f(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="拨空" pattern="SBV-r(A0)_Pred[拨空]_SBV-r(Af)_VOB-结婚" syntax_pattern="SBV-r(A)_Pred[拨空]_SBV-r(A)_VOB-结婚" taggedType="a" pred_id="38" tagged="false" instance="大家拨空来看电影，如果大家给我们一些好评的话，我" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="大家" node_id="37" head_word="大家" sem_cat="">
+			<sub_pattern node_id="37" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="我" node_id="50" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="50" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="56" sem_pattern="VOB-结婚" syn_pattern="VOB-结婚"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="给" pattern="SBV-r(A0)_Pred[给]_IOB-r(Af)_VOB-n(Dk)" syntax_pattern="SBV-r(A)_Pred[给]_IOB-r(A)_VOB-n(A)" taggedType="a" pred_id="44" tagged="false" instance="大家给我们一些好评" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="大家" node_id="43" head_word="大家" sem_cat="">
+			<sub_pattern node_id="43" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="我们" node_id="45" head_word="我们" sem_cat="Af">
+			<sub_pattern node_id="45" sem_pattern="IOB-r(Af)" syn_pattern="IOB-r(A)"/>
+		</argument>
+		<argument id="2" content="一些好评" node_id="47" head_word="好评" sem_cat="Dk">
+			<sub_pattern node_id="47" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="说" pattern="SBV-n(A0)_Pred[说]_VOB-拜托_VOB-r(A1)" syntax_pattern="SBV-n(A)_Pred[说]_VOB-拜托_VOB-r(A)" taggedType="a" pred_id="62" tagged="false" instance="老一辈人都说结婚是很现实的嘛，拜托大家" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="老一辈人" node_id="60" head_word="人" sem_cat="">
+			<sub_pattern node_id="60" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="大家" node_id="71" head_word="大家" sem_cat="">
+			<sub_pattern node_id="71" sem_pattern="VOB-r(A1)" syn_pattern="VOB-r(A)"/>
+			<sub_pattern node_id="70" sem_pattern="VOB-拜托" syn_pattern="VOB-拜托"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="18">
+	<origin_text>句句话都甜蜜得像个200斤大胖子不说，底下一句“因为有了我要负责一辈子的女人”更是man爆了！</origin_text>
+	<relation id="1" pred="说" pattern="QUN-q(Dn)_SBV-n(Af)_Pred[说]" syntax_pattern="QUN-q(A)_SBV-n(A)_Pred[说]" taggedType="a" pred_id="12" tagged="true" instance="个200斤大胖子不说" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="个" node_id="6" head_word="个" sem_cat="Dn">
+			<sub_pattern node_id="6" sem_pattern="QUN-q(Dn)" syn_pattern="QUN-q(A)"/>
+		</argument>
+		<argument id="1" content="200斤大胖子" node_id="10" head_word="胖子" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="负责" pattern="SBV-r(Af)_Pred[负责]_VOB-m(Dn)_ATT-u_VOB-n(Af)" syntax_pattern="SBV-r(A)_Pred[负责]_VOB-m(A)_ATT-u_VOB-n(A)" taggedType="a" pred_id="23" tagged="true" instance="我要负责一辈子的女人" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="我" node_id="21" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="21" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="23" sem_pattern="DE-负责" syn_pattern="DE-负责"/>
+			<sub_pattern node_id="25" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="26" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="1" content="一辈子" node_id="24" head_word="一辈子" sem_cat="Dn">
+			<sub_pattern node_id="24" sem_pattern="VOB-m(Dn)" syn_pattern="VOB-m(A)"/>
+		</argument>
+		<argument id="2" content="女人" node_id="26" head_word="女人" sem_cat="Af">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="19">
+	<origin_text>不得不说，宋仲基相较于过去小心地保护与未婚妻的恋情，现在简直是秀恩爱到停不下来。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Af)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="12" tagged="false" instance="未婚妻的恋情" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="未婚妻" node_id="11" head_word="未婚妻" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="nsubj-n(Af)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="恋情" node_id="13" head_word="恋情" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="保护" pattern="SBV-nr(Af)_ADV-于_POB-t(Ca)_Pred[保护]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_ADV-于_POB-t(A)_Pred[保护]_VOB-n(A)" taggedType="a" pred_id="9" tagged="false" instance="宋仲基相较于过去小心地保护与未婚妻的恋情" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="宋仲基" node_id="3" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="过去" node_id="6" head_word="过去" sem_cat="Ca">
+			<sub_pattern node_id="6" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="5" sem_pattern="ADV-于" syn_pattern="ADV-于"/>
+		</argument>
+		<argument id="2" content="恋情" node_id="13" head_word="恋情" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="是" pattern="ADV-t(Ca)_Pred[是]_SBV-nr(Af)_VOB-爱" syntax_pattern="ADV-t(A)_Pred[是]_SBV-nr(A)_VOB-爱" taggedType="a" pred_id="17" tagged="true" instance="现在简直是秀恩" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="现在" node_id="15" head_word="现在" sem_cat="Ca">
+			<sub_pattern node_id="15" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="秀恩" node_id="18" head_word="秀恩" sem_cat="Af">
+			<sub_pattern node_id="18" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+			<sub_pattern node_id="19" sem_pattern="VOB-爱" syn_pattern="VOB-爱"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="20">
+	<origin_text>当时看完这部剧后，很多人都希望俩人能将感情延续到戏外，真的不是观众看的入戏太深，而是双宋在剧中真的看得让人小鹿乱撞啊！</origin_text>
+	<relation id="1" pred="看" pattern="ADV-t(Ca)_Pred[看]_VOB-n(Dk)" syntax_pattern="ADV-t(A)_Pred[看]_VOB-n(A)" taggedType="a" pred_id="1" tagged="true" instance="当时看完这部剧" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="当时" node_id="0" head_word="当时" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="这部剧" node_id="4" head_word="剧" sem_cat="Dk">
+			<sub_pattern node_id="4" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="希望" pattern="ADV-f(A0)_SBV-n(A1)_Pred[希望]" syntax_pattern="ADV-f(A)_SBV-n(A)_Pred[希望]" taggedType="a" pred_id="10" tagged="false" instance="后，很多人都希望" feature="0-1-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="后" node_id="5" head_word="后" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="很多人" node_id="8" head_word="人" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(A1)" syn_pattern="SBV-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="延续" pattern="SBV-n(A0)_ADV-将_POB-n(Df)_Pred[延续]_VOB-f(A1)" syntax_pattern="SBV-n(A)_ADV-将_POB-n(A)_Pred[延续]_VOB-f(A)" taggedType="a" pred_id="16" tagged="false" instance="俩人能将感情延续到戏外" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="俩人" node_id="12" head_word="人" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="感情" node_id="15" head_word="感情" sem_cat="Df">
+			<sub_pattern node_id="15" sem_pattern="POB-n(Df)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="14" sem_pattern="ADV-将" syn_pattern="ADV-将"/>
+		</argument>
+		<argument id="2" content="戏外" node_id="19" head_word="外" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="VOB-f(A1)" syn_pattern="VOB-f(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="看" pattern="ADV-t(Ca)_ADV-在_POB-n(Ca)_Pred[看]" syntax_pattern="ADV-t(A)_ADV-在_POB-n(A)_Pred[看]" taggedType="a" pred_id="38" tagged="true" instance="双宋在剧中真的看" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="双宋" node_id="34" head_word="双宋" sem_cat="Ca">
+			<sub_pattern node_id="34" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="剧中" node_id="36" head_word="剧中" sem_cat="Ca">
+			<sub_pattern node_id="36" sem_pattern="POB-n(Ca)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="35" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="21">
+	<origin_text>还记得当初追《太阳的后裔》的时候，柳大尉和乔妹的第一次见面就给人怦然心动的感觉。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-bo(Dk)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-bo(A)" taggedType="a" pred_id="6" tagged="false" instance="《太阳的后裔》" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="太阳" node_id="5" head_word="太阳" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="太阳的后裔" node_id="7" head_word="后裔" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="dobj-bo(Dk)" syn_pattern="dobj-bo(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="追" pattern="ADV-t(Ca)_Pred[追]_VOB-bo(Dk)_ATT-u_VOB-n(Ca)" syntax_pattern="ADV-t(A)_Pred[追]_VOB-bo(A)_ATT-u_VOB-n(A)" taggedType="a" pred_id="3" tagged="true" instance="当初追《太阳的后裔》的时候" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="当初" node_id="2" head_word="当初" sem_cat="Ca">
+			<sub_pattern node_id="2" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+			<sub_pattern node_id="3" sem_pattern="DE-追" syn_pattern="DE-追"/>
+			<sub_pattern node_id="9" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="10" sem_pattern="VOB-n(Ca)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="1" content="太阳的后裔" node_id="7" head_word="后裔" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-bo(Dk)" syn_pattern="VOB-bo(A)"/>
+		</argument>
+		<argument id="2" content="时候" node_id="10" head_word="时候" sem_cat="Ca">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="22">
+	<origin_text>经典的手机撩也是让人印象深刻。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Dk)_Pred[de]_dobj-n(Bo)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="1" tagged="true" instance="经典的手机" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="经典" node_id="0" head_word="经典" sem_cat="Dk">
+			<sub_pattern node_id="0" sem_pattern="nsubj-n(Dk)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="手机" node_id="2" head_word="手机" sem_cat="Bo">
+			<sub_pattern node_id="2" sem_pattern="dobj-n(Bo)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="SBV-n(Bo)_SBV-撩_Pred[是]_VOB-让_VOB-n(A0)" syntax_pattern="SBV-n(A)_SBV-撩_Pred[是]_VOB-让_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="手机撩也是让人" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="手机" node_id="2" head_word="手机" sem_cat="Bo">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(Bo)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="3" sem_pattern="SBV-撩" syn_pattern="SBV-撩"/>
+		</argument>
+		<argument id="1" content="人" node_id="7" head_word="人" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="6" sem_pattern="VOB-让" syn_pattern="VOB-让"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="23">
+	<origin_text>命运的安排让两人一起来到了危险的乌鲁克。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Da)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="1" tagged="false" instance="命运的安排" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="命运" node_id="0" head_word="命运" sem_cat="Da">
+			<sub_pattern node_id="0" sem_pattern="nsubj-n(Da)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="安排" node_id="2" head_word="安排" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="让" pattern="SBV-n(A0)_Pred[让]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[让]_VOB-n(A)" taggedType="a" pred_id="3" tagged="false" instance="安排让两人" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="安排" node_id="2" head_word="安排" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="两人" node_id="5" head_word="人" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="24">
+	<origin_text>随后才有了一系列甜死人的故事。</origin_text>
+</sentence>
+<sentence id="25">
+	<origin_text>花样夸赞姜医生的美貌是柳大尉的日常。</origin_text>
+	<relation id="1" pred="夸赞" pattern="SBV-n(A0)_Pred[夸赞]_VOB-n(Af)_ATT-u_SBV-n(Dc)" syntax_pattern="SBV-n(A)_Pred[夸赞]_VOB-n(A)_ATT-u_SBV-n(A)" taggedType="a" pred_id="1" tagged="false" instance="花样夸赞姜医生的美貌" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="花样" node_id="0" head_word="花样" sem_cat="">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="1" sem_pattern="DE-夸赞" syn_pattern="DE-夸赞"/>
+			<sub_pattern node_id="4" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="5" sem_pattern="SBV-n(Dc)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="医生" node_id="3" head_word="医生" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="2" content="美貌" node_id="5" head_word="美貌" sem_cat="Dc">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="26">
+	<origin_text>不能喝酒但是又想喝怎么办？</origin_text>
+</sentence>
+<sentence id="27">
+	<origin_text>也不是没有办法。</origin_text>
+</sentence>
+<sentence id="28">
+	<origin_text>当然是用最浪漫的方式堵住你的嘴。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-r(Af)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-r(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="9" tagged="false" instance="你的嘴" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="你" node_id="8" head_word="你" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="nsubj-r(Af)" syn_pattern="nsubj-r(A)"/>
+		</argument>
+		<argument id="1" content="嘴" node_id="10" head_word="嘴" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="堵住" pattern="ADV-用_POB-n(Db)_Pred[堵住]_VOB-n(A0)" syntax_pattern="ADV-用_POB-n(A)_Pred[堵住]_VOB-n(A)" taggedType="a" pred_id="7" tagged="false" instance="方式堵住你的嘴" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="方式" node_id="6" head_word="方式" sem_cat="Db">
+			<sub_pattern node_id="6" sem_pattern="POB-n(Db)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="2" sem_pattern="ADV-用" syn_pattern="ADV-用"/>
+		</argument>
+		<argument id="1" content="嘴" node_id="10" head_word="嘴" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="29">
+	<origin_text>恋爱就是本来能自己做的事情，对方偏要为你做。</origin_text>
+	<relation id="1" pred="做" pattern="SBV-n(A0)_ADV-为_POB-r(Af)_Pred[做]" syntax_pattern="SBV-n(A)_ADV-为_POB-r(A)_Pred[做]" taggedType="a" pred_id="15" tagged="false" instance="对方偏要为你做" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="对方" node_id="10" head_word="对方" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="你" node_id="14" head_word="你" sem_cat="Af">
+			<sub_pattern node_id="14" sem_pattern="POB-r(Af)" syn_pattern="POB-r(A)"/>
+			<sub_pattern node_id="13" sem_pattern="ADV-为" syn_pattern="ADV-为"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="30">
+	<origin_text>如果剧中甜蜜只是秀恩爱的冰山一角，私下的互动更是暗戳戳的甜蜜。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-n(A0)_Pred[是]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="13" tagged="false" instance="互动更是暗戳戳的甜蜜" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="互动" node_id="11" head_word="互动" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="甜蜜" node_id="17" head_word="甜蜜" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="31">
+	<origin_text>比如第一次见面的时候，俩人对剧本的画风就跟别人不一样，宋仲基用头蹭乔妹，乔妹一脸娇羞的笑。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="h" pred_id="11" tagged="false" instance="俩人对剧本的画风" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="俩人" node_id="8" head_word="人" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="画风" node_id="12" head_word="画风" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="蹭" pattern="ADV-比如_POB-n(Ca)_SBV-n(A0)_SBV-nr(Af)_ADV-用_POB-n(A1)_Pred[蹭]_VOB-nr(Af)" syntax_pattern="ADV-比如_POB-n(A)_SBV-n(A)_SBV-nr(A)_ADV-用_POB-n(A)_Pred[蹭]_VOB-nr(A)" taggedType="a" pred_id="22" tagged="false" instance="时候，俩人对剧本的画风就跟别人不一样，宋仲基用头蹭乔妹" feature="0-1-0-1-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="时候" node_id="5" head_word="时候" sem_cat="Ca">
+			<sub_pattern node_id="5" sem_pattern="POB-n(Ca)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-比如" syn_pattern="ADV-比如"/>
+		</argument>
+		<argument id="1" content="画风" node_id="12" head_word="画风" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="宋仲基" node_id="19" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="19" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="3" content="头" node_id="21" head_word="头" sem_cat="">
+			<sub_pattern node_id="21" sem_pattern="POB-n(A1)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="20" sem_pattern="ADV-用" syn_pattern="ADV-用"/>
+		</argument>
+		<argument id="4" content="乔妹" node_id="23" head_word="乔妹" sem_cat="Af">
+			<sub_pattern node_id="23" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="笑" pattern="SBV-nr(Af)_QUN-q(Dn)_Pred[笑]" syntax_pattern="SBV-nr(A)_QUN-q(A)_Pred[笑]" taggedType="a" pred_id="30" tagged="true" instance="乔妹一脸娇羞的笑" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="乔妹" node_id="25" head_word="乔妹" sem_cat="Af">
+			<sub_pattern node_id="25" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="一脸" node_id="27" head_word="脸" sem_cat="Dn">
+			<sub_pattern node_id="27" sem_pattern="QUN-q(Dn)" syn_pattern="QUN-q(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="32">
+	<origin_text>嘤嘤嘤，要不要这么甜！</origin_text>
+</sentence>
+<sentence id="33">
+	<origin_text>拍摄现场宋仲基和宋慧乔好像是得了一种“只要对视就会笑场”的病，根本停不下来。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-nr(Af)_Pred[是]_VOB-得_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[是]_VOB-得_VOB-n(A)" taggedType="a" pred_id="6" tagged="false" instance="现场宋仲基和宋慧乔好像是得了一种“只要对视就会笑场”的病" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="现场宋仲基和宋慧乔" node_id="4" head_word="宋慧乔" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="一种只要对视就会笑场的病" node_id="19" head_word="病" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="7" sem_pattern="VOB-得" syn_pattern="VOB-得"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="34">
+	<origin_text>明明都是成年人，但只要遇上对方，似乎就会瞬间变得幼稚。</origin_text>
+</sentence>
+<sentence id="35">
+	<origin_text>反正你俩在一起就是超级开心就对了。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-r(Af)_ADV-m(Dn)_ADV-在_POB-s(Af)_Pred[是]" syntax_pattern="SBV-r(A)_ADV-m(A)_ADV-在_POB-s(A)_Pred[是]" taggedType="a" pred_id="6" tagged="true" instance="你俩在一起就是" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="你" node_id="1" head_word="你" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="俩" node_id="2" head_word="俩" sem_cat="Dn">
+			<sub_pattern node_id="2" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+		</argument>
+		<argument id="2" content="一起" node_id="4" head_word="一起" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="POB-s(Af)" syn_pattern="POB-s(A)"/>
+			<sub_pattern node_id="3" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="36">
+	<origin_text>其实真正的爱情不是说出来，而是一个对视就可以知道对方的想法。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-n(A0)_Pred[是]_VOB-n(Df)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="真正_的_爱情而是一个对视就可以知道对方的想法" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="真正的爱情(Z)" node_id="9" head_word="真正 的 爱情" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="一个对视就可以知道对方的想法" node_id="19" head_word="想法" sem_cat="Df">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(Df)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="37">
+	<origin_text>真的要祝福即将要踏入婚姻殿堂的“双宋”啊！</origin_text>
+</sentence>
+<sentence id="38">
+	<origin_text>原来娱乐圈秀恩爱的小情侣这么多。</origin_text>
+</sentence>
+<sentence id="39">
+	<origin_text>李晨范冰冰——最甜蜜的情话是“我们”说到因戏生情，怎么能少了我们范爷和大黑牛呢。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-n(A0)_Pred[是]_ADV-r(A1)_VOB-少_VOB-n(A2)" syntax_pattern="SBV-n(A)_Pred[是]_ADV-r(A)_VOB-少_VOB-n(A)" taggedType="a" pred_id="7" tagged="false" instance="情话是“我们”说到因戏生情，怎么能少了我们范爷和大黑牛" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="情话" node_id="6" head_word="情话" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="怎么" node_id="15" head_word="怎么" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="ADV-r(A1)" syn_pattern="ADV-r(A)"/>
+			<sub_pattern node_id="17" sem_pattern="VOB-少" syn_pattern="VOB-少"/>
+		</argument>
+		<argument id="2" content="我们范爷和大黑牛" node_id="23" head_word="黑牛" sem_cat="">
+			<sub_pattern node_id="23" sem_pattern="VOB-n(A2)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="说" pattern="SBV-r(Af)_Pred[说]_VOB-n(A0)" syntax_pattern="SBV-r(A)_Pred[说]_VOB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="我们”说到因戏生情" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="我们" node_id="9" head_word="我们" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="因戏生情" node_id="13" head_word="因戏生情" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="40">
+	<origin_text>范爷拿下李晨以后也是到处发狗粮停不下来。</origin_text>
+	<relation id="1" pred="拿下" pattern="SBV-n(A0)_Pred[拿下]_VOB-nr(Af)" syntax_pattern="SBV-n(A)_Pred[拿下]_VOB-nr(A)" taggedType="a" pred_id="1" tagged="false" instance="范爷拿下李晨" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="范爷" node_id="0" head_word="范爷" sem_cat="">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="李晨" node_id="2" head_word="李晨" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="41">
+	<origin_text>虽然和李晨同门10年，但范冰冰说两人之前根本都不认识，一直到拍《武媚娘传奇》后才有机会熟悉。</origin_text>
+	<relation id="1" pred="同门" pattern="SBV-nr(Af)_Pred[同门]_VOB-q(Dn)" syntax_pattern="SBV-nr(A)_Pred[同门]_VOB-q(A)" taggedType="a" pred_id="3" tagged="true" instance="李晨同门10年" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="李晨" node_id="2" head_word="李晨" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="10年" node_id="5" head_word="年" sem_cat="Dn">
+			<sub_pattern node_id="5" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="说" pattern="SBV-nr(Af)_Pred[说]_ADV-f(Ca)_VOB-认识" syntax_pattern="SBV-nr(A)_Pred[说]_ADV-f(A)_VOB-认识" taggedType="a" pred_id="9" tagged="true" instance="范冰冰说两人之前" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="范冰冰" node_id="8" head_word="范冰冰" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="两人之前" node_id="12" head_word="之前" sem_cat="Ca">
+			<sub_pattern node_id="12" sem_pattern="ADV-f(Ca)" syn_pattern="ADV-f(A)"/>
+			<sub_pattern node_id="16" sem_pattern="VOB-认识" syn_pattern="VOB-认识"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="有" pattern="ADV-f(A0)_Pred[有]_VOB-n(Ca)" syntax_pattern="ADV-f(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="27" tagged="false" instance="后才有机会" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="后" node_id="25" head_word="后" sem_cat="">
+			<sub_pattern node_id="25" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="机会" node_id="28" head_word="机会" sem_cat="Ca">
+			<sub_pattern node_id="28" sem_pattern="VOB-n(Ca)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="42">
+	<origin_text>在那部剧杀青后，范爷主动找到李晨交换了电话号码。</origin_text>
+	<relation id="1" pred="杀青" pattern="SBV-n(A0)_Pred[杀青]_POB-f(A1)" syntax_pattern="SBV-n(A)_Pred[杀青]_POB-f(A)" taggedType="a" pred_id="3" tagged="false" instance="那部剧杀青后" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="那部剧" node_id="2" head_word="部剧" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="3" sem_pattern="ATT-杀青" syn_pattern="ATT-杀青"/>
+			<sub_pattern node_id="4" sem_pattern="POB-f(A1)" syn_pattern="POB-f(A)"/>
+		</argument>
+		<argument id="1" content="后" node_id="4" head_word="后" sem_cat="">
+		</argument>
+	</relation>
+	<relation id="2" pred="找到" pattern="SBV-n(A0)_Pred[找到]_VOB-nr(Af)" syntax_pattern="SBV-n(A)_Pred[找到]_VOB-nr(A)" taggedType="a" pred_id="8" tagged="false" instance="范爷主动找到李晨" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="范爷" node_id="6" head_word="范爷" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="李晨" node_id="9" head_word="李晨" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="43">
+	<origin_text>而范爷和李晨的恋爱外界总以为是男追女，没想到竟然是范爷主动追李晨的！</origin_text>
+	<relation id="2" pred="追" pattern="SBV-n(A0)_Pred[追]_VOB-nr(Af)" syntax_pattern="SBV-n(A)_Pred[追]_VOB-nr(A)" taggedType="a" pred_id="21" tagged="false" instance="范爷主动追李晨" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="范爷" node_id="19" head_word="范爷" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="李晨" node_id="22" head_word="李晨" sem_cat="Af">
+			<sub_pattern node_id="22" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="44">
+	<origin_text>就连第一次约会也是范爷主动邀约。</origin_text>
+	<relation id="1" pred="是" pattern="ADV-q(Dn)_SBV-约会_Pred[是]_SBV-n(A0)_VOB-邀约" syntax_pattern="ADV-q(A)_SBV-约会_Pred[是]_SBV-n(A)_VOB-邀约" taggedType="a" pred_id="6" tagged="false" instance="第一次约会也是范爷" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="第一次" node_id="3" head_word="次" sem_cat="Dn">
+			<sub_pattern node_id="3" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+			<sub_pattern node_id="4" sem_pattern="SBV-约会" syn_pattern="SBV-约会"/>
+		</argument>
+		<argument id="1" content="范爷" node_id="7" head_word="范爷" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="9" sem_pattern="VOB-邀约" syn_pattern="VOB-邀约"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="45">
+	<origin_text>一起上《天天向上》时在情侣默契大考验环节中有一题是“第一次约会地点是谁定的”，两人同一时间举起“范冰冰”的牌子，约会时间地点竟然全部都是范爷决定的。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-nr(Af)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-nr(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="37" tagged="false" instance="“范冰冰”的牌子" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="范冰冰" node_id="35" head_word="范冰冰" sem_cat="Af">
+			<sub_pattern node_id="35" sem_pattern="nsubj-nr(Af)" syn_pattern="nsubj-nr(A)"/>
+		</argument>
+		<argument id="1" content="牌子" node_id="38" head_word="牌子" sem_cat="">
+			<sub_pattern node_id="38" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="有" pattern="ADV-n(Ca)_ADV-在_POB-f(A0)_Pred[有]_VOB-n(A1)" syntax_pattern="ADV-n(A)_ADV-在_POB-f(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="14" tagged="false" instance="时在情侣默契大考验环节中有一题" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="时" node_id="6" head_word="时" sem_cat="Ca">
+			<sub_pattern node_id="6" sem_pattern="ADV-n(Ca)" syn_pattern="ADV-n(A)"/>
+		</argument>
+		<argument id="1" content="情侣默契大考验环节中" node_id="13" head_word="中" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="一题" node_id="16" head_word="题" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="约会" pattern="ADV-q(Dn)_Pred[约会]_VOB-n(Cb)" syntax_pattern="ADV-q(A)_Pred[约会]_VOB-n(A)" taggedType="a" pred_id="21" tagged="true" instance="第一次约会地点" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="第一次" node_id="20" head_word="次" sem_cat="Dn">
+			<sub_pattern node_id="20" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="1" content="地点" node_id="22" head_word="地点" sem_cat="Cb">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(Cb)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="举起" pattern="SBV-n(Ca)_Pred[举起]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[举起]_VOB-n(A)" taggedType="a" pred_id="33" tagged="false" instance="两人同一时间举起“范冰冰”的牌子" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="两人同一时间" node_id="32" head_word="时间" sem_cat="Ca">
+			<sub_pattern node_id="32" sem_pattern="SBV-n(Ca)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="牌子" node_id="38" head_word="牌子" sem_cat="">
+			<sub_pattern node_id="38" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="是" pattern="SBV-n(Cb)_ADV-m(Dn)_Pred[是]_SBV-n(A0)_VOB-决定" syntax_pattern="SBV-n(A)_ADV-m(A)_Pred[是]_SBV-n(A)_VOB-决定" taggedType="a" pred_id="46" tagged="false" instance="约会时间地点竟然全部都是范爷" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="约会时间地点" node_id="42" head_word="地点" sem_cat="Cb">
+			<sub_pattern node_id="42" sem_pattern="SBV-n(Cb)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="全部" node_id="44" head_word="全部" sem_cat="Dn">
+			<sub_pattern node_id="44" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+		</argument>
+		<argument id="2" content="范爷" node_id="47" head_word="范爷" sem_cat="">
+			<sub_pattern node_id="47" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="48" sem_pattern="VOB-决定" syn_pattern="VOB-决定"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="46">
+	<origin_text>发微博也成了范爷秀恩爱的日常记事本，李晨探班时要发，接机时要发，秀恩爱合照要发，反正就是要将恩爱秀到底。</origin_text>
+	<relation id="2" pred="探班" pattern="SBV-nr(Af)_Pred[探班]_ADV-n(Ca)" syntax_pattern="SBV-nr(A)_Pred[探班]_ADV-n(A)" taggedType="a" pred_id="12" tagged="true" instance="李晨探班时" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="李晨" node_id="11" head_word="李晨" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+			<sub_pattern node_id="12" sem_pattern="ATT-探班" syn_pattern="ATT-探班"/>
+			<sub_pattern node_id="13" sem_pattern="ADV-n(Ca)" syn_pattern="ADV-n(A)"/>
+		</argument>
+		<argument id="1" content="时" node_id="13" head_word="时" sem_cat="Ca">
+		</argument>
+	</relation>
+	<relation id="3" pred="接" pattern="Pred[接]_VOB-n(A0)_ADV-n(Ca)" syntax_pattern="Pred[接]_VOB-n(A)_ADV-n(A)" taggedType="a" pred_id="17" tagged="false" instance="接机时" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="机" node_id="18" head_word="机" sem_cat="">
+			<sub_pattern node_id="18" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="17" sem_pattern="ATT-接" syn_pattern="ATT-接"/>
+			<sub_pattern node_id="19" sem_pattern="ADV-n(Ca)" syn_pattern="ADV-n(A)"/>
+		</argument>
+		<argument id="1" content="时" node_id="19" head_word="时" sem_cat="Ca">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="47">
+	<origin_text>范爷更是放话说“他是我最后一个男友”。</origin_text>
+	<relation id="1" pred="说" pattern="SBV-n(A0)_Pred[说]_SBV-r(Af)_VOB-是_VOB-n(Af)" syntax_pattern="SBV-n(A)_Pred[说]_SBV-r(A)_VOB-是_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="范爷更是放话说“他是我最后一个男友" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="范爷" node_id="0" head_word="范爷" sem_cat="">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="他" node_id="7" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="8" sem_pattern="VOB-是" syn_pattern="VOB-是"/>
+		</argument>
+		<argument id="2" content="一个男友" node_id="12" head_word="男友" sem_cat="Af">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="48">
+	<origin_text>说到这，近日李晨探班范冰冰拍摄综艺现场甜死人的画面更是上了微博热搜。</origin_text>
+	<relation id="1" pred="拍摄" pattern="ADV-t(Ca)_SBV-nr(Af)_Pred[拍摄]_VOB-s(Cb)" syntax_pattern="ADV-t(A)_SBV-nr(A)_Pred[拍摄]_VOB-s(A)" taggedType="a" pred_id="8" tagged="true" instance="近日李晨探班范冰冰拍摄综艺现场" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="近日" node_id="4" head_word="近日" sem_cat="Ca">
+			<sub_pattern node_id="4" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="范冰冰" node_id="7" head_word="范冰冰" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="现场" node_id="10" head_word="现场" sem_cat="Cb">
+			<sub_pattern node_id="10" sem_pattern="VOB-s(Cb)" syn_pattern="VOB-s(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="false" instance="李晨探班范冰冰" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="范冰冰" node_id="7" head_word="范冰冰" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="李晨探班" node_id="6" head_word="探班" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="49">
+	<origin_text>在李晨面前霸气的范爷完全就是一个小女人啊！</origin_text>
+	<relation id="1" pred="是" pattern="ADV-在_POB-f(Cb)_SBV-n(A0)_Pred[是]_VOB-n(Af)" syntax_pattern="ADV-在_POB-f(A)_SBV-n(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="8" tagged="false" instance="李晨面前霸气的范爷完全就是一个小女人" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="李晨面前" node_id="2" head_word="面前" sem_cat="Cb">
+			<sub_pattern node_id="2" sem_pattern="POB-f(Cb)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="范爷" node_id="5" head_word="范爷" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="一个小女人" node_id="11" head_word="女人" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="50">
+	<origin_text>最好的爱情也许就是这样，再独立再强大，在喜欢的人面前永远是一副小女孩模样。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-n(Df)_Pred[是]_VOB-r(A0)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-r(A)" taggedType="a" pred_id="6" tagged="false" instance="爱情也许就是这样" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="爱情" node_id="3" head_word="爱情" sem_cat="Df">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Df)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="这样" node_id="7" head_word="这样" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="VOB-r(A0)" syn_pattern="VOB-r(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="SBV-n(A0)_ADV-在_POB-f(Cb)_Pred[是]_VOB-n(Dc)" syntax_pattern="SBV-n(A)_ADV-在_POB-f(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="21" tagged="false" instance="最_好_的_爱情在喜欢的人面前永远是一副小女孩模样" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="最好的爱情(Z)" node_id="14" head_word="最 好 的 爱情" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="人面前" node_id="19" head_word="面前" sem_cat="Cb">
+			<sub_pattern node_id="19" sem_pattern="POB-f(Cb)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="15" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="一副小女孩模样" node_id="26" head_word="模样" sem_cat="Dc">
+			<sub_pattern node_id="26" sem_pattern="VOB-n(Dc)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="51">
+	<origin_text>吃了这波狗粮，嘉姐真的想跟着催婚团一起喊“你们有本事秀恩爱，你们有本事结婚啊!”</origin_text>
+	<relation id="1" pred="想" pattern="SBV-n(A0)_Pred[想]_VOB-喊_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[想]_VOB-喊_VOB-n(A)" taggedType="a" pred_id="9" tagged="false" instance="嘉姐真的想跟着催婚团一起喊“你们有本事秀恩爱，你们有本事结婚啊!”" feature="1-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="嘉姐" node_id="7" head_word="嘉姐" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="你们有本事秀恩爱你们有本事结婚啊!" node_id="25" head_word="!" sem_cat="">
+			<sub_pattern node_id="25" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="13" sem_pattern="VOB-喊" syn_pattern="VOB-喊"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="有" pattern="SBV-r(Af)_Pred[有]_VOB-nr(Af)" syntax_pattern="SBV-r(A)_Pred[有]_VOB-nr(A)" taggedType="a" pred_id="16" tagged="true" instance="你们有本事秀恩爱" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="你们" node_id="15" head_word="你们" sem_cat="Af">
+			<sub_pattern node_id="15" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="秀恩爱" node_id="18" head_word="秀恩爱" sem_cat="Af">
+			<sub_pattern node_id="18" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="18" tagged="false" instance="李晨探班范冰冰" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="秀恩爱" node_id="18" head_word="秀恩爱" sem_cat="Af">
+			<sub_pattern node_id="18" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="本事" node_id="17" head_word="本事" sem_cat="">
+			<sub_pattern node_id="18" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="有" pattern="SBV-r(Af)_Pred[有]_VOB-n(A0)" syntax_pattern="SBV-r(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="21" tagged="false" instance="你们有本事" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="你们" node_id="20" head_word="你们" sem_cat="Af">
+			<sub_pattern node_id="20" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="本事" node_id="22" head_word="本事" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="52">
+	<origin_text>吴奇隆刘诗诗——你是我的小幸运。</origin_text>
+</sentence>
+<sentence id="53">
+	<origin_text>圈中另一对又甜又低调的夫妇大概就是刘诗诗和吴奇隆了。</origin_text>
+</sentence>
+<sentence id="54">
+	<origin_text>《步步惊心》里的四阿哥跟若曦也在现实中相爱。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-f(A0)_Pred[de]_dobj-n(Af)" syntax_pattern="nsubj-f(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="4" tagged="false" instance="里的四阿哥" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="里" node_id="3" head_word="里" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="nsubj-f(A0)" syn_pattern="nsubj-f(A)"/>
+		</argument>
+		<argument id="1" content="四阿哥" node_id="6" head_word="阿哥" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="dobj-n(Af)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="相爱" pattern="SBV-n(Af)_ADV-跟_POB-nr(Af)_ADV-在_POB-f(A0)_Pred[相爱]" syntax_pattern="SBV-n(A)_ADV-跟_POB-nr(A)_ADV-在_POB-f(A)_Pred[相爱]" taggedType="a" pred_id="13" tagged="false" instance="四阿哥跟若曦也在现实中相爱" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="四阿哥" node_id="6" head_word="阿哥" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="若曦" node_id="8" head_word="若曦" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="POB-nr(Af)" syn_pattern="POB-nr(A)"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-跟" syn_pattern="ADV-跟"/>
+		</argument>
+		<argument id="2" content="现实中" node_id="12" head_word="中" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="10" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="55">
+	<origin_text>从此，隆诗所到之处，留下眉来眼去剑与情意绵绵刀无数。</origin_text>
+	<relation id="1" pred="到" pattern="SBV-n(Dk)_Pred[到]_VOB-n(Cb)" syntax_pattern="SBV-n(A)_Pred[到]_VOB-n(A)" taggedType="a" pred_id="5" tagged="true" instance="隆诗所到之处" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="隆诗" node_id="3" head_word="诗" sem_cat="Dk">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="处" node_id="7" head_word="处" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Cb)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="去" pattern="SBV-n(Bk)_Pred[去]_VOB-n(Bo)" syntax_pattern="SBV-n(A)_Pred[去]_VOB-n(A)" taggedType="a" pred_id="13" tagged="true" instance="眉来眼去剑" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="眉" node_id="10" head_word="眉" sem_cat="Bk">
+			<sub_pattern node_id="10" sem_pattern="SBV-n(Bk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="剑" node_id="14" head_word="剑" sem_cat="Bo">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="56">
+	<origin_text>在婚礼上，与那些充满王子公主和城堡的婚礼誓言都不一样。</origin_text>
+</sentence>
+<sentence id="57">
+	<origin_text>吴奇隆说，“我也不止一次的埋怨过老天，以前觉得老天对我不公平，让我经历很多奇怪的磨难，不开心的事情，现在我也明白为什么，因为他把最好的留给我。”</origin_text>
+	<relation id="1" pred="说" pattern="SBV-nr(Af)_Pred[说]_VOB-让_VOB-r(Af)" syntax_pattern="SBV-nr(A)_Pred[说]_VOB-让_VOB-r(A)" taggedType="a" pred_id="1" tagged="true" instance="吴奇隆说，“我也不止一次的埋怨过老天，以前觉得老天对我不公平，让我" feature="0-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="吴奇隆" node_id="0" head_word="吴奇隆" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="我" node_id="23" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="23" sem_pattern="VOB-r(Af)" syn_pattern="VOB-r(A)"/>
+			<sub_pattern node_id="22" sem_pattern="VOB-让" syn_pattern="VOB-让"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="不止" pattern="SBV-r(Af)_Pred[不止]_VOB-q(Dn)" syntax_pattern="SBV-r(A)_Pred[不止]_VOB-q(A)" taggedType="a" pred_id="6" tagged="true" instance="我也不止一次" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我" node_id="4" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="一次" node_id="8" head_word="次" sem_cat="Dn">
+			<sub_pattern node_id="8" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="觉得" pattern="ADV-f(Ca)_Pred[觉得]_SBV-n(Cb)_VOB-a" syntax_pattern="ADV-f(A)_Pred[觉得]_SBV-n(A)_VOB-a" taggedType="a" pred_id="15" tagged="true" instance="以前觉得老天" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="以前" node_id="14" head_word="以前" sem_cat="Ca">
+			<sub_pattern node_id="14" sem_pattern="ADV-f(Ca)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="老天" node_id="16" head_word="老天" sem_cat="Cb">
+			<sub_pattern node_id="16" sem_pattern="SBV-n(Cb)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="20" sem_pattern="VOB-a" syn_pattern="VOB-a"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="明白" pattern="ADV-t(Ca)_SBV-r(Af)_Pred[明白]_VOB-r(A0)" syntax_pattern="ADV-t(A)_SBV-r(A)_Pred[明白]_VOB-r(A)" taggedType="a" pred_id="38" tagged="false" instance="现在我也明白为什么" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="现在" node_id="35" head_word="现在" sem_cat="Ca">
+			<sub_pattern node_id="35" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="我" node_id="36" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="36" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="2" content="为什么" node_id="39" head_word="为什么" sem_cat="">
+			<sub_pattern node_id="39" sem_pattern="VOB-r(A0)" syn_pattern="VOB-r(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="58">
+	<origin_text>吴奇隆当然不是说说，而且靠行动一步一步诗诗宠到了心里。</origin_text>
+	<relation id="1" pred="宠" pattern="SBV-nr(Af)_Pred[宠]_VOB-s(A0)" syntax_pattern="SBV-nr(A)_Pred[宠]_VOB-s(A)" taggedType="a" pred_id="16" tagged="false" instance="吴奇隆而且靠行动一步一步诗诗宠到了心里" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="吴奇隆(Z)" node_id="6" head_word="吴奇隆" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="心里" node_id="19" head_word="心里" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="VOB-s(A0)" syn_pattern="VOB-s(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="59">
+	<origin_text>两个人参加第18届上海电视节白玉兰奖，刘诗诗上台之前牵了一下吴奇隆的手，吴奇隆一直回握，直到刘诗诗放手还依依不舍...无论是偷拍还是机场照，两个人的手都像是被强力胶粘在一起一样。</origin_text>
+	<relation id="3" pred="参加" pattern="SBV-n(A0)_Pred[参加]_VOB-n(Ba)" syntax_pattern="SBV-n(A)_Pred[参加]_VOB-n(A)" taggedType="a" pred_id="3" tagged="false" instance="两个人参加第18届上海电视节白玉兰奖" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="两个人" node_id="2" head_word="人" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="第18届上海电视节白玉兰奖" node_id="9" head_word="奖" sem_cat="Ba">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(Ba)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="上台" pattern="SBV-nr(Af)_Pred[上台]_ADV-f(Ca)" syntax_pattern="SBV-nr(A)_Pred[上台]_ADV-f(A)" taggedType="a" pred_id="12" tagged="true" instance="刘诗诗上台之前" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="刘诗诗" node_id="11" head_word="刘诗诗" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+			<sub_pattern node_id="12" sem_pattern="ATT-上台" syn_pattern="ATT-上台"/>
+			<sub_pattern node_id="13" sem_pattern="ADV-f(Ca)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="之前" node_id="13" head_word="之前" sem_cat="Ca">
+		</argument>
+	</relation>
+	<relation id="5" pred="胶粘" pattern="ADV-被_POB-n(Dd)_Pred[胶粘]_CMP-在_POB-s(Af)" syntax_pattern="ADV-被_POB-n(A)_Pred[胶粘]_CMP-在_POB-s(A)" taggedType="a" pred_id="49" tagged="true" instance="强力胶粘在一起" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="强力" node_id="48" head_word="强力" sem_cat="Dd">
+			<sub_pattern node_id="48" sem_pattern="POB-n(Dd)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="47" sem_pattern="ADV-被" syn_pattern="ADV-被"/>
+		</argument>
+		<argument id="1" content="一起" node_id="51" head_word="一起" sem_cat="Af">
+			<sub_pattern node_id="51" sem_pattern="POB-s(Af)" syn_pattern="POB-s(A)"/>
+			<sub_pattern node_id="50" sem_pattern="CMP-在" syn_pattern="CMP-在"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="60">
+	<origin_text>果真最好的爱情真的是要嫁对人啊！</origin_text>
+</sentence>
+<sentence id="61">
+	<origin_text>郑恺程晓玥——爱你就要告诉全世界！</origin_text>
+	<relation id="1" pred="告诉" pattern="SBV-nr(Af)_Pred[告诉]_VOB-n(Di)" syntax_pattern="SBV-nr(A)_Pred[告诉]_VOB-n(A)" taggedType="a" pred_id="6" tagged="true" instance="郑恺程晓玥——爱你就要告诉全世界" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="郑恺程晓玥" node_id="1" head_word="程晓玥" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="全世界" node_id="7" head_word="全世界" sem_cat="Di">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="62">
+	<origin_text>最近郑恺靠秀恩爱可是上足了热搜榜！</origin_text>
+	<relation id="1" pred="靠" pattern="ADV-t(Ca)_SBV-nr(Af)_Pred[靠]_VOB-nr(Af)" syntax_pattern="ADV-t(A)_SBV-nr(A)_Pred[靠]_VOB-nr(A)" taggedType="a" pred_id="2" tagged="true" instance="最近郑恺靠秀恩爱" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="最近" node_id="0" head_word="最近" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="郑恺" node_id="1" head_word="郑恺" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="秀恩爱" node_id="3" head_word="秀恩爱" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="63">
+	<origin_text>更是曝恋爱细节：女友喜怒无常、一天三套look、还主动追他！</origin_text>
+	<relation id="1" pred="追" pattern="ADV-q(Dn)_SBV-q(Dn)_Pred[追]_VOB-r(Af)" syntax_pattern="ADV-q(A)_SBV-q(A)_Pred[追]_VOB-r(A)" taggedType="a" pred_id="17" tagged="true" instance="喜怒无常、一天三套look、还主动追他" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="喜怒无常、一天" node_id="10" head_word="天" sem_cat="Dn">
+			<sub_pattern node_id="10" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="1" content="三套" node_id="12" head_word="套" sem_cat="Dn">
+			<sub_pattern node_id="12" sem_pattern="SBV-q(Dn)" syn_pattern="SBV-q(A)"/>
+		</argument>
+		<argument id="2" content="他" node_id="18" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="18" sem_pattern="VOB-r(Af)" syn_pattern="VOB-r(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="64">
+	<origin_text>参加《我们相爱吧》理由居然是这样的，来参加恋爱节目只是希望能跟大家分享自己的爱情。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-r(Af)_Pred[de]_dobj-n(Df)" syntax_pattern="nsubj-r(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="23" tagged="true" instance="自己的爱情" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="自己" node_id="22" head_word="自己" sem_cat="Af">
+			<sub_pattern node_id="22" sem_pattern="nsubj-r(Af)" syn_pattern="nsubj-r(A)"/>
+		</argument>
+		<argument id="1" content="爱情" node_id="24" head_word="爱情" sem_cat="Df">
+			<sub_pattern node_id="24" sem_pattern="dobj-n(Df)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="相爱" pattern="SBV-r(Af)_Pred[相爱]_VOB-n(Db)" syntax_pattern="SBV-r(A)_Pred[相爱]_VOB-n(A)" taggedType="a" pred_id="3" tagged="true" instance="我们相爱吧》理由" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="我们" node_id="2" head_word="我们" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="3" sem_pattern="ATT-相爱" syn_pattern="ATT-相爱"/>
+			<sub_pattern node_id="6" sem_pattern="VOB-n(Db)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="1" content="理由" node_id="6" head_word="理由" sem_cat="Db">
+		</argument>
+	</relation>
+	<relation id="3" pred="分享" pattern="ADV-跟_POB-r(A0)_Pred[分享]_VOB-n(Df)" syntax_pattern="ADV-跟_POB-r(A)_Pred[分享]_VOB-n(A)" taggedType="a" pred_id="21" tagged="false" instance="大家分享自己的爱情" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="大家" node_id="20" head_word="大家" sem_cat="">
+			<sub_pattern node_id="20" sem_pattern="POB-r(A0)" syn_pattern="POB-r(A)"/>
+			<sub_pattern node_id="19" sem_pattern="ADV-跟" syn_pattern="ADV-跟"/>
+		</argument>
+		<argument id="1" content="爱情" node_id="24" head_word="爱情" sem_cat="Df">
+			<sub_pattern node_id="24" sem_pattern="VOB-n(Df)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="65">
+	<origin_text>满屏的拉仇恨啊真的是！</origin_text>
+</sentence>
+<sentence id="66">
+	<origin_text>和其他人不一样，郑恺和程晓玥这对CP，在现实生活中也是情侣关系哦。</origin_text>
+	<relation id="1" pred="是" pattern="TPC-nr(Af)_SBV-r(Ca)_ADV-对_POB-nx(A0)_ADV-在_POB-f(A1)_Pred[是]_ATT-n(A2)_VOB-e" syntax_pattern="TPC-nr(A)_SBV-r(A)_ADV-对_POB-nx(A)_ADV-在_POB-f(A)_Pred[是]_ATT-n(A)_VOB-e" taggedType="a" pred_id="18" tagged="false" instance="郑恺和程晓玥这对CP，在现实生活中也是情侣关系" feature="0-1-0-1-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="郑恺和程晓玥" node_id="8" head_word="程晓玥" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="TPC-nr(Af)" syn_pattern="TPC-nr(A)"/>
+		</argument>
+		<argument id="1" content="这" node_id="9" head_word="这" sem_cat="Ca">
+			<sub_pattern node_id="9" sem_pattern="SBV-r(Ca)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="2" content="CP" node_id="11" head_word="CP" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="POB-nx(A0)" syn_pattern="POB-nx(A)"/>
+			<sub_pattern node_id="10" sem_pattern="ADV-对" syn_pattern="ADV-对"/>
+		</argument>
+		<argument id="3" content="现实生活中" node_id="16" head_word="中" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="POB-f(A1)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="13" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="4" content="情侣关系" node_id="20" head_word="关系" sem_cat="">
+			<sub_pattern node_id="20" sem_pattern="ATT-n(A2)" syn_pattern="ATT-n(A)"/>
+			<sub_pattern node_id="21" sem_pattern="VOB-e" syn_pattern="VOB-e"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="67">
+	<origin_text>在节目中去米兰拍摄时，他们此行还有一个原因是重游相爱故地，情定米兰的两人，还将迎来两人恋爱三周年的纪念日。</origin_text>
+	<relation id="2" pred="还有" pattern="ADV-n(Ca)_SBV-r(A0)_Pred[还有]_VOB-n(Db)" syntax_pattern="ADV-n(A)_SBV-r(A)_Pred[还有]_VOB-n(A)" taggedType="a" pred_id="10" tagged="false" instance="时，他们此行还有一个原因" feature="0-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="时" node_id="6" head_word="时" sem_cat="Ca">
+			<sub_pattern node_id="6" sem_pattern="ADV-n(Ca)" syn_pattern="ADV-n(A)"/>
+		</argument>
+		<argument id="1" content="他们此行" node_id="9" head_word="此行" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="2" content="一个原因" node_id="12" head_word="原因" sem_cat="Db">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Db)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="相爱" pattern="SBV-n(A0)_Pred[相爱]_VOB-n(Cb)" syntax_pattern="SBV-n(A)_Pred[相爱]_VOB-n(A)" taggedType="a" pred_id="15" tagged="false" instance="重游相爱故地" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="重游" node_id="14" head_word="重游" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="故地" node_id="16" head_word="故地" sem_cat="Cb">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Cb)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="恋爱" pattern="SBV-n(A0)_Pred[恋爱]_CMP-q(Dn)_ATT-u_VOB-n(Ca)" syntax_pattern="SBV-n(A)_Pred[恋爱]_CMP-q(A)_ATT-u_VOB-n(A)" taggedType="a" pred_id="29" tagged="false" instance="两人恋爱三周年的纪念日" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="两人" node_id="28" head_word="人" sem_cat="">
+			<sub_pattern node_id="28" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="29" sem_pattern="DE-恋爱" syn_pattern="DE-恋爱"/>
+			<sub_pattern node_id="32" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="33" sem_pattern="VOB-n(Ca)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="1" content="三周年" node_id="31" head_word="周年" sem_cat="Dn">
+			<sub_pattern node_id="31" sem_pattern="CMP-q(Dn)" syn_pattern="CMP-q(A)"/>
+		</argument>
+		<argument id="2" content="纪念日" node_id="33" head_word="纪念日" sem_cat="Ca">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="68">
+	<origin_text>当然，这两人秀恩爱的模式也是与众不同的，相爱相杀根本停不下来。</origin_text>
+</sentence>
+<sentence id="69">
+	<origin_text>好的爱情当然得被祝福，希望这两人也可以早日终成眷属啊！</origin_text>
+	<relation id="1" pred="希望" pattern="SBV-n(A0)_Pred[希望]_SBV-n(A1)_VOB-成_VOB-n(Af)" syntax_pattern="SBV-n(A)_Pred[希望]_SBV-n(A)_VOB-成_VOB-n(A)" taggedType="a" pred_id="9" tagged="false" instance="好_的_爱情希望这两人也可以早日终成眷属" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="好的爱情(Z)" node_id="8" head_word="好 的 爱情" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="这两人" node_id="12" head_word="人" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(A1)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="17" sem_pattern="VOB-成" syn_pattern="VOB-成"/>
+		</argument>
+		<argument id="2" content="眷属" node_id="18" head_word="眷属" sem_cat="Af">
+			<sub_pattern node_id="18" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="70">
+	<origin_text>看了这么多对热恋中的小情侣，就说你有没有想谈恋爱的冲动吧！</origin_text>
+</sentence>
+<sentence id="71">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="72">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

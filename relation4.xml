@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title10天连破2世界纪录！</origin_text>
+	<relation id="1" pred="破" pattern="ADV-q(Dn)_Pred[破]_VOB-n(A0)" syntax_pattern="ADV-q(A)_Pred[破]_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="Title10天连破2世界纪录" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="Title10天" node_id="3" head_word="天" sem_cat="Dn">
+			<sub_pattern node_id="3" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="1" content="2世界纪录" node_id="8" head_word="纪录" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>一夏烧掉2.16亿创历史，瓜富城还要继续买买买/Title</origin_text>
+	<relation id="1" pred="烧掉" pattern="ADV-t(Ca)_Pred[烧掉]_VOB-n(Da)" syntax_pattern="ADV-t(A)_Pred[烧掉]_VOB-n(A)" taggedType="a" pred_id="2" tagged="true" instance="一夏烧掉2.16亿创历史" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="一夏" node_id="1" head_word="夏" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="2.16亿创历史" node_id="5" head_word="历史" sem_cat="Da">
+			<sub_pattern node_id="5" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>北京时间昨晚，曼城俱乐部官宣签下摩纳哥左后卫本雅明-门迪（BenjaminMendy），这名23岁的法国国脚与球队签下5年长约，身披22号战袍。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-q(Dn)_Pred[de]_dobj-n(Af)" syntax_pattern="nsubj-q(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="22" tagged="true" instance="这名23岁的法国国脚" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="23岁" node_id="21" head_word="岁" sem_cat="Dn">
+			<sub_pattern node_id="21" sem_pattern="nsubj-q(Dn)" syn_pattern="nsubj-q(A)"/>
+		</argument>
+		<argument id="1" content="这名23岁的法国国脚" node_id="24" head_word="国脚" sem_cat="Af">
+			<sub_pattern node_id="24" sem_pattern="dobj-n(Af)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="签" pattern="ADV-t(Ca)_SBV-nr(Af)_Pred[签]_ATT-n(Af)_VOB-nz" syntax_pattern="ADV-t(A)_SBV-nr(A)_Pred[签]_ATT-n(A)_VOB-nz" taggedType="a" pred_id="7" tagged="true" instance="北京时间昨晚，曼城俱乐部官宣签下摩纳哥左后卫" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="北京时间昨晚" node_id="2" head_word="昨晚" sem_cat="Ca">
+			<sub_pattern node_id="2" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="官宣" node_id="6" head_word="官宣" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="后卫" node_id="11" head_word="后卫" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="ATT-n(Af)" syn_pattern="ATT-n(A)"/>
+			<sub_pattern node_id="12" sem_pattern="VOB-nz" syn_pattern="VOB-nz"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Dm)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="6" tagged="true" instance="曼城俱乐部官宣" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="官宣" node_id="6" head_word="官宣" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="曼城俱乐部" node_id="5" head_word="俱乐部" sem_cat="Dm">
+			<sub_pattern node_id="6" sem_pattern="VOB-n(Dm)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="签" pattern="SBV-n(Af)_ADV-与_POB-n(Di)_Pred[签]_VOB-n(A0)" syntax_pattern="SBV-n(A)_ADV-与_POB-n(A)_Pred[签]_VOB-n(A)" taggedType="a" pred_id="27" tagged="false" instance="这名23岁的法国国脚与球队签下5年长约" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这名23岁的法国国脚" node_id="24" head_word="国脚" sem_cat="Af">
+			<sub_pattern node_id="24" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="球队" node_id="26" head_word="球队" sem_cat="Di">
+			<sub_pattern node_id="26" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="25" sem_pattern="ADV-与" syn_pattern="ADV-与"/>
+		</argument>
+		<argument id="2" content="5年长约" node_id="31" head_word="长约" sem_cat="">
+			<sub_pattern node_id="31" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>根据权威媒体BBC披露，曼城支付了摩纳哥5200万英镑转会费，门迪也就此超过10天前刚以5000万镑从热刺加盟曼城的沃克，成为世界足坛史上最贵后卫。</origin_text>
+	<relation id="1" pred="支付" pattern="SBV-ns(Cb)_Pred[支付]_VOB-n(A0)" syntax_pattern="SBV-ns(A)_Pred[支付]_VOB-n(A)" taggedType="a" pred_id="7" tagged="false" instance="曼城支付了摩纳哥5200万英镑转会费" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="曼城" node_id="6" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="摩纳哥5200万英镑转会费" node_id="12" head_word="转会费" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="超过" pattern="SBV-nr(Af)_Pred[超过]_ADV-f(A0)_VOB-成为_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[超过]_ADV-f(A)_VOB-成为_VOB-n(A)" taggedType="a" pred_id="17" tagged="false" instance="门迪也就此超过10天前刚以5000万镑从热刺加盟曼城的沃克，成为世界足坛史上最贵后卫" feature="1-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="门迪" node_id="14" head_word="门迪" sem_cat="Af">
+			<sub_pattern node_id="14" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="10天前" node_id="20" head_word="前" sem_cat="">
+			<sub_pattern node_id="20" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+			<sub_pattern node_id="32" sem_pattern="VOB-成为" syn_pattern="VOB-成为"/>
+		</argument>
+		<argument id="2" content="贵后卫" node_id="39" head_word="后卫" sem_cat="Af">
+			<sub_pattern node_id="39" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>门迪将与曼城全队在洛杉矶汇合，开始新赛季的季前备战。</origin_text>
+	<relation id="1" pred="汇合" pattern="SBV-n(A0)_ADV-与_POB-n(Dd)_ADV-在_POB-ns(Cb)_Pred[汇合]" syntax_pattern="SBV-n(A)_ADV-与_POB-n(A)_ADV-在_POB-ns(A)_Pred[汇合]" taggedType="a" pred_id="7" tagged="false" instance="门迪将与曼城全队在洛杉矶汇合" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="门迪" node_id="0" head_word="门迪" sem_cat="">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="曼城全队" node_id="4" head_word="全队" sem_cat="Dd">
+			<sub_pattern node_id="4" sem_pattern="POB-n(Dd)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="2" sem_pattern="ADV-与" syn_pattern="ADV-与"/>
+		</argument>
+		<argument id="2" content="洛杉矶" node_id="6" head_word="洛杉矶" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="POB-ns(Cb)" syn_pattern="POB-ns(A)"/>
+			<sub_pattern node_id="5" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="备战" pattern="SBV-n(A0)_ADV-f(A1)_Pred[备战]" syntax_pattern="SBV-n(A)_ADV-f(A)_Pred[备战]" taggedType="a" pred_id="16" tagged="false" instance="门迪开始新赛季的季前备战" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="门迪(Z)" node_id="9" head_word="门迪" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="季前" node_id="15" head_word="前" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="ADV-f(A1)" syn_pattern="ADV-f(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>曼城今夏引援动作很大，而且大规模集中在中后场位置。</origin_text>
+</sentence>
+<sentence id="12">
+	<origin_text>皆因瓜迪奥拉对防线很不满意，彻底改造曼城防线的决心很大。</origin_text>
+	<relation id="1" pred="满意" pattern="SBV-nr(Af)_ADV-对_POB-n(Cb)_Pred[满意]" syntax_pattern="SBV-nr(A)_ADV-对_POB-n(A)_Pred[满意]" taggedType="a" pred_id="7" tagged="true" instance="瓜迪奥拉对防线很不满意" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="瓜迪奥拉" node_id="2" head_word="瓜迪奥拉" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="防线" node_id="4" head_word="防线" sem_cat="Cb">
+			<sub_pattern node_id="4" sem_pattern="POB-n(Cb)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="3" sem_pattern="ADV-对" syn_pattern="ADV-对"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="13">
+	<origin_text>看看今夏他们送走的后场球员：</origin_text>
+	<relation id="1" pred="送" pattern="ADV-t(Ca)_SBV-r(Af)_Pred[送]" syntax_pattern="ADV-t(A)_SBV-r(A)_Pred[送]" taggedType="a" pred_id="3" tagged="true" instance="今夏他们送" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="今夏" node_id="1" head_word="今夏" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="他们" node_id="2" head_word="他们" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="14">
+	<origin_text>1、克里希克里希免费</origin_text>
+</sentence>
+<sentence id="15">
+	<origin_text>2、萨尼亚右后卫免费</origin_text>
+</sentence>
+<sentence id="16">
+	<origin_text>3、萨巴莱塔右后卫免费</origin_text>
+</sentence>
+<sentence id="17">
+	<origin_text>4、卡巴列罗门将免费</origin_text>
+</sentence>
+<sentence id="18">
+	<origin_text>5、纳瓦斯边锋后卫免费</origin_text>
+</sentence>
+<sentence id="19">
+	<origin_text>6、科拉罗夫左后卫425万英镑</origin_text>
+</sentence>
+<sentence id="20">
+	<origin_text>新签约后场球员包括：</origin_text>
+	<relation id="1" pred="签约" pattern="Pred[签约]_VOB-n(Cb)_SBV-n(Af)" syntax_pattern="Pred[签约]_VOB-n(A)_SBV-n(A)" taggedType="a" pred_id="1" tagged="true" instance="签约后场球员" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="后场" node_id="2" head_word="后场" sem_cat="Cb">
+			<sub_pattern node_id="2" sem_pattern="VOB-n(Cb)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ATT-签约" syn_pattern="ATT-签约"/>
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="球员" node_id="3" head_word="球员" sem_cat="Af">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="21">
+	<origin_text>1、埃德森门将3400万英镑</origin_text>
+</sentence>
+<sentence id="22">
+	<origin_text>2、沃克右后卫5000万英镑</origin_text>
+</sentence>
+<sentence id="23">
+	<origin_text>3、达尼洛右后卫2650万英镑</origin_text>
+</sentence>
+<sentence id="24">
+	<origin_text>4、门迪左后卫5200万英镑</origin_text>
+</sentence>
+<sentence id="25">
+	<origin_text>实际上从上赛季开始，瓜迪奥拉就对曼城防守体系很不满意，并且签下多名球员。</origin_text>
+	<relation id="1" pred="满意" pattern="SBV-nr(Af)_ADV-对_POB-n(Dd)_Pred[满意]" syntax_pattern="SBV-nr(A)_ADV-对_POB-n(A)_Pred[满意]" taggedType="a" pred_id="14" tagged="true" instance="瓜迪奥拉就对曼城防守体系很不满意" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="瓜迪奥拉" node_id="6" head_word="瓜迪奥拉" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="曼城防守体系" node_id="11" head_word="体系" sem_cat="Dd">
+			<sub_pattern node_id="11" sem_pattern="POB-n(Dd)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="8" sem_pattern="ADV-对" syn_pattern="ADV-对"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="26">
+	<origin_text>去年夏天，瓜帅从巴萨挖来门将布拉沃，英格兰1号乔-哈特被外租意甲。</origin_text>
+	<relation id="1" pred="挖" pattern="ADV-t(Ca)_SBV-n(A0)_ADV-从_POB-ns(Cb)_Pred[挖]_VOB-nr(Af)" syntax_pattern="ADV-t(A)_SBV-n(A)_ADV-从_POB-ns(A)_Pred[挖]_VOB-nr(A)" taggedType="a" pred_id="6" tagged="false" instance="去年夏天，瓜帅从巴萨挖来门将布拉沃" feature="1-1-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="去年夏天" node_id="1" head_word="夏天" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="瓜帅" node_id="3" head_word="瓜帅" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="巴萨" node_id="5" head_word="巴萨" sem_cat="Cb">
+			<sub_pattern node_id="5" sem_pattern="POB-ns(Cb)" syn_pattern="POB-ns(A)"/>
+			<sub_pattern node_id="4" sem_pattern="ADV-从" syn_pattern="ADV-从"/>
+		</argument>
+		<argument id="3" content="布拉沃" node_id="9" head_word="布拉沃" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="t" pred_id="9" tagged="true" instance="门将布拉沃" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-1-0-0-0-0-0-0-0-1">
+		<argument id="0" content="布拉沃" node_id="9" head_word="布拉沃" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="门将" node_id="8" head_word="门将" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="27">
+	<origin_text>另外切尔西和曼城都在追逐英格兰国脚年轻斯通斯，曼城最后拍出4750万英镑高价吓退蓝军签下斯通斯，不过2016-17赛季，布拉沃和斯通斯的表现都不能让人满意，失误很多，也让媒体对瓜帅的眼光产生质疑。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-nr(Af)_Pred[de]_dobj-n(Di)" syntax_pattern="nsubj-nr(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="33" tagged="true" instance="布拉沃和斯通斯的表现" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="布拉沃和斯通斯" node_id="32" head_word="斯通斯" sem_cat="Af">
+			<sub_pattern node_id="32" sem_pattern="nsubj-nr(Af)" syn_pattern="nsubj-nr(A)"/>
+		</argument>
+		<argument id="1" content="表现" node_id="34" head_word="表现" sem_cat="Di">
+			<sub_pattern node_id="34" sem_pattern="dobj-n(Di)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="51" tagged="false" instance="瓜帅的眼光" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="瓜帅" node_id="50" head_word="瓜帅" sem_cat="">
+			<sub_pattern node_id="50" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="眼光" node_id="52" head_word="眼光" sem_cat="">
+			<sub_pattern node_id="52" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="追逐" pattern="SBV-ns(Cb)_Pred[追逐]_ATT-n(Af)_VOB-nz" syntax_pattern="SBV-ns(A)_Pred[追逐]_ATT-n(A)_VOB-nz" taggedType="a" pred_id="6" tagged="true" instance="切尔西和曼城都在追逐英格兰国脚" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="切尔西和曼城" node_id="3" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="3" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="英格兰国脚" node_id="8" head_word="国脚" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="ATT-n(Af)" syn_pattern="ATT-n(A)"/>
+			<sub_pattern node_id="10" sem_pattern="VOB-nz" syn_pattern="VOB-nz"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="拍" pattern="SBV-ns(Cb)_ADV-f(Da)_Pred[拍]_QUN-q(Dn)_VOB-w" syntax_pattern="SBV-ns(A)_ADV-f(A)_Pred[拍]_QUN-q(A)_VOB-w" taggedType="a" pred_id="14" tagged="true" instance="曼城最后拍出4750万英镑" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼城" node_id="12" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="12" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="最后" node_id="13" head_word="最后" sem_cat="Da">
+			<sub_pattern node_id="13" sem_pattern="ADV-f(Da)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="2" content="4750万英镑" node_id="17" head_word="英镑" sem_cat="Dn">
+			<sub_pattern node_id="17" sem_pattern="QUN-q(Dn)" syn_pattern="QUN-q(A)"/>
+			<sub_pattern node_id="55" sem_pattern="VOB-w" syn_pattern="VOB-w"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="让" pattern="SBV-n(Di)_Pred[让]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[让]_VOB-n(A)" taggedType="a" pred_id="38" tagged="false" instance="表现都不能让人" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="表现" node_id="34" head_word="表现" sem_cat="Di">
+			<sub_pattern node_id="34" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="人" node_id="39" head_word="人" sem_cat="">
+			<sub_pattern node_id="39" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="6" pred="产生" pattern="ADV-对_POB-n(A0)_Pred[产生]_VOB-n(A1)" syntax_pattern="ADV-对_POB-n(A)_Pred[产生]_VOB-n(A)" taggedType="a" pred_id="53" tagged="false" instance="眼光产生质疑" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="眼光" node_id="52" head_word="眼光" sem_cat="">
+			<sub_pattern node_id="52" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="49" sem_pattern="ADV-对" syn_pattern="ADV-对"/>
+		</argument>
+		<argument id="1" content="质疑" node_id="54" head_word="质疑" sem_cat="">
+			<sub_pattern node_id="54" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="28">
+	<origin_text>但曼城老板曼苏尔家族全力支持瓜迪奥拉，上赛季落幕后曼城很快就在转会市场采取行动，接连签下强援。</origin_text>
+	<relation id="1" pred="支持" pattern="SBV-n(Di)_Pred[支持]_VOB-nr(Af)" syntax_pattern="SBV-n(A)_Pred[支持]_VOB-nr(A)" taggedType="a" pred_id="6" tagged="true" instance="曼苏尔家族全力支持瓜迪奥拉" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼苏尔家族" node_id="4" head_word="家族" sem_cat="Di">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="瓜迪奥拉" node_id="7" head_word="瓜迪奥拉" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="采取" pattern="SBV-ns(Cb)_ADV-在_POB-n(A0)_Pred[采取]_VOB-n(Di)" syntax_pattern="SBV-ns(A)_ADV-在_POB-n(A)_Pred[采取]_VOB-n(A)" taggedType="a" pred_id="19" tagged="false" instance="曼城很快就在转会市场采取行动" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="曼城" node_id="13" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="13" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="市场" node_id="18" head_word="市场" sem_cat="">
+			<sub_pattern node_id="18" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="16" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="行动" node_id="20" head_word="行动" sem_cat="Di">
+			<sub_pattern node_id="20" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="29">
+	<origin_text>转会窗还没正式开启首次交易就震撼欧洲——蓝月亮砸出4300万英超签下摩纳哥进攻发动机贝纳多-席尔瓦。</origin_text>
+	<relation id="1" pred="震撼" pattern="SBV-n(A0)_Pred[震撼]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[震撼]_VOB-ns(A)" taggedType="a" pred_id="8" tagged="false" instance="转会窗还没正式开启首次交易就震撼欧洲" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="转会窗" node_id="0" head_word="转会窗" sem_cat="">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="欧洲" node_id="9" head_word="欧洲" sem_cat="Cb">
+			<sub_pattern node_id="9" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Bo)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="21" tagged="true" instance="发动机贝纳多-席尔瓦" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="贝纳多-席尔瓦" node_id="21" head_word="贝纳多-席尔瓦" sem_cat="Af">
+			<sub_pattern node_id="21" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="发动机" node_id="20" head_word="发动机" sem_cat="Bo">
+			<sub_pattern node_id="21" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="30">
+	<origin_text>随后，他们又跟黑店本菲卡达成交易，巴西第三门将埃德森以3400万英镑来投。</origin_text>
+	<relation id="1" pred="达成" pattern="SBV-r(Af)_ADV-跟_POB-n(A0)_Pred[达成]" syntax_pattern="SBV-r(A)_ADV-跟_POB-n(A)_Pred[达成]" taggedType="a" pred_id="7" tagged="false" instance="他们又跟黑店本菲卡达成" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="他们" node_id="2" head_word="他们" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="黑店本菲卡" node_id="6" head_word="本菲卡" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="4" sem_pattern="ADV-跟" syn_pattern="ADV-跟"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="t" pred_id="13" tagged="true" instance="门将布拉沃" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-1-0-0-0-0-0-0-0-1">
+		<argument id="0" content="埃德森" node_id="13" head_word="埃德森" sem_cat="Af">
+			<sub_pattern node_id="13" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="巴西第三门将" node_id="12" head_word="门将" sem_cat="Af">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="投" pattern="SBV-nr(Af)_ADV-以_POB-n(Dj)_Pred[投]" syntax_pattern="SBV-nr(A)_ADV-以_POB-n(A)_Pred[投]" taggedType="a" pred_id="18" tagged="true" instance="埃德森以3400万英镑来投" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="埃德森" node_id="13" head_word="埃德森" sem_cat="Af">
+			<sub_pattern node_id="13" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="3400万英镑" node_id="16" head_word="英镑" sem_cat="Dj">
+			<sub_pattern node_id="16" sem_pattern="POB-n(Dj)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="14" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="31">
+	<origin_text>并且确认了克里希、萨尼亚、萨巴莱塔等多人离队。</origin_text>
+</sentence>
+<sentence id="32">
+	<origin_text>曼城官宣第三签则等待了一段时间，7月14日，蓝月亮5000万英镑从热刺手里挖来英格兰主力右边卫凯尔-沃克，签下5年合同。</origin_text>
+	<relation id="1" pred="签" pattern="SBV-nr(Af)_Pred[签]_VOB-n(Di)" syntax_pattern="SBV-nr(A)_Pred[签]_VOB-n(A)" taggedType="a" pred_id="26" tagged="true" instance="曼城官宣第三签则等待了一段时间，7月14日，蓝月亮5000万英镑从热刺手里挖来英格兰主力右边卫凯尔-沃克，签下5年合同" feature="1-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼城官宣" node_id="0" head_word="曼城官宣" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="5年合同" node_id="30" head_word="合同" sem_cat="Di">
+			<sub_pattern node_id="30" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="挖" pattern="ADV-t(Ca)_ADV-q(Dn)_ADV-从_POB-s(Cb)_Pred[挖]_ATT-n(Dd)_ATT-f(Cb)_VOB-nz" syntax_pattern="ADV-t(A)_ADV-q(A)_ADV-从_POB-s(A)_Pred[挖]_ATT-n(A)_ATT-f(A)_VOB-nz" taggedType="a" pred_id="19" tagged="true" instance="7月14日，蓝月亮5000万英镑从热刺手里挖来英格兰主力右边" feature="0-1-0-1-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="7月14日" node_id="11" head_word="14日" sem_cat="Ca">
+			<sub_pattern node_id="11" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="5000万英镑" node_id="15" head_word="英镑" sem_cat="Dn">
+			<sub_pattern node_id="15" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="2" content="热刺手里" node_id="18" head_word="手里" sem_cat="Cb">
+			<sub_pattern node_id="18" sem_pattern="POB-s(Cb)" syn_pattern="POB-s(A)"/>
+			<sub_pattern node_id="16" sem_pattern="ADV-从" syn_pattern="ADV-从"/>
+		</argument>
+		<argument id="3" content="英格兰主力" node_id="22" head_word="主力" sem_cat="Dd">
+			<sub_pattern node_id="22" sem_pattern="ATT-n(Dd)" syn_pattern="ATT-n(A)"/>
+			<sub_pattern node_id="24" sem_pattern="VOB-nz" syn_pattern="VOB-nz"/>
+		</argument>
+		<argument id="4" content="右边" node_id="23" head_word="右边" sem_cat="Cb">
+			<sub_pattern node_id="23" sem_pattern="ATT-f(Cb)" syn_pattern="ATT-f(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="33">
+	<origin_text>5000万英镑也刷新了之前斯通斯保持的足坛后卫转会费最高纪录。</origin_text>
+	<relation id="1" pred="刷新" pattern="SBV-q(Dn)_Pred[刷新]_VOB-n(A0)" syntax_pattern="SBV-q(A)_Pred[刷新]_VOB-n(A)" taggedType="a" pred_id="3" tagged="false" instance="5000万英镑也刷新了之前斯通斯保持的足坛后卫转会费最高纪录" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="5000万英镑" node_id="1" head_word="英镑" sem_cat="Dn">
+			<sub_pattern node_id="1" sem_pattern="SBV-q(Dn)" syn_pattern="SBV-q(A)"/>
+		</argument>
+		<argument id="1" content="足坛后卫转会费最高纪录" node_id="13" head_word="纪录" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="34">
+	<origin_text>7月15日，曼城又以1100万英镑签下巴西U-20国脚中场道格拉斯-路易斯，但首个赛季被租借到西甲升班马赫罗纳效力。</origin_text>
+	<relation id="1" pred="签" pattern="ADV-t(Ca)_SBV-ns(Cb)_ADV-以_POB-q(Dn)_Pred[签]_VOB-ns(Cb)" syntax_pattern="ADV-t(A)_SBV-ns(A)_ADV-以_POB-q(A)_Pred[签]_VOB-ns(A)" taggedType="a" pred_id="8" tagged="true" instance="7月15日，曼城又以1100万英镑签下巴西U-20国脚中场道格拉斯-路易斯" feature="1-1-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="7月15日" node_id="1" head_word="15日" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="曼城" node_id="3" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="3" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="2" content="1100万英镑" node_id="7" head_word="英镑" sem_cat="Dn">
+			<sub_pattern node_id="7" sem_pattern="POB-q(Dn)" syn_pattern="POB-q(A)"/>
+			<sub_pattern node_id="5" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="3" content="拉斯-路易斯" node_id="16" head_word="拉斯-路易斯" sem_cat="Cb">
+			<sub_pattern node_id="16" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="U-" pattern="SBV-ns(Cb)_Pred[U-]_VOB-n(Af)" syntax_pattern="SBV-ns(A)_Pred[U-]_VOB-n(A)" taggedType="a" pred_id="11" tagged="true" instance="巴西U-20国脚" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="巴西" node_id="10" head_word="巴西" sem_cat="Cb">
+			<sub_pattern node_id="10" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="20国脚" node_id="13" head_word="国脚" sem_cat="Af">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(A0)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="16" tagged="false" instance="中场道格拉斯-路易斯" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="拉斯-路易斯" node_id="16" head_word="拉斯-路易斯" sem_cat="Cb">
+			<sub_pattern node_id="16" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中场道格" node_id="15" head_word="道格" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="35">
+	<origin_text>7月23日下午，曼城官宣第五签，皇马右后卫达尼洛以2650万英镑加盟。</origin_text>
+	<relation id="1" pred="签" pattern="ADV-t(Ca)_SBV-nr(Af)_ADV-m(Dn)_Pred[签]" syntax_pattern="ADV-t(A)_SBV-nr(A)_ADV-m(A)_Pred[签]" taggedType="a" pred_id="6" tagged="true" instance="7月23日下午，曼城官宣第五签" feature="1-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="7月23日下午" node_id="2" head_word="下午" sem_cat="Ca">
+			<sub_pattern node_id="2" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="曼城官宣" node_id="4" head_word="曼城官宣" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="第五" node_id="5" head_word="第五" sem_cat="Dn">
+			<sub_pattern node_id="5" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="加盟" pattern="ADV-f(A0)_SBV-nr(Af)_ADV-以_POB-q(Dn)_Pred[加盟]" syntax_pattern="ADV-f(A)_SBV-nr(A)_ADV-以_POB-q(A)_Pred[加盟]" taggedType="a" pred_id="14" tagged="false" instance="皇马右后卫达尼洛以2650万英镑加盟" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="皇马右后" node_id="9" head_word="右后" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="卫达尼洛" node_id="10" head_word="卫达尼洛" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="2650万英镑" node_id="13" head_word="英镑" sem_cat="Dn">
+			<sub_pattern node_id="13" sem_pattern="POB-q(Dn)" syn_pattern="POB-q(A)"/>
+			<sub_pattern node_id="11" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="36">
+	<origin_text>过去两个赛季他在皇马出场55次打进3球，连续两年夺得欧冠冠军，并有1个西甲冠军、1个欧洲超级杯冠军和1个世俱杯冠军。</origin_text>
+	<relation id="1" pred="打" pattern="ADV-n(A0)_SBV-r(Af)_ADV-在_POB-n(A1)_Pred[打]_VOB-n(A2)" syntax_pattern="ADV-n(A)_SBV-r(A)_ADV-在_POB-n(A)_Pred[打]_VOB-n(A)" taggedType="a" pred_id="10" tagged="false" instance="过去两个赛季他在皇马出场55次打进3球" feature="1-0-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="过去两个赛季" node_id="3" head_word="赛季" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="ADV-n(A0)" syn_pattern="ADV-n(A)"/>
+		</argument>
+		<argument id="1" content="他" node_id="4" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="2" content="皇马" node_id="6" head_word="皇马" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="POB-n(A1)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="5" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="3" content="3球" node_id="13" head_word="球" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(A2)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="夺得" pattern="SBV-r(Af)_ADV-q(Dn)_Pred[夺得]_VOB-n(Af)" syntax_pattern="SBV-r(A)_ADV-q(A)_Pred[夺得]_VOB-n(A)" taggedType="a" pred_id="19" tagged="true" instance="他连续两年夺得欧冠冠军" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="他(Z)" node_id="15" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="15" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="连续两年" node_id="18" head_word="年" sem_cat="Dn">
+			<sub_pattern node_id="18" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="2" content="欧冠冠军" node_id="21" head_word="冠军" sem_cat="Af">
+			<sub_pattern node_id="21" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="有" pattern="SBV-r(Af)_Pred[有]_VOB-n(Af)" syntax_pattern="SBV-r(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="25" tagged="true" instance="他并有1个西甲冠军" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="他(Z)" node_id="23" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="23" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="1个西甲冠军" node_id="29" head_word="冠军" sem_cat="Af">
+			<sub_pattern node_id="29" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="37">
+	<origin_text>不过，达尼洛在皇马效力期间防守上被诟病很多。</origin_text>
+	<relation id="1" pred="防守" pattern="SBV-nr(Af)_ADV-在_POB-f(Ca)_Pred[防守]_CMP-f(A0)" syntax_pattern="SBV-nr(A)_ADV-在_POB-f(A)_Pred[防守]_CMP-f(A)" taggedType="a" pred_id="7" tagged="false" instance="达尼洛在皇马效力期间防守上" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="达尼洛" node_id="2" head_word="达尼洛" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="皇马效力期间" node_id="6" head_word="期间" sem_cat="Ca">
+			<sub_pattern node_id="6" sem_pattern="POB-f(Ca)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="3" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="上" node_id="8" head_word="上" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="CMP-f(A0)" syn_pattern="CMP-f(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="38">
+	<origin_text>7月24日晚曼城宣布第六签约，以5200万英镑签下摩纳哥边后卫门迪，这名法国国脚在法甲历练多年，从了勒阿弗尔加盟马赛，2016年夏天加盟摩纳哥。</origin_text>
+	<relation id="1" pred="宣布" pattern="ADV-t(A0)_SBV-ns(Cb)_Pred[宣布]_NUM-m(Dn)_VOB-签约" syntax_pattern="ADV-t(A)_SBV-ns(A)_Pred[宣布]_NUM-m(A)_VOB-签约" taggedType="a" pred_id="4" tagged="false" instance="7月24日晚曼城宣布第六" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="7月24日晚" node_id="2" head_word="晚" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="ADV-t(A0)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="曼城" node_id="3" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="3" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="2" content="第六" node_id="5" head_word="第六" sem_cat="Dn">
+			<sub_pattern node_id="5" sem_pattern="NUM-m(Dn)" syn_pattern="NUM-m(A)"/>
+			<sub_pattern node_id="6" sem_pattern="VOB-签约" syn_pattern="VOB-签约"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="签" pattern="SBV-ns(Cb)_ADV-以_POB-q(Dn)_Pred[签]_VOB-nr(Af)" syntax_pattern="SBV-ns(A)_ADV-以_POB-q(A)_Pred[签]_VOB-nr(A)" taggedType="a" pred_id="12" tagged="true" instance="曼城以5200万英镑签下摩纳哥边后卫门迪" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼城(Z)" node_id="8" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="8" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="5200万英镑" node_id="11" head_word="英镑" sem_cat="Dn">
+			<sub_pattern node_id="11" sem_pattern="POB-q(Dn)" syn_pattern="POB-q(A)"/>
+			<sub_pattern node_id="9" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="2" content="门迪" node_id="17" head_word="门迪" sem_cat="Af">
+			<sub_pattern node_id="17" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="t" pred_id="17" tagged="true" instance="门将布拉沃" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-1-0-0-0-0-0-0-0-1">
+		<argument id="0" content="门迪" node_id="17" head_word="门迪" sem_cat="Af">
+			<sub_pattern node_id="17" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="摩纳哥边后卫" node_id="16" head_word="后卫" sem_cat="Af">
+			<sub_pattern node_id="17" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="练" pattern="SBV-n(Af)_ADV-在_POB-n(A0)_Pred[练]_VOB-m(Dn)" syntax_pattern="SBV-n(A)_ADV-在_POB-n(A)_Pred[练]_VOB-m(A)" taggedType="a" pred_id="25" tagged="false" instance="这名法国国脚在法甲历练多年" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这名法国国脚" node_id="22" head_word="国脚" sem_cat="Af">
+			<sub_pattern node_id="22" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="法甲历" node_id="24" head_word="法甲历" sem_cat="">
+			<sub_pattern node_id="24" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="23" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="多年" node_id="26" head_word="多年" sem_cat="Dn">
+			<sub_pattern node_id="26" sem_pattern="VOB-m(Dn)" syn_pattern="VOB-m(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="加盟" pattern="SBV-nr(Af)_Pred[加盟]_VOB-n(Cb)" syntax_pattern="SBV-nr(A)_Pred[加盟]_VOB-n(A)" taggedType="a" pred_id="31" tagged="true" instance="勒阿弗尔加盟马赛" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="勒阿弗尔" node_id="30" head_word="勒阿弗尔" sem_cat="Af">
+			<sub_pattern node_id="30" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="马赛" node_id="32" head_word="马赛" sem_cat="Cb">
+			<sub_pattern node_id="32" sem_pattern="VOB-n(Cb)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="6" pred="加盟" pattern="ADV-t(Ca)_Pred[加盟]_VOB-ns(Cb)" syntax_pattern="ADV-t(A)_Pred[加盟]_VOB-ns(A)" taggedType="a" pred_id="36" tagged="true" instance="2016年夏天加盟摩纳哥" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="2016年夏天" node_id="35" head_word="夏天" sem_cat="Ca">
+			<sub_pattern node_id="35" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="摩纳哥" node_id="37" head_word="摩纳哥" sem_cat="Cb">
+			<sub_pattern node_id="37" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="39">
+	<origin_text>上赛季出场38次打进1球，是球队获得法甲冠军和打进欧冠四强的绝对功臣。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-n(A0)_Pred[是]_VOB-n(Af)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="上_赛季是球队获得法甲冠军和打进欧冠四强的绝对功臣" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="上赛季(Z)" node_id="10" head_word="上 赛季" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="绝对功臣" node_id="25" head_word="功臣" sem_cat="Af">
+			<sub_pattern node_id="25" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="获得" pattern="SBV-n(Di)_Pred[获得]_VOB-n(Af)" syntax_pattern="SBV-n(A)_Pred[获得]_VOB-n(A)" taggedType="a" pred_id="13" tagged="true" instance="球队获得法甲冠军" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="球队" node_id="12" head_word="球队" sem_cat="Di">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="法甲冠军" node_id="15" head_word="冠军" sem_cat="Af">
+			<sub_pattern node_id="15" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="40">
+	<origin_text>欧冠摩纳哥淘汰曼城，两回合门迪均有出色表现，还助攻法比尼奥破门，给瓜迪奥拉留下深刻印象。</origin_text>
+	<relation id="1" pred="淘汰" pattern="SBV-ns(Cb)_Pred[淘汰]_VOB-ns(Cb)" syntax_pattern="SBV-ns(A)_Pred[淘汰]_VOB-ns(A)" taggedType="a" pred_id="2" tagged="true" instance="摩纳哥淘汰曼城" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="摩纳哥" node_id="1" head_word="摩纳哥" sem_cat="Cb">
+			<sub_pattern node_id="1" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="曼城" node_id="3" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="3" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="有" pattern="SBV-n(A0)_Pred[有]_VOB-n(Di)" syntax_pattern="SBV-n(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="9" tagged="false" instance="两回合门迪均有出色表现" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="两回合门迪" node_id="7" head_word="门迪" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="出色表现" node_id="11" head_word="表现" sem_cat="Di">
+			<sub_pattern node_id="11" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="留下" pattern="ADV-给_POB-nr(Af)_Pred[留下]_VOB-n(Da)" syntax_pattern="ADV-给_POB-nr(A)_Pred[留下]_VOB-n(A)" taggedType="a" pred_id="20" tagged="true" instance="瓜迪奥拉留下深刻印象" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="瓜迪奥拉" node_id="19" head_word="瓜迪奥拉" sem_cat="Af">
+			<sub_pattern node_id="19" sem_pattern="POB-nr(Af)" syn_pattern="POB-nr(A)"/>
+			<sub_pattern node_id="18" sem_pattern="ADV-给" syn_pattern="ADV-给"/>
+		</argument>
+		<argument id="1" content="深刻印象" node_id="22" head_word="印象" sem_cat="Da">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="41">
+	<origin_text>转会窗开启之后瓜帅将门迪作为主要引援目标，并最终如愿以偿。</origin_text>
+</sentence>
+<sentence id="42">
+	<origin_text>曼城与摩纳哥的谈判花费了一些周折，不过钱能解决的问题都不是问题。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-ns(Cb)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-ns(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="3" tagged="false" instance="摩纳哥的谈判" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="摩纳哥" node_id="2" head_word="摩纳哥" sem_cat="Cb">
+			<sub_pattern node_id="2" sem_pattern="nsubj-ns(Cb)" syn_pattern="nsubj-ns(A)"/>
+		</argument>
+		<argument id="1" content="谈判" node_id="4" head_word="谈判" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="花费" pattern="SBV-ns(Cb)_ADV-与_POB-n(A0)_Pred[花费]_VOB-n(A1)" syntax_pattern="SBV-ns(A)_ADV-与_POB-n(A)_Pred[花费]_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="曼城与摩纳哥的谈判花费了一些周折" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="曼城" node_id="0" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="0" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="谈判" node_id="4" head_word="谈判" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ADV-与" syn_pattern="ADV-与"/>
+		</argument>
+		<argument id="2" content="一些周折" node_id="8" head_word="周折" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="是" pattern="SBV-n(A0)_Pred[是]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="18" tagged="false" instance="问题都不是问题" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="问题" node_id="15" head_word="问题" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="问题" node_id="19" head_word="问题" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="43">
+	<origin_text>蓝月亮爽快支付5200万英镑，10天之内连续2次打破后卫转会费纪录。</origin_text>
+	<relation id="1" pred="支付" pattern="SBV-nr(Af)_Pred[支付]_VOB-q(Dn)" syntax_pattern="SBV-nr(A)_Pred[支付]_VOB-q(A)" taggedType="a" pred_id="2" tagged="true" instance="蓝月亮爽快支付5200万英镑" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="蓝月亮" node_id="0" head_word="蓝月亮" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="5200万英镑" node_id="4" head_word="英镑" sem_cat="Dn">
+			<sub_pattern node_id="4" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="打破" pattern="SBV-nr(Af)_ADV-f(A0)_ADV-q(Dn)_Pred[打破]_VOB-n(A1)" syntax_pattern="SBV-nr(A)_ADV-f(A)_ADV-q(A)_Pred[打破]_VOB-n(A)" taggedType="a" pred_id="13" tagged="false" instance="蓝月亮10天之内连续2次打破后卫转会费纪录" feature="1-0-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="蓝月亮(Z)" node_id="6" head_word="蓝月亮" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="10天之内" node_id="9" head_word="之内" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="2" content="连续2次" node_id="12" head_word="次" sem_cat="Dn">
+			<sub_pattern node_id="12" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="3" content="后卫转会费纪录" node_id="16" head_word="纪录" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="44">
+	<origin_text>截止目前，曼城今夏已在转会市场花费2.16亿英镑，创造英超球队单个转会窗烧钱纪录，而且大部分是花在后防线。</origin_text>
+	<relation id="1" pred="花费" pattern="SBV-ns(Cb)_ADV-t(Ca)_ADV-在_POB-n(A0)_Pred[花费]_VOB-q(Dn)" syntax_pattern="SBV-ns(A)_ADV-t(A)_ADV-在_POB-n(A)_Pred[花费]_VOB-q(A)" taggedType="a" pred_id="9" tagged="false" instance="曼城今夏已在转会市场花费2.16亿英镑" feature="1-0-1-0-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="曼城" node_id="3" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="3" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="今夏" node_id="4" head_word="今夏" sem_cat="Ca">
+			<sub_pattern node_id="4" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="2" content="市场" node_id="8" head_word="市场" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="6" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="3" content="2.16亿英镑" node_id="11" head_word="英镑" sem_cat="Dn">
+			<sub_pattern node_id="11" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="创造" pattern="SBV-ns(Cb)_Pred[创造]_VOB-n(Di)" syntax_pattern="SBV-ns(A)_Pred[创造]_VOB-n(A)" taggedType="a" pred_id="14" tagged="true" instance="曼城创造英超球队" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼城(Z)" node_id="13" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="13" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="英超球队" node_id="16" head_word="球队" sem_cat="Di">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="45">
+	<origin_text>如果说米兰花2亿是买来一支球队，曼城花2亿只是升级一条防线，可见曼城是真的有钱，而且老板对瓜帅非常信任，只要看中的人，不管多少钱都买下。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-nr(Af)_ADV-m(Dn)_Pred[是]_SBV-n(Af)_VOB-信任" syntax_pattern="SBV-nr(A)_ADV-m(A)_Pred[是]_SBV-n(A)_VOB-信任" taggedType="a" pred_id="4" tagged="true" instance="米兰花2亿是买来一支球队，曼城花2亿只是升级一条防线，可见曼城是真的有钱，而且老板" feature="0-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="米兰花" node_id="2" head_word="米兰花" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="2亿" node_id="3" head_word="2亿" sem_cat="Dn">
+			<sub_pattern node_id="3" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+		</argument>
+		<argument id="2" content="老板" node_id="27" head_word="老板" sem_cat="Af">
+			<sub_pattern node_id="27" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="31" sem_pattern="VOB-信任" syn_pattern="VOB-信任"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="升级" pattern="SBV-ns(Cb)_SBV-花_ADV-m(Dn)_Pred[升级]_VOB-n(Cb)" syntax_pattern="SBV-ns(A)_SBV-花_ADV-m(A)_Pred[升级]_VOB-n(A)" taggedType="a" pred_id="15" tagged="true" instance="曼城花2亿只是升级一条防线" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼城" node_id="11" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="11" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+			<sub_pattern node_id="12" sem_pattern="SBV-花" syn_pattern="SBV-花"/>
+		</argument>
+		<argument id="1" content="2亿" node_id="13" head_word="2亿" sem_cat="Dn">
+			<sub_pattern node_id="13" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+		</argument>
+		<argument id="2" content="一条防线" node_id="18" head_word="防线" sem_cat="Cb">
+			<sub_pattern node_id="18" sem_pattern="VOB-n(Cb)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="信任" pattern="ADV-对_POB-n(A0)_Pred[信任]_SBV-n(A1)_VOB-买" syntax_pattern="ADV-对_POB-n(A)_Pred[信任]_SBV-n(A)_VOB-买" taggedType="a" pred_id="31" tagged="false" instance="瓜帅非常信任，只要看中的人，不管多少钱" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="瓜帅" node_id="29" head_word="瓜帅" sem_cat="">
+			<sub_pattern node_id="29" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="28" sem_pattern="ADV-对" syn_pattern="ADV-对"/>
+		</argument>
+		<argument id="1" content="人不管多少钱" node_id="40" head_word="钱" sem_cat="">
+			<sub_pattern node_id="40" sem_pattern="SBV-n(A1)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="42" sem_pattern="VOB-买" syn_pattern="VOB-买"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="46">
+	<origin_text>回顾世界足坛历史上的后卫身价排行榜，曼城的名字几乎占据半壁江山。</origin_text>
+	<relation id="2" pred="de" pattern="nsubj-ns(Cb)_Pred[de]_dobj-n(Dd)" syntax_pattern="nsubj-ns(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="11" tagged="true" instance="曼城的名字" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼城" node_id="10" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="10" sem_pattern="nsubj-ns(Cb)" syn_pattern="nsubj-ns(A)"/>
+		</argument>
+		<argument id="1" content="名字" node_id="12" head_word="名字" sem_cat="Dd">
+			<sub_pattern node_id="12" sem_pattern="dobj-n(Dd)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="占据" pattern="SBV-n(Dd)_Pred[占据]_VOB-n(Cb)" syntax_pattern="SBV-n(A)_Pred[占据]_VOB-n(A)" taggedType="a" pred_id="14" tagged="true" instance="名字几乎占据半壁江山" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="名字" node_id="12" head_word="名字" sem_cat="Dd">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(Dd)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="半壁江山" node_id="15" head_word="半壁江山" sem_cat="Cb">
+			<sub_pattern node_id="15" sem_pattern="VOB-n(Cb)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="47">
+	<origin_text>根据《每日镜报》统计，10大身价最贵后卫的交易中5个属于曼城，但他们都还需要用表现来证明自己物有所值，要知道曼加拉和斯通斯都一直被业界批评。</origin_text>
+	<relation id="1" pred="属于" pattern="SBV-f(A0)_ADV-q(Dn)_Pred[属于]_VOB-ns(Cb)" syntax_pattern="SBV-f(A)_ADV-q(A)_Pred[属于]_VOB-ns(A)" taggedType="a" pred_id="18" tagged="false" instance="交易中5个属于曼城" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="交易中" node_id="15" head_word="中" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="SBV-f(A0)" syn_pattern="SBV-f(A)"/>
+		</argument>
+		<argument id="1" content="5个" node_id="17" head_word="个" sem_cat="Dn">
+			<sub_pattern node_id="17" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="2" content="曼城" node_id="19" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="19" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="批评" pattern="SBV-nr(Af)_ADV-被_POB-n(Dd)_Pred[批评]" syntax_pattern="SBV-nr(A)_ADV-被_POB-n(A)_Pred[批评]" taggedType="a" pred_id="44" tagged="true" instance="曼加拉和斯通斯都一直被业界批评" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼加拉和斯通斯" node_id="39" head_word="斯通斯" sem_cat="Af">
+			<sub_pattern node_id="39" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="业界" node_id="43" head_word="业界" sem_cat="Dd">
+			<sub_pattern node_id="43" sem_pattern="POB-n(Dd)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="42" sem_pattern="ADV-被" syn_pattern="ADV-被"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="48">
+	<origin_text>只买贵的，不买对的，或许这就是壕的至高境界吧：</origin_text>
+	<relation id="1" pred="是" pattern="SBV-r(Ca)_Pred[是]_VOB-n(A0)" syntax_pattern="SBV-r(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="13" tagged="false" instance="这就是壕的至高境界" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这" node_id="11" head_word="这" sem_cat="Ca">
+			<sub_pattern node_id="11" sem_pattern="SBV-r(Ca)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="高境界" node_id="18" head_word="境界" sem_cat="">
+			<sub_pattern node_id="18" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="49">
+	<origin_text>10.奥塔门迪（瓦伦西亚曼城）3150万英镑2015年</origin_text>
+</sentence>
+<sentence id="50">
+	<origin_text>9.大卫-路易斯（巴黎圣日耳曼切尔西）3200万英镑2016年</origin_text>
+</sentence>
+<sentence id="51">
+	<origin_text>8.曼加拉（波尔图曼城）3200万英镑2014年</origin_text>
+</sentence>
+<sentence id="52">
+	<origin_text>7.蒂亚戈-席尔瓦（AC米兰巴黎圣日耳曼）3300万英镑2012年</origin_text>
+</sentence>
+<sentence id="53">
+	<origin_text>6.吕迪格（罗马切尔西）3330万英镑2017年</origin_text>
+</sentence>
+<sentence id="54">
+	<origin_text>5.穆斯塔菲（瓦伦西亚阿森纳）3500万英镑2016年</origin_text>
+</sentence>
+<sentence id="55">
+	<origin_text>4.大卫-路易斯（切尔西巴黎圣日耳曼）4000万英镑2014年</origin_text>
+</sentence>
+<sentence id="56">
+	<origin_text>3.斯通斯（埃弗顿曼城）4750万英镑2016年</origin_text>
+</sentence>
+<sentence id="57">
+	<origin_text>2.凯尔-沃克（热刺曼城）5000万英镑2017年</origin_text>
+</sentence>
+<sentence id="58">
+	<origin_text>1.门迪（摩纳哥曼城）5200万英镑2017年</origin_text>
+</sentence>
+<sentence id="59">
+	<origin_text>曼城今夏烧掉2.16亿英镑已经逼近皇马在2009年夏天引援开支纪录，当时皇马8000万英镑从曼联签下C罗，打破当时足坛转会费纪录。</origin_text>
+	<relation id="1" pred="烧掉" pattern="SBV-ns(Cb)_ADV-t(Ca)_Pred[烧掉]_VOB-n(A0)" syntax_pattern="SBV-ns(A)_ADV-t(A)_Pred[烧掉]_VOB-n(A)" taggedType="a" pred_id="2" tagged="false" instance="曼城今夏烧掉2.16亿英镑已经逼近皇马" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="曼城" node_id="0" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="0" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="今夏" node_id="1" head_word="今夏" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="2" content="2.16亿英镑已经逼近皇马" node_id="7" head_word="皇马" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="引援" pattern="SBV-ns(Cb)_ADV-在_POB-t(Ca)_Pred[引援]_VOB-n(A0)" syntax_pattern="SBV-ns(A)_ADV-在_POB-t(A)_Pred[引援]_VOB-n(A)" taggedType="a" pred_id="12" tagged="false" instance="曼城在2009年夏天引援开支纪录" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="曼城(Z)" node_id="8" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="8" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="2009年夏天" node_id="11" head_word="夏天" sem_cat="Ca">
+			<sub_pattern node_id="11" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="9" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="开支纪录" node_id="14" head_word="纪录" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="打破" pattern="ADV-t(Ca)_SBV-n(A0)_ADV-q(Dn)_Pred[打破]_VOB-n(A1)" syntax_pattern="ADV-t(A)_SBV-n(A)_ADV-q(A)_Pred[打破]_VOB-n(A)" taggedType="a" pred_id="27" tagged="false" instance="当时皇马8000万英镑从曼联签下C罗，打破当时足坛转会费纪录" feature="1-1-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="当时" node_id="16" head_word="当时" sem_cat="Ca">
+			<sub_pattern node_id="16" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="皇马" node_id="17" head_word="皇马" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="8000万英镑" node_id="19" head_word="英镑" sem_cat="Dn">
+			<sub_pattern node_id="19" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="3" content="当时足坛转会费纪录" node_id="31" head_word="纪录" sem_cat="">
+			<sub_pattern node_id="31" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="60">
+	<origin_text>另外还包括5600万英镑收购卡卡、3000万英镑从里昂引进本泽马、3000万英镑签下利物浦中场哈维-阿隆索、1275万英镑签下阿尔比奥尔、425万英镑回购内格雷多、引进阿韦罗亚花费了340万英镑。</origin_text>
+	<relation id="1" pred="花费" pattern="QUN-q(Dn)_ADV-f(A0)_Pred[花费]_VOB-q(Dn)" syntax_pattern="QUN-q(A)_ADV-f(A)_Pred[花费]_VOB-q(A)" taggedType="a" pred_id="38" tagged="false" instance="3000万英镑从里昂引进本泽马、3000万英镑签下利物浦中场哈维-阿隆索、1275万英镑签下阿尔比奥尔、425万英镑回购内格雷多、引进阿韦罗亚花费了340万英镑" feature="0-0-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="3000万英镑" node_id="9" head_word="英镑" sem_cat="Dn">
+			<sub_pattern node_id="9" sem_pattern="QUN-q(Dn)" syn_pattern="QUN-q(A)"/>
+		</argument>
+		<argument id="1" content="阿尔比奥尔、425万英镑回购内" node_id="32" head_word="内" sem_cat="">
+			<sub_pattern node_id="32" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="2" content="340万英镑" node_id="41" head_word="英镑" sem_cat="Dn">
+			<sub_pattern node_id="41" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="签" pattern="SBV-n(Dj)_Pred[签]_VOB-n(Dj)" syntax_pattern="SBV-n(A)_Pred[签]_VOB-n(A)" taggedType="a" pred_id="17" tagged="true" instance="3000万英镑签下利物浦中场哈维-阿隆索、1275万英镑" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="3000万英镑" node_id="16" head_word="英镑" sem_cat="Dj">
+			<sub_pattern node_id="16" sem_pattern="SBV-n(Dj)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="、1275万英镑" node_id="24" head_word="英镑" sem_cat="Dj">
+			<sub_pattern node_id="24" sem_pattern="VOB-n(Dj)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="61">
+	<origin_text>那个夏天，皇马疯狂买买买，最终开支是2.198亿英镑。</origin_text>
+	<relation id="1" pred="买" pattern="ADV-t(Ca)_SBV-n(A0)_Pred[买]" syntax_pattern="ADV-t(A)_SBV-n(A)_Pred[买]" taggedType="a" pred_id="6" tagged="false" instance="那个夏天，皇马疯狂买买买" feature="1-1-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="那个夏天" node_id="1" head_word="夏天" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="皇马" node_id="3" head_word="皇马" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="SBV-n(Dj)_Pred[是]_VOB-q(Dn)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-q(A)" taggedType="a" pred_id="10" tagged="true" instance="开支是2.198亿英镑" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="开支" node_id="9" head_word="开支" sem_cat="Dj">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(Dj)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="2.198亿英镑" node_id="12" head_word="英镑" sem_cat="Dn">
+			<sub_pattern node_id="12" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="62">
+	<origin_text>毫无疑问，曼城今夏要破掉这个纪录是板上钉钉的事实。</origin_text>
+	<relation id="1" pred="破掉" pattern="SBV-ns(Cb)_ADV-t(Ca)_Pred[破掉]_VOB-n(A0)" syntax_pattern="SBV-ns(A)_ADV-t(A)_Pred[破掉]_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="曼城今夏要破掉这个纪录" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="曼城" node_id="2" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="2" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="今夏" node_id="3" head_word="今夏" sem_cat="Ca">
+			<sub_pattern node_id="3" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="2" content="这个纪录" node_id="7" head_word="纪录" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="63">
+	<origin_text>除了已经签下的6名球员，瓜迪奥拉还希望再引援一名锋线球员，最大目标是阿森纳7号桑切斯，另外一个重磅目标是姆巴佩。</origin_text>
+	<relation id="1" pred="希望" pattern="ADV-除了_POB-n(Af)_SBV-nr(Af)_Pred[希望]_VOB-引援_VOB-n(Af)" syntax_pattern="ADV-除了_POB-n(A)_SBV-nr(A)_Pred[希望]_VOB-引援_VOB-n(A)" taggedType="a" pred_id="11" tagged="true" instance="6名球员，瓜迪奥拉还希望再引援一名锋线球员" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="6名球员" node_id="7" head_word="球员" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-除了" syn_pattern="ADV-除了"/>
+		</argument>
+		<argument id="1" content="瓜迪奥拉" node_id="9" head_word="瓜迪奥拉" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="一名锋线球员" node_id="17" head_word="球员" sem_cat="Af">
+			<sub_pattern node_id="17" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="13" sem_pattern="VOB-引援" syn_pattern="VOB-引援"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="SBV-n(Da)_Pred[是]_VOB-nr(Af)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-nr(A)" taggedType="a" pred_id="22" tagged="true" instance="大目标是阿森纳7号桑切斯" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="大目标" node_id="21" head_word="目标" sem_cat="Da">
+			<sub_pattern node_id="21" sem_pattern="SBV-n(Da)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="桑切斯" node_id="26" head_word="桑切斯" sem_cat="Af">
+			<sub_pattern node_id="26" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="26" tagged="false" instance="阿森纳7号桑切斯" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="桑切斯" node_id="26" head_word="桑切斯" sem_cat="Af">
+			<sub_pattern node_id="26" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="阿森纳7号" node_id="25" head_word="号" sem_cat="">
+			<sub_pattern node_id="26" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="是" pattern="SBV-n(Da)_Pred[是]_VOB-nr(Af)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-nr(A)" taggedType="a" pred_id="33" tagged="true" instance="大目标是阿森纳7号桑切斯" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="另外一个重磅目标" node_id="32" head_word="目标" sem_cat="Da">
+			<sub_pattern node_id="32" sem_pattern="SBV-n(Da)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="姆巴佩" node_id="34" head_word="姆巴佩" sem_cat="Af">
+			<sub_pattern node_id="34" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="64">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="65">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

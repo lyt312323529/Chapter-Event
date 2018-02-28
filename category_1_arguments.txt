@@ -1,0 +1,57 @@
+﻿25	category_1.txt	Movement.Transport-Person	Agent	叙利亚 政府军	411-416	217-416	411-416	NIL	ACTUAL	0.5	417
+37	category_1.txt	Movement.Transport-Person	Origin	伊拉克	692-694	495-694	692-694	NIL	ACTUAL	0.5	680
+40	category_1.txt	Movement.Transport-Person	Agent	美国	786-787	588-787	786-787	NIL	ACTUAL	0.5	789
+23	category_1.txt	Movement.Transport-Person	Agent	叙利亚 政府军	315-320	121-320	315-320	NIL	ACTUAL	0.5	321
+3	category_1.txt	Movement.Transport-Person	Time	当天	92-93	0-199	92-93	NIL	ACTUAL	0.5	94
+11	category_1.txt	Movement.Transport-Person	Destination	伊拉克	149-151	0-199	149-151	NIL	ACTUAL	0.5	147
+36	category_1.txt	Movement.Transport-Person	Person	警察 在 武装 分子	667-673	474-673	667-673	NIL	ACTUAL	0.5	674
+6	category_1.txt	Movement.Transport-Person	Time	12日	115-117	0-199	115-117	NIL	ACTUAL	0.5	118
+2	category_1.txt	Movement.Transport-Person	Person	伊拉克 总理 马利基	84-91	0-199	84-91	NIL	ACTUAL	0.5	94
+64	category_1.txt	Movement.Transport-Person	Time	现在	1524-1525	1326-1525	1524-1525	NIL	ACTUAL	0.5	1528
+10	category_1.txt	Movement.Transport-Person	Destination	全国	124-125	0-199	124-125	NIL	ACTUAL	0.5	126
+48	category_1.txt	Movement.Transport-Person	Agent	美国	1028-1029	830-1029	1028-1029	NIL	ACTUAL	0.5	1032
+58	category_1.txt	Movement.Transport-Person	Destination	国家	1242-1243	1044-1243	1242-1243	NIL	ACTUAL	0.5	1244
+27	category_1.txt	Movement.Transport-Person	Agent	叙利亚	428-430	231-430	428-430	NIL	ACTUAL	0.5	437
+59	category_1.txt	Movement.Transport-Person	Destination	伊拉克	1335-1337	1138-1337	1335-1337	NIL	ACTUAL	0.5	1338
+39	category_1.txt	Movement.Transport-Person	Destination	伊拉克	777-779	580-779	777-779	NIL	ACTUAL	0.5	782
+14	category_1.txt	Movement.Transport-Person	Destination	伊拉克	198-200	1-200	198-200	NIL	ACTUAL	0.5	196
+45	category_1.txt	Movement.Transport-Person	Agent	伊拉克 政府军 、 逊尼派 势力	939-950	751-950	939-950	NIL	ACTUAL	0.5	959
+17	category_1.txt	Movement.Transport-Person	Person	》 记者 采访 的 专家	238-245	46-245	238-245	NIL	ACTUAL	0.5	247
+61	category_1.txt	Movement.Transport-Person	Destination	伊拉克	1394-1396	1197-1396	1394-1396	NIL	ACTUAL	0.5	1401
+22	category_1.txt	Movement.Transport-Person	Time	今年 3月	311-314	115-314	311-314	NIL	ACTUAL	0.5	321
+46	category_1.txt	Movement.Transport-Person	Agent	人	973-973	774-973	973-973	NIL	ACTUAL	0.5	974
+44	category_1.txt	Movement.Transport-Person	Person	中国 中东 学会 副秘书长 殷罡	892-903	704-903	892-903	NIL	ACTUAL	0.5	904
+15	category_1.txt	Movement.Transport-Person	Destination	国家	208-209	10-209	208-209	NIL	ACTUAL	0.5	204
+49	category_1.txt	Movement.Transport-Person	Agent	美国 政府	1044-1047	848-1047	1044-1047	NIL	ACTUAL	0.5	1055
+24	category_1.txt	Movement.Transport-Person	Agent	副研究员 王国乡	395-401	202-401	395-401	NIL	ACTUAL	0.5	407
+62	category_1.txt	Movement.Transport-Person	Destination	美国	1433-1434	1235-1434	1433-1434	NIL	ACTUAL	0.5	1436
+34	category_1.txt	Movement.Transport-Person	Person	武装 分子	638-641	442-641	638-641	NIL	ACTUAL	0.5	644
+29	category_1.txt	Movement.Transport-Person	Destination	境内	491-492	293-492	491-492	NIL	ACTUAL	0.5	493
+63	category_1.txt	Movement.Transport-Person	Destination	伊朗	1485-1486	1287-1486	1485-1486	NIL	ACTUAL	0.5	1488
+12	category_1.txt	Movement.Transport-Person	Agent	伊拉克	163-165	0-199	163-165	NIL	ACTUAL	0.5	168
+31	category_1.txt	Movement.Transport-Person	Time	6 个 月	553-555	356-555	553-555	NIL	ACTUAL	0.5	564
+21	category_1.txt	Movement.Transport-Person	Agent	巴沙尔	294-296	97-296	294-296	NIL	ACTUAL	0.5	306
+20	category_1.txt	Movement.Transport-Person	Person	巴沙尔	294-296	97-296	294-296	NIL	ACTUAL	0.5	297
+55	category_1.txt	Movement.Transport-Person	Destination	这个 国家	1199-1202	1003-1202	1199-1202	NIL	ACTUAL	0.5	1197
+43	category_1.txt	Movement.Transport-Person	Origin	伊拉克	865-867	668-867	865-867	NIL	ACTUAL	0.5	868
+53	category_1.txt	Movement.Transport-Person	Person	萨姆	1140-1141	942-1141	1140-1141	NIL	ACTUAL	0.5	1156
+26	category_1.txt	Movement.Transport-Person	Destination	叙利亚	428-430	231-430	428-430	NIL	ACTUAL	0.5	433
+35	category_1.txt	Conflict.Attack	Attacker	武装 分子	638-641	442-641	638-641	NIL	ACTUAL	0.5	653
+19	category_1.txt	Movement.Transport-Person	Destination	叙利亚	280-282	83-282	280-282	NIL	ACTUAL	0.5	285
+18	category_1.txt	Movement.Transport-Person	Destination	邻国 叙利亚	262-266	67-266	262-266	NIL	ACTUAL	0.5	269
+30	category_1.txt	Movement.Transport-Person	Destination	境内	509-510	311-510	509-510	NIL	ACTUAL	0.5	504
+51	category_1.txt	Movement.Transport-Person	Agent	政府	1053-1054	855-1054	1053-1054	NIL	ACTUAL	0.5	1055
+16	category_1.txt	Movement.Transport-Person	Agent	》 记者 采访 的 专家	238-245	46-245	238-245	NIL	ACTUAL	0.5	241
+54	category_1.txt	Movement.Transport-Person	Time	2014年 初	1178-1183	984-1183	1178-1183	NIL	ACTUAL	0.5	1197
+42	category_1.txt	Movement.Transport-Person	Agent	警察	825-826	627-826	825-826	NIL	ACTUAL	0.5	827
+32	category_1.txt	Movement.Transport-Person	Agent	武装 分子	558-561	362-561	558-561	NIL	ACTUAL	0.5	564
+41	category_1.txt	Movement.Transport-Person	Agent	原 军人	821-823	624-823	821-823	NIL	ACTUAL	0.5	827
+60	category_1.txt	Movement.Transport-Person	Agent	伊朗	1381-1382	1183-1382	1381-1382	NIL	ACTUAL	0.5	1401
+65	category_1.txt	Movement.Transport-Person	Person	记者 袁伊凝	1542-1546	1347-1546	1542-1546	NIL	ACTUAL	0.5	1540
+0	category_1.txt	Movement.Transport-Person	Time	6月 10日	1-5	0-199	1-5	NIL	ACTUAL	0.5	17
+33	category_1.txt	Movement.Transport-Person	Time	2008年	590-594	395-594	590-594	NIL	ACTUAL	0.5	608
+50	category_1.txt	Movement.Transport-Person	Destination	伊拉克 政府	1050-1054	855-1054	1050-1054	NIL	ACTUAL	0.5	1055
+13	category_1.txt	Movement.Transport-Person	Origin	伊拉克	163-165	0-199	163-165	NIL	ACTUAL	0.5	170
+5	category_1.txt	Movement.Transport-Person	Agent	议会	111-112	0-199	111-112	NIL	ACTUAL	0.5	118
+52	category_1.txt	Movement.Transport-Person	Destination	伊拉克	1073-1075	876-1075	1073-1075	NIL	ACTUAL	0.5	1066
+1	category_1.txt	Conflict.Attack	Attacker	数百 名 武装 分子	40-46	0-199	40-46	NIL	ACTUAL	0.5	47

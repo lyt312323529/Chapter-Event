@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title卢卡库破门拉什福德建功，曼联2-0曼城/Title</origin_text>
+</sentence>
+<sentence id="7">
+	<origin_text>虎扑7月21日讯北京时间10:05，2017国际冠军杯上演曼市德比，由曼联对阵曼城。</origin_text>
+	<relation id="1" pred="上演" pattern="SBV-n(Bp)_Pred[上演]_ATT-ns(Cb)_VOB-比" syntax_pattern="SBV-n(A)_Pred[上演]_ATT-ns(A)_VOB-比" taggedType="a" pred_id="14" tagged="true" instance="2017国际冠军杯上演曼市德" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="2017国际冠军杯" node_id="13" head_word="冠军杯" sem_cat="Bp">
+			<sub_pattern node_id="13" sem_pattern="SBV-n(Bp)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="曼市德" node_id="15" head_word="曼市德" sem_cat="Cb">
+			<sub_pattern node_id="15" sem_pattern="ATT-ns(Cb)" syn_pattern="ATT-ns(A)"/>
+			<sub_pattern node_id="16" sem_pattern="VOB-比" syn_pattern="VOB-比"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>上半场比赛，曼联2分钟内由卢卡库和拉什福德连下两城，半场战罢，曼联2-0曼城。</origin_text>
+	<relation id="1" pred="战罢" pattern="SBV-n(A0)_ADV-q(Dn)_Pred[战罢]_VOB-n(A1)" syntax_pattern="SBV-n(A)_ADV-q(A)_Pred[战罢]_VOB-n(A)" taggedType="a" pred_id="18" tagged="false" instance="上半场比赛，曼联2分钟内由卢卡库和拉什福德连下两城，半场战罢，曼联2-0曼城" feature="1-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="上半场比赛" node_id="1" head_word="比赛" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="半场" node_id="17" head_word="场" sem_cat="Dn">
+			<sub_pattern node_id="17" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="2" content="曼联2-0曼城" node_id="22" head_word="曼城" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="下" pattern="ADV-f(A0)_ADV-由_POB-nr(Af)_Pred[下]_VOB-n(A1)" syntax_pattern="ADV-f(A)_ADV-由_POB-nr(A)_Pred[下]_VOB-n(A)" taggedType="a" pred_id="12" tagged="false" instance="2分钟内由卢卡库和拉什福德连下两城" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="2分钟内" node_id="6" head_word="内" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="卢卡库和拉什福德" node_id="10" head_word="拉什福德" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="POB-nr(Af)" syn_pattern="POB-nr(A)"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-由" syn_pattern="ADV-由"/>
+		</argument>
+		<argument id="2" content="两城" node_id="14" head_word="城" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>下半场比赛中卢卡库一度击中横梁，最终全场比赛结束，曼联2-0曼城。</origin_text>
+	<relation id="1" pred="击中" pattern="ADV-f(A0)_SBV-nr(Af)_Pred[击中]_VOB-n(Bn)" syntax_pattern="ADV-f(A)_SBV-nr(A)_Pred[击中]_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="下半场比赛中卢卡库一度击中横梁" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="下半场比赛中" node_id="2" head_word="中" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="卢卡库" node_id="3" head_word="卢卡库" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="横梁" node_id="6" head_word="横梁" sem_cat="Bn">
+			<sub_pattern node_id="6" sem_pattern="VOB-n(Bn)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="结束" pattern="SBV-n(A0)_Pred[结束]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[结束]_VOB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="全场比赛结束，曼联2-0曼城" feature="0-1-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="全场比赛" node_id="10" head_word="比赛" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="2-0曼城" node_id="15" head_word="曼城" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>本场比赛在美国休斯敦举行，这也是首次在英国之外的国家上演曼市德比。</origin_text>
+	<relation id="2" pred="举行" pattern="SBV-n(A0)_ADV-在_POB-ns(Cb)_Pred[举行]" syntax_pattern="SBV-n(A)_ADV-在_POB-ns(A)_Pred[举行]" taggedType="a" pred_id="5" tagged="false" instance="本场比赛在美国休斯敦举行" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="本场比赛" node_id="1" head_word="比赛" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="美国休斯敦" node_id="4" head_word="休斯敦" sem_cat="Cb">
+			<sub_pattern node_id="4" sem_pattern="POB-ns(Cb)" syn_pattern="POB-ns(A)"/>
+			<sub_pattern node_id="2" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="是" pattern="SBV-r(Ca)_Pred[是]_ADV-m(Dn)_VOB-上演_VOB-ns(Cb)" syntax_pattern="SBV-r(A)_Pred[是]_ADV-m(A)_VOB-上演_VOB-ns(A)" taggedType="a" pred_id="9" tagged="true" instance="这也是首次在英国之外的国家上演曼市德比" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="这" node_id="7" head_word="这" sem_cat="Ca">
+			<sub_pattern node_id="7" sem_pattern="SBV-r(Ca)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="首次" node_id="10" head_word="首次" sem_cat="Dn">
+			<sub_pattern node_id="10" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+			<sub_pattern node_id="16" sem_pattern="VOB-上演" syn_pattern="VOB-上演"/>
+		</argument>
+		<argument id="2" content="曼市德比" node_id="17" head_word="曼市德比" sem_cat="Cb">
+			<sub_pattern node_id="17" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>开场过后曼联率先发难，第3分钟，埃雷拉外围左脚远射，埃德森双手将球托出底线。</origin_text>
+	<relation id="1" pred="托" pattern="SBV-n(Bk)_ADV-将_POB-n(A0)_Pred[托]_VOB-n(Dd)" syntax_pattern="SBV-n(A)_ADV-将_POB-n(A)_Pred[托]_VOB-n(A)" taggedType="a" pred_id="18" tagged="false" instance="埃德森双手将球托出底线" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="埃德森双手" node_id="15" head_word="双手" sem_cat="Bk">
+			<sub_pattern node_id="15" sem_pattern="SBV-n(Bk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="球" node_id="17" head_word="球" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="16" sem_pattern="ADV-将" syn_pattern="ADV-将"/>
+		</argument>
+		<argument id="2" content="底线" node_id="20" head_word="底线" sem_cat="Dd">
+			<sub_pattern node_id="20" sem_pattern="VOB-n(Dd)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>第6分钟，姆希塔良外围发炮，可惜皮球打高。</origin_text>
+	<relation id="1" pred="发炮" pattern="SBV-nr(Af)_ADV-f(A0)_Pred[发炮]" syntax_pattern="SBV-nr(A)_ADV-f(A)_Pred[发炮]" taggedType="a" pred_id="5" tagged="false" instance="姆希塔良外围发炮" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="姆希塔良" node_id="3" head_word="姆希塔良" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="外围" node_id="4" head_word="外围" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="13">
+	<origin_text>第8分钟，斯特林禁区内闪出角度后右脚推射被德赫亚侧身将球抱住。</origin_text>
+	<relation id="1" pred="闪" pattern="SBV-f(A0)_Pred[闪]_VOB-n(A1)" syntax_pattern="SBV-f(A)_Pred[闪]_VOB-n(A)" taggedType="a" pred_id="6" tagged="false" instance="斯特林禁区内闪出角度" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="斯特林禁区内" node_id="5" head_word="内" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="SBV-f(A0)" syn_pattern="SBV-f(A)"/>
+		</argument>
+		<argument id="1" content="角度" node_id="8" head_word="角度" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="14">
+	<origin_text>第12分钟，福登左脚低射偏出球门立柱。</origin_text>
+	<relation id="1" pred="偏" pattern="SBV-n(Bk)_Pred[偏]_VOB-n(Bn)" syntax_pattern="SBV-n(A)_Pred[偏]_VOB-n(A)" taggedType="a" pred_id="6" tagged="true" instance="左脚低射偏出球门立柱" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="左脚" node_id="4" head_word="左脚" sem_cat="Bk">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(Bk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="球门立柱" node_id="9" head_word="立柱" sem_cat="Bn">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(Bn)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="15">
+	<origin_text>第18分钟，拉什福德大禁区外射门，可惜在德布劳内的干扰下没能威胁到门将埃德森。</origin_text>
+	<relation id="1" pred="射门" pattern="ADV-q(Dn)_SBV-nr(Af)_ADV-f(A0)_Pred[射门]" syntax_pattern="ADV-q(A)_SBV-nr(A)_ADV-f(A)_Pred[射门]" taggedType="a" pred_id="7" tagged="false" instance="第18分钟，拉什福德大禁区外射门" feature="1-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="第18分钟" node_id="1" head_word="分钟" sem_cat="Dn">
+			<sub_pattern node_id="1" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="1" content="拉什福德" node_id="3" head_word="拉什福德" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="大禁区外" node_id="6" head_word="外" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="可惜" pattern="SBV-nr(Af)_Pred[可惜]_VOB-威胁_VOB-nr(Af)" syntax_pattern="SBV-nr(A)_Pred[可惜]_VOB-威胁_VOB-nr(A)" taggedType="a" pred_id="10" tagged="true" instance="拉什福德可惜在德布劳内的干扰下没能威胁到门将埃德森" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="拉什福德(Z)" node_id="9" head_word="拉什福德" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="埃德森" node_id="22" head_word="埃德森" sem_cat="Af">
+			<sub_pattern node_id="22" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+			<sub_pattern node_id="19" sem_pattern="VOB-威胁" syn_pattern="VOB-威胁"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="22" tagged="true" instance="门将埃德森" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="埃德森" node_id="22" head_word="埃德森" sem_cat="Af">
+			<sub_pattern node_id="22" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="门将" node_id="21" head_word="门将" sem_cat="Af">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="16">
+	<origin_text>第21分钟，姆希塔良禁区内转身怒射，埃德森准备充分，双拳将球击出。</origin_text>
+	<relation id="1" pred="击" pattern="SBV-n(A0)_ADV-将_POB-n(A1)_Pred[击]" syntax_pattern="SBV-n(A)_ADV-将_POB-n(A)_Pred[击]" taggedType="a" pred_id="17" tagged="false" instance="双拳将球击" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="双拳" node_id="14" head_word="双拳" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="球" node_id="16" head_word="球" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="POB-n(A1)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="15" sem_pattern="ADV-将" syn_pattern="ADV-将"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="17">
+	<origin_text>第24分钟，埃雷拉远距离抽射，埃德森稳稳将球控制住。</origin_text>
+	<relation id="1" pred="控制" pattern="SBV-nr(Af)_ADV-将_POB-n(A0)_Pred[控制]" syntax_pattern="SBV-nr(A)_ADV-将_POB-n(A)_Pred[控制]" taggedType="a" pred_id="12" tagged="false" instance="埃德森稳稳将球控制" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="埃德森" node_id="8" head_word="埃德森" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="球" node_id="11" head_word="球" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="10" sem_pattern="ADV-将" syn_pattern="ADV-将"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="18">
+	<origin_text>1分钟后，斯特林外围远射被德赫亚单手托出底线。</origin_text>
+	<relation id="1" pred="远射" pattern="ADV-f(A0)_SBV-nr(Af)_ADV-f(A1)_Pred[远射]_VOB-托_VOB-n(Dd)" syntax_pattern="ADV-f(A)_SBV-nr(A)_ADV-f(A)_Pred[远射]_VOB-托_VOB-n(A)" taggedType="a" pred_id="6" tagged="false" instance="1分钟后，斯特林外围远射被德赫亚单手托出底线" feature="1-1-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="1分钟后" node_id="2" head_word="后" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="斯特林" node_id="4" head_word="斯特林" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="外围" node_id="5" head_word="外围" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="ADV-f(A1)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="3" content="底线" node_id="12" head_word="底线" sem_cat="Dd">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Dd)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="10" sem_pattern="VOB-托" syn_pattern="VOB-托"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="19">
+	<origin_text>第28分钟，博格巴任意球直接弧线球攻门，皮球绕过人墙直飞球门，埃德森直接把球没收。</origin_text>
+	<relation id="1" pred="攻" pattern="SBV-n(A0)_Pred[攻]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[攻]_VOB-n(A)" taggedType="a" pred_id="8" tagged="false" instance="博格巴任意球直接弧线球攻门" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="博格巴任意球直接弧线球" node_id="7" head_word="弧线球" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="门" node_id="9" head_word="门" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="飞" pattern="SBV-n(Bp)_Pred[飞]_VOB-n(Bn)" syntax_pattern="SBV-n(A)_Pred[飞]_VOB-n(A)" taggedType="a" pred_id="15" tagged="true" instance="皮球绕过人墙直飞球门" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="皮球" node_id="11" head_word="皮球" sem_cat="Bp">
+			<sub_pattern node_id="11" sem_pattern="SBV-n(Bp)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="球门" node_id="16" head_word="球门" sem_cat="Bn">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Bn)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="没收" pattern="SBV-nr(Af)_ADV-把_POB-n(A0)_Pred[没收]" syntax_pattern="SBV-nr(A)_ADV-把_POB-n(A)_Pred[没收]" taggedType="a" pred_id="22" tagged="false" instance="埃德森直接把球没收" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="埃德森" node_id="18" head_word="埃德森" sem_cat="Af">
+			<sub_pattern node_id="18" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="球" node_id="21" head_word="球" sem_cat="">
+			<sub_pattern node_id="21" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="20" sem_pattern="ADV-把" syn_pattern="ADV-把"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="20">
+	<origin_text>第31分钟，曼联门前出现险情，罗伯茨禁区内几乎形成单刀，但斯莫林抢先一脚将球破坏，随后斯特林再射被后卫挡出。</origin_text>
+	<relation id="1" pred="破坏" pattern="QUN-q(Dn)_ADV-将_POB-n(A0)_Pred[破坏]" syntax_pattern="QUN-q(A)_ADV-将_POB-n(A)_Pred[破坏]" taggedType="a" pred_id="23" tagged="false" instance="第31分钟，曼联门前出现险情，曼联_门前罗伯茨禁区内几乎形成单刀，但斯莫林抢先一脚将球破坏" feature="1-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="第31分钟" node_id="1" head_word="分钟" sem_cat="Dn">
+			<sub_pattern node_id="1" sem_pattern="QUN-q(Dn)" syn_pattern="QUN-q(A)"/>
+		</argument>
+		<argument id="1" content="球" node_id="22" head_word="球" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="21" sem_pattern="ADV-将" syn_pattern="ADV-将"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="出现" pattern="SBV-s(Cb)_Pred[出现]_VOB-n(Da)" syntax_pattern="SBV-s(A)_Pred[出现]_VOB-n(A)" taggedType="a" pred_id="5" tagged="true" instance="门前出现险情" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="门前" node_id="4" head_word="门前" sem_cat="Cb">
+			<sub_pattern node_id="4" sem_pattern="SBV-s(Cb)" syn_pattern="SBV-s(A)"/>
+		</argument>
+		<argument id="1" content="险情" node_id="6" head_word="险情" sem_cat="Da">
+			<sub_pattern node_id="6" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="形成" pattern="SBV-s(A0)_ADV-f(A1)_Pred[形成]_VOB-n(Bo)" syntax_pattern="SBV-s(A)_ADV-f(A)_Pred[形成]_VOB-n(A)" taggedType="a" pred_id="13" tagged="false" instance="曼联_门前罗伯茨禁区内几乎形成单刀" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="曼联门前(Z)" node_id="8" head_word="曼联 门前" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="SBV-s(A0)" syn_pattern="SBV-s(A)"/>
+		</argument>
+		<argument id="1" content="罗伯茨禁区内" node_id="11" head_word="内" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="ADV-f(A1)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="2" content="单刀" node_id="14" head_word="单刀" sem_cat="Bo">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="抢先" pattern="SBV-nr(Af)_Pred[抢先]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[抢先]_VOB-n(A)" taggedType="a" pred_id="18" tagged="false" instance="斯莫林抢先一脚" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="斯莫林" node_id="17" head_word="斯莫林" sem_cat="Af">
+			<sub_pattern node_id="17" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="一脚" node_id="20" head_word="脚" sem_cat="">
+			<sub_pattern node_id="20" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="挡" pattern="SBV-nr(Af)_ADV-被_POB-n(Af)_Pred[挡]" syntax_pattern="SBV-nr(A)_ADV-被_POB-n(A)_Pred[挡]" taggedType="a" pred_id="31" tagged="true" instance="斯特林再射被后卫挡" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="斯特林" node_id="26" head_word="斯特林" sem_cat="Af">
+			<sub_pattern node_id="26" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="后卫" node_id="30" head_word="后卫" sem_cat="Af">
+			<sub_pattern node_id="30" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="29" sem_pattern="ADV-被" syn_pattern="ADV-被"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="21">
+	<origin_text>第36分钟，斯莫林防守中出现失误，好在德赫亚出击将球解围。</origin_text>
+	<relation id="1" pred="防守" pattern="SBV-nr(Af)_Pred[防守]_ADV-f(A0)" syntax_pattern="SBV-nr(A)_Pred[防守]_ADV-f(A)" taggedType="a" pred_id="4" tagged="false" instance="斯莫林防守中" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="斯莫林" node_id="3" head_word="斯莫林" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+			<sub_pattern node_id="4" sem_pattern="ATT-防守" syn_pattern="ATT-防守"/>
+			<sub_pattern node_id="5" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="中" node_id="5" head_word="中" sem_cat="">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="22">
+	<origin_text>第37分钟，曼联打出快速反击，曼联后场直接大脚长传前场，卢卡库得球后形成单刀，晃过埃德森后小角度左脚推射空门得分，1-0！</origin_text>
+	<relation id="1" pred="形成" pattern="ADV-q(Dn)_SBV-n(Cb)_ADV-f(A0)_Pred[形成]_VOB-n(Bo)" syntax_pattern="ADV-q(A)_SBV-n(A)_ADV-f(A)_Pred[形成]_VOB-n(A)" taggedType="a" pred_id="20" tagged="false" instance="第37分钟，曼联打出快速反击，曼联后场直接大脚长传前场，卢卡库得球后形成单刀" feature="1-1-0-0-1-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="第37分钟" node_id="1" head_word="分钟" sem_cat="Dn">
+			<sub_pattern node_id="1" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="1" content="后场直接大脚长传前场" node_id="14" head_word="前场" sem_cat="Cb">
+			<sub_pattern node_id="14" sem_pattern="SBV-n(Cb)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="后" node_id="19" head_word="后" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="3" content="单刀" node_id="21" head_word="单刀" sem_cat="Bo">
+			<sub_pattern node_id="21" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="得" pattern="SBV-nr(Af)_Pred[得]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[得]_VOB-n(A)" taggedType="a" pred_id="17" tagged="false" instance="卢卡库得球" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="卢卡库" node_id="16" head_word="卢卡库" sem_cat="Af">
+			<sub_pattern node_id="16" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="球" node_id="18" head_word="球" sem_cat="">
+			<sub_pattern node_id="18" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="晃" pattern="Pred[晃]_VOB-nr(Af)_ADV-f(A0)" syntax_pattern="Pred[晃]_VOB-nr(A)_ADV-f(A)" taggedType="a" pred_id="23" tagged="false" instance="晃过埃德森后" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="埃德森" node_id="25" head_word="埃德森" sem_cat="Af">
+			<sub_pattern node_id="25" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+			<sub_pattern node_id="23" sem_pattern="ATT-晃" syn_pattern="ATT-晃"/>
+			<sub_pattern node_id="26" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="后" node_id="26" head_word="后" sem_cat="">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="23">
+	<origin_text>第39分钟，姆希塔良中路高速带球，外脚背拨到右侧插上的拉什福德，拉什福德禁区内右脚抽射，皮球应声入网，2-0！</origin_text>
+	<relation id="1" pred="带" pattern="SBV-n(A0)_Pred[带]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[带]_VOB-n(A)" taggedType="a" pred_id="6" tagged="false" instance="姆希塔良中路高速带球" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="姆希塔良中路" node_id="4" head_word="中路" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="球" node_id="7" head_word="球" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="拨" pattern="SBV-n(A0)_Pred[拨]_VOB-nr(Af)" syntax_pattern="SBV-n(A)_Pred[拨]_VOB-nr(A)" taggedType="a" pred_id="10" tagged="false" instance="外脚背拨到右侧插上的拉什福德" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="外脚背" node_id="9" head_word="外脚背" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="拉什福德" node_id="16" head_word="拉什福德" sem_cat="Af">
+			<sub_pattern node_id="16" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="24">
+	<origin_text>第45分钟，布林德拉倒罗伯茨吃到一张黄牌。</origin_text>
+	<relation id="1" pred="吃" pattern="ADV-q(Dn)_SBV-nr(Af)_Pred[吃]_VOB-n(Bp)" syntax_pattern="ADV-q(A)_SBV-nr(A)_Pred[吃]_VOB-n(A)" taggedType="a" pred_id="4" tagged="true" instance="第45分钟，布林德拉倒罗伯茨吃到一张黄牌" feature="1-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="第45分钟" node_id="1" head_word="分钟" sem_cat="Dn">
+			<sub_pattern node_id="1" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="1" content="布林德拉倒罗伯茨" node_id="3" head_word="布林德拉倒罗伯茨" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="一张黄牌" node_id="8" head_word="黄牌" sem_cat="Bp">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(Bp)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="25">
+	<origin_text>半场战罢，曼联2-0曼城。</origin_text>
+</sentence>
+<sentence id="26">
+	<origin_text>下半场双方易地再战，第51分钟，拉什福德右边路直接吊门，好在埃德森注意力集中，后退两步后将球挡出底线。</origin_text>
+	<relation id="1" pred="后退" pattern="Pred[后退]_VOB-q(Dn)_ADV-f(A0)" syntax_pattern="Pred[后退]_VOB-q(A)_ADV-f(A)" taggedType="a" pred_id="20" tagged="false" instance="后退两步后" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="两步" node_id="22" head_word="步" sem_cat="Dn">
+			<sub_pattern node_id="22" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+			<sub_pattern node_id="20" sem_pattern="ATT-后退" syn_pattern="ATT-后退"/>
+			<sub_pattern node_id="23" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="后" node_id="23" head_word="后" sem_cat="">
+		</argument>
+	</relation>
+	<relation id="2" pred="挡" pattern="ADV-将_POB-n(A0)_Pred[挡]_VOB-n(Dd)" syntax_pattern="ADV-将_POB-n(A)_Pred[挡]_VOB-n(A)" taggedType="a" pred_id="26" tagged="false" instance="球挡出底线" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="球" node_id="25" head_word="球" sem_cat="">
+			<sub_pattern node_id="25" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="24" sem_pattern="ADV-将" syn_pattern="ADV-将"/>
+		</argument>
+		<argument id="1" content="底线" node_id="28" head_word="底线" sem_cat="Dd">
+			<sub_pattern node_id="28" sem_pattern="VOB-n(Dd)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="27">
+	<origin_text>第53分钟，卢卡库禁区线上左脚弧线球攻门，皮球狠狠地砸在了球门十分角上弹出。</origin_text>
+	<relation id="1" pred="攻" pattern="ADV-f(A0)_SBV-n(A1)_Pred[攻]_VOB-n(A2)" syntax_pattern="ADV-f(A)_SBV-n(A)_Pred[攻]_VOB-n(A)" taggedType="a" pred_id="8" tagged="false" instance="卢卡库禁区线上左脚弧线球攻门" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="卢卡库禁区线上" node_id="5" head_word="上" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="左脚弧线球" node_id="7" head_word="弧线球" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(A1)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="门" node_id="9" head_word="门" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(A2)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="砸" pattern="SBV-n(Bp)_Pred[砸]_SBV-n(Bn)_VOB-弹" syntax_pattern="SBV-n(A)_Pred[砸]_SBV-n(A)_VOB-弹" taggedType="a" pred_id="14" tagged="true" instance="皮球狠狠地砸在了球门" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="皮球" node_id="11" head_word="皮球" sem_cat="Bp">
+			<sub_pattern node_id="11" sem_pattern="SBV-n(Bp)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="球门" node_id="17" head_word="球门" sem_cat="Bn">
+			<sub_pattern node_id="17" sem_pattern="SBV-n(Bn)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="20" sem_pattern="VOB-弹" syn_pattern="VOB-弹"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="28">
+	<origin_text>第56分钟，罗梅罗门前险些送大礼。</origin_text>
+	<relation id="1" pred="送" pattern="SBV-s(Cb)_Pred[送]_VOB-n(A0)" syntax_pattern="SBV-s(A)_Pred[送]_VOB-n(A)" taggedType="a" pred_id="6" tagged="false" instance="罗梅罗门前险些送大礼" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="罗梅罗门前" node_id="4" head_word="门前" sem_cat="Cb">
+			<sub_pattern node_id="4" sem_pattern="SBV-s(Cb)" syn_pattern="SBV-s(A)"/>
+		</argument>
+		<argument id="1" content="大礼" node_id="8" head_word="礼" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="29">
+	<origin_text>第64分钟，博格巴禁区内左脚射门打在了边网上。</origin_text>
+	<relation id="1" pred="打" pattern="ADV-f(A0)_SBV-n(Bk)_Pred[打]_VOB-s(Cb)" syntax_pattern="ADV-f(A)_SBV-n(A)_Pred[打]_VOB-s(A)" taggedType="a" pred_id="8" tagged="false" instance="博格巴禁区内左脚射门打在了边网上" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="博格巴禁区内" node_id="5" head_word="内" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="左脚" node_id="6" head_word="左脚" sem_cat="Bk">
+			<sub_pattern node_id="6" sem_pattern="SBV-n(Bk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="边网上" node_id="12" head_word="网上" sem_cat="Cb">
+			<sub_pattern node_id="12" sem_pattern="VOB-s(Cb)" syn_pattern="VOB-s(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="30">
+	<origin_text>第73分钟，纳斯里将球吊入禁区，罗梅罗出击将球打出，随后纳斯里外围直接吊射高出球门。</origin_text>
+	<relation id="1" pred="吊入" pattern="SBV-nr(Af)_ADV-将_POB-n(A0)_Pred[吊入]_VOB-n(Cb)" syntax_pattern="SBV-nr(A)_ADV-将_POB-n(A)_Pred[吊入]_VOB-n(A)" taggedType="a" pred_id="6" tagged="false" instance="纳斯里将球吊入禁区" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="纳斯里" node_id="3" head_word="纳斯里" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="球" node_id="5" head_word="球" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="4" sem_pattern="ADV-将" syn_pattern="ADV-将"/>
+		</argument>
+		<argument id="2" content="禁区" node_id="7" head_word="禁区" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Cb)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="打" pattern="SBV-nr(Af)_ADV-将_POB-n(A0)_Pred[打]" syntax_pattern="SBV-nr(A)_ADV-将_POB-n(A)_Pred[打]" taggedType="a" pred_id="13" tagged="false" instance="罗梅罗出击将球打" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="罗梅罗" node_id="9" head_word="罗梅罗" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="球" node_id="12" head_word="球" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="11" sem_pattern="ADV-将" syn_pattern="ADV-将"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="吊射" pattern="ADV-d_POB-f(A0)_Pred[吊射]_VOB-高_VOB-n(Bn)" syntax_pattern="ADV-d_POB-f(A)_Pred[吊射]_VOB-高_VOB-n(A)" taggedType="a" pred_id="20" tagged="false" instance="纳斯里外围直接吊射高出球门" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="纳斯里外围" node_id="18" head_word="外围" sem_cat="">
+			<sub_pattern node_id="18" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="16" sem_pattern="ADV-d" syn_pattern="ADV-d"/>
+		</argument>
+		<argument id="1" content="球门" node_id="23" head_word="球门" sem_cat="Bn">
+			<sub_pattern node_id="23" sem_pattern="VOB-n(Bn)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="21" sem_pattern="VOB-高" syn_pattern="VOB-高"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="31">
+	<origin_text>第78分钟，曼联开出角球，费莱尼头球摆渡，菲尔-琼斯门前连续补射被吹罚越位。</origin_text>
+</sentence>
+<sentence id="32">
+	<origin_text>1分钟后，萨内射门偏出立柱。</origin_text>
+	<relation id="1" pred="偏" pattern="ADV-f(A0)_SBV-nr(Af)_Pred[偏]_VOB-n(Bn)" syntax_pattern="ADV-f(A)_SBV-nr(A)_Pred[偏]_VOB-n(A)" taggedType="a" pred_id="6" tagged="false" instance="1分钟后，萨内射门偏出立柱" feature="1-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="1分钟后" node_id="2" head_word="后" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="萨内" node_id="4" head_word="萨内" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="立柱" node_id="8" head_word="立柱" sem_cat="Bn">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(Bn)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="33">
+	<origin_text>第84分钟，纳斯里外脚背吊入禁区，热苏斯直接凌空垫射直接打飞。</origin_text>
+	<relation id="1" pred="吊入" pattern="SBV-n(Bk)_Pred[吊入]_VOB-n(Cb)" syntax_pattern="SBV-n(A)_Pred[吊入]_VOB-n(A)" taggedType="a" pred_id="5" tagged="true" instance="纳斯里外脚背吊入禁区" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="纳斯里外脚背" node_id="4" head_word="脚背" sem_cat="Bk">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(Bk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="禁区" node_id="6" head_word="禁区" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-n(Cb)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="34">
+	<origin_text>随后，费尔南迪尼奥外围大力远射，罗梅罗将球挡出底线。</origin_text>
+	<relation id="1" pred="远射" pattern="SBV-nr(Af)_ADV-f(A0)_Pred[远射]" syntax_pattern="SBV-nr(A)_ADV-f(A)_Pred[远射]" taggedType="a" pred_id="6" tagged="false" instance="费尔南迪尼奥外围大力远射" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="费尔南迪尼奥" node_id="3" head_word="迪尼奥" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="外围" node_id="4" head_word="外围" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="挡" pattern="SBV-nr(Af)_ADV-将_POB-n(A0)_Pred[挡]_VOB-n(Dd)" syntax_pattern="SBV-nr(A)_ADV-将_POB-n(A)_Pred[挡]_VOB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="罗梅罗将球挡出底线" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="罗梅罗" node_id="8" head_word="罗梅罗" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="球" node_id="10" head_word="球" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="9" sem_pattern="ADV-将" syn_pattern="ADV-将"/>
+		</argument>
+		<argument id="2" content="底线" node_id="13" head_word="底线" sem_cat="Dd">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(Dd)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="35">
+	<origin_text>最终全场比赛结束，曼联2-0曼城。</origin_text>
+</sentence>
+<sentence id="36">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="37">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

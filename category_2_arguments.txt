@@ -1,0 +1,30 @@
+﻿21	category_1.txt	Movement.Transport-Person	Time	2009年	592-596	397-596	592-596	NIL	ACTUAL	0.5	613
+5	category_1.txt	Movement.Transport-Person	Destination	首都 巴格达	80-84	0-199	80-84	NIL	ACTUAL	0.5	78
+27	category_1.txt	Movement.Transport-Person	Destination	东部	1108-1109	910-1109	1108-1109	NIL	ACTUAL	0.5	1105
+17	category_1.txt	Movement.Transport-Person	Time	2009年	309-313	114-313	309-313	NIL	ACTUAL	0.5	314
+20	category_1.txt	Movement.Transport-Person	Agent	公司	544-545	346-545	544-545	NIL	ACTUAL	0.5	546
+14	category_1.txt	Movement.Transport-Person	Agent	公司	247-248	49-248	247-248	NIL	ACTUAL	0.5	249
+8	category_1.txt	Movement.Transport-Person	Agent	中国 石油 公司	153-158	0-199	153-158	NIL	ACTUAL	0.5	159
+11	category_1.txt	Movement.Transport-Person	Time	目前	214-215	16-215	214-215	NIL	ACTUAL	0.5	216
+10	category_1.txt	Movement.Transport-Person	Person	记者	210-211	12-211	210-211	NIL	ACTUAL	0.5	212
+28	category_1.txt	Movement.Transport-Person	Time	/ 日	1185-1186	987-1186	1185-1186	NIL	ACTUAL	0.5	1180
+2	category_1.txt	Movement.Transport-Person	Time	过去 一 周	50-53	0-199	50-53	NIL	ACTUAL	0.5	62
+23	category_1.txt	Movement.Transport-Person	Destination	南部 , 除此之外 就是 库尔德 地区	823-837	638-837	823-837	NIL	ACTUAL	0.5	821
+1	category_1.txt	Movement.Transport-Person	Time	一 周	9-10	0-199	9-10	NIL	ACTUAL	0.5	12
+6	category_1.txt	Movement.Transport-Person	Agent	政府军	104-106	0-199	104-106	NIL	ACTUAL	0.5	109
+31	category_1.txt	Movement.Transport-Person	Destination	伊拉克	1454-1456	1257-1456	1454-1456	NIL	ACTUAL	0.5	1459
+32	category_1.txt	Movement.Transport-Person	Destination	伊朗	1561-1562	1363-1562	1561-1562	NIL	ACTUAL	0.5	1565
+22	category_1.txt	Movement.Transport-Person	Time	目前	665-666	467-666	665-666	NIL	ACTUAL	0.5	668
+15	category_1.txt	Movement.Transport-Person	Destination	伊拉克	278-280	81-280	278-280	NIL	ACTUAL	0.5	283
+3	category_1.txt	Movement.Transport-Person	Origin	伊拉克	57-59	0-199	57-59	NIL	ACTUAL	0.5	62
+12	category_1.txt	Movement.Transport-Person	Destination	北部 地区	224-227	28-227	224-227	NIL	ACTUAL	0.5	216
+9	category_1.txt	Movement.Transport-Person	Person	一 位 中 石油 海外 公司 的 人士	185-196	0-199	185-196	NIL	ACTUAL	0.5	179
+24	category_1.txt	Movement.Transport-Person	Destination	伊拉克	843-845	646-845	843-845	NIL	ACTUAL	0.5	848
+19	category_1.txt	Movement.Transport-Person	Agent	以 旗下 公司	416-420	221-420	416-420	NIL	ACTUAL	0.5	421
+26	category_1.txt	Movement.Transport-Person	Agent	北方 工业 旗下 的 振华 石油 公司	936-948	749-948	936-948	NIL	ACTUAL	0.5	951
+0	category_1.txt	Movement.Transport-Person	Destination	伊拉克	3-5	0-199	3-5	NIL	ACTUAL	0.5	0
+25	category_1.txt	Movement.Transport-Person	Person	记者	887-888	689-888	887-888	NIL	ACTUAL	0.5	889
+33	category_1.txt	Movement.Transport-Person	Time	目前	1586-1587	1388-1587	1586-1587	NIL	ACTUAL	0.5	1590
+30	category_1.txt	Movement.Transport-Person	Agent	两 家 国有 公司	1282-1287	1088-1287	1282-1287	NIL	ACTUAL	0.5	1289
+7	category_1.txt	Movement.Transport-Person	Destination	伊拉克	135-137	0-199	135-137	NIL	ACTUAL	0.5	140
+16	category_1.txt	Movement.Transport-Person	Agent	伊拉克 政府	288-292	93-292	288-292	NIL	ACTUAL	0.5	294

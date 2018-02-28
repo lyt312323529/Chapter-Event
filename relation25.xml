@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title卢卡库再发威拉什福德建功友谊赛曼联击败曼城/Title</origin_text>
+	<relation id="1" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Da)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="6" tagged="true" instance="威拉什福德" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="拉什福德" node_id="6" head_word="拉什福德" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="威" node_id="5" head_word="威" sem_cat="Da">
+			<sub_pattern node_id="6" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="建功" pattern="SBV-nr(Af)_Pred[建功]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[建功]_VOB-n(A)" taggedType="a" pred_id="7" tagged="false" instance="拉什福德建功友谊赛" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="拉什福德" node_id="6" head_word="拉什福德" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="友谊赛" node_id="8" head_word="友谊赛" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>在美国进行的季前友谊赛，曼联对阵同城死敌曼城，相比于上年中国行的马虎应付不一样，曼联曼城这次基本上是全主力，这也是瓜帅和穆帅之间的赛季前斗法，而曼城掌握更多控球，而曼联进攻效率更高，卢卡库继续良好的状态，首开记录。</origin_text>
+	<relation id="1" pred="死" pattern="ADV-同_POB-n(A0)_Pred[死]_VOB-n(A1)" syntax_pattern="ADV-同_POB-n(A)_Pred[死]_VOB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="城死敌曼城" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="城" node_id="10" head_word="城" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="9" sem_pattern="ADV-同" syn_pattern="ADV-同"/>
+		</argument>
+		<argument id="1" content="敌曼城" node_id="13" head_word="曼城" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="开" pattern="ADV-t(Ca)_DE-n(A0)_ATT-u_ADV-m(Dn)_Pred[开]_VOB-n(Dk)" syntax_pattern="ADV-t(A)_DE-n(A)_ATT-u_ADV-m(A)_Pred[开]_VOB-n(A)" taggedType="a" pred_id="67" tagged="false" instance="上年中国行的马虎应付不一样，曼联曼城这次基本上是全主力，这也是瓜帅和穆帅之间的赛季前斗法，而曼城掌握更多控球，而曼联进攻效率更高，卢卡库继续良好的状态，首开记录" feature="0-1-0-0-1-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="上年" node_id="17" head_word="上年" sem_cat="Ca">
+			<sub_pattern node_id="17" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="中国行" node_id="19" head_word="行" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="DE-n(A0)" syn_pattern="DE-n(A)"/>
+			<sub_pattern node_id="20" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+		</argument>
+		<argument id="2" content="首" node_id="66" head_word="首" sem_cat="Dn">
+			<sub_pattern node_id="66" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+		</argument>
+		<argument id="3" content="记录" node_id="68" head_word="记录" sem_cat="Dk">
+			<sub_pattern node_id="68" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="是" pattern="SBV-ns(Cb)_ADV-r(Ca)_Pred[是]_VOB-n(Dd)" syntax_pattern="SBV-ns(A)_ADV-r(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="29" tagged="true" instance="曼联曼城这次基本上是全主力" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼联曼城" node_id="26" head_word="曼联曼城" sem_cat="Cb">
+			<sub_pattern node_id="26" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="这次" node_id="27" head_word="这次" sem_cat="Ca">
+			<sub_pattern node_id="27" sem_pattern="ADV-r(Ca)" syn_pattern="ADV-r(A)"/>
+		</argument>
+		<argument id="2" content="全主力" node_id="31" head_word="主力" sem_cat="Dd">
+			<sub_pattern node_id="31" sem_pattern="VOB-n(Dd)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="是" pattern="SBV-r(Ca)_Pred[是]_VOB-n(A0)" syntax_pattern="SBV-r(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="35" tagged="false" instance="这也是瓜帅和穆帅之间的赛季前斗法，而曼城掌握更多控球，而曼联进攻效率更高，卢卡库继续良好的状态" feature="1-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这" node_id="33" head_word="这" sem_cat="Ca">
+			<sub_pattern node_id="33" sem_pattern="SBV-r(Ca)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="状态" node_id="64" head_word="状态" sem_cat="">
+			<sub_pattern node_id="64" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="掌握" pattern="SBV-ns(Cb)_Pred[掌握]_VOB-控_VOB-n(A0)" syntax_pattern="SBV-ns(A)_Pred[掌握]_VOB-控_VOB-n(A)" taggedType="a" pred_id="47" tagged="false" instance="曼城掌握更多控球" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="曼城" node_id="46" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="46" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="球" node_id="51" head_word="球" sem_cat="">
+			<sub_pattern node_id="51" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="50" sem_pattern="VOB-控" syn_pattern="VOB-控"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>曼联首发：德赫亚；瓦伦西亚，林德洛夫，斯马林，布林德；埃雷拉，博格巴；拉什福德，姆希塔良，林加德；卢卡库。</origin_text>
+</sentence>
+<sentence id="9">
+	<origin_text>曼城首发：埃德森；阿达拉比奥约，孔帕尼，费尔南迪尼奥；沃克尔，亚亚-图雷，福登，德布劳内；斯特林，阿圭罗，罗伯茨。</origin_text>
+	<relation id="1" pred="首发" pattern="SBV-ns(Cb)_Pred[首发]_VOB-nr(Af)" syntax_pattern="SBV-ns(A)_Pred[首发]_VOB-nr(A)" taggedType="a" pred_id="1" tagged="true" instance="曼城首发：埃德森；阿达拉比奥约，孔帕尼，费尔南迪尼奥；沃克尔，亚亚-图雷，福登，德布劳内；斯特林，阿圭罗，罗伯茨" feature="1-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼城" node_id="0" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="0" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="；斯特林阿圭罗罗伯茨" node_id="25" head_word="罗伯茨" sem_cat="Af">
+			<sub_pattern node_id="25" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>借着曼城的大军压上，一脚长传反击，卢卡库最擅长的反击单刀，头球顶过了门将债角度射门，1-0。</origin_text>
+	<relation id="1" pred="反击" pattern="ADV-借着_POB-f(A0)_SBV-n(A1)_Pred[反击]_VOB-m(Dn)" syntax_pattern="ADV-借着_POB-f(A)_SBV-n(A)_Pred[反击]_VOB-m(A)" taggedType="a" pred_id="10" tagged="false" instance="大军压上，一脚长传反击，卢卡库最擅长的反击单刀，头球顶过了门将债角度射门，1-0" feature="0-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="大军压上" node_id="5" head_word="上" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-借着" syn_pattern="ADV-借着"/>
+		</argument>
+		<argument id="1" content="一脚" node_id="8" head_word="脚" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(A1)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="1-0" node_id="28" head_word="1-0" sem_cat="Dn">
+			<sub_pattern node_id="28" sem_pattern="VOB-m(Dn)" syn_pattern="VOB-m(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="射门" pattern="TPC-n(Bo)_SBV-n(Db)_Pred[射门]" syntax_pattern="TPC-n(A)_SBV-n(A)_Pred[射门]" taggedType="a" pred_id="26" tagged="true" instance="反击单刀，头球顶过了门将债角度射门" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="反击单刀" node_id="17" head_word="单刀" sem_cat="Bo">
+			<sub_pattern node_id="17" sem_pattern="TPC-n(Bo)" syn_pattern="TPC-n(A)"/>
+		</argument>
+		<argument id="1" content="头球" node_id="19" head_word="头球" sem_cat="Db">
+			<sub_pattern node_id="19" sem_pattern="SBV-n(Db)" syn_pattern="SBV-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>这种反击球是卢卡库的典型进球，基本上卢卡库可算是英超最强反击型前锋。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-n(A0)_Pred[是]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="2" tagged="false" instance="这种反击球是卢卡库的典型进球" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这种反击球" node_id="1" head_word="反击球" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="典型进球" node_id="6" head_word="进球" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="算是" pattern="SBV-nr(Af)_Pred[算是]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[算是]_VOB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="卢卡库可算是英超最强反击型前锋" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="卢卡库" node_id="9" head_word="卢卡库" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="最强反击型前锋" node_id="15" head_word="前锋" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>随后姆希塔良分球，拉什福德禁区右路一脚大力抽射远角破门，2-0。</origin_text>
+	<relation id="1" pred="抽射" pattern="SBV-n(A0)_Pred[抽射]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[抽射]_VOB-n(A)" taggedType="a" pred_id="10" tagged="false" instance="拉什福德禁区右路一脚大力抽射远角" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="拉什福德禁区右路一脚" node_id="8" head_word="脚" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="远角" node_id="12" head_word="角" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="13">
+	<origin_text>最终曼联拿下了这场胜利。</origin_text>
+</sentence>
+<sentence id="14">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="15">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

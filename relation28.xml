@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title“徐玉玉事件”发生近一年后，为什么电信诈骗还是屡禁不止？</origin_text>
+	<relation id="1" pred="发生" pattern="SBV-n(Da)_Pred[发生]_CMP-q(Dn)" syntax_pattern="SBV-n(A)_Pred[发生]_CMP-q(A)" taggedType="a" pred_id="6" tagged="true" instance="Title“徐玉玉事件”发生近一年" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="Title徐玉玉事件" node_id="4" head_word="事件" sem_cat="Da">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(Da)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="一年" node_id="9" head_word="年" sem_cat="Dn">
+			<sub_pattern node_id="9" sem_pattern="CMP-q(Dn)" syn_pattern="CMP-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="禁" pattern="ADV-f(A0)_ADV-r(A1)_ATT-n(Di)_SBV-诈骗_Pred[禁]" syntax_pattern="ADV-f(A)_ADV-r(A)_ATT-n(A)_SBV-诈骗_Pred[禁]" taggedType="a" pred_id="17" tagged="false" instance="后，为什么电信诈骗还是屡禁" feature="0-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="后" node_id="10" head_word="后" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="为什么" node_id="12" head_word="为什么" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="ADV-r(A1)" syn_pattern="ADV-r(A)"/>
+		</argument>
+		<argument id="2" content="电信" node_id="13" head_word="电信" sem_cat="Di">
+			<sub_pattern node_id="13" sem_pattern="ATT-n(Di)" syn_pattern="ATT-n(A)"/>
+			<sub_pattern node_id="14" sem_pattern="SBV-诈骗" syn_pattern="SBV-诈骗"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>/Title</origin_text>
+</sentence>
+<sentence id="8">
+	<origin_text>2016年8月份，因被诈骗电话骗走上大学的费用9900元，山东临沂考生徐玉玉伤心欲绝，最终导致心脏骤停，不幸离世。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Dm)_Pred[de]_dobj-n(Dj)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="11" tagged="true" instance="大学的费用9900元" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="大学" node_id="10" head_word="大学" sem_cat="Dm">
+			<sub_pattern node_id="10" sem_pattern="nsubj-n(Dm)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="费用9900元" node_id="12" head_word="费用" sem_cat="Dj">
+			<sub_pattern node_id="12" sem_pattern="dobj-n(Dj)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="走" pattern="ADV-t(Ca)_Pred[走]_VOB-n(Dj)" syntax_pattern="ADV-t(A)_Pred[走]_VOB-n(A)" taggedType="a" pred_id="8" tagged="true" instance="2016年8月份，因被诈骗电话骗走上大学的费用9900元" feature="1-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="2016年8月份" node_id="1" head_word="8月份" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="费用9900元" node_id="12" head_word="费用" sem_cat="Dj">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Dj)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="19" tagged="true" instance="山东临沂考生徐玉玉" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="徐玉玉" node_id="19" head_word="徐玉玉" sem_cat="Af">
+			<sub_pattern node_id="19" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="山东临沂考生" node_id="18" head_word="考生" sem_cat="Af">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="导致" pattern="SBV-nr(Af)_Pred[导致]_SBV-n(A0)_VOB-停" syntax_pattern="SBV-nr(A)_Pred[导致]_SBV-n(A)_VOB-停" taggedType="a" pred_id="25" tagged="false" instance="山东_临沂_考生_徐玉玉最终导致心脏" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="山东临沂考生徐玉玉(Z)" node_id="23" head_word="山东 临沂 考生 徐玉玉" sem_cat="Af">
+			<sub_pattern node_id="23" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="心脏" node_id="26" head_word="心脏" sem_cat="">
+			<sub_pattern node_id="26" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="28" sem_pattern="VOB-停" syn_pattern="VOB-停"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="离" pattern="SBV-nr(Af)_Pred[离]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[离]_VOB-n(A)" taggedType="a" pred_id="32" tagged="false" instance="山东_临沂_考生_徐玉玉不幸离世" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="山东临沂考生徐玉玉(Z)" node_id="30" head_word="山东 临沂 考生 徐玉玉" sem_cat="Af">
+			<sub_pattern node_id="30" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="世" node_id="33" head_word="世" sem_cat="">
+			<sub_pattern node_id="33" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>2016年6月至8月，被告人陈文辉通过社交软件、支付宝等工具购买非法获取高考学生信息10万余条，并实施电信诈骗活动。</origin_text>
+	<relation id="1" pred="购买|信息" pattern="ADV-t(Ca)_SBV-nr(Af)_ADV-通过_POB-n(Bo)_Pred[购买]_VOB-获取_VOB-n(Da)" syntax_pattern="ADV-t(A)_SBV-nr(A)_ADV-通过_POB-n(A)_Pred[购买]_VOB-获取_VOB-n(A)" taggedType="a" pred_id="14" tagged="true" instance="2016年6月至8月，被告人陈文辉通过社交软件、支付宝等工具购买非法获取高考学生信息10万余条" feature="1-1-0-0-1-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="2016年6月至8月" node_id="3" head_word="8月" sem_cat="Ca">
+			<sub_pattern node_id="3" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="陈文辉" node_id="6" head_word="陈文辉" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="社交软件、支付宝等工具" node_id="13" head_word="工具" sem_cat="Bo">
+			<sub_pattern node_id="13" sem_pattern="POB-n(Bo)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-通过" syn_pattern="ADV-通过"/>
+		</argument>
+		<argument id="3" content="高考学生信息10万余条" node_id="19" head_word="信息" sem_cat="Da">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="16" sem_pattern="VOB-获取" syn_pattern="VOB-获取"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="6" tagged="true" instance="山东临沂考生徐玉玉" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="陈文辉" node_id="6" head_word="陈文辉" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="被告人" node_id="5" head_word="被告人" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="实施" pattern="SBV-nr(Af)_Pred[实施]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[实施]_VOB-n(A)" taggedType="a" pred_id="26" tagged="false" instance="被告人_陈文辉并实施电信诈骗活动" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="被告人陈文辉(Z)" node_id="24" head_word="被告人 陈文辉" sem_cat="Af">
+			<sub_pattern node_id="24" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="电信诈骗活动" node_id="29" head_word="活动" sem_cat="">
+			<sub_pattern node_id="29" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>7月19日日上午，时隔一年，“徐玉玉”事件终于开庭宣判了，主犯陈文辉一审判无期徒刑，没收个人全部财产。</origin_text>
+	<relation id="1" pred="宣判" pattern="ADV-t(Ca)_SBV-n(Da)_Pred[宣判]" syntax_pattern="ADV-t(A)_SBV-n(A)_Pred[宣判]" taggedType="a" pred_id="14" tagged="true" instance="7月19日日上午，时隔一年，“徐玉玉”事件终于开庭宣判" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="7月19日日上午" node_id="2" head_word="上午" sem_cat="Ca">
+			<sub_pattern node_id="2" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="徐玉玉事件" node_id="11" head_word="事件" sem_cat="Da">
+			<sub_pattern node_id="11" sem_pattern="SBV-n(Da)" syn_pattern="SBV-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="判" pattern="SBV-n(A0)_Pred[判]_VOB-n(Di)" syntax_pattern="SBV-n(A)_Pred[判]_VOB-n(A)" taggedType="a" pred_id="20" tagged="false" instance="陈文辉一审判无期徒刑" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="陈文辉一审" node_id="19" head_word="一审" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="无期徒刑" node_id="22" head_word="徒刑" sem_cat="Di">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>其他六名被告人被判15年到3年不等的有期徒刑并处罚金。</origin_text>
+	<relation id="1" pred="判" pattern="SBV-n(Af)_Pred[判]_ADV-q(Dn)_VOB-不等_ATT-u_SBV-n(Di)" syntax_pattern="SBV-n(A)_Pred[判]_ADV-q(A)_VOB-不等_ATT-u_SBV-n(A)" taggedType="a" pred_id="5" tagged="true" instance="其他六名被告人被判15年到3年不等的有期徒刑" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="其他六名被告人" node_id="3" head_word="被告人" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="5" sem_pattern="DE-判" syn_pattern="DE-判"/>
+			<sub_pattern node_id="12" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="14" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="15年到3年" node_id="10" head_word="年" sem_cat="Dn">
+			<sub_pattern node_id="10" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+			<sub_pattern node_id="11" sem_pattern="VOB-不等" syn_pattern="VOB-不等"/>
+		</argument>
+		<argument id="2" content="徒刑" node_id="14" head_word="徒刑" sem_cat="Di">
+		</argument>
+	</relation>
+	<relation id="2" pred="并处" pattern="SBV-n(Di)_Pred[并处]_VOB-n(Dj)" syntax_pattern="SBV-n(A)_Pred[并处]_VOB-n(A)" taggedType="a" pred_id="15" tagged="true" instance="有期徒刑并处罚金" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="有期徒刑" node_id="14" head_word="徒刑" sem_cat="Di">
+			<sub_pattern node_id="14" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="罚金" node_id="16" head_word="罚金" sem_cat="Dj">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Dj)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>但是这种阴霾一直在人们的心中挥之不去，面对通信诈骗的遏制，运营商有义不容辞的责任。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Af)_Pred[de]_dobj-s(Df)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-s(A)" taggedType="a" pred_id="6" tagged="true" instance="人们的心中" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="人们" node_id="5" head_word="人们" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="nsubj-n(Af)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="心中" node_id="7" head_word="心中" sem_cat="Df">
+			<sub_pattern node_id="7" sem_pattern="dobj-s(Df)" syn_pattern="dobj-s(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="挥之不去" pattern="SBV-n(A0)_ADV-在_POB-s(Df)_Pred[挥之不去]" syntax_pattern="SBV-n(A)_ADV-在_POB-s(A)_Pred[挥之不去]" taggedType="a" pred_id="8" tagged="false" instance="这种阴霾一直在人们的心中挥之不去" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这种阴霾" node_id="2" head_word="阴霾" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="心中" node_id="7" head_word="心中" sem_cat="Df">
+			<sub_pattern node_id="7" sem_pattern="POB-s(Df)" syn_pattern="POB-s(A)"/>
+			<sub_pattern node_id="4" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="有" pattern="ADV-面对_VOB-n(A0)_SBV-n(A1)_Pred[有]_VOB-n(Di)" syntax_pattern="ADV-面对_VOB-n(A)_SBV-n(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="17" tagged="false" instance="遏制，运营商有义不容辞的责任" feature="0-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="遏制" node_id="14" head_word="遏制" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="10" sem_pattern="ADV-面对" syn_pattern="ADV-面对"/>
+		</argument>
+		<argument id="1" content="运营商" node_id="16" head_word="运营商" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="SBV-n(A1)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="责任" node_id="20" head_word="责任" sem_cat="Di">
+			<sub_pattern node_id="20" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="13">
+	<origin_text>在“徐玉玉”事件发生之后，三大运营商加强实名制管理，并对未实名的电话号码做停机处理，确保在网用户100%实名。</origin_text>
+	<relation id="1" pred="发生" pattern="SBV-n(Da)_Pred[发生]_POB-f(Ca)" syntax_pattern="SBV-n(A)_Pred[发生]_POB-f(A)" taggedType="a" pred_id="5" tagged="true" instance="“徐玉玉”事件发生之后" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="徐玉玉事件" node_id="4" head_word="事件" sem_cat="Da">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(Da)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="5" sem_pattern="ATT-发生" syn_pattern="ATT-发生"/>
+			<sub_pattern node_id="6" sem_pattern="POB-f(Ca)" syn_pattern="POB-f(A)"/>
+		</argument>
+		<argument id="1" content="之后" node_id="6" head_word="之后" sem_cat="Ca">
+		</argument>
+	</relation>
+	<relation id="2" pred="加强" pattern="SBV-n(A0)_Pred[加强]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[加强]_VOB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="三大运营商加强实名制管理" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="三大运营商" node_id="10" head_word="运营商" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="实名制管理" node_id="13" head_word="管理" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="做" pattern="ADV-对_POB-n(Dk)_Pred[做]_VOB-n(A0)" syntax_pattern="ADV-对_POB-n(A)_Pred[做]_VOB-n(A)" taggedType="a" pred_id="22" tagged="false" instance="电话号码做停机处理" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="电话号码" node_id="21" head_word="号码" sem_cat="Dk">
+			<sub_pattern node_id="21" sem_pattern="POB-n(Dk)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="16" sem_pattern="ADV-对" syn_pattern="ADV-对"/>
+		</argument>
+		<argument id="1" content="停机处理" node_id="24" head_word="处理" sem_cat="">
+			<sub_pattern node_id="24" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="确保" pattern="SBV-n(A0)_Pred[确保]_CMP-在_POB-n(A1)" syntax_pattern="SBV-n(A)_Pred[确保]_CMP-在_POB-n(A)" taggedType="a" pred_id="27" tagged="false" instance="三_大_运营商确保在网用户100%实名" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="三大运营商(Z)" node_id="26" head_word="三 大 运营商" sem_cat="">
+			<sub_pattern node_id="26" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="网用户100%实名" node_id="33" head_word="名" sem_cat="">
+			<sub_pattern node_id="33" sem_pattern="POB-n(A1)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="28" sem_pattern="CMP-在" syn_pattern="CMP-在"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="14">
+	<origin_text>同时运营商也在内部掀起了一场“清查”行动—进一步加强了语音业务规范管理。</origin_text>
+	<relation id="1" pred="掀起" pattern="SBV-n(A0)_ADV-在_POB-f(Da)_Pred[掀起]_VOB-n(Di)" syntax_pattern="SBV-n(A)_ADV-在_POB-f(A)_Pred[掀起]_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="运营商也在内部掀起了一场“清查”行动" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="运营商" node_id="1" head_word="运营商" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="内部" node_id="4" head_word="内部" sem_cat="Da">
+			<sub_pattern node_id="4" sem_pattern="POB-f(Da)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="3" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="一场清查行动" node_id="12" head_word="行动" sem_cat="Di">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="加强" pattern="SBV-n(A0)_Pred[加强]_ATT-n(Di)_VOB-管理" syntax_pattern="SBV-n(A)_Pred[加强]_ATT-n(A)_VOB-管理" taggedType="a" pred_id="16" tagged="false" instance="运营商进一步加强了语音业务" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="运营商(Z)" node_id="14" head_word="运营商" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="语音业务" node_id="19" head_word="业务" sem_cat="Di">
+			<sub_pattern node_id="19" sem_pattern="ATT-n(Di)" syn_pattern="ATT-n(A)"/>
+			<sub_pattern node_id="21" sem_pattern="VOB-管理" syn_pattern="VOB-管理"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="15">
+	<origin_text>现在市场上也出现了很多电话标记，但是这些应用和运营商之间的数据并未打通，一方面是号码易主之后不能和其快速同步，导致新主电话可能被标记成为“诈骗电话”引起误会；另一方面是不能快速标记新号码的使用用途。</origin_text>
+	<relation id="2" pred="出现" pattern="ADV-t(Ca)_SBV-f(A0)_Pred[出现]_VOB-n(A1)" syntax_pattern="ADV-t(A)_SBV-f(A)_Pred[出现]_VOB-n(A)" taggedType="a" pred_id="4" tagged="false" instance="现在市场上也出现了很多电话标记" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="现在" node_id="0" head_word="现在" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="市场上" node_id="2" head_word="上" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="SBV-f(A0)" syn_pattern="SBV-f(A)"/>
+		</argument>
+		<argument id="2" content="很多电话标记" node_id="8" head_word="标记" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="易" pattern="SBV-n(Dk)_Pred[易]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[易]_VOB-n(A)" taggedType="a" pred_id="24" tagged="false" instance="号码易主" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="号码" node_id="23" head_word="号码" sem_cat="Dk">
+			<sub_pattern node_id="23" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="主" node_id="25" head_word="主" sem_cat="">
+			<sub_pattern node_id="25" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="同步" pattern="ADV-f(Ca)_ADV-和_POB-r(A0)_Pred[同步]" syntax_pattern="ADV-f(A)_ADV-和_POB-r(A)_Pred[同步]" taggedType="a" pred_id="32" tagged="false" instance="之后不能和其快速同步" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="之后" node_id="26" head_word="之后" sem_cat="Ca">
+			<sub_pattern node_id="26" sem_pattern="ADV-f(Ca)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="其" node_id="30" head_word="其" sem_cat="">
+			<sub_pattern node_id="30" sem_pattern="POB-r(A0)" syn_pattern="POB-r(A)"/>
+			<sub_pattern node_id="29" sem_pattern="ADV-和" syn_pattern="ADV-和"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="标记" pattern="SBV-n(Bo)_Pred[标记]_VOB-引起_VOB-n(Da)" syntax_pattern="SBV-n(A)_Pred[标记]_VOB-引起_VOB-n(A)" taggedType="a" pred_id="39" tagged="true" instance="新主电话可能被标记成为“诈骗电话”引起误会" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="新主电话" node_id="36" head_word="电话" sem_cat="Bo">
+			<sub_pattern node_id="36" sem_pattern="SBV-n(Bo)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="误会" node_id="46" head_word="误会" sem_cat="Da">
+			<sub_pattern node_id="46" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="45" sem_pattern="VOB-引起" syn_pattern="VOB-引起"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="16">
+	<origin_text>但是在这个互联网时代，个人信息泄露司空见惯，网络电信诈骗屡禁不止，这种现象的产生到底存在什么原因呢？</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="h" pred_id="21" tagged="false" instance="这种现象的产生" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这种现象" node_id="20" head_word="现象" sem_cat="">
+			<sub_pattern node_id="20" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="产生" node_id="22" head_word="产生" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="司空见惯" pattern="ADV-在_POB-n(Ca)_SBV-n(Da)_Pred[司空见惯]" syntax_pattern="ADV-在_POB-n(A)_SBV-n(A)_Pred[司空见惯]" taggedType="a" pred_id="9" tagged="true" instance="这个互联网时代，个人信息泄露司空见惯" feature="0-1-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="这个互联网时代" node_id="4" head_word="时代" sem_cat="Ca">
+			<sub_pattern node_id="4" sem_pattern="POB-n(Ca)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="个人信息" node_id="7" head_word="信息" sem_cat="Da">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(Da)" syn_pattern="SBV-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="止" pattern="SBV-n(Di)_Pred[止]_SBV-n(A0)_VOB-存在_VOB-n(Db)" syntax_pattern="SBV-n(A)_Pred[止]_SBV-n(A)_VOB-存在_VOB-n(A)" taggedType="a" pred_id="17" tagged="false" instance="网络电信诈骗屡禁不止，这种现象的产生到底存在什么原因" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="网络电信" node_id="12" head_word="电信" sem_cat="Di">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="产生" node_id="22" head_word="产生" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="24" sem_pattern="VOB-存在" syn_pattern="VOB-存在"/>
+		</argument>
+		<argument id="2" content="什么原因" node_id="26" head_word="原因" sem_cat="Db">
+			<sub_pattern node_id="26" sem_pattern="VOB-n(Db)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="17">
+	<origin_text>首先，网络空间本身的隐蔽性决定了网络电信诈骗取证难、查处难；其次，网络电信诈骗手段日益升级，团伙作案、跨境作案、连环作案，给侦查工作带来挑战；其三，网络电信诈骗针对的对象日益多元，诈骗形式花样百出，让人防不胜防，受害人群体简直是涵盖了各种身份的人；其四，一些商品或服务提供者、网络服务平台怠于网络服务安全监管，致使网络用户个人信息被泄露，有的甚至出现内鬼直接售卖用户个人信息；除此之外，电信主管部门网络监管和打击力度不够、网络用户缺乏个人信息保密意识、随意进行网站注册等行为、部分人员缺乏安全防范意识且存在贪图小便宜心理等因素，一定程度上都给网络诈骗分子实施诈骗以可乘之机。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-r(Af)_Pred[de]_dobj-n(Dd)" syntax_pattern="nsubj-r(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="5" tagged="true" instance="网络空间本身的隐蔽性" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="网络空间本身" node_id="4" head_word="本身" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="nsubj-r(Af)" syn_pattern="nsubj-r(A)"/>
+		</argument>
+		<argument id="1" content="隐蔽性" node_id="6" head_word="隐蔽性" sem_cat="Dd">
+			<sub_pattern node_id="6" sem_pattern="dobj-n(Dd)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-n(Dd)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="70" tagged="false" instance="各种身份的人" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="各种身份" node_id="69" head_word="身份" sem_cat="Dd">
+			<sub_pattern node_id="69" sem_pattern="nsubj-n(Dd)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="人" node_id="71" head_word="人" sem_cat="">
+			<sub_pattern node_id="71" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="决定" pattern="SBV-n(Dd)_Pred[决定]_SBV-n(Di)_VOB-诈骗" syntax_pattern="SBV-n(A)_Pred[决定]_SBV-n(A)_VOB-诈骗" taggedType="a" pred_id="7" tagged="true" instance="隐蔽性决定了网络电信" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="隐蔽性" node_id="6" head_word="隐蔽性" sem_cat="Dd">
+			<sub_pattern node_id="6" sem_pattern="SBV-n(Dd)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="网络电信" node_id="10" head_word="电信" sem_cat="Di">
+			<sub_pattern node_id="10" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="11" sem_pattern="VOB-诈骗" syn_pattern="VOB-诈骗"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="带来" pattern="SBV-n(A0)_ADV-给_POB-n(Di)_Pred[带来]" syntax_pattern="SBV-n(A)_ADV-给_POB-n(A)_Pred[带来]" taggedType="a" pred_id="40" tagged="false" instance="、跨境作案、连环作案，给侦查工作带来" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="、跨境作案、连环作案" node_id="35" head_word="作案" sem_cat="">
+			<sub_pattern node_id="35" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="侦查工作" node_id="39" head_word="工作" sem_cat="Di">
+			<sub_pattern node_id="39" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="37" sem_pattern="ADV-给" syn_pattern="ADV-给"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="诈骗" pattern="SBV-n(Di)_Pred[诈骗]_SBV-n(A0)_VOB-d" syntax_pattern="SBV-n(A)_Pred[诈骗]_SBV-n(A)_VOB-d" taggedType="a" pred_id="47" tagged="false" instance="网络电信诈骗针对的对象" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="网络电信" node_id="46" head_word="电信" sem_cat="Di">
+			<sub_pattern node_id="46" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="对象" node_id="50" head_word="对象" sem_cat="">
+			<sub_pattern node_id="50" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="52" sem_pattern="VOB-d" syn_pattern="VOB-d"/>
+		</argument>
+	</relation>
+	<relation id="6" pred="是" pattern="SBV-n(A0)_Pred[是]_VOB-涵盖_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-涵盖_VOB-n(A)" taggedType="a" pred_id="65" tagged="false" instance="受害人群体简直是涵盖了各种身份的人" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="受害人群体" node_id="63" head_word="群体" sem_cat="">
+			<sub_pattern node_id="63" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="人" node_id="71" head_word="人" sem_cat="">
+			<sub_pattern node_id="71" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="66" sem_pattern="VOB-涵盖" syn_pattern="VOB-涵盖"/>
+		</argument>
+	</relation>
+	<relation id="7" pred="实施" pattern="ADV-r(A0)_ADV-f(A1)_ADV-给_POB-n(Af)_Pred[实施]_VOB-n(Ca)" syntax_pattern="ADV-r(A)_ADV-f(A)_ADV-给_POB-n(A)_Pred[实施]_VOB-n(A)" taggedType="a" pred_id="159" tagged="false" instance="其四，一些商品或服务提供者、网络服务平台怠于网络服务安全监管，致使网络用户个人信息被泄露，有的甚至出现内鬼直接售卖用户个人信息；除此之外，电信主管部门网络监管和打击力度不够、网络用户缺乏个人信息保密意识、随意进行网站注册等行为、部分人员缺乏安全防范意识且存在贪图小便宜心理等因素，一定程度上都给网络诈骗分子实施诈骗以可乘之机" feature="0-1-0-0-1-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="其四" node_id="73" head_word="其四" sem_cat="">
+			<sub_pattern node_id="73" sem_pattern="ADV-r(A0)" syn_pattern="ADV-r(A)"/>
+		</argument>
+		<argument id="1" content="一定程度上" node_id="153" head_word="上" sem_cat="">
+			<sub_pattern node_id="153" sem_pattern="ADV-f(A1)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="2" content="网络诈骗分子" node_id="158" head_word="分子" sem_cat="Af">
+			<sub_pattern node_id="158" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="155" sem_pattern="ADV-给" syn_pattern="ADV-给"/>
+		</argument>
+		<argument id="3" content="诈骗以可乘之机" node_id="162" head_word="可乘之机" sem_cat="Ca">
+			<sub_pattern node_id="162" sem_pattern="VOB-n(Ca)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="8" pred="服务" pattern="SBV-n(Bb)_Pred[服务]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[服务]_VOB-n(A)" taggedType="a" pred_id="87" tagged="false" instance="网络服务安全监管" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="网络" node_id="86" head_word="网络" sem_cat="Bb">
+			<sub_pattern node_id="86" sem_pattern="SBV-n(Bb)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="安全监管" node_id="89" head_word="监管" sem_cat="">
+			<sub_pattern node_id="89" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="9" pred="出现" pattern="SBV-r(A0)_Pred[出现]_VOB-存在_VOB-n(Dd)" syntax_pattern="SBV-r(A)_Pred[出现]_VOB-存在_VOB-n(A)" taggedType="a" pred_id="101" tagged="false" instance="有的甚至出现内鬼直接售卖用户个人信息；除此之外，电信主管部门网络监管和打击力度不够、网络用户缺乏个人信息保密意识、随意进行网站注册等行为、部分人员缺乏安全防范意识且存在贪图小便宜心理等因素" feature="1-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="有的" node_id="99" head_word="有的" sem_cat="">
+			<sub_pattern node_id="99" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="因素" node_id="149" head_word="因素" sem_cat="Dd">
+			<sub_pattern node_id="149" sem_pattern="VOB-n(Dd)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="143" sem_pattern="VOB-存在" syn_pattern="VOB-存在"/>
+		</argument>
+	</relation>
+	<relation id="10" pred="售卖" pattern="SBV-n(A0)_Pred[售卖]_VOB-n(Da)" syntax_pattern="SBV-n(A)_Pred[售卖]_VOB-n(A)" taggedType="a" pred_id="104" tagged="false" instance="内鬼直接售卖用户个人信息" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="内鬼" node_id="102" head_word="内鬼" sem_cat="">
+			<sub_pattern node_id="102" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="用户个人信息" node_id="107" head_word="信息" sem_cat="Da">
+			<sub_pattern node_id="107" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="11" pred="缺乏" pattern="SBV-n(Di)_Pred[缺乏]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[缺乏]_VOB-n(A)" taggedType="a" pred_id="123" tagged="false" instance="网络用户缺乏个人信息保密意识" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="网络用户" node_id="122" head_word="用户" sem_cat="Di">
+			<sub_pattern node_id="122" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="个人信息保密意识" node_id="127" head_word="意识" sem_cat="">
+			<sub_pattern node_id="127" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="12" pred="缺乏" pattern="SBV-n(Af)_Pred[缺乏]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[缺乏]_VOB-n(A)" taggedType="a" pred_id="138" tagged="false" instance="网站注册等行为、部分人员缺乏安全防范意识" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="网站注册等行为、部分人员" node_id="137" head_word="人员" sem_cat="Af">
+			<sub_pattern node_id="137" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="安全防范意识" node_id="141" head_word="意识" sem_cat="">
+			<sub_pattern node_id="141" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="18">
+	<origin_text>当然，电信和网络诈骗犯罪的惩治和预防，除了要靠公安部门的侦查和刑事打击以及相关主管部门的大力监督外，更要依靠各类网络主体的自觉：比如，网络服务平台应加强平台建设和监管，防止用户信息泄露；商品和服务提供者应强化守法意识，杜绝追求自身利益而出卖消费者个人信息行为；对于网络用户及普通消费者，应加强自身信息的保密意识，杜绝随意透露个人信息行为等。</origin_text>
+	<relation id="2" pred="诈骗" pattern="SBV-n(Bb)_Pred[诈骗]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[诈骗]_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="电信和网络诈骗犯罪的惩治和预防" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="电信和网络" node_id="4" head_word="网络" sem_cat="Bb">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(Bb)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="惩治和预防" node_id="10" head_word="预防" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="加强" pattern="SBV-n(Bn)_Pred[加强]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[加强]_VOB-n(A)" taggedType="a" pred_id="46" tagged="false" instance="网络服务平台应加强平台建设和监管" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="网络服务平台" node_id="44" head_word="平台" sem_cat="Bn">
+			<sub_pattern node_id="44" sem_pattern="SBV-n(Bn)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="平台建设和监管" node_id="50" head_word="监管" sem_cat="">
+			<sub_pattern node_id="50" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="强化" pattern="SBV-n(A0)_Pred[强化]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[强化]_VOB-n(A)" taggedType="a" pred_id="62" tagged="false" instance="商品和服务提供者应强化守法意识" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="商品和服务提供者" node_id="60" head_word="提供者" sem_cat="">
+			<sub_pattern node_id="60" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="守法意识" node_id="64" head_word="意识" sem_cat="">
+			<sub_pattern node_id="64" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="出卖" pattern="Pred[出卖]_VOB-n(Da)_VOB-n(Di)" syntax_pattern="Pred[出卖]_VOB-n(A)_VOB-n(A)" taggedType="a" pred_id="71" tagged="true" instance="出卖消费者个人信息行为" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="消费者个人信息" node_id="74" head_word="信息" sem_cat="Da">
+			<sub_pattern node_id="74" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="71" sem_pattern="ATT-出卖" syn_pattern="ATT-出卖"/>
+			<sub_pattern node_id="75" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="1" content="行为" node_id="75" head_word="行为" sem_cat="Di">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="19">
+	<origin_text>网络信息安全任重而道远，是一个全社会都需要重视的问题，需要自身保密意识的提高，所有企业、机构去提高警惕公安部门的督查等。</origin_text>
+	<relation id="2" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="h" pred_id="30" tagged="false" instance="这种现象的产生" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="警惕公安部门" node_id="29" head_word="公安部门" sem_cat="">
+			<sub_pattern node_id="29" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="督查" node_id="31" head_word="督查" sem_cat="">
+			<sub_pattern node_id="31" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="提高" pattern="SBV-n(A0)_Pred[提高]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[提高]_VOB-n(A)" taggedType="a" pred_id="27" tagged="false" instance="所有企业、机构去提高警惕公安部门的督查" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="所有企业、机构" node_id="25" head_word="机构" sem_cat="">
+			<sub_pattern node_id="25" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="督查" node_id="31" head_word="督查" sem_cat="">
+			<sub_pattern node_id="31" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="20">
+	<origin_text>运营商在此战役中要充分发挥技术和数据的优势，与公安等相关部门联合并肩作战。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Dn)_Pred[de]_dobj-n(Da)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="11" tagged="true" instance="技术和数据的优势" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="技术和数据" node_id="10" head_word="数据" sem_cat="Dn">
+			<sub_pattern node_id="10" sem_pattern="nsubj-n(Dn)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="优势" node_id="12" head_word="优势" sem_cat="Da">
+			<sub_pattern node_id="12" sem_pattern="dobj-n(Da)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="发挥" pattern="SBV-n(A0)_ADV-在_POB-f(A1)_Pred[发挥]_VOB-n(Da)" syntax_pattern="SBV-n(A)_ADV-在_POB-f(A)_Pred[发挥]_VOB-n(A)" taggedType="a" pred_id="7" tagged="false" instance="运营商在此战役中要充分发挥技术和数据的优势" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="运营商" node_id="0" head_word="运营商" sem_cat="">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="此战役中" node_id="4" head_word="中" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="POB-f(A1)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="优势" node_id="12" head_word="优势" sem_cat="Da">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="并肩作战" pattern="SBV-n(A0)_ADV-与_POB-n(A1)_Pred[并肩作战]" syntax_pattern="SBV-n(A)_ADV-与_POB-n(A)_Pred[并肩作战]" taggedType="a" pred_id="21" tagged="false" instance="运营商与公安等相关部门联合并肩作战" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="运营商(Z)" node_id="14" head_word="运营商" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="公安等相关部门" node_id="19" head_word="部门" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="POB-n(A1)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="15" sem_pattern="ADV-与" syn_pattern="ADV-与"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="21">
+	<origin_text>只有到那时，徐玉玉之殇才能不再重演。</origin_text>
+</sentence>
+<sentence id="22">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="23">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

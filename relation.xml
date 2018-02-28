@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title克强指数/Title</origin_text>
+</sentence>
+<sentence id="7">
+	<origin_text>新浪军事编者：为了更好的为读者呈现多样军事内容，满足读者不同阅读需求，共同探讨国内国际战略动态，新浪军事独家推出《深度军情》版块，深度解读军事新闻背后的隐藏态势，立体呈现中国面临的复杂军事战略环境，欢迎关注。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-f(Cb)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-f(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="43" tagged="false" instance="军事新闻背后的隐藏态势" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="军事新闻背后" node_id="42" head_word="背后" sem_cat="Cb">
+			<sub_pattern node_id="42" sem_pattern="nsubj-f(Cb)" syn_pattern="nsubj-f(A)"/>
+		</argument>
+		<argument id="1" content="隐藏态势" node_id="45" head_word="态势" sem_cat="">
+			<sub_pattern node_id="45" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="呈现" pattern="ADV-为_POB-n(Af)_Pred[呈现]_VOB-n(Dk)" syntax_pattern="ADV-为_POB-n(A)_Pred[呈现]_VOB-n(A)" taggedType="a" pred_id="10" tagged="true" instance="读者呈现多样军事内容" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="读者" node_id="9" head_word="读者" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="8" sem_pattern="ADV-为" syn_pattern="ADV-为"/>
+		</argument>
+		<argument id="1" content="多样军事内容" node_id="13" head_word="内容" sem_cat="Dk">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="阅读" pattern="SBV-n(Af)_Pred[阅读]_VOB-n(Df)" syntax_pattern="SBV-n(A)_Pred[阅读]_VOB-n(A)" taggedType="a" pred_id="18" tagged="true" instance="读者不同阅读需求" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="读者" node_id="16" head_word="读者" sem_cat="Af">
+			<sub_pattern node_id="16" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="需求" node_id="19" head_word="需求" sem_cat="Df">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(Df)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="推出" pattern="SBV-n(Di)_Pred[推出]_VOB-n(Dk)" syntax_pattern="SBV-n(A)_Pred[推出]_VOB-n(A)" taggedType="a" pred_id="31" tagged="true" instance="军事独家推出《深度军情》版块" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="军事" node_id="29" head_word="军事" sem_cat="Di">
+			<sub_pattern node_id="29" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="深度军情版块" node_id="36" head_word="版块" sem_cat="Dk">
+			<sub_pattern node_id="36" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="解读" pattern="SBV-n(Dn)_Pred[解读]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[解读]_VOB-n(A)" taggedType="a" pred_id="39" tagged="false" instance="深度解读军事新闻背后的隐藏态势" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="深度" node_id="38" head_word="深度" sem_cat="Dn">
+			<sub_pattern node_id="38" sem_pattern="SBV-n(Dn)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="隐藏态势" node_id="45" head_word="态势" sem_cat="">
+			<sub_pattern node_id="45" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>高低搭配的“经济舰”。</origin_text>
+</sentence>
+<sentence id="9">
+	<origin_text>二战后，美国海军已一跃成为世界上最强大的海军，拥有最庞大的驱护舰舰队,所以战后的很长一段时间，美国海军一直将建造重点放在航母和核潜艇上，仅少量建造驱逐舰等，从而导致60年代美海军的驱逐舰绝大多数都是战时建造的老龄舰，这无疑对美苏两超争霸时期美国的争夺海上霸权埋下了隐患,特别是这时期的苏联海军发展迅速，虽然海军驱护舰数量仍不及美国海军的一半，但舰龄相对年轻，性能也较美国海军的优越,特别是，在潜艇的能力还有了质的飞跃，无论是核潜艇还是常规动力潜艇均装备了先进的反舰导弹和自导鱼雷，“饱和攻击”战术对美国海军航母打击群构成了极大威胁。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-f(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-f(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="13" tagged="false" instance="世界上最强大的海军" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="世界上" node_id="10" head_word="上" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="nsubj-f(A0)" syn_pattern="nsubj-f(A)"/>
+		</argument>
+		<argument id="1" content="海军" node_id="14" head_word="海军" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-t(Ca)_Pred[de]_dobj-n(Ca)" syntax_pattern="nsubj-t(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="25" tagged="true" instance="战后的很长一段时间" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="战后" node_id="24" head_word="战后" sem_cat="Ca">
+			<sub_pattern node_id="24" sem_pattern="nsubj-t(Ca)" syn_pattern="nsubj-t(A)"/>
+		</argument>
+		<argument id="1" content="长一段时间" node_id="30" head_word="时间" sem_cat="Ca">
+			<sub_pattern node_id="30" sem_pattern="dobj-n(Ca)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(Bo)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="57" tagged="false" instance="60年代美海军的驱逐舰" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="60年代美海军" node_id="56" head_word="海军" sem_cat="">
+			<sub_pattern node_id="56" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="驱逐舰" node_id="58" head_word="驱逐舰" sem_cat="Bo">
+			<sub_pattern node_id="58" sem_pattern="dobj-n(Bo)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-m(Dn)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-m(A)" taggedType="a" pred_id="104" tagged="false" instance="美国海军的一半" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="美国海军" node_id="103" head_word="海军" sem_cat="">
+			<sub_pattern node_id="103" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="一半" node_id="105" head_word="一半" sem_cat="Dn">
+			<sub_pattern node_id="105" sem_pattern="dobj-m(Dn)" syn_pattern="dobj-m(A)"/>
+		</argument>
+	</relation>
+	<relation id="6" pred="de" pattern="nsubj-n(Bo)_Pred[de]_dobj-n(De)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="125" tagged="true" instance="潜艇的能力" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="潜艇" node_id="124" head_word="潜艇" sem_cat="Bo">
+			<sub_pattern node_id="124" sem_pattern="nsubj-n(Bo)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="能力" node_id="126" head_word="能力" sem_cat="De">
+			<sub_pattern node_id="126" sem_pattern="dobj-n(De)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="7" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="h" pred_id="130" tagged="false" instance="美国海军的优越," feature="0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-1-0-0-0">
+		<argument id="0" content="质" node_id="129" head_word="质" sem_cat="">
+			<sub_pattern node_id="129" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="飞跃" node_id="131" head_word="飞跃" sem_cat="">
+			<sub_pattern node_id="131" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="8" pred="拥有" pattern="ADV-f(A0)_Pred[拥有]_VOB-n(A1)" syntax_pattern="ADV-f(A)_Pred[拥有]_VOB-n(A)" taggedType="a" pred_id="16" tagged="false" instance="二战后，美国海军已一跃成为世界上最强大的海军，拥有最庞大的驱护舰舰队," feature="0-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="二战后" node_id="1" head_word="后" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="驱护舰舰队," node_id="22" head_word="," sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="9" pred="成为" pattern="SBV-n(A0)_Pred[成为]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[成为]_VOB-n(A)" taggedType="a" pred_id="8" tagged="false" instance="美国海军已一跃成为世界上最强大的海军" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="美国海军" node_id="4" head_word="海军" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="海军" node_id="14" head_word="海军" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="10" pred="导致" pattern="SBV-n(Ca)_Pred[导致]_SBV-n(Bo)_ADV-m(Dn)_VOB-是_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[导致]_SBV-n(A)_ADV-m(A)_VOB-是_VOB-n(A)" taggedType="a" pred_id="52" tagged="false" instance="长一段时间，美国海军一直将建造重点放在航母和核潜艇上，仅少量建造驱逐舰等，从而导致60年代美海军的驱逐舰绝大多数都是战时建造的老龄舰" feature="0-1-0-0-1-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="长一段时间" node_id="30" head_word="时间" sem_cat="Ca">
+			<sub_pattern node_id="30" sem_pattern="SBV-n(Ca)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="驱逐舰" node_id="58" head_word="驱逐舰" sem_cat="Bo">
+			<sub_pattern node_id="58" sem_pattern="SBV-n(Bo)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="61" sem_pattern="VOB-是" syn_pattern="VOB-是"/>
+		</argument>
+		<argument id="2" content="绝大多数" node_id="59" head_word="绝大多数" sem_cat="Dn">
+			<sub_pattern node_id="59" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+		</argument>
+		<argument id="3" content="老龄舰" node_id="65" head_word="老龄舰" sem_cat="">
+			<sub_pattern node_id="65" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="11" pred="放" pattern="SBV-n(A0)_Pred[放]_CMP-在_POB-f(A1)" syntax_pattern="SBV-n(A)_Pred[放]_CMP-在_POB-f(A)" taggedType="a" pred_id="38" tagged="false" instance="美国海军一直将建造重点放在航母和核潜艇上" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="美国海军" node_id="33" head_word="海军" sem_cat="">
+			<sub_pattern node_id="33" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="核潜艇上" node_id="43" head_word="上" sem_cat="">
+			<sub_pattern node_id="43" sem_pattern="POB-f(A1)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="39" sem_pattern="CMP-在" syn_pattern="CMP-在"/>
+		</argument>
+	</relation>
+	<relation id="12" pred="建造" pattern="ADV-m(Dn)_Pred[建造]_VOB-n(Bo)" syntax_pattern="ADV-m(A)_Pred[建造]_VOB-n(A)" taggedType="a" pred_id="47" tagged="true" instance="少量建造驱逐舰" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="少量" node_id="46" head_word="少量" sem_cat="Dn">
+			<sub_pattern node_id="46" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+		</argument>
+		<argument id="1" content="驱逐舰" node_id="48" head_word="驱逐舰" sem_cat="Bo">
+			<sub_pattern node_id="48" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="13" pred="超" pattern="SBV-n(A0)_NUM-m(Dn)_Pred[超]" syntax_pattern="SBV-n(A)_NUM-m(A)_Pred[超]" taggedType="a" pred_id="73" tagged="false" instance="美苏两超" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="美苏" node_id="71" head_word="苏" sem_cat="">
+			<sub_pattern node_id="71" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="两" node_id="72" head_word="两" sem_cat="Dn">
+			<sub_pattern node_id="72" sem_pattern="NUM-m(Dn)" syn_pattern="NUM-m(A)"/>
+		</argument>
+	</relation>
+	<relation id="14" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Ca)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="76" tagged="true" instance="时期美国" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="美国" node_id="76" head_word="美国" sem_cat="Cb">
+			<sub_pattern node_id="76" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="时期" node_id="75" head_word="时期" sem_cat="Ca">
+			<sub_pattern node_id="76" sem_pattern="VOB-n(Ca)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="15" pred="不及" pattern="SBV-n(Dn)_Pred[不及]_VOB-m(Dn)" syntax_pattern="SBV-n(A)_Pred[不及]_VOB-m(A)" taggedType="a" pred_id="101" tagged="true" instance="海军驱护舰数量仍不及美国海军的一半" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="海军驱护舰数量" node_id="99" head_word="数量" sem_cat="Dn">
+			<sub_pattern node_id="99" sem_pattern="SBV-n(Dn)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="一半" node_id="105" head_word="一半" sem_cat="Dn">
+			<sub_pattern node_id="105" sem_pattern="VOB-m(Dn)" syn_pattern="VOB-m(A)"/>
+		</argument>
+	</relation>
+	<relation id="16" pred="是" pattern="SBV-n(Dd)_ADV-较_POB-n(A0)_Pred[是]" syntax_pattern="SBV-n(A)_ADV-较_POB-n(A)_Pred[是]" taggedType="a" pred_id="121" tagged="false" instance="性能也较美国海军的优越,特别是" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="性能" node_id="112" head_word="性能" sem_cat="Dd">
+			<sub_pattern node_id="112" sem_pattern="SBV-n(Dd)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="优越," node_id="119" head_word="," sem_cat="">
+			<sub_pattern node_id="119" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="114" sem_pattern="ADV-较" syn_pattern="ADV-较"/>
+		</argument>
+	</relation>
+	<relation id="17" pred="还有" pattern="ADV-在_POB-n(De)_Pred[还有]_VOB-n(A0)" syntax_pattern="ADV-在_POB-n(A)_Pred[还有]_VOB-n(A)" taggedType="a" pred_id="127" tagged="false" instance="能力还有了质的飞跃" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="能力" node_id="126" head_word="能力" sem_cat="De">
+			<sub_pattern node_id="126" sem_pattern="POB-n(De)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="123" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="飞跃" node_id="131" head_word="飞跃" sem_cat="">
+			<sub_pattern node_id="131" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="18" pred="装备" pattern="SBV-n(Bo)_Pred[装备]_VOB-n(Bo)" syntax_pattern="SBV-n(A)_Pred[装备]_VOB-n(A)" taggedType="a" pred_id="141" tagged="true" instance="常规动力潜艇均装备了先进的反舰导弹和自导鱼雷" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="常规动力潜艇" node_id="139" head_word="潜艇" sem_cat="Bo">
+			<sub_pattern node_id="139" sem_pattern="SBV-n(Bo)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="导弹和自导鱼雷" node_id="150" head_word="鱼雷" sem_cat="Bo">
+			<sub_pattern node_id="150" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="20" pred="打击" pattern="SBV-n(A0)_Pred[打击]_VOB-n(Dn)" syntax_pattern="SBV-n(A)_Pred[打击]_VOB-n(A)" taggedType="a" pred_id="161" tagged="false" instance="美国海军航母打击群" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="美国海军" node_id="159" head_word="海军" sem_cat="">
+			<sub_pattern node_id="159" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="群" node_id="162" head_word="群" sem_cat="Dn">
+			<sub_pattern node_id="162" sem_pattern="VOB-n(Dn)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>但美国海军大造舰、造大舰的需求下面临的是，战后水面舰艇的单价一路飙升和越战后、74~75年世界经济危机爆发下的国防预算的削减,在这样的“两难困境”中的美军有史以来最年轻的海军作战部长50岁的埃尔默・R・朱姆沃尔特提出了一系列的美国海军装备发展的新理念，核心就是放弃建造单一用途的水面舰艇，转而“高低搭配”，以性能优越数量较少的“高档舰”为骨干，搭配可以大量建造的“廉价”的“低档舰”，以系统优势来提升海军的整体战斗力,佩里级，正是在这种高低档舰艇搭配发展战略中发展的强调成本控制的“低档舰”，其战场定位是具备良好的远洋能力，能跟随航母和其他大型水面舰艇活动，同时具备反潜和填补区域防空孔隙的能力。</origin_text>
+	<relation id="2" pred="de" pattern="nsubj-n(Dn)_Pred[de]_dobj-n(Bo)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="101" tagged="true" instance="性能优越数量较少的“高档舰”" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="性能优越数量" node_id="98" head_word="数量" sem_cat="Dn">
+			<sub_pattern node_id="98" sem_pattern="nsubj-n(Dn)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="高档舰" node_id="104" head_word="舰" sem_cat="Bo">
+			<sub_pattern node_id="104" sem_pattern="dobj-n(Bo)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="h" pred_id="129" tagged="false" instance="美国海军的优越," feature="0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-1-0-0-0">
+		<argument id="0" content="海军" node_id="128" head_word="海军" sem_cat="">
+			<sub_pattern node_id="128" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="整体战斗力," node_id="132" head_word="," sem_cat="">
+			<sub_pattern node_id="132" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="提" pattern="SBV-nr(Af)_Pred[提]_VOB-n(Df)" syntax_pattern="SBV-nr(A)_Pred[提]_VOB-n(A)" taggedType="a" pred_id="64" tagged="true" instance="埃尔默・R・朱姆沃尔特提出了一系列的美国海军装备发展的新理念" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="埃尔默・R・朱姆沃尔特" node_id="63" head_word="朱姆沃尔特" sem_cat="Af">
+			<sub_pattern node_id="63" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="新理念" node_id="76" head_word="理念" sem_cat="Df">
+			<sub_pattern node_id="76" sem_pattern="VOB-n(Df)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="是" pattern="SBV-n(Dd)_Pred[是]_VOB-放弃_VOB-n(Bo)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-放弃_VOB-n(A)" taggedType="a" pred_id="80" tagged="true" instance="核心就是放弃建造单一用途的水面舰艇" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="核心" node_id="78" head_word="核心" sem_cat="Dd">
+			<sub_pattern node_id="78" sem_pattern="SBV-n(Dd)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="水面舰艇" node_id="87" head_word="舰艇" sem_cat="Bo">
+			<sub_pattern node_id="87" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="81" sem_pattern="VOB-放弃" syn_pattern="VOB-放弃"/>
+		</argument>
+	</relation>
+	<relation id="6" pred="为" pattern="ADV-以_POB-n(Bo)_Pred[为]_VOB-n(A0)" syntax_pattern="ADV-以_POB-n(A)_Pred[为]_VOB-n(A)" taggedType="a" pred_id="106" tagged="false" instance="“高档舰”为骨干" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="高档舰" node_id="104" head_word="舰" sem_cat="Bo">
+			<sub_pattern node_id="104" sem_pattern="POB-n(Bo)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="95" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="1" content="骨干" node_id="107" head_word="骨干" sem_cat="">
+			<sub_pattern node_id="107" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="7" pred="提升" pattern="ADV-以_POB-n(Da)_Pred[提升]_VOB-nr(Af)" syntax_pattern="ADV-以_POB-n(A)_Pred[提升]_VOB-nr(A)" taggedType="a" pred_id="127" tagged="true" instance="系统优势来提升海军的整体战斗力,佩里级" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="系统优势" node_id="125" head_word="优势" sem_cat="Da">
+			<sub_pattern node_id="125" sem_pattern="POB-n(Da)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="123" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="1" content="佩里级" node_id="133" head_word="佩里级" sem_cat="Af">
+			<sub_pattern node_id="133" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="8" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="133" tagged="false" instance="整体战斗力,佩里级" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="佩里级" node_id="133" head_word="佩里级" sem_cat="Af">
+			<sub_pattern node_id="133" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="整体战斗力," node_id="132" head_word="," sem_cat="">
+			<sub_pattern node_id="133" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="9" pred="是" pattern="ATT-r(A0)_ATT-n(Cb)_SBV-定位_Pred[是]_VOB-具备_VOB-n(De)" syntax_pattern="ATT-r(A)_ATT-n(A)_SBV-定位_Pred[是]_VOB-具备_VOB-n(A)" taggedType="a" pred_id="158" tagged="false" instance="其战场定位是具备良好的远洋能力" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="其" node_id="155" head_word="其" sem_cat="">
+			<sub_pattern node_id="155" sem_pattern="ATT-r(A0)" syn_pattern="ATT-r(A)"/>
+			<sub_pattern node_id="157" sem_pattern="SBV-定位" syn_pattern="SBV-定位"/>
+		</argument>
+		<argument id="1" content="战场" node_id="156" head_word="战场" sem_cat="Cb">
+			<sub_pattern node_id="156" sem_pattern="ATT-n(Cb)" syn_pattern="ATT-n(A)"/>
+		</argument>
+		<argument id="2" content="远洋能力" node_id="163" head_word="能力" sem_cat="De">
+			<sub_pattern node_id="163" sem_pattern="VOB-n(De)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="159" sem_pattern="VOB-具备" syn_pattern="VOB-具备"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>经1970年9月可行性论证，1971年12月完成初步设计，1972年4月整体设计，1973年5月技术和施工设计，佩里级首舰FFG-7“奥利弗・哈泽德・佩里”号与1975年6月开工，1976年9月下水，1977年12月完工服役,”佩里”号护卫舰从可行性论证到完工服役，仅耗时7年,1989年，佩里级的最后一艘舰FFG-61“英格拉姆”号服役,美国海军共建造55艘佩里级，其中美国海军海军51艘、澳大利亚海军4艘,其作为二战后国海军建造最多的作战舰艇的记录直到后来被“阿利・伯克”级导弹驱逐舰打破。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-nr(Af)_Pred[de]_dobj-n(Bo)" syntax_pattern="nsubj-nr(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="70" tagged="true" instance="佩里级的最后一艘舰" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="佩里级" node_id="69" head_word="佩里级" sem_cat="Af">
+			<sub_pattern node_id="69" sem_pattern="nsubj-nr(Af)" syn_pattern="nsubj-nr(A)"/>
+		</argument>
+		<argument id="1" content="一艘舰" node_id="74" head_word="舰" sem_cat="Bo">
+			<sub_pattern node_id="74" sem_pattern="dobj-n(Bo)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="开工" pattern="SBV-n(A0)_ADV-与_POB-t(Ca)_Pred[开工]" syntax_pattern="SBV-n(A)_ADV-与_POB-t(A)_Pred[开工]" taggedType="a" pred_id="39" tagged="false" instance="奥利弗・哈泽德・佩里”号与1975年6月开工" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="奥利弗・哈泽德・佩里号" node_id="35" head_word="号" sem_cat="">
+			<sub_pattern node_id="35" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="1975年6月" node_id="38" head_word="6月" sem_cat="Ca">
+			<sub_pattern node_id="38" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="36" sem_pattern="ADV-与" syn_pattern="ADV-与"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="论证" pattern="SBV-n(Bo)_ADV-从_POB-n(Da)_Pred[论证]" syntax_pattern="SBV-n(A)_ADV-从_POB-n(A)_Pred[论证]" taggedType="a" pred_id="57" tagged="true" instance="号护卫舰从可行性论证" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="号护卫舰" node_id="54" head_word="护卫舰" sem_cat="Bo">
+			<sub_pattern node_id="54" sem_pattern="SBV-n(Bo)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="可行性" node_id="56" head_word="可行性" sem_cat="Da">
+			<sub_pattern node_id="56" sem_pattern="POB-n(Da)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="55" sem_pattern="ADV-从" syn_pattern="ADV-从"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="," pattern="ADV-q(Dn)_Pred[,]_VOB-t(Ca)" syntax_pattern="ADV-q(A)_Pred[,]_VOB-t(A)" taggedType="a" pred_id="66" tagged="true" instance="7年,1989年" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="7年" node_id="65" head_word="年" sem_cat="Dn">
+			<sub_pattern node_id="65" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="1" content="1989年" node_id="67" head_word="1989年" sem_cat="Ca">
+			<sub_pattern node_id="67" sem_pattern="VOB-t(Ca)" syn_pattern="VOB-t(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="is" pattern="SBV-n(A0)_Pred[is]_VOB-n(Bo)" syntax_pattern="SBV-n(A)_Pred[is]_VOB-n" taggedType="a" pred_id="80" tagged="false" instance="一艘舰FFG-61“英格拉姆”号" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="号" node_id="80" head_word="号" sem_cat="">
+			<sub_pattern node_id="80" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="一艘舰" node_id="74" head_word="舰" sem_cat="Bo">
+			<sub_pattern node_id="80" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="6" pred="," pattern="SBV-n(A0)_Pred[,]_SBV-n(A1)_VOB-建造_VOB-n(A2)" syntax_pattern="SBV-n(A)_Pred[,]_SBV-n(A)_VOB-建造_VOB-n(A)" taggedType="a" pred_id="82" tagged="false" instance="号服役,美国海军共建造55艘佩里级" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="号" node_id="80" head_word="号" sem_cat="">
+			<sub_pattern node_id="80" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="美国海军" node_id="84" head_word="海军" sem_cat="">
+			<sub_pattern node_id="84" sem_pattern="SBV-n(A1)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="86" sem_pattern="VOB-建造" syn_pattern="VOB-建造"/>
+		</argument>
+		<argument id="2" content="55艘佩里级" node_id="89" head_word="佩里级" sem_cat="">
+			<sub_pattern node_id="89" sem_pattern="VOB-n(A2)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="7" pred="," pattern="ADV-r(Da)_SBV-q(Dn)_Pred[,]_SBV-r(A0)_VOB-直到" syntax_pattern="ADV-r(A)_SBV-q(A)_Pred[,]_SBV-r(A)_VOB-直到" taggedType="a" pred_id="102" tagged="false" instance="其中美国海军海军51艘、澳大利亚海军4艘,其" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="其中" node_id="91" head_word="其中" sem_cat="Da">
+			<sub_pattern node_id="91" sem_pattern="ADV-r(Da)" syn_pattern="ADV-r(A)"/>
+		</argument>
+		<argument id="1" content="美国海军海军51艘、澳大利亚海军4艘" node_id="101" head_word="艘" sem_cat="Dn">
+			<sub_pattern node_id="101" sem_pattern="SBV-q(Dn)" syn_pattern="SBV-q(A)"/>
+		</argument>
+		<argument id="2" content="其" node_id="103" head_word="其" sem_cat="">
+			<sub_pattern node_id="103" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="116" sem_pattern="VOB-直到" syn_pattern="VOB-直到"/>
+		</argument>
+	</relation>
+	<relation id="8" pred="建造" pattern="ADV-f(A0)_SBV-n(A1)_Pred[建造]_VOB-n(Bo)_ATT-u_POB-n(Dk)" syntax_pattern="ADV-f(A)_SBV-n(A)_Pred[建造]_VOB-n(A)_ATT-u_POB-n(A)" taggedType="a" pred_id="108" tagged="false" instance="二战后国海军建造最多的作战舰艇的记录" feature="0-0-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="二战后" node_id="106" head_word="后" sem_cat="">
+			<sub_pattern node_id="106" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+			<sub_pattern node_id="108" sem_pattern="DE-建造" syn_pattern="DE-建造"/>
+			<sub_pattern node_id="114" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="115" sem_pattern="POB-n(Dk)" syn_pattern="POB-n(A)"/>
+		</argument>
+		<argument id="1" content="国海军" node_id="107" head_word="国海军" sem_cat="">
+			<sub_pattern node_id="107" sem_pattern="SBV-n(A1)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="作战舰艇" node_id="113" head_word="舰艇" sem_cat="Bo">
+			<sub_pattern node_id="113" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="3" content="记录" node_id="115" head_word="记录" sem_cat="Dk">
+		</argument>
+	</relation>
+	<relation id="9" pred="直到" pattern="ADV-作为_POB-n(Dk)_Pred[直到]_ADV-t(Ca)_VOB-打破" syntax_pattern="ADV-作为_POB-n(A)_Pred[直到]_ADV-t(A)_VOB-打破" taggedType="a" pred_id="116" tagged="true" instance="记录直到后来" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="记录" node_id="115" head_word="记录" sem_cat="Dk">
+			<sub_pattern node_id="115" sem_pattern="POB-n(Dk)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="104" sem_pattern="ADV-作为" syn_pattern="ADV-作为"/>
+		</argument>
+		<argument id="1" content="后来" node_id="117" head_word="后来" sem_cat="Ca">
+			<sub_pattern node_id="117" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+			<sub_pattern node_id="125" sem_pattern="VOB-打破" syn_pattern="VOB-打破"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>明确定位不求完美的武器配置。</origin_text>
+</sentence>
+<sentence id="13">
+	<origin_text>佩里级作为冷战时代的典型产物，其主要功能是在低威胁环境下为次要舰队与船队做护航工作，或者是担负主力舰队的外围护航以及某些巡逻任务，以弥补美军“斯普鲁恩斯”级等主力舰艇的不足,因此，该级舰在造价、排水量、人力上都有严格的限制，在动力、武器雷达系统的选择上也是“有所为有所不为”，明确定位不求完美。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Ca)_Pred[de]_dobj-n(Db)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="4" tagged="true" instance="冷战时代的典型产物" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="冷战时代" node_id="3" head_word="时代" sem_cat="Ca">
+			<sub_pattern node_id="3" sem_pattern="nsubj-n(Ca)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="典型产物" node_id="6" head_word="产物" sem_cat="Db">
+			<sub_pattern node_id="6" sem_pattern="dobj-n(Db)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-n(Bo)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="51" tagged="false" instance="“斯普鲁恩斯”级等主力舰艇的不足," feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="斯普鲁恩斯级等主力舰艇" node_id="50" head_word="舰艇" sem_cat="Bo">
+			<sub_pattern node_id="50" sem_pattern="nsubj-n(Bo)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="不足," node_id="53" head_word="," sem_cat="">
+			<sub_pattern node_id="53" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="是" pattern="SBV-n(A0)_ADV-作为_POB-n(Db)_SBV-n(Da)_Pred[是]_VOB-做_VOB-n(Di)" syntax_pattern="SBV-n(A)_ADV-作为_POB-n(A)_SBV-n(A)_Pred[是]_VOB-做_VOB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="佩里级作为冷战时代的典型产物，其主要功能是在低威胁环境下为次要舰队与船队做护航工作" feature="1-1-0-0-1-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="佩里级" node_id="0" head_word="佩里级" sem_cat="">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="典型产物" node_id="6" head_word="产物" sem_cat="Db">
+			<sub_pattern node_id="6" sem_pattern="POB-n(Db)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ADV-作为" syn_pattern="ADV-作为"/>
+		</argument>
+		<argument id="2" content="其主要功能" node_id="10" head_word="功能" sem_cat="Da">
+			<sub_pattern node_id="10" sem_pattern="SBV-n(Da)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="3" content="护航工作" node_id="24" head_word="工作" sem_cat="Di">
+			<sub_pattern node_id="24" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="22" sem_pattern="VOB-做" syn_pattern="VOB-做"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="做" pattern="ADV-在_POB-f(A0)_ADV-为_POB-n(Di)_Pred[做]" syntax_pattern="ADV-在_POB-f(A)_ADV-为_POB-n(A)_Pred[做]" taggedType="a" pred_id="22" tagged="false" instance="环境下为次要舰队与船队做" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="环境下" node_id="16" head_word="下" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="12" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="次要舰队与船队" node_id="21" head_word="船队" sem_cat="Di">
+			<sub_pattern node_id="21" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="17" sem_pattern="ADV-为" syn_pattern="ADV-为"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="是" pattern="SBV-n(A0)_Pred[是]_VOB-n(Di)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="28" tagged="false" instance="佩里级或者是担负主力舰队的外围护航以及某些巡逻任务" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="佩里级(Z)" node_id="26" head_word="佩里级" sem_cat="">
+			<sub_pattern node_id="26" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="某些巡逻任务" node_id="38" head_word="任务" sem_cat="Di">
+			<sub_pattern node_id="38" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="6" pred="弥补" pattern="SBV-n(A0)_Pred[弥补]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[弥补]_VOB-n(A)" taggedType="a" pred_id="42" tagged="false" instance="佩里级以弥补美军“斯普鲁恩斯”级等主力舰艇的不足," feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="佩里级(Z)" node_id="40" head_word="佩里级" sem_cat="">
+			<sub_pattern node_id="40" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="不足," node_id="53" head_word="," sem_cat="">
+			<sub_pattern node_id="53" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="7" pred="有" pattern="SBV-n(A0)_ADV-在_POB-f(A1)_Pred[有]_VOB-n(A2)" syntax_pattern="SBV-n(A)_ADV-在_POB-f(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="66" tagged="false" instance="该级舰在造价、排水量、人力上都有严格的限制" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="该级舰" node_id="57" head_word="级舰" sem_cat="">
+			<sub_pattern node_id="57" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="造价、排水量、人力上" node_id="64" head_word="上" sem_cat="">
+			<sub_pattern node_id="64" sem_pattern="POB-f(A1)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="58" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="限制" node_id="69" head_word="限制" sem_cat="">
+			<sub_pattern node_id="69" sem_pattern="VOB-n(A2)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="14">
+	<origin_text>船体的设计建造上，“佩里”级充分借鉴了斯普鲁恩斯级的经验，有着很大的继承性,平甲板舰型，有利于加强舰体强度，适航性也较好，也是美军驱护舰一贯采用的传统舰型,为降低造价，“佩里”级直接采用了“斯普鲁恩斯”级的两台LM2500燃气轮机主机和传动系统，因此动力系统的设计和施工非常顺利,推进系统的选择也是在成本的考虑下选择了单轴单桨。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(Da)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="15" tagged="false" instance="斯普鲁恩斯级的经验" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="斯普鲁恩斯级" node_id="14" head_word="级" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="经验" node_id="16" head_word="经验" sem_cat="Da">
+			<sub_pattern node_id="16" sem_pattern="dobj-n(Da)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="h" pred_id="63" tagged="false" instance="美国海军的优越," feature="0-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-1-0-0-0">
+		<argument id="0" content="斯普鲁恩斯级" node_id="62" head_word="级" sem_cat="">
+			<sub_pattern node_id="62" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="两台LM2500燃气轮机主机和传动系统" node_id="72" head_word="系统" sem_cat="">
+			<sub_pattern node_id="72" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="h" pred_id="77" tagged="false" instance="美国海军的优越," feature="0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-1-0-0-0">
+		<argument id="0" content="动力系统" node_id="76" head_word="系统" sem_cat="">
+			<sub_pattern node_id="76" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="设计和施工" node_id="80" head_word="施工" sem_cat="">
+			<sub_pattern node_id="80" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="h" pred_id="86" tagged="false" instance="美国海军的优越," feature="0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-1-0-0-0">
+		<argument id="0" content="系统" node_id="85" head_word="系统" sem_cat="">
+			<sub_pattern node_id="85" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="选择" node_id="87" head_word="选择" sem_cat="">
+			<sub_pattern node_id="87" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="借鉴" pattern="ADV-f(A0)_SBV-n(A1)_Pred[借鉴]_VOB-n(Da)" syntax_pattern="ADV-f(A)_SBV-n(A)_Pred[借鉴]_VOB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="上，“佩里”级充分借鉴了斯普鲁恩斯级的经验" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="上" node_id="4" head_word="上" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="级" node_id="9" head_word="级" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(A1)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="经验" node_id="16" head_word="经验" sem_cat="Da">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="6" pred="是" pattern="SBV-加强_VOB-n(Dn)_Pred[是]_SBV-n(A0)_VOB-," syntax_pattern="SBV-加强_VOB-n(A)_Pred[是]_SBV-n(A)_VOB-," taggedType="a" pred_id="39" tagged="false" instance="舰体强度，适航性也较好，也是美军驱护舰一贯采用的传统舰型" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="舰体强度" node_id="31" head_word="强度" sem_cat="Dn">
+			<sub_pattern node_id="31" sem_pattern="VOB-n(Dn)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="29" sem_pattern="SBV-加强" syn_pattern="SBV-加强"/>
+		</argument>
+		<argument id="1" content="传统舰型" node_id="46" head_word="舰型" sem_cat="">
+			<sub_pattern node_id="46" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="47" sem_pattern="VOB-," syn_pattern="VOB-,"/>
+		</argument>
+	</relation>
+	<relation id="7" pred="采用" pattern="SBV-n(A0)_Pred[采用]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[采用]_VOB-n(A)" taggedType="a" pred_id="57" tagged="false" instance="级直接采用了“斯普鲁恩斯”级的两台LM2500燃气轮机主机和传动系统" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="级" node_id="55" head_word="级" sem_cat="">
+			<sub_pattern node_id="55" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="两台LM2500燃气轮机主机和传动系统" node_id="72" head_word="系统" sem_cat="">
+			<sub_pattern node_id="72" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="8" pred="推进" pattern="SBV-n(A0)_Pred[推进]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[推进]_VOB-n(A)" taggedType="a" pred_id="84" tagged="false" instance="设计和施工非常顺利,推进系统的选择" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="设计和施工" node_id="80" head_word="施工" sem_cat="">
+			<sub_pattern node_id="80" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="选择" node_id="87" head_word="选择" sem_cat="">
+			<sub_pattern node_id="87" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="9" pred="选择" pattern="ADV-在_POB-f(A0)_Pred[选择]_VOB-n(A1)" syntax_pattern="ADV-在_POB-f(A)_Pred[选择]_VOB-n(A)" taggedType="a" pred_id="95" tagged="false" instance="下选择了单轴单桨" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="下" node_id="94" head_word="下" sem_cat="">
+			<sub_pattern node_id="94" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="90" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="单轴单桨" node_id="98" head_word="单桨" sem_cat="">
+			<sub_pattern node_id="98" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="15">
+	<origin_text>在武器系统的选择上，佩里级更是围绕其明确的反潜和填补防空空隙的定位展开,装备“标准”-1舰空导弹执行防空任务，由MK13倾斜发射架，备弹36枚,MK13也可发射“鱼叉”反舰导弹，备有4枚，这样既为舰艇提供了一定的反舰能力，又减少了专门发射装置,此外，还有1座MK15型“密集阵”近防武器系统作为最后的点防御,对于主职的反潜作战，“佩里”级护卫舰装备了MK-46型反潜鱼雷和2架SH-60B型“海鹰”直升机,同时，在反潜作战的主要装备反潜声纳上，“佩里”级装备的是AN/SQR-19型拖曳阵列声呐，来完成对潜艇的远距离探测、噪声测向、跟踪和识别，引导舰载反潜直升机迅速飞往目标区域，使用机载反潜设备精确定位并实施打击。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-f(Da)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-f(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="91" tagged="false" instance="最后的点防御," feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="最后" node_id="90" head_word="最后" sem_cat="Da">
+			<sub_pattern node_id="90" sem_pattern="nsubj-f(Da)" syn_pattern="nsubj-f(A)"/>
+		</argument>
+		<argument id="1" content="点防御," node_id="93" head_word="防御," sem_cat="">
+			<sub_pattern node_id="93" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="ADV-在_POB-f(A0)_SBV-nr(Af)_Pred[是]_VOB-展开_VOB-n(Dd)" syntax_pattern="ADV-在_POB-f(A)_SBV-nr(A)_Pred[是]_VOB-展开_VOB-n(A)" taggedType="a" pred_id="9" tagged="false" instance="选择上，佩里级更是围绕其明确的反潜和填补防空空隙的定位展开,装备“标准”" feature="0-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="选择上" node_id="5" head_word="上" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="佩里级" node_id="7" head_word="佩里级" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content=",装备标准" node_id="25" head_word="标准" sem_cat="Dd">
+			<sub_pattern node_id="25" sem_pattern="VOB-n(Dd)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="21" sem_pattern="VOB-展开" syn_pattern="VOB-展开"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="执行" pattern="SBV-n(A0)_Pred[执行]_VOB-n(Di)" syntax_pattern="SBV-n(A)_Pred[执行]_VOB-n(A)" taggedType="a" pred_id="29" tagged="false" instance="-1舰空导弹执行防空任务" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="-1舰空导弹" node_id="28" head_word="空导弹" sem_cat="">
+			<sub_pattern node_id="28" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="防空任务" node_id="31" head_word="任务" sem_cat="Di">
+			<sub_pattern node_id="31" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="倾斜" pattern="ADV-由_POB-nx(A0)_Pred[倾斜]_VOB-n(Bc)" syntax_pattern="ADV-由_POB-nx(A)_Pred[倾斜]_VOB-n(A)" taggedType="a" pred_id="35" tagged="false" instance="MK13倾斜发射架" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="MK13" node_id="34" head_word="MK13" sem_cat="">
+			<sub_pattern node_id="34" sem_pattern="POB-nx(A0)" syn_pattern="POB-nx(A)"/>
+			<sub_pattern node_id="33" sem_pattern="ADV-由" syn_pattern="ADV-由"/>
+		</argument>
+		<argument id="1" content="发射架" node_id="36" head_word="发射架" sem_cat="Bc">
+			<sub_pattern node_id="36" sem_pattern="VOB-n(Bc)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="反" pattern="Pred[反]_VOB-n(Bo)_VOB-n(Bo)" syntax_pattern="Pred[反]_VOB-n(A)_VOB-n(A)" taggedType="a" pred_id="49" tagged="true" instance="“鱼叉”反舰导弹" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="舰" node_id="50" head_word="舰" sem_cat="Bo">
+			<sub_pattern node_id="50" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="49" sem_pattern="ATT-反" syn_pattern="ATT-反"/>
+			<sub_pattern node_id="51" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="1" content="鱼叉反舰导弹" node_id="51" head_word="导弹" sem_cat="Bo">
+		</argument>
+	</relation>
+	<relation id="6" pred="提供" pattern="SBV-r(A0)_ADV-为_POB-n(Bo)_Pred[提供]_VOB-n(De)" syntax_pattern="SBV-r(A)_ADV-为_POB-n(A)_Pred[提供]_VOB-n(A)" taggedType="a" pred_id="61" tagged="false" instance="这样既为舰艇提供了一定的反舰能力" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这样" node_id="57" head_word="这样" sem_cat="">
+			<sub_pattern node_id="57" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="舰艇" node_id="60" head_word="舰艇" sem_cat="Bo">
+			<sub_pattern node_id="60" sem_pattern="POB-n(Bo)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="59" sem_pattern="ADV-为" syn_pattern="ADV-为"/>
+		</argument>
+		<argument id="2" content="反舰能力" node_id="66" head_word="能力" sem_cat="De">
+			<sub_pattern node_id="66" sem_pattern="VOB-n(De)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="7" pred="作战" pattern="SBV-n(A0)_ADV-作为_POB-n(A1)_ADV-对于_POB-n(A2)_Pred[作战]" syntax_pattern="SBV-n(A)_ADV-作为_POB-n(A)_ADV-对于_POB-n(A)_Pred[作战]" taggedType="a" pred_id="98" tagged="false" instance="1座MK15型“密集阵”近防武器系统作为最后的点防御,对于主职的反潜作战" feature="0-0-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="1座MK15型密集阵近防武器系统" node_id="88" head_word="系统" sem_cat="">
+			<sub_pattern node_id="88" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="点防御," node_id="93" head_word="防御," sem_cat="">
+			<sub_pattern node_id="93" sem_pattern="POB-n(A1)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="89" sem_pattern="ADV-作为" syn_pattern="ADV-作为"/>
+		</argument>
+		<argument id="2" content="反潜" node_id="97" head_word="反潜" sem_cat="">
+			<sub_pattern node_id="97" sem_pattern="POB-n(A2)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="94" sem_pattern="ADV-对于" syn_pattern="ADV-对于"/>
+		</argument>
+	</relation>
+	<relation id="8" pred="装备" pattern="SBV-n(Bo)_Pred[装备]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[装备]_VOB-n(A)" taggedType="a" pred_id="105" tagged="false" instance="级护卫舰装备了MK-46型反潜鱼雷和2架SH-60B型“海鹰”直升机,同时" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="级护卫舰" node_id="104" head_word="护卫舰" sem_cat="Bo">
+			<sub_pattern node_id="104" sem_pattern="SBV-n(Bo)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="MK-46型反潜鱼雷和2架SH-60B型海鹰直升机,同时" node_id="121" head_word="同时" sem_cat="">
+			<sub_pattern node_id="121" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="9" pred="是" pattern="ADV-在_POB-f(A0)_DE-n(Ba)_SBV-u_Pred[是]_VOB-n(A1)" syntax_pattern="ADV-在_POB-f(A)_DE-n(A)_SBV-u_Pred[是]_VOB-n(A)" taggedType="a" pred_id="139" tagged="false" instance="主要装备反潜声纳上，“佩里”级装备的是AN/SQR-19型拖曳阵列声" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="主要装备反潜声纳上" node_id="131" head_word="上" sem_cat="">
+			<sub_pattern node_id="131" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="123" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="级装备" node_id="137" head_word="装备" sem_cat="Ba">
+			<sub_pattern node_id="137" sem_pattern="DE-n(Ba)" syn_pattern="DE-n(A)"/>
+			<sub_pattern node_id="138" sem_pattern="SBV-u" syn_pattern="SBV-u"/>
+		</argument>
+		<argument id="2" content="AN/SQR-19型拖曳阵列声" node_id="144" head_word="阵列声" sem_cat="">
+			<sub_pattern node_id="144" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="16">
+	<origin_text>美国大中型舰艇出口主力舰。</origin_text>
+</sentence>
+<sentence id="17">
+	<origin_text>佩里级是台湾军舰外购的唯一选项。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-nr(Af)_Pred[是]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="1" tagged="false" instance="佩里级是台湾军舰外购的唯一选项" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="佩里级" node_id="0" head_word="佩里级" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="唯一选项" node_id="7" head_word="选项" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="18">
+	<origin_text>只不过这四艘引进的佩里级都属于近几年才退役的“热舰”，在美国海军服役之时，在美国海军舰艇日趋“宙斯盾”化、区域防空能力实属全面的背景下，佩里级舰艏的MK13导弹发射架已经拆除，换成了MK3825毫米小口径舰炮，来完成反海盗等几无强度可言的准军事任务,也就是说台湾地区海军引进的退役的佩里级是没有防空和反舰能力可言的，所以引进后势必还要有一定改装，也可能最低成本的恢复MK13的配置,另外，在台湾海军不断强化反舰“反航母”的执迷需求下，佩里级也不是没有可能加装雄风-3反舰导弹。</origin_text>
+	<relation id="4" pred="属于" pattern="SBV-nr(Af)_Pred[属于]_ADV-q(Dn)_VOB-退役_ATT-u_SBV-n(Bo)" syntax_pattern="SBV-nr(A)_Pred[属于]_ADV-q(A)_VOB-退役_ATT-u_SBV-n(A)" taggedType="a" pred_id="8" tagged="true" instance="佩里级都属于近几年才退役的“热舰”" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="佩里级" node_id="6" head_word="佩里级" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+			<sub_pattern node_id="8" sem_pattern="DE-属于" syn_pattern="DE-属于"/>
+			<sub_pattern node_id="14" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="17" sem_pattern="SBV-n(Bo)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="近几年" node_id="11" head_word="年" sem_cat="Dn">
+			<sub_pattern node_id="11" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+			<sub_pattern node_id="13" sem_pattern="VOB-退役" syn_pattern="VOB-退役"/>
+		</argument>
+		<argument id="2" content="舰" node_id="17" head_word="舰" sem_cat="Bo">
+		</argument>
+	</relation>
+	<relation id="5" pred="换" pattern="SBV-n(Bo)_ADV-在_POB-n(Ca)_Pred[换]_VOB-n(Bo)" syntax_pattern="SBV-n(A)_ADV-在_POB-n(A)_Pred[换]_VOB-n(A)" taggedType="a" pred_id="55" tagged="true" instance="“热舰”，在美国海军服役之时，在美国海军舰艇日趋“宙斯盾”化、区域防空能力实属全面的背景下，佩里级舰艏的MK13导弹发射架已经拆除，换成了MK3825毫米小口径舰炮" feature="0-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="热舰" node_id="17" head_word="舰" sem_cat="Bo">
+			<sub_pattern node_id="17" sem_pattern="SBV-n(Bo)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="时" node_id="25" head_word="时" sem_cat="Ca">
+			<sub_pattern node_id="25" sem_pattern="POB-n(Ca)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="20" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="MK3825毫米小口径舰炮" node_id="62" head_word="舰炮" sem_cat="Bo">
+			<sub_pattern node_id="62" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="6" pred="实属" pattern="ADV-在_POB-n(De)_Pred[实属]_VOB-f(A0)" syntax_pattern="ADV-在_POB-n(A)_Pred[实属]_VOB-f(A)" taggedType="a" pred_id="40" tagged="false" instance="、区域防空能力实属全面的背景下" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="、区域防空能力" node_id="39" head_word="能力" sem_cat="De">
+			<sub_pattern node_id="39" sem_pattern="POB-n(De)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="27" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="背景下" node_id="44" head_word="下" sem_cat="">
+			<sub_pattern node_id="44" sem_pattern="VOB-f(A0)" syn_pattern="VOB-f(A)"/>
+		</argument>
+	</relation>
+	<relation id="7" pred="无" pattern="ATT-反_VOB-n(Af)_NUM-m(Dn)_Pred[无]_VOB-n(A0)" syntax_pattern="ATT-反_VOB-n(A)_NUM-m(A)_Pred[无]_VOB-n(A)" taggedType="a" pred_id="70" tagged="false" instance="海盗等几无强度可言的准军事任务," feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="海盗" node_id="67" head_word="海盗" sem_cat="Af">
+			<sub_pattern node_id="67" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="66" sem_pattern="ATT-反" syn_pattern="ATT-反"/>
+		</argument>
+		<argument id="1" content="几" node_id="69" head_word="几" sem_cat="Dn">
+			<sub_pattern node_id="69" sem_pattern="NUM-m(Dn)" syn_pattern="NUM-m(A)"/>
+		</argument>
+		<argument id="2" content="军事任务," node_id="77" head_word="," sem_cat="">
+			<sub_pattern node_id="77" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="8" pred="反" pattern="Pred[反]_VOB-n(Bo)_VOB-n(De)" syntax_pattern="Pred[反]_VOB-n(A)_VOB-n(A)" taggedType="a" pred_id="94" tagged="true" instance="防空和反舰能力" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="舰" node_id="95" head_word="舰" sem_cat="Bo">
+			<sub_pattern node_id="95" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="94" sem_pattern="ATT-反" syn_pattern="ATT-反"/>
+			<sub_pattern node_id="96" sem_pattern="VOB-n(De)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="1" content="防空和反舰能力" node_id="96" head_word="能力" sem_cat="De">
+		</argument>
+	</relation>
+	<relation id="9" pred="有" pattern="ADV-f(A0)_Pred[有]_VOB-n(A1)" syntax_pattern="ADV-f(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="105" tagged="false" instance="后势必还要有一定改装" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="后" node_id="102" head_word="后" sem_cat="">
+			<sub_pattern node_id="102" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="一定改装" node_id="107" head_word="改装" sem_cat="">
+			<sub_pattern node_id="107" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="10" pred="强化" pattern="SBV-n(A0)_Pred[强化]_VOB-n(Af)" syntax_pattern="SBV-n(A)_Pred[强化]_VOB-n(A)" taggedType="a" pred_id="124" tagged="false" instance="台湾海军不断强化反舰“反航母”" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="台湾海军" node_id="122" head_word="海军" sem_cat="">
+			<sub_pattern node_id="122" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="反航母" node_id="129" head_word="母" sem_cat="Af">
+			<sub_pattern node_id="129" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="11" pred="是" pattern="ADV-在_POB-f(A0)_SBV-nr(Af)_Pred[是]_VOB--_VOB-n(Bo)" syntax_pattern="ADV-在_POB-f(A)_SBV-nr(A)_Pred[是]_VOB--_VOB-n(A)" taggedType="a" pred_id="139" tagged="false" instance="执迷需求下，佩里级也不是没有可能加装雄风-3反舰导弹" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="执迷需求下" node_id="134" head_word="下" sem_cat="">
+			<sub_pattern node_id="134" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="120" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="佩里级" node_id="136" head_word="佩里级" sem_cat="Af">
+			<sub_pattern node_id="136" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="3反舰导弹" node_id="148" head_word="导弹" sem_cat="Bo">
+			<sub_pattern node_id="148" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="144" sem_pattern="VOB--" syn_pattern="VOB--"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="19">
+	<origin_text>最后再回看，台湾假若沿袭此前的(和韩国海军现代化类似)自建舰体平台，从外采购作战系统的发展模式，当下台湾地区海军力量的建设应该就是另外一种光景,毕竟采购作战系统与武器的敏感度，比全舰外销要低，也可以进一步提升台湾的造船工艺水准,只不过长期以来，台湾地区军力的建设早已执迷于从美国的购入，缺少自行规划，最终就堕入不得不卖、只能买退役佩里级的田地,(作者署名：鼎盛与心怡)。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(Dc)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="26" tagged="false" instance="作战系统的发展模式" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="作战系统" node_id="25" head_word="系统" sem_cat="">
+			<sub_pattern node_id="25" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="发展模式" node_id="28" head_word="模式" sem_cat="Dc">
+			<sub_pattern node_id="28" sem_pattern="dobj-n(Dc)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="h" pred_id="36" tagged="false" instance="美国海军的优越," feature="0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-1-0-0-0">
+		<argument id="0" content="台湾地区海军力量" node_id="35" head_word="力量" sem_cat="">
+			<sub_pattern node_id="35" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="建设" node_id="37" head_word="建设" sem_cat="">
+			<sub_pattern node_id="37" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="de" pattern="nsubj-n(Bo)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="52" tagged="false" instance="“斯普鲁恩斯”级等主力舰艇的不足," feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="作战系统与武器" node_id="51" head_word="武器" sem_cat="Bo">
+			<sub_pattern node_id="51" sem_pattern="nsubj-n(Bo)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="敏感度" node_id="53" head_word="敏感度" sem_cat="">
+			<sub_pattern node_id="53" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="7" pred="沿袭" pattern="SBV-ns(Cb)_Pred[沿袭]_DE-r(Ca)_VOB-u" syntax_pattern="SBV-ns(A)_Pred[沿袭]_DE-r(A)_VOB-u" taggedType="a" pred_id="6" tagged="true" instance="台湾假若沿袭此前" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="台湾" node_id="4" head_word="台湾" sem_cat="Cb">
+			<sub_pattern node_id="4" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="此前" node_id="7" head_word="此前" sem_cat="Ca">
+			<sub_pattern node_id="7" sem_pattern="DE-r(Ca)" syn_pattern="DE-r(A)"/>
+			<sub_pattern node_id="8" sem_pattern="VOB-u" syn_pattern="VOB-u"/>
+		</argument>
+	</relation>
+	<relation id="8" pred="建" pattern="ADV-r(Af)_Pred[建]_VOB-n(Bn)" syntax_pattern="ADV-r(A)_Pred[建]_VOB-n(A)" taggedType="a" pred_id="17" tagged="true" instance="自建舰体平台" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="自" node_id="16" head_word="自" sem_cat="Af">
+			<sub_pattern node_id="16" sem_pattern="ADV-r(Af)" syn_pattern="ADV-r(A)"/>
+		</argument>
+		<argument id="1" content="舰体平台" node_id="19" head_word="平台" sem_cat="Bn">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(Bn)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="9" pred="采购" pattern="ADV-从_POB-f(A0)_Pred[采购]_VOB-n(Dc)" syntax_pattern="ADV-从_POB-f(A)_Pred[采购]_VOB-n(A)" taggedType="a" pred_id="23" tagged="false" instance="外采购作战系统的发展模式" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="外" node_id="22" head_word="外" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="21" sem_pattern="ADV-从" syn_pattern="ADV-从"/>
+		</argument>
+		<argument id="1" content="发展模式" node_id="28" head_word="模式" sem_cat="Dc">
+			<sub_pattern node_id="28" sem_pattern="VOB-n(Dc)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="10" pred="是" pattern="ADV-当_POB-n(A0)_Pred[是]_SBV-n(Af)_VOB-署名_VOB-n(A1)" syntax_pattern="ADV-当_POB-n(A)_Pred[是]_SBV-n(A)_VOB-署名_VOB-n(A)" taggedType="a" pred_id="40" tagged="false" instance="建设应该就是另外一种光景,毕竟采购作战系统与武器的敏感度，比全舰外销要低，也可以进一步提升台湾的造船工艺水准,只不过长期以来，台湾地区军力的建设早已执迷于从美国的购入，缺少自行规划，最终就堕入不得不卖、只能买退役佩里级的田地,(作者署名：鼎盛与心怡)" feature="0-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="建设" node_id="37" head_word="建设" sem_cat="">
+			<sub_pattern node_id="37" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="30" sem_pattern="ADV-当" syn_pattern="ADV-当"/>
+		</argument>
+		<argument id="1" content="作者" node_id="106" head_word="作者" sem_cat="Af">
+			<sub_pattern node_id="106" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="107" sem_pattern="VOB-署名" syn_pattern="VOB-署名"/>
+		</argument>
+		<argument id="2" content="：鼎盛与心怡)" node_id="111" head_word="心怡" sem_cat="">
+			<sub_pattern node_id="111" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="11" pred="采购" pattern="SBV-n(A0)_Pred[采购]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[采购]_VOB-n(A)" taggedType="a" pred_id="47" tagged="false" instance="另外一种光景,毕竟采购作战系统与武器的敏感度" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="另外一种光景," node_id="45" head_word="," sem_cat="">
+			<sub_pattern node_id="45" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="敏感度" node_id="53" head_word="敏感度" sem_cat="">
+			<sub_pattern node_id="53" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="20">
+	<origin_text>本栏目所有文章目的在于传递更多信息，并不代表本网赞同其观点和对其真实性负责,凡本网注明版权所有的作品，版权均属于新浪网，凡署名作者的，版权则属原作者或出版人所有，未经本网或作者授权不得转载、摘编或利用其它方式使用上述作品。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Di)_Pred[de]_dobj-n(Dk)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="30" tagged="true" instance="版权所有的作品" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="版权" node_id="28" head_word="版权" sem_cat="Di">
+			<sub_pattern node_id="28" sem_pattern="nsubj-n(Di)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="作品" node_id="31" head_word="作品" sem_cat="Dk">
+			<sub_pattern node_id="31" sem_pattern="dobj-n(Dk)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="在于" pattern="SBV-n(Db)_Pred[在于]_VOB-传递_VOB-n(Da)" syntax_pattern="SBV-n(A)_Pred[在于]_VOB-传递_VOB-n(A)" taggedType="a" pred_id="5" tagged="true" instance="本栏目所有文章目的在于传递更多信息" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="本栏目所有文章目的" node_id="4" head_word="目的" sem_cat="Db">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(Db)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="多信息" node_id="9" head_word="信息" sem_cat="Da">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="6" sem_pattern="VOB-传递" syn_pattern="VOB-传递"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="赞同" pattern="SBV-n(A0)_Pred[赞同]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[赞同]_VOB-n(A)" taggedType="a" pred_id="16" tagged="false" instance="本_栏目_所有_文章_目的并不代表本网赞同其观点" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="本栏目所有文章目的(Z)" node_id="11" head_word="本 栏目 所有 文章 目的" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="其观点" node_id="18" head_word="观点" sem_cat="">
+			<sub_pattern node_id="18" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="负责" pattern="SBV-n(A0)_ADV-对_POB-n(A1)_Pred[负责]_VOB-注明_VOB-n(Dk)" syntax_pattern="SBV-n(A)_ADV-对_POB-n(A)_Pred[负责]_VOB-注明_VOB-n(A)" taggedType="a" pred_id="24" tagged="false" instance="本_栏目_所有_文章_目的和对其真实性负责,凡本网注明版权所有的作品" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="本栏目所有文章目的(Z)" node_id="19" head_word="本 栏目 所有 文章 目的" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="其真实性" node_id="23" head_word="真实性" sem_cat="">
+			<sub_pattern node_id="23" sem_pattern="POB-n(A1)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="21" sem_pattern="ADV-对" syn_pattern="ADV-对"/>
+		</argument>
+		<argument id="2" content="作品" node_id="31" head_word="作品" sem_cat="Dk">
+			<sub_pattern node_id="31" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="27" sem_pattern="VOB-注明" syn_pattern="VOB-注明"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="属于" pattern="SBV-n(Di)_Pred[属于]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[属于]_VOB-n(A)" taggedType="a" pred_id="35" tagged="false" instance="版权均属于新浪网" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="版权" node_id="33" head_word="版权" sem_cat="Di">
+			<sub_pattern node_id="33" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="网" node_id="37" head_word="网" sem_cat="">
+			<sub_pattern node_id="37" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="6" pred="属" pattern="SBV-n(Di)_Pred[属]_SBV-n(A0)_VOB-所有" syntax_pattern="SBV-n(A)_Pred[属]_SBV-n(A)_VOB-所有" taggedType="a" pred_id="46" tagged="false" instance="版权则属原作者或出版人" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="版权" node_id="44" head_word="版权" sem_cat="Di">
+			<sub_pattern node_id="44" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="出版人" node_id="49" head_word="出版人" sem_cat="">
+			<sub_pattern node_id="49" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="50" sem_pattern="VOB-所有" syn_pattern="VOB-所有"/>
+		</argument>
+	</relation>
+	<relation id="7" pred="授权" pattern="ADV-经_POB-n(Af)_Pred[授权]_VOB-使用_VOB-n(Dk)" syntax_pattern="ADV-经_POB-n(A)_Pred[授权]_VOB-使用_VOB-n(A)" taggedType="a" pred_id="57" tagged="true" instance="本网或作者授权不得转载、摘编或利用其它方式使用上述作品" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="本网或作者" node_id="56" head_word="作者" sem_cat="Af">
+			<sub_pattern node_id="56" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="53" sem_pattern="ADV-经" syn_pattern="ADV-经"/>
+		</argument>
+		<argument id="1" content="上述作品" node_id="68" head_word="作品" sem_cat="Dk">
+			<sub_pattern node_id="68" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="66" sem_pattern="VOB-使用" syn_pattern="VOB-使用"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="21">
+	<origin_text>新浪军事：最多军迷首选的军事门户！</origin_text>
+</sentence>
+<sentence id="22">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="23">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title瓜迪奥拉：曼城有意达尼洛，还要签三到四人/Title</origin_text>
+	<relation id="1" pred="有" pattern="SBV-ns(Cb)_Pred[有]_VOB-ns(Cb)" syntax_pattern="SBV-ns(A)_Pred[有]_VOB-ns(A)" taggedType="a" pred_id="5" tagged="true" instance="曼城有意达尼洛" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼城" node_id="4" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="4" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="意达尼洛" node_id="6" head_word="意达尼洛" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="签" pattern="SBV-ns(Cb)_Pred[签]_SBV-m(Dn)_CMP-到" syntax_pattern="SBV-ns(A)_Pred[签]_SBV-m(A)_CMP-到" taggedType="a" pred_id="10" tagged="true" instance="曼城还要签三" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼城(Z)" node_id="8" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="8" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="三" node_id="11" head_word="三" sem_cat="Dn">
+			<sub_pattern node_id="11" sem_pattern="SBV-m(Dn)" syn_pattern="SBV-m(A)"/>
+			<sub_pattern node_id="12" sem_pattern="CMP-到" syn_pattern="CMP-到"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>虎扑7月20日讯曼城已开启了今夏的美国之行，主帅瓜迪奥拉举行了新赛季首场新闻发布会。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-t(Ca)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-t(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="10" tagged="false" instance="今夏的美国之行" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="今夏" node_id="9" head_word="今夏" sem_cat="Ca">
+			<sub_pattern node_id="9" sem_pattern="nsubj-t(Ca)" syn_pattern="nsubj-t(A)"/>
+		</argument>
+		<argument id="1" content="行" node_id="13" head_word="行" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-ns(Cb)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-ns(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="12" tagged="false" instance="美国之行" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="美国" node_id="11" head_word="美国" sem_cat="Cb">
+			<sub_pattern node_id="11" sem_pattern="nsubj-ns(Cb)" syn_pattern="nsubj-ns(A)"/>
+		</argument>
+		<argument id="1" content="行" node_id="13" head_word="行" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="开启" pattern="SBV-ns(Cb)_Pred[开启]_VOB-n(A0)" syntax_pattern="SBV-ns(A)_Pred[开启]_VOB-n(A)" taggedType="a" pred_id="7" tagged="false" instance="曼城已开启了今夏的美国之行" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="曼城" node_id="5" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="5" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="行" node_id="13" head_word="行" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="16" tagged="true" instance="主帅瓜迪奥拉" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="瓜迪奥拉" node_id="16" head_word="瓜迪奥拉" sem_cat="Af">
+			<sub_pattern node_id="16" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="主帅" node_id="15" head_word="主帅" sem_cat="Af">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="举行" pattern="SBV-nr(Af)_Pred[举行]_VOB-n(Di)" syntax_pattern="SBV-nr(A)_Pred[举行]_VOB-n(A)" taggedType="a" pred_id="17" tagged="true" instance="瓜迪奥拉举行了新赛季首场新闻发布会" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="瓜迪奥拉" node_id="16" head_word="瓜迪奥拉" sem_cat="Af">
+			<sub_pattern node_id="16" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="新赛季首场新闻发布会" node_id="24" head_word="发布会" sem_cat="Di">
+			<sub_pattern node_id="24" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>瓜迪奥拉表示和伊希纳乔一起工作是种“荣幸”，而这位尼日利亚新星目前和莱斯特城联系在一起。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-nr(Af)_SBV-工作_Pred[是]_QUN-q(Dn)_VOB-a" syntax_pattern="SBV-nr(A)_SBV-工作_Pred[是]_QUN-q(A)_VOB-a" taggedType="a" pred_id="6" tagged="true" instance="伊希纳乔一起工作是种" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="伊希纳乔" node_id="3" head_word="伊希纳乔" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+			<sub_pattern node_id="5" sem_pattern="SBV-工作" syn_pattern="SBV-工作"/>
+		</argument>
+		<argument id="1" content="种" node_id="7" head_word="种" sem_cat="Dn">
+			<sub_pattern node_id="7" sem_pattern="QUN-q(Dn)" syn_pattern="QUN-q(A)"/>
+			<sub_pattern node_id="9" sem_pattern="VOB-a" syn_pattern="VOB-a"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="联系" pattern="SBV-n(A0)_ADV-t(Ca)_ADV-c_POB-ns(Cb)_Pred[联系]_CMP-在_POB-s(Af)" syntax_pattern="SBV-n(A)_ADV-t(A)_ADV-c_POB-ns(A)_Pred[联系]_CMP-在_POB-s(A)" taggedType="a" pred_id="20" tagged="false" instance="这位尼日利亚新星目前和莱斯特城联系在一起" feature="0-0-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这位尼日利亚新星" node_id="16" head_word="新星" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="目前" node_id="17" head_word="目前" sem_cat="Ca">
+			<sub_pattern node_id="17" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="2" content="莱斯特城" node_id="19" head_word="莱斯特城" sem_cat="Cb">
+			<sub_pattern node_id="19" sem_pattern="POB-ns(Cb)" syn_pattern="POB-ns(A)"/>
+			<sub_pattern node_id="18" sem_pattern="ADV-c" syn_pattern="ADV-c"/>
+		</argument>
+		<argument id="3" content="一起" node_id="22" head_word="一起" sem_cat="Af">
+			<sub_pattern node_id="22" sem_pattern="POB-s(Af)" syn_pattern="POB-s(A)"/>
+			<sub_pattern node_id="21" sem_pattern="CMP-在" syn_pattern="CMP-在"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>同时，他还透露，博尼有伤在身，正在曼市康复。</origin_text>
+</sentence>
+<sentence id="10">
+	<origin_text>对于身陷转会传闻的阿圭罗，瓜迪奥拉说：“我的观点没有变过，他是我们的球员，他会留在曼城。”</origin_text>
+	<relation id="2" pred="说" pattern="ADV-对于_POB-nr(Af)_SBV-nr(Af)_Pred[说]_SBV-r(Af)_VOB-留" syntax_pattern="ADV-对于_POB-nr(A)_SBV-nr(A)_Pred[说]_SBV-r(A)_VOB-留" taggedType="a" pred_id="8" tagged="true" instance="阿圭罗，瓜迪奥拉说：“我的观点没有变过，他是我们的球员，他" feature="0-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="阿圭罗" node_id="5" head_word="阿圭罗" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="POB-nr(Af)" syn_pattern="POB-nr(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-对于" syn_pattern="ADV-对于"/>
+		</argument>
+		<argument id="1" content="瓜迪奥拉" node_id="7" head_word="瓜迪奥拉" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="他" node_id="24" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="24" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="26" sem_pattern="VOB-留" syn_pattern="VOB-留"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="是" pattern="SBV-r(Af)_Pred[是]_VOB-n(Af)" syntax_pattern="SBV-r(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="19" tagged="true" instance="他是我们的球员" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="他" node_id="18" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="18" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="球员" node_id="22" head_word="球员" sem_cat="Af">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>另外，瓜帅还确认了球队对皇马后卫达尼洛的兴趣。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Di)_Pred[de]_dobj-n(Df)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="11" tagged="true" instance="球队对皇马后卫达尼洛的兴趣" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="球队" node_id="6" head_word="球队" sem_cat="Di">
+			<sub_pattern node_id="6" sem_pattern="nsubj-n(Di)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="兴趣" node_id="12" head_word="兴趣" sem_cat="Df">
+			<sub_pattern node_id="12" sem_pattern="dobj-n(Df)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="确认" pattern="SBV-n(A0)_Pred[确认]_VOB-n(Df)" syntax_pattern="SBV-n(A)_Pred[确认]_VOB-n(A)" taggedType="a" pred_id="4" tagged="false" instance="瓜帅还确认了球队对皇马后卫达尼洛的兴趣" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="瓜帅" node_id="2" head_word="瓜帅" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="兴趣" node_id="12" head_word="兴趣" sem_cat="Df">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Df)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="10" tagged="true" instance="主帅瓜迪奥拉" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="达尼洛" node_id="10" head_word="达尼洛" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="皇马后卫" node_id="9" head_word="后卫" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>同时他还透露俱乐部正在与3到4名球员谈转会，他们都是为“未来四到五年而做的打算”。</origin_text>
+	<relation id="1" pred="透露" pattern="SBV-r(Af)_Pred[透露]_SBV-n(Dm)_VOB-转会" syntax_pattern="SBV-r(A)_Pred[透露]_SBV-n(A)_VOB-转会" taggedType="a" pred_id="3" tagged="true" instance="他还透露俱乐部" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="他" node_id="1" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="俱乐部" node_id="4" head_word="俱乐部" sem_cat="Dm">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(Dm)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="13" sem_pattern="VOB-转会" syn_pattern="VOB-转会"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="SBV-r(Af)_Pred[是]_VOB-p_POB-n(Df)" syntax_pattern="SBV-r(A)_Pred[是]_VOB-p_POB-n(A)" taggedType="a" pred_id="17" tagged="true" instance="他们都是为“未来四到五年而做的打算”" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="他们" node_id="15" head_word="他们" sem_cat="Af">
+			<sub_pattern node_id="15" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="未来四到五年而做的打算" node_id="28" head_word="打算" sem_cat="Df">
+			<sub_pattern node_id="28" sem_pattern="POB-n(Df)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="18" sem_pattern="VOB-p" syn_pattern="VOB-p"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="13">
+	<origin_text>都是“年轻球员”。</origin_text>
+</sentence>
+<sentence id="14">
+	<origin_text>其中，关于摩纳哥边卫门迪，瓜帅说：我们等着看未来会发生什么吧，他是摩纳哥的球员，我不能评论太多。”</origin_text>
+	<relation id="1" pred="说" pattern="ADV-r(Da)_ADV-关于_POB-nr(Af)_SBV-nr(Af)_Pred[说]_SBV-r(Af)_VOB-评论" syntax_pattern="ADV-r(A)_ADV-关于_POB-nr(A)_SBV-nr(A)_Pred[说]_SBV-r(A)_VOB-评论" taggedType="a" pred_id="8" tagged="true" instance="其中，关于摩纳哥边卫门迪，瓜帅说：我们等着看未来会发生什么吧，他是摩纳哥的球员，我" feature="0-1-0-0-1-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="其中" node_id="0" head_word="其中" sem_cat="Da">
+			<sub_pattern node_id="0" sem_pattern="ADV-r(Da)" syn_pattern="ADV-r(A)"/>
+		</argument>
+		<argument id="1" content="门迪" node_id="5" head_word="门迪" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="POB-nr(Af)" syn_pattern="POB-nr(A)"/>
+			<sub_pattern node_id="2" sem_pattern="ADV-关于" syn_pattern="ADV-关于"/>
+		</argument>
+		<argument id="2" content="瓜帅" node_id="7" head_word="瓜帅" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="3" content="我" node_id="26" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="26" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="29" sem_pattern="VOB-评论" syn_pattern="VOB-评论"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="5" tagged="false" instance="摩纳哥边卫门迪" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="门迪" node_id="5" head_word="门迪" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="摩纳哥边卫" node_id="4" head_word="边卫" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="发生" pattern="ADV-t(A0)_Pred[发生]_VOB-r(Ba)" syntax_pattern="ADV-t(A)_Pred[发生]_VOB-r(A)" taggedType="a" pred_id="16" tagged="false" instance="未来会发生什么" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="未来" node_id="14" head_word="未来" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="ADV-t(A0)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="什么" node_id="17" head_word="什么" sem_cat="Ba">
+			<sub_pattern node_id="17" sem_pattern="VOB-r(Ba)" syn_pattern="VOB-r(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="是" pattern="SBV-r(Af)_Pred[是]_VOB-n(Af)" syntax_pattern="SBV-r(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="21" tagged="true" instance="他是我们的球员" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="他" node_id="20" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="20" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="球员" node_id="24" head_word="球员" sem_cat="Af">
+			<sub_pattern node_id="24" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="15">
+	<origin_text>对于大家关心的门将位置，瓜迪奥拉排除了引进那不勒斯门将雷纳的可能性，并确认布拉沃将成为新赛季计划的一部分。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Df)_Pred[de]_dobj-m(Dn)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-m(A)" taggedType="a" pred_id="25" tagged="true" instance="新赛季计划的一部分" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="新赛季计划" node_id="24" head_word="计划" sem_cat="Df">
+			<sub_pattern node_id="24" sem_pattern="nsubj-n(Df)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="一部分" node_id="26" head_word="一部分" sem_cat="Dn">
+			<sub_pattern node_id="26" sem_pattern="dobj-m(Dn)" syn_pattern="dobj-m(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="排除" pattern="ADV-对于_POB-n(Cb)_SBV-nr(Af)_Pred[排除]_VOB-n(Dd)" syntax_pattern="ADV-对于_POB-n(A)_SBV-nr(A)_Pred[排除]_VOB-n(A)" taggedType="a" pred_id="8" tagged="true" instance="门将位置，瓜迪奥拉排除了引进那不勒斯门将雷纳的可能性" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="门将位置" node_id="5" head_word="位置" sem_cat="Cb">
+			<sub_pattern node_id="5" sem_pattern="POB-n(Cb)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-对于" syn_pattern="ADV-对于"/>
+		</argument>
+		<argument id="1" content="瓜迪奥拉" node_id="7" head_word="瓜迪奥拉" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="可能性" node_id="15" head_word="可能性" sem_cat="Dd">
+			<sub_pattern node_id="15" sem_pattern="VOB-n(Dd)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="成为" pattern="SBV-ns(Cb)_Pred[成为]_VOB-m(Dn)" syntax_pattern="SBV-ns(A)_Pred[成为]_VOB-m(A)" taggedType="a" pred_id="21" tagged="true" instance="布拉沃将成为新赛季计划的一部分" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="布拉沃" node_id="19" head_word="布拉沃" sem_cat="Cb">
+			<sub_pattern node_id="19" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="一部分" node_id="26" head_word="一部分" sem_cat="Dn">
+			<sub_pattern node_id="26" sem_pattern="VOB-m(Dn)" syn_pattern="VOB-m(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="16">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="17">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

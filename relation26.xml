@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title曼联vs曼城首发阵容：卢卡库对决阿圭罗/Title</origin_text>
+</sentence>
+<sentence id="7">
+	<origin_text>虎扑7月21日讯曼联对阵曼城的首场海外曼彻斯特德比战将在北京时间10:05进行，目前双方已经公布了各自的首发阵容以及替补阵容。</origin_text>
+	<relation id="1" pred="进行" pattern="DE-ns(Cb)_ATT-u_QUN-q(Dn)_SBV-ns(Cb)_ADV-在_POB-m(Dn)_Pred[进行]" syntax_pattern="DE-ns(A)_ATT-u_QUN-q(A)_SBV-ns(A)_ADV-在_POB-m(A)_Pred[进行]" taggedType="a" pred_id="21" tagged="true" instance="曼城的首场海外曼彻斯特德比战将在北京时间10:05进行" feature="0-0-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼城" node_id="7" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="DE-ns(Cb)" syn_pattern="DE-ns(A)"/>
+			<sub_pattern node_id="8" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+		</argument>
+		<argument id="1" content="首场" node_id="10" head_word="场" sem_cat="Dn">
+			<sub_pattern node_id="10" sem_pattern="QUN-q(Dn)" syn_pattern="QUN-q(A)"/>
+		</argument>
+		<argument id="2" content="海外曼彻斯特德比战" node_id="13" head_word="德比战" sem_cat="Cb">
+			<sub_pattern node_id="13" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="3" content="北京时间10:05" node_id="20" head_word="05" sem_cat="Dn">
+			<sub_pattern node_id="20" sem_pattern="POB-m(Dn)" syn_pattern="POB-m(A)"/>
+			<sub_pattern node_id="15" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="公布" pattern="ADV-t(Ca)_SBV-n(Dd)_Pred[公布]_VOB-n(Dc)" syntax_pattern="ADV-t(A)_SBV-n(A)_Pred[公布]_VOB-n(A)" taggedType="a" pred_id="26" tagged="true" instance="目前双方已经公布了各自的首发阵容以及替补阵容" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="目前" node_id="23" head_word="目前" sem_cat="Ca">
+			<sub_pattern node_id="23" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="双方" node_id="24" head_word="双方" sem_cat="Dd">
+			<sub_pattern node_id="24" sem_pattern="SBV-n(Dd)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="首发阵容以及替补阵容" node_id="34" head_word="阵容" sem_cat="Dc">
+			<sub_pattern node_id="34" sem_pattern="VOB-n(Dc)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>曼联首发：德赫亚、瓦伦西亚、林德勒夫、斯莫林、布林德、埃雷拉、博格巴、拉什福德、姆希塔良、林加德、卢卡库。</origin_text>
+</sentence>
+<sentence id="9">
+	<origin_text>替补：罗梅罗，若埃尔-佩雷拉，门萨，达米安，巴伊，图安夆贝，卡里克，费莱尼，马夏尔，琼斯，米切尔，麦克托米纳。</origin_text>
+	<relation id="1" pred="夆贝" pattern="SBV-ns(Cb)_Pred[夆贝]_VOB-nr(Af)" syntax_pattern="SBV-ns(A)_Pred[夆贝]_VOB-nr(A)" taggedType="a" pred_id="13" tagged="true" instance="图安夆贝，卡里克，费莱尼，马夏尔，琼斯，米切尔，麦克托米纳" feature="1-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="图安" node_id="12" head_word="图安" sem_cat="Cb">
+			<sub_pattern node_id="12" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="卡里克费莱尼马夏尔琼斯米切尔麦克托米纳" node_id="25" head_word="麦克托米纳" sem_cat="Af">
+			<sub_pattern node_id="25" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>曼城首发：埃德松、阿达拉比奥尤、孔帕尼、费尔南多、亚亚-图雷、沃克、菲尔-弗登、德布劳内、斯特林、阿圭罗、罗伯茨。</origin_text>
+	<relation id="1" pred="首发" pattern="SBV-ns(Cb)_Pred[首发]_VOB-nr(Af)" syntax_pattern="SBV-ns(A)_Pred[首发]_VOB-nr(A)" taggedType="a" pred_id="1" tagged="true" instance="曼城首发：埃德松、阿达拉比奥尤、孔帕尼、费尔南多、亚亚-图雷、沃克、菲尔-弗登、德布劳内、斯特林、阿圭罗、罗伯茨" feature="1-0-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼城" node_id="0" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="0" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="：埃德松、阿达拉比奥尤、孔帕尼、费尔南多、亚亚-图雷、沃克、菲尔-弗登、德布劳内、斯特林、阿圭罗、罗伯茨" node_id="23" head_word="罗伯茨" sem_cat="Af">
+			<sub_pattern node_id="23" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="12">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

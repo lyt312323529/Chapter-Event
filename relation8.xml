@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title耍在成都#18日晚，网友曝光一段陈伟霆拍摄《南方有乔木》的饭拍/Title</origin_text>
+	<relation id="2" pred="曝光" pattern="TPC-ns(Cb)_ADV-t(A0)_SBV-n(Af)_Pred[曝光]_VOB-nx(A1)" syntax_pattern="TPC-ns(A)_ADV-t(A)_SBV-n(A)_Pred[曝光]_VOB-nx(A)" taggedType="a" pred_id="8" tagged="false" instance="成都#18日晚，网友曝光一段陈伟霆拍摄《南方有乔木》的饭拍/Title" feature="0-1-0-0-1-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="成都" node_id="3" head_word="成都" sem_cat="Cb">
+			<sub_pattern node_id="3" sem_pattern="TPC-ns(Cb)" syn_pattern="TPC-ns(A)"/>
+		</argument>
+		<argument id="1" content="#18日晚" node_id="5" head_word="晚" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="ADV-t(A0)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="2" content="网友" node_id="7" head_word="网友" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="3" content="/Title" node_id="22" head_word="Title" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="VOB-nx(A1)" syn_pattern="VOB-nx(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="拍摄" pattern="SBV-nr(Af)_Pred[拍摄]_ADV-f(Cb)_VOB-有_VOB-n(Bh)_ATT-u_APP-n(A0)" syntax_pattern="SBV-nr(A)_Pred[拍摄]_ADV-f(A)_VOB-有_VOB-n(A)_ATT-u_APP-n(A)" taggedType="a" pred_id="12" tagged="false" instance="一段陈伟霆拍摄《南方有乔木》的饭拍" feature="0-0-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="陈伟霆" node_id="11" head_word="陈伟霆" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+			<sub_pattern node_id="12" sem_pattern="DE-拍摄" syn_pattern="DE-拍摄"/>
+			<sub_pattern node_id="18" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="20" sem_pattern="APP-n(A0)" syn_pattern="APP-n(A)"/>
+		</argument>
+		<argument id="1" content="南方" node_id="14" head_word="南方" sem_cat="Cb">
+			<sub_pattern node_id="14" sem_pattern="ADV-f(Cb)" syn_pattern="ADV-f(A)"/>
+			<sub_pattern node_id="15" sem_pattern="VOB-有" syn_pattern="VOB-有"/>
+		</argument>
+		<argument id="2" content="乔木" node_id="16" head_word="乔木" sem_cat="Bh">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Bh)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="3" content="" node_id="20" head_word="" sem_cat="">
+		</argument>
+	</relation>
+	<relation id="4" pred="is" pattern="SBV-nx(A0)_Pred[is]_VOB-n(A1)" syntax_pattern="SBV-nx(A)_Pred[is]_VOB-n" taggedType="a" pred_id="22" tagged="false" instance="一段陈伟霆拍摄《南方有乔木》的饭拍/Title" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="/Title" node_id="22" head_word="Title" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="SBV-nx(A0)" syn_pattern="SBV-nx(A)"/>
+		</argument>
+		<argument id="1" content="一段陈伟霆拍摄南方有乔木的饭拍" node_id="20" head_word="" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>18日晚，网友曝光一段陈伟霆拍摄《南方有乔木》的饭拍视频，并称：“陈伟霆这腿，这身材比例，真霸道总裁本尊。”</origin_text>
+	<relation id="1" pred="曝光" pattern="ADV-t(A0)_SBV-n(Af)_Pred[曝光]_VOB-n(A1)" syntax_pattern="ADV-t(A)_SBV-n(A)_Pred[曝光]_VOB-n(A)" taggedType="a" pred_id="4" tagged="false" instance="18日晚，网友曝光一段陈伟霆拍摄《南方有乔木》的饭拍视频" feature="1-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="18日晚" node_id="1" head_word="晚" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(A0)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="网友" node_id="3" head_word="网友" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="一段陈伟霆拍摄南方有乔木的饭拍视频" node_id="16" head_word="视频" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="拍摄" pattern="SBV-nr(Af)_Pred[拍摄]_ADV-f(Cb)_VOB-有_VOB-n(Bh)_ATT-u_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[拍摄]_ADV-f(A)_VOB-有_VOB-n(A)_ATT-u_VOB-n(A)" taggedType="a" pred_id="8" tagged="false" instance="一段陈伟霆拍摄《南方有乔木》的饭拍视频" feature="0-0-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="陈伟霆" node_id="7" head_word="陈伟霆" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+			<sub_pattern node_id="8" sem_pattern="DE-拍摄" syn_pattern="DE-拍摄"/>
+			<sub_pattern node_id="14" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="16" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="1" content="南方" node_id="10" head_word="南方" sem_cat="Cb">
+			<sub_pattern node_id="10" sem_pattern="ADV-f(Cb)" syn_pattern="ADV-f(A)"/>
+			<sub_pattern node_id="11" sem_pattern="VOB-有" syn_pattern="VOB-有"/>
+		</argument>
+		<argument id="2" content="乔木" node_id="12" head_word="乔木" sem_cat="Bh">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Bh)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="3" content="视频" node_id="16" head_word="视频" sem_cat="">
+		</argument>
+	</relation>
+	<relation id="3" pred="称" pattern="SBV-n(Af)_Pred[称]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[称]_VOB-n(A)" taggedType="a" pred_id="20" tagged="false" instance="网友并称：“陈伟霆这腿，这身材比例，真霸道总裁本尊" feature="1-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="网友(Z)" node_id="18" head_word="网友" sem_cat="Af">
+			<sub_pattern node_id="18" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="：陈伟霆这腿这身材比例真霸道总裁本尊" node_id="34" head_word="本尊" sem_cat="">
+			<sub_pattern node_id="34" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>张翰、钟汉良、杨洋、林更新、王俊凯、王源、易烊千玺、李易峰、黄轩、窦骁、靳东、张艺兴、陈伟霆、彭于晏、王凯，你心中的真霸道总裁本尊是？</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-s(Df)_Pred[de]_dobj-n(Af)" syntax_pattern="nsubj-s(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="32" tagged="true" instance="你心中的真霸道总裁" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="你心中" node_id="31" head_word="心中" sem_cat="Df">
+			<sub_pattern node_id="31" sem_pattern="nsubj-s(Df)" syn_pattern="nsubj-s(A)"/>
+		</argument>
+		<argument id="1" content="霸道总裁" node_id="35" head_word="总裁" sem_cat="Af">
+			<sub_pattern node_id="35" sem_pattern="dobj-n(Af)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="SBV-nr(Af)_SBV-nr(Af)_Pred[是]" syntax_pattern="SBV-nr(A)_SBV-nr(A)_Pred[是]" taggedType="a" pred_id="37" tagged="true" instance="张翰、钟汉良、杨洋、林更新、王俊凯、王源、易烊千玺、李易峰、黄轩、窦骁、靳东、张艺兴、陈伟霆、彭于晏、王凯，你心中的真霸道总裁本尊是" feature="1-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="张翰、钟汉良、杨洋、林更新、王俊凯、王源、易烊千玺、李易峰、黄轩、窦骁、靳东、张艺兴、陈伟霆、彭于晏、王凯" node_id="28" head_word="王凯" sem_cat="Af">
+			<sub_pattern node_id="28" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="本尊" node_id="36" head_word="本尊" sem_cat="Af">
+			<sub_pattern node_id="36" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="36" tagged="true" instance="霸道总裁本尊" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="本尊" node_id="36" head_word="本尊" sem_cat="Af">
+			<sub_pattern node_id="36" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="霸道总裁" node_id="35" head_word="总裁" sem_cat="Af">
+			<sub_pattern node_id="36" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="10">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

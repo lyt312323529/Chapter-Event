@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title《军舰岛》试映会宋仲基为爱人宋慧乔，为拒绝三菱广告鼓掌/Title</origin_text>
+	<relation id="1" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="false" instance="Title《军舰岛》试映会宋仲基" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="宋仲基" node_id="7" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="Title军舰岛试映会" node_id="6" head_word="试映会" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="为" pattern="SBV-nr(Af)_Pred[为]_VOB-nr(Af)" syntax_pattern="SBV-nr(A)_Pred[为]_VOB-nr(A)" taggedType="a" pred_id="8" tagged="true" instance="宋仲基为爱人宋慧乔" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="宋仲基" node_id="7" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="宋慧乔" node_id="10" head_word="宋慧乔" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="10" tagged="true" instance="爱人宋慧乔" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="宋慧乔" node_id="10" head_word="宋慧乔" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="爱人" node_id="9" head_word="爱人" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="鼓掌" pattern="SBV-nr(Af)_Pred[鼓掌]_VOB-ns(Cb)" syntax_pattern="SBV-nr(A)_Pred[鼓掌]_VOB-ns(A)" taggedType="a" pred_id="17" tagged="true" instance="Title__《_军舰_岛_》_试映会_宋仲基为拒绝三菱广告鼓掌/Title" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="Title军舰岛试映会宋仲基(Z)" node_id="12" head_word="Title  《 军舰 岛 》 试映会 宋仲基" sem_cat="Af">
+			<sub_pattern node_id="12" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="/Title" node_id="21" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="21" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>19日下午，《军舰岛》媒体试映会在首尔龙山CGV举行，当被问到宋慧乔曾拒拍日本某品牌汽车广告一事时，宋仲基表示：“当时是通过新闻知道的，看到新闻后心里为她鼓掌。</origin_text>
+	<relation id="1" pred="举行" pattern="ADV-t(Ca)_SBV-n(A0)_ADV-在_POB-nx(A1)_Pred[举行]" syntax_pattern="ADV-t(A)_SBV-n(A)_ADV-在_POB-nx(A)_Pred[举行]" taggedType="a" pred_id="12" tagged="false" instance="19日下午，《军舰岛》媒体试映会在首尔龙山CGV举行" feature="1-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="19日下午" node_id="1" head_word="下午" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="军舰岛媒体试映会" node_id="8" head_word="试映会" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="首尔龙山CGV" node_id="11" head_word="CGV" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="POB-nx(A1)" syn_pattern="POB-nx(A)"/>
+			<sub_pattern node_id="9" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="拒" pattern="SBV-nr(Af)_Pred[拒]_VOB-拍_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[拒]_VOB-拍_VOB-n(A)" taggedType="a" pred_id="20" tagged="false" instance="宋慧乔曾拒拍日本某品牌汽车广告一事" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="宋慧乔" node_id="18" head_word="宋慧乔" sem_cat="Af">
+			<sub_pattern node_id="18" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="日本某品牌汽车广告一事" node_id="28" head_word="事" sem_cat="">
+			<sub_pattern node_id="28" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="21" sem_pattern="VOB-拍" syn_pattern="VOB-拍"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="表示" pattern="ADV-当_POB-n(Ca)_SBV-nr(Af)_Pred[表示]_ADV-f(A0)_SBV-s(A1)_VOB-鼓掌" syntax_pattern="ADV-当_POB-n(A)_SBV-nr(A)_Pred[表示]_ADV-f(A)_SBV-s(A)_VOB-鼓掌" taggedType="a" pred_id="32" tagged="false" instance="时，宋仲基表示：“当时是通过新闻知道的，看到新闻后心里" feature="0-1-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="时" node_id="29" head_word="时" sem_cat="Ca">
+			<sub_pattern node_id="29" sem_pattern="POB-n(Ca)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="14" sem_pattern="ADV-当" syn_pattern="ADV-当"/>
+		</argument>
+		<argument id="1" content="宋仲基" node_id="31" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="31" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="后" node_id="44" head_word="后" sem_cat="">
+			<sub_pattern node_id="44" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+			<sub_pattern node_id="48" sem_pattern="VOB-鼓掌" syn_pattern="VOB-鼓掌"/>
+		</argument>
+		<argument id="3" content="心里" node_id="45" head_word="心里" sem_cat="">
+			<sub_pattern node_id="45" sem_pattern="SBV-s(A1)" syn_pattern="SBV-s(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>这个广告如果让我拍我也会拒绝。</origin_text>
+	<relation id="1" pred="让" pattern="SBV-n(Dk)_Pred[让]_VOB-r(Af)" syntax_pattern="SBV-n(A)_Pred[让]_VOB-r(A)" taggedType="a" pred_id="3" tagged="true" instance="这个广告如果让我" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="这个广告" node_id="1" head_word="广告" sem_cat="Dk">
+			<sub_pattern node_id="1" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="我" node_id="4" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="VOB-r(Af)" syn_pattern="VOB-r(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>慧乔现在成了我爱的人，我觉得她真的做得很好。”</origin_text>
+	<relation id="1" pred="成" pattern="SBV-nr(Af)_ADV-t(Ca)_Pred[成]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_ADV-t(A)_Pred[成]_VOB-n(A)" taggedType="a" pred_id="2" tagged="false" instance="慧乔现在成了我爱的人" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="慧乔" node_id="0" head_word="慧乔" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="现在" node_id="1" head_word="现在" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="2" content="人" node_id="7" head_word="人" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="觉得" pattern="SBV-r(Af)_Pred[觉得]_SBV-r(A0)_VOB-做" syntax_pattern="SBV-r(A)_Pred[觉得]_SBV-r(A)_VOB-做" taggedType="a" pred_id="10" tagged="false" instance="我觉得她" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="我" node_id="9" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="她" node_id="11" head_word="她" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="13" sem_pattern="VOB-做" syn_pattern="VOB-做"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>2016年，宋慧乔曾接到了日本某汽车企业在中国的代言邀请，但是宋慧乔没有考虑就拒绝了这家企业的邀请，表示因为该企业在二战期间强征十多万韩国人进行强制劳动，并且至今拒绝为此事进行道歉和赔偿。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Dm)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="12" tagged="false" instance="日本某汽车企业在中国的代言邀请" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="日本某汽车企业" node_id="9" head_word="企业" sem_cat="Dm">
+			<sub_pattern node_id="9" sem_pattern="nsubj-n(Dm)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="代言邀请" node_id="14" head_word="邀请" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-n(Dm)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="25" tagged="false" instance="日本某汽车企业在中国的代言邀请" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这家企业" node_id="24" head_word="企业" sem_cat="Dm">
+			<sub_pattern node_id="24" sem_pattern="nsubj-n(Dm)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="邀请" node_id="26" head_word="邀请" sem_cat="">
+			<sub_pattern node_id="26" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="接到" pattern="ADV-t(Ca)_SBV-nr(Af)_Pred[接到]_VOB-n(A0)" syntax_pattern="ADV-t(A)_SBV-nr(A)_Pred[接到]_VOB-n(A)" taggedType="a" pred_id="4" tagged="false" instance="2016年，宋慧乔曾接到了日本某汽车企业在中国的代言邀请" feature="1-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="2016年" node_id="0" head_word="2016年" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="宋慧乔" node_id="2" head_word="宋慧乔" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="代言邀请" node_id="14" head_word="邀请" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="拒绝" pattern="SBV-nr(Af)_Pred[拒绝]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[拒绝]_VOB-n(A)" taggedType="a" pred_id="21" tagged="false" instance="宋慧乔没有考虑就拒绝了这家企业的邀请" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="宋慧乔" node_id="17" head_word="宋慧乔" sem_cat="Af">
+			<sub_pattern node_id="17" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="邀请" node_id="26" head_word="邀请" sem_cat="">
+			<sub_pattern node_id="26" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="征" pattern="SBV-n(Dm)_ADV-在_POB-f(Ca)_Pred[征]_VOB-n(A0)" syntax_pattern="SBV-n(A)_ADV-在_POB-f(A)_Pred[征]_VOB-n(A)" taggedType="a" pred_id="36" tagged="false" instance="该企业在二战期间强征十多万韩国人" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="该企业" node_id="31" head_word="企业" sem_cat="Dm">
+			<sub_pattern node_id="31" sem_pattern="SBV-n(Dm)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="二战期间" node_id="34" head_word="期间" sem_cat="Ca">
+			<sub_pattern node_id="34" sem_pattern="POB-f(Ca)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="32" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="十多万韩国人" node_id="41" head_word="人" sem_cat="">
+			<sub_pattern node_id="41" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>此事当时获得众多韩国人民的赞赏，一名88岁高龄奶奶还写亲笔信夸赞暖宋慧乔善行，“连总统都做不到的事情，宋小姐做到了。”</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Af)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="6" tagged="false" instance="众多韩国人民的赞赏" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="众多韩国人民" node_id="5" head_word="人民" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="nsubj-n(Af)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="赞赏" node_id="7" head_word="赞赏" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="获得" pattern="SBV-r(Da)_ADV-t(Ca)_Pred[获得]_VOB-n(A0)" syntax_pattern="SBV-r(A)_ADV-t(A)_Pred[获得]_VOB-n(A)" taggedType="a" pred_id="2" tagged="false" instance="此事当时获得众多韩国人民的赞赏" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="此事" node_id="0" head_word="此事" sem_cat="Da">
+			<sub_pattern node_id="0" sem_pattern="SBV-r(Da)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="当时" node_id="1" head_word="当时" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="2" content="赞赏" node_id="7" head_word="赞赏" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="做到" pattern="SBV-n(A0)_SBV-n(Af)_Pred[做到]" syntax_pattern="SBV-n(A)_SBV-n(A)_Pred[做到]" taggedType="a" pred_id="35" tagged="false" instance="事情，宋小姐做到" feature="0-1-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="事情" node_id="31" head_word="事情" sem_cat="">
+			<sub_pattern node_id="31" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="小姐" node_id="34" head_word="小姐" sem_cat="Af">
+			<sub_pattern node_id="34" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>信件公开后，引起许多人共鸣，纷纷称赞宋慧乔人美心也美。</origin_text>
+	<relation id="1" pred="公开" pattern="SBV-n(Dk)_Pred[公开]_ADV-f(A0)" syntax_pattern="SBV-n(A)_Pred[公开]_ADV-f(A)" taggedType="a" pred_id="1" tagged="false" instance="信件公开后" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="信件" node_id="0" head_word="信件" sem_cat="Dk">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ATT-公开" syn_pattern="ATT-公开"/>
+			<sub_pattern node_id="2" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="后" node_id="2" head_word="后" sem_cat="">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="13">
+	<origin_text>宋仲基在访问中提到宋慧乔拒绝三菱广告的事情：“我是通过新闻知道的。</origin_text>
+	<relation id="1" pred="提到" pattern="SBV-nr(Af)_ADV-在_POB-f(A0)_Pred[提到]" syntax_pattern="SBV-nr(A)_ADV-在_POB-f(A)_Pred[提到]" taggedType="a" pred_id="4" tagged="false" instance="宋仲基在访问中提到" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="宋仲基" node_id="0" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="中" node_id="3" head_word="中" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="14">
+	<origin_text>看到新闻心里第一个想到的行动就是拍手鼓掌。”</origin_text>
+</sentence>
+<sentence id="15">
+	<origin_text>“那个广告给我的话通常也一样会那样做的。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-r(Af)_Pred[de]_dobj-n(Dk)" syntax_pattern="nsubj-r(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="5" tagged="true" instance="我的话" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我" node_id="4" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="nsubj-r(Af)" syn_pattern="nsubj-r(A)"/>
+		</argument>
+		<argument id="1" content="话" node_id="6" head_word="话" sem_cat="Dk">
+			<sub_pattern node_id="6" sem_pattern="dobj-n(Dk)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="做" pattern="SBV-n(Dk)_ADV-给_POB-n(Dk)_ADV-r(A0)_Pred[做]" syntax_pattern="SBV-n(A)_ADV-给_POB-n(A)_ADV-r(A)_Pred[做]" taggedType="a" pred_id="12" tagged="false" instance="那个广告给我的话通常也一样会那样做" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="那个广告" node_id="2" head_word="广告" sem_cat="Dk">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="话" node_id="6" head_word="话" sem_cat="Dk">
+			<sub_pattern node_id="6" sem_pattern="POB-n(Dk)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="3" sem_pattern="ADV-给" syn_pattern="ADV-给"/>
+		</argument>
+		<argument id="2" content="那样" node_id="11" head_word="那样" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="ADV-r(A0)" syn_pattern="ADV-r(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="16">
+	<origin_text>现在（宋慧乔）成为爱人，真的觉得是正确的行动。”</origin_text>
+	<relation id="1" pred="成为" pattern="ADV-t(Ca)_Pred[成为]_VOB-n(Af)" syntax_pattern="ADV-t(A)_Pred[成为]_VOB-n(A)" taggedType="a" pred_id="4" tagged="true" instance="现在（宋慧乔）成为爱人" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="现在" node_id="0" head_word="现在" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="爱人" node_id="5" head_word="爱人" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="17">
+	<origin_text>柳昇完导演：宋仲基的选角是在《太阳的后裔》播出之前决定的事情，所以当时还没有通过电视剧看到柳时镇的样子。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-nr(Af)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-nr(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="5" tagged="false" instance="宋仲基的选角" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="宋仲基" node_id="4" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="nsubj-nr(Af)" syn_pattern="nsubj-nr(A)"/>
+		</argument>
+		<argument id="1" content="选角" node_id="6" head_word="选角" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-bo(Dk)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-bo(A)" taggedType="a" pred_id="11" tagged="false" instance="《太阳的后裔》" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="太阳" node_id="10" head_word="太阳" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="太阳的后裔" node_id="12" head_word="后裔" sem_cat="Dk">
+			<sub_pattern node_id="12" sem_pattern="dobj-bo(Dk)" syn_pattern="dobj-bo(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="de" pattern="nsubj-ns(Cb)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-ns(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="28" tagged="false" instance="柳时镇的样子" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="柳时镇" node_id="27" head_word="柳时镇" sem_cat="Cb">
+			<sub_pattern node_id="27" sem_pattern="nsubj-ns(Cb)" syn_pattern="nsubj-ns(A)"/>
+		</argument>
+		<argument id="1" content="样子" node_id="29" head_word="样子" sem_cat="">
+			<sub_pattern node_id="29" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="是" pattern="SBV-n(A0)_Pred[是]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="7" tagged="false" instance="选角是在《太阳的后裔》播出之前决定的事情" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="选角" node_id="6" head_word="选角" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="事情" node_id="18" head_word="事情" sem_cat="">
+			<sub_pattern node_id="18" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="播出" pattern="SBV-bo(Dk)_Pred[播出]_POB-f(Ca)" syntax_pattern="SBV-bo(A)_Pred[播出]_POB-f(A)" taggedType="a" pred_id="14" tagged="true" instance="《太阳的后裔》播出之前" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="太阳的后裔" node_id="12" head_word="后裔" sem_cat="Dk">
+			<sub_pattern node_id="12" sem_pattern="SBV-bo(Dk)" syn_pattern="SBV-bo(A)"/>
+			<sub_pattern node_id="14" sem_pattern="ATT-播出" syn_pattern="ATT-播出"/>
+			<sub_pattern node_id="15" sem_pattern="POB-f(Ca)" syn_pattern="POB-f(A)"/>
+		</argument>
+		<argument id="1" content="之前" node_id="15" head_word="之前" sem_cat="Ca">
+		</argument>
+	</relation>
+	<relation id="6" pred="看到" pattern="ADV-t(Ca)_ADV-通过_POB-n(Dk)_Pred[看到]_VOB-n(A0)" syntax_pattern="ADV-t(A)_ADV-通过_POB-n(A)_Pred[看到]_VOB-n(A)" taggedType="a" pred_id="26" tagged="false" instance="当时还没有通过电视剧看到柳时镇的样子" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="当时" node_id="21" head_word="当时" sem_cat="Ca">
+			<sub_pattern node_id="21" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="电视剧" node_id="25" head_word="电视剧" sem_cat="Dk">
+			<sub_pattern node_id="25" sem_pattern="POB-n(Dk)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="24" sem_pattern="ADV-通过" syn_pattern="ADV-通过"/>
+		</argument>
+		<argument id="2" content="样子" node_id="29" head_word="样子" sem_cat="">
+			<sub_pattern node_id="29" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="18">
+	<origin_text>我那时所知道的宋仲基的最新作还停留在《狼少年》上。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-nr(Af)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-nr(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="6" tagged="false" instance="宋仲基的选角" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="宋仲基" node_id="5" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="nsubj-nr(Af)" syn_pattern="nsubj-nr(A)"/>
+		</argument>
+		<argument id="1" content="新作" node_id="9" head_word="作" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="知道" pattern="SBV-r(Af)_ADV-r(Ca)_Pred[知道]_ATT-u_DE-nr(Af)" syntax_pattern="SBV-r(A)_ADV-r(A)_Pred[知道]_ATT-u_DE-nr(A)" taggedType="a" pred_id="3" tagged="true" instance="我那时所知道的宋仲基" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="我" node_id="0" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="3" sem_pattern="DE-知道" syn_pattern="DE-知道"/>
+			<sub_pattern node_id="4" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="5" sem_pattern="DE-nr(Af)" syn_pattern="DE-nr(A)"/>
+		</argument>
+		<argument id="1" content="那时" node_id="1" head_word="那时" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-r(Ca)" syn_pattern="ADV-r(A)"/>
+		</argument>
+		<argument id="2" content="宋仲基" node_id="5" head_word="宋仲基" sem_cat="Af">
+		</argument>
+	</relation>
+	<relation id="3" pred="停留" pattern="SBV-n(A0)_Pred[停留]_CMP-在_POB-f(A1)" syntax_pattern="SBV-n(A)_Pred[停留]_CMP-在_POB-f(A)" taggedType="a" pred_id="11" tagged="false" instance="新作还停留在《狼少年》上" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="新作" node_id="9" head_word="作" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="狼少年上" node_id="17" head_word="上" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="POB-f(A1)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="12" sem_pattern="CMP-在" syn_pattern="CMP-在"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="19">
+	<origin_text>宋仲基的五官不仅给人一种开朗的感觉，有时也能捕捉到那种阴沉之感。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-nr(Af)_Pred[de]_dobj-n(Bk)" syntax_pattern="nsubj-nr(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="1" tagged="true" instance="宋仲基的五官" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="宋仲基" node_id="0" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="nsubj-nr(Af)" syn_pattern="nsubj-nr(A)"/>
+		</argument>
+		<argument id="1" content="五官" node_id="2" head_word="五官" sem_cat="Bk">
+			<sub_pattern node_id="2" sem_pattern="dobj-n(Bk)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="给" pattern="SBV-n(Bk)_Pred[给]_IOB-n(A0)_VOB-n(Df)" syntax_pattern="SBV-n(A)_Pred[给]_IOB-n(A)_VOB-n(A)" taggedType="a" pred_id="4" tagged="false" instance="五官不仅给人一种开朗的感觉" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="五官" node_id="2" head_word="五官" sem_cat="Bk">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(Bk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="人" node_id="5" head_word="人" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="IOB-n(A0)" syn_pattern="IOB-n(A)"/>
+		</argument>
+		<argument id="2" content="一种开朗的感觉" node_id="10" head_word="感觉" sem_cat="Df">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(Df)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="捕捉" pattern="SBV-n(A0)_Pred[捕捉]_VOB-n(Df)" syntax_pattern="SBV-n(A)_Pred[捕捉]_VOB-n(A)" taggedType="a" pred_id="16" tagged="false" instance="宋仲基_的_五官有时也能捕捉到那种阴沉之感" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="宋仲基的五官(Z)" node_id="12" head_word="宋仲基 的 五官" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="那种阴沉之感" node_id="21" head_word="感" sem_cat="Df">
+			<sub_pattern node_id="21" sem_pattern="VOB-n(Df)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="20">
+	<origin_text>但其实他所饰演的帅气的角色并不是特意去塑造成很帅气，而是演员本人就拥有那样的风度。</origin_text>
+	<relation id="2" pred="de" pattern="nsubj-r(A0)_Pred[de]_dobj-n(Dc)" syntax_pattern="nsubj-r(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="24" tagged="false" instance="那样的风度" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="那样" node_id="23" head_word="那样" sem_cat="">
+			<sub_pattern node_id="23" sem_pattern="nsubj-r(A0)" syn_pattern="nsubj-r(A)"/>
+		</argument>
+		<argument id="1" content="风度" node_id="25" head_word="风度" sem_cat="Dc">
+			<sub_pattern node_id="25" sem_pattern="dobj-n(Dc)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="拥有" pattern="SBV-r(Af)_Pred[拥有]_VOB-n(Dc)" syntax_pattern="SBV-r(A)_Pred[拥有]_VOB-n(A)" taggedType="a" pred_id="22" tagged="true" instance="演员本人就拥有那样的风度" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="演员本人" node_id="20" head_word="本人" sem_cat="Af">
+			<sub_pattern node_id="20" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="风度" node_id="25" head_word="风度" sem_cat="Dc">
+			<sub_pattern node_id="25" sem_pattern="VOB-n(Dc)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="21">
+	<origin_text>他具有作为演员应有的基本品质的和世界观，是个意志非常坚定的人。</origin_text>
+	<relation id="1" pred="具有" pattern="SBV-r(Af)_Pred[具有]_VOB-n(A0)_ATT-u_SBV-n(Df)" syntax_pattern="SBV-r(A)_Pred[具有]_VOB-n(A)_ATT-u_SBV-n(A)" taggedType="a" pred_id="1" tagged="false" instance="他具有作为演员应有的基本品质的和世界观" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="他" node_id="0" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="1" sem_pattern="DE-具有" syn_pattern="DE-具有"/>
+			<sub_pattern node_id="8" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="10" sem_pattern="SBV-n(Df)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="基本品质" node_id="7" head_word="品质" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="2" content="世界观" node_id="10" head_word="世界观" sem_cat="Df">
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="SBV-n(Df)_Pred[是]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="12" tagged="false" instance="世界观，是个意志非常坚定的人" feature="0-1-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="世界观" node_id="10" head_word="世界观" sem_cat="Df">
+			<sub_pattern node_id="10" sem_pattern="SBV-n(Df)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="个意志非常坚定的人" node_id="18" head_word="人" sem_cat="">
+			<sub_pattern node_id="18" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="22">
+	<origin_text>宋仲基《军舰岛》讲述了日本殖民统治时期，在军舰岛内被日军强制征用的400余名半岛百姓试图逃离该岛改变命运的故事。</origin_text>
+	<relation id="1" pred="is" pattern="SBV-n(Be)_Pred[is]_VOB-nr(Af)" syntax_pattern="SBV-n(A)_Pred[is]_VOB-nr" taggedType="a" pred_id="3" tagged="true" instance="宋仲基《军舰岛》" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="军舰岛" node_id="3" head_word="岛" sem_cat="Be">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Be)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="宋仲基军舰岛" node_id="0" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="讲述" pattern="SBV-n(Be)_Pred[讲述]_VOB-n(Ca)" syntax_pattern="SBV-n(A)_Pred[讲述]_VOB-n(A)" taggedType="a" pred_id="5" tagged="true" instance="《军舰岛》讲述了日本殖民统治时期" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="军舰岛" node_id="3" head_word="岛" sem_cat="Be">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Be)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="日本殖民统治时期" node_id="10" head_word="时期" sem_cat="Ca">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(Ca)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="强制" pattern="SBV-n(A0)_ADV-在_POB-s(Be)_ADV-被_POB-n(Di)_Pred[强制]_VOB-n(Af)" syntax_pattern="SBV-n(A)_ADV-在_POB-s(A)_ADV-被_POB-n(A)_Pred[强制]_VOB-n(A)" taggedType="a" pred_id="18" tagged="false" instance="宋仲基_《_军舰_岛在军舰岛内被日军强制征用的400余名半岛百姓" feature="0-0-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="宋仲基军舰岛(Z)" node_id="12" head_word="宋仲基 《 军舰 岛" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="军舰岛内" node_id="15" head_word="岛内" sem_cat="Be">
+			<sub_pattern node_id="15" sem_pattern="POB-s(Be)" syn_pattern="POB-s(A)"/>
+			<sub_pattern node_id="13" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="日军" node_id="17" head_word="日军" sem_cat="Di">
+			<sub_pattern node_id="17" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="16" sem_pattern="ADV-被" syn_pattern="ADV-被"/>
+		</argument>
+		<argument id="3" content="400余名半岛百姓" node_id="25" head_word="百姓" sem_cat="Af">
+			<sub_pattern node_id="25" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="23">
+	<origin_text>宋仲基将饰演朴武英，一个为了救出独立运动的重要人物而前往军舰岛，以强烈的信念为基础，而执行任务的英雄。</origin_text>
+	<relation id="3" pred="饰演" pattern="SBV-nr(Af)_Pred[饰演]_VOB-nr(Af)" syntax_pattern="SBV-nr(A)_Pred[饰演]_VOB-nr(A)" taggedType="a" pred_id="2" tagged="true" instance="宋仲基将饰演朴武英" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="宋仲基" node_id="0" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="朴武英" node_id="3" head_word="朴武英" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="前往" pattern="SBV-nr(Af)_Pred[前往]_VOB-n(Be)" syntax_pattern="SBV-nr(A)_Pred[前往]_VOB-n(A)" taggedType="a" pred_id="16" tagged="true" instance="宋仲基为了救出独立运动的重要人物而前往军舰岛" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="宋仲基(Z)" node_id="6" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="军舰岛" node_id="18" head_word="岛" sem_cat="Be">
+			<sub_pattern node_id="18" sem_pattern="VOB-n(Be)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="为" pattern="SBV-nr(Af)_ADV-以_POB-n(Df)_Pred[为]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_ADV-以_POB-n(A)_Pred[为]_VOB-n(A)" taggedType="a" pred_id="25" tagged="false" instance="宋仲基以强烈的信念为基础" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="宋仲基(Z)" node_id="20" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="20" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="信念" node_id="24" head_word="信念" sem_cat="Df">
+			<sub_pattern node_id="24" sem_pattern="POB-n(Df)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="21" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="2" content="基础" node_id="26" head_word="基础" sem_cat="">
+			<sub_pattern node_id="26" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="24">
+	<origin_text>人逢喜事精神爽。</origin_text>
+</sentence>
+<sentence id="25">
+	<origin_text>笑的好开森!“军舰岛”宋仲基“爱人宋慧乔，为拒绝三菱广告鼓掌</origin_text>
+	<relation id="1" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Be)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="8" tagged="true" instance="好开森!“军舰岛”宋仲基" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="宋仲基" node_id="8" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="好开森!军舰岛" node_id="6" head_word="岛" sem_cat="Be">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(Be)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="鼓掌" pattern="TPC-nr(Af)_SBV-nr(Af)_Pred[鼓掌]" syntax_pattern="TPC-nr(A)_SBV-nr(A)_Pred[鼓掌]" taggedType="a" pred_id="17" tagged="true" instance="宋仲基“爱人宋慧乔，为拒绝三菱广告鼓掌" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="宋仲基" node_id="8" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="TPC-nr(Af)" syn_pattern="TPC-nr(A)"/>
+		</argument>
+		<argument id="1" content="宋慧乔" node_id="11" head_word="宋慧乔" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="11" tagged="true" instance="爱人宋慧乔" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="宋慧乔" node_id="11" head_word="宋慧乔" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="爱人" node_id="10" head_word="爱人" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="26">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="27">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

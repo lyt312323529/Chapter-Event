@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title021国际杯7月24日皇家马德里vs曼联/Title</origin_text>
+	<relation id="1" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="8" tagged="false" instance="Title021国际杯7月24日皇家马德里" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="马德里" node_id="8" head_word="马德里" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="Title021国际杯7月24日皇家" node_id="7" head_word="皇家" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>曼联周中2比0轻取了曼城，本也场是曼联一周内的第4场比赛。</origin_text>
+	<relation id="1" pred="轻取" pattern="SBV-f(A0)_ADV-m(Dn)_ADV-比_POB-m(Dn)_Pred[轻取]_VOB-ns(Cb)" syntax_pattern="SBV-f(A)_ADV-m(A)_ADV-比_POB-m(A)_Pred[轻取]_VOB-ns(A)" taggedType="a" pred_id="6" tagged="false" instance="曼联周中2比0轻取了曼城" feature="1-0-1-0-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="曼联周中" node_id="2" head_word="中" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="SBV-f(A0)" syn_pattern="SBV-f(A)"/>
+		</argument>
+		<argument id="1" content="2" node_id="3" head_word="2" sem_cat="Dn">
+			<sub_pattern node_id="3" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+		</argument>
+		<argument id="2" content="0" node_id="5" head_word="0" sem_cat="Dn">
+			<sub_pattern node_id="5" sem_pattern="POB-m(Dn)" syn_pattern="POB-m(A)"/>
+			<sub_pattern node_id="4" sem_pattern="ADV-比" syn_pattern="ADV-比"/>
+		</argument>
+		<argument id="3" content="曼城" node_id="8" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="8" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="SBV-f(A0)_Pred[是]_VOB-n(A1)" syntax_pattern="SBV-f(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="13" tagged="false" instance="曼联_周_中本也场是曼联一周内的第4场比赛" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="曼联周中(Z)" node_id="10" head_word="曼联 周 中" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="SBV-f(A0)" syn_pattern="SBV-f(A)"/>
+		</argument>
+		<argument id="1" content="第4场比赛" node_id="21" head_word="比赛" sem_cat="">
+			<sub_pattern node_id="21" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>卢卡库在加盟之后连续两场比赛取得进球，正在成为球队新大腿。</origin_text>
+	<relation id="1" pred="取得" pattern="SBV-nr(Af)_ADV-在_POB-n(A0)_Pred[取得]_VOB-n(A1)" syntax_pattern="SBV-nr(A)_ADV-在_POB-n(A)_Pred[取得]_VOB-n(A)" taggedType="a" pred_id="8" tagged="false" instance="卢卡库在加盟之后连续两场比赛取得进球" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="卢卡库" node_id="0" head_word="卢卡库" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="连续两场比赛" node_id="7" head_word="比赛" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="进球" node_id="9" head_word="进球" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="成为" pattern="SBV-nr(Af)_Pred[成为]_VOB-n(Bk)" syntax_pattern="SBV-nr(A)_Pred[成为]_VOB-n(A)" taggedType="a" pred_id="13" tagged="true" instance="卢卡库正在成为球队新大腿" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="卢卡库(Z)" node_id="11" head_word="卢卡库" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="球队新大腿" node_id="16" head_word="大腿" sem_cat="Bk">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Bk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>主流公司开出主让平半球中低水初盘，受注后上盘水位略有上升。</origin_text>
+	<relation id="1" pred="有" pattern="ADV-f(A0)_SBV-n(A1)_Pred[有]_VOB-n(A2)" syntax_pattern="ADV-f(A)_SBV-n(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="16" tagged="false" instance="后上盘水位略有上升" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="后" node_id="12" head_word="后" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="上盘水位" node_id="14" head_word="水位" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="SBV-n(A1)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="上升" node_id="17" head_word="上升" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="VOB-n(A2)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>两队最近一次交手曼联主场3比1拿下皇马。</origin_text>
+	<relation id="1" pred="拿下皇马" pattern="SBV-n(A0)_ADV-t(Ca)_ADV-q(Dn)_ADV-m(Dn)_ADV-比_POB-m(Dn)_Pred[拿下皇马]" syntax_pattern="SBV-n(A)_ADV-t(A)_ADV-q(A)_ADV-m(A)_ADV-比_POB-m(A)_Pred[拿下皇马]" taggedType="a" pred_id="11" tagged="false" instance="两队最近一次交手曼联主场3比1拿下皇马" feature="1-0-0-1-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="两队" node_id="1" head_word="队" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="最近" node_id="2" head_word="最近" sem_cat="Ca">
+			<sub_pattern node_id="2" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="2" content="一次" node_id="4" head_word="次" sem_cat="Dn">
+			<sub_pattern node_id="4" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+		<argument id="3" content="3" node_id="8" head_word="3" sem_cat="Dn">
+			<sub_pattern node_id="8" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+		</argument>
+		<argument id="4" content="1" node_id="10" head_word="1" sem_cat="Dn">
+			<sub_pattern node_id="10" sem_pattern="POB-m(Dn)" syn_pattern="POB-m(A)"/>
+			<sub_pattern node_id="9" sem_pattern="ADV-比" syn_pattern="ADV-比"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>欧指方面主胜升水，在皇马主力缺阵的情况下非常舒服的给到了下盘受助的空间。</origin_text>
+	<relation id="1" pred="升" pattern="SBV-n(A0)_Pred[升]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[升]_VOB-n(A)" taggedType="a" pred_id="3" tagged="false" instance="方面主胜升水" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="方面" node_id="1" head_word="方面" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="水" node_id="4" head_word="水" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>最近曼联状态火热，消息面基本呈现一边倒情况。</origin_text>
+	<relation id="1" pred="呈现" pattern="SBV-n(A0)_Pred[呈现]_VOB-n(Da)" syntax_pattern="SBV-n(A)_Pred[呈现]_VOB-n(A)" taggedType="a" pred_id="7" tagged="false" instance="消息面基本呈现一边倒情况" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="消息面" node_id="5" head_word="消息面" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="一边倒情况" node_id="9" head_word="情况" sem_cat="Da">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="13">
+	<origin_text>稍后不如看好皇马这场拿下胜利。</origin_text>
+	<relation id="1" pred="胜利" pattern="ATT-看好_VOB-n(A0)_QUN-q(Dn)_Pred[胜利]" syntax_pattern="ATT-看好_VOB-n(A)_QUN-q(A)_Pred[胜利]" taggedType="a" pred_id="7" tagged="false" instance="皇马这场拿下胜利" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="皇马" node_id="3" head_word="皇马" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="2" sem_pattern="ATT-看好" syn_pattern="ATT-看好"/>
+		</argument>
+		<argument id="1" content="这场" node_id="5" head_word="场" sem_cat="Dn">
+			<sub_pattern node_id="5" sem_pattern="QUN-q(Dn)" syn_pattern="QUN-q(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="14">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="15">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

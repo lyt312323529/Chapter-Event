@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title0比2不敌曼联！</origin_text>
+	<relation id="1" pred="敌" pattern="SBV-n(Dn)_ADV-m(Dn)_Pred[敌]" syntax_pattern="SBV-n(A)_ADV-m(A)_Pred[敌]" taggedType="a" pred_id="6" tagged="true" instance="Title0比2不敌" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="Title0比" node_id="3" head_word="比" sem_cat="Dn">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Dn)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="2" node_id="4" head_word="2" sem_cat="Dn">
+			<sub_pattern node_id="4" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>瓜迪奥拉：我不在乎结果，我锻炼了球队/Title</origin_text>
+	<relation id="1" pred="不在乎" pattern="SBV-r(Af)_Pred[不在乎]_VOB-n(A0)" syntax_pattern="SBV-r(A)_Pred[不在乎]_VOB-n(A)" taggedType="a" pred_id="3" tagged="false" instance="我不在乎结果" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="我" node_id="2" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="结果" node_id="4" head_word="结果" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="锻炼" pattern="SBV-r(Af)_Pred[锻炼]_VOB-nx(A0)" syntax_pattern="SBV-r(A)_Pred[锻炼]_VOB-nx(A)" taggedType="a" pred_id="7" tagged="false" instance="我锻炼了球队/Title" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="我" node_id="6" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="/Title" node_id="12" head_word="Title" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="VOB-nx(A0)" syn_pattern="VOB-nx(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>北京时间今天上午，国际冠军杯赛在美国打响，这也是曼市德比第一次在曼彻斯特以外的大陆举行，最终的比赛结果是蓝月亮曼城0比2不敌红魔曼联，赛后，瓜迪奥拉也接受了媒体的采访。</origin_text>
+	<relation id="2" pred="de" pattern="nsubj-n(Af)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="45" tagged="false" instance="媒体的采访" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="媒体" node_id="44" head_word="媒体" sem_cat="Af">
+			<sub_pattern node_id="44" sem_pattern="nsubj-n(Af)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="采访" node_id="46" head_word="采访" sem_cat="">
+			<sub_pattern node_id="46" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="打响" pattern="ADV-n(Ca)_ADV-t(Ca)_SBV-n(A0)_ADV-在_POB-ns(Cb)_Pred[打响]" syntax_pattern="ADV-n(A)_ADV-t(A)_SBV-n(A)_ADV-在_POB-ns(A)_Pred[打响]" taggedType="a" pred_id="9" tagged="false" instance="北京时间今天上午，国际冠军杯赛在美国打响" feature="1-1-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="北京时间" node_id="1" head_word="时间" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-n(Ca)" syn_pattern="ADV-n(A)"/>
+		</argument>
+		<argument id="1" content="今天上午" node_id="3" head_word="上午" sem_cat="Ca">
+			<sub_pattern node_id="3" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="2" content="国际冠军杯赛" node_id="6" head_word="冠军杯赛" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="3" content="美国" node_id="8" head_word="美国" sem_cat="Cb">
+			<sub_pattern node_id="8" sem_pattern="POB-ns(Cb)" syn_pattern="POB-ns(A)"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="是" pattern="SBV-r(Ca)_Pred[是]_SBV-nr(Af)_ADV-q(Dn)_VOB-举行" syntax_pattern="SBV-r(A)_Pred[是]_SBV-nr(A)_ADV-q(A)_VOB-举行" taggedType="a" pred_id="13" tagged="true" instance="这也是曼市德比第一次" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="这" node_id="11" head_word="这" sem_cat="Ca">
+			<sub_pattern node_id="11" sem_pattern="SBV-r(Ca)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="曼市德比" node_id="14" head_word="曼市德比" sem_cat="Af">
+			<sub_pattern node_id="14" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+			<sub_pattern node_id="22" sem_pattern="VOB-举行" syn_pattern="VOB-举行"/>
+		</argument>
+		<argument id="2" content="第一次" node_id="16" head_word="次" sem_cat="Dn">
+			<sub_pattern node_id="16" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="是" pattern="SBV-n(A0)_Pred[是]_SBV-n(Dn)_ADV-m(Dn)_VOB-敌" syntax_pattern="SBV-n(A)_Pred[是]_SBV-n(A)_ADV-m(A)_VOB-敌" taggedType="a" pred_id="28" tagged="false" instance="比赛结果是蓝月亮曼城0比2" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="比赛结果" node_id="27" head_word="结果" sem_cat="">
+			<sub_pattern node_id="27" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="蓝月亮曼城0比" node_id="32" head_word="比" sem_cat="Dn">
+			<sub_pattern node_id="32" sem_pattern="SBV-n(Dn)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="35" sem_pattern="VOB-敌" syn_pattern="VOB-敌"/>
+		</argument>
+		<argument id="2" content="2" node_id="33" head_word="2" sem_cat="Dn">
+			<sub_pattern node_id="33" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+		</argument>
+	</relation>
+	<relation id="6" pred="接受" pattern="ADV-t(Ca)_SBV-nr(Af)_Pred[接受]_VOB-n(A0)" syntax_pattern="ADV-t(A)_SBV-nr(A)_Pred[接受]_VOB-n(A)" taggedType="a" pred_id="42" tagged="false" instance="赛后，瓜迪奥拉也接受了媒体的采访" feature="1-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="赛后" node_id="38" head_word="赛后" sem_cat="Ca">
+			<sub_pattern node_id="38" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="瓜迪奥拉" node_id="40" head_word="瓜迪奥拉" sem_cat="Af">
+			<sub_pattern node_id="40" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="采访" node_id="46" head_word="采访" sem_cat="">
+			<sub_pattern node_id="46" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>对于今天的比赛结果，瓜迪奥拉讲到，自己并不在意本场比赛的结果，这是我们新赛季的首场比赛，对我们来说是一次很好的锻炼机会，你要知道，曼联在本场比赛之前，已经有过两场比赛的磨合，而我们是第一次，接下来我们会继续完善，争取更进一步。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-t(Ca)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-t(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="2" tagged="false" instance="今天的比赛结果" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="今天" node_id="1" head_word="今天" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="nsubj-t(Ca)" syn_pattern="nsubj-t(A)"/>
+		</argument>
+		<argument id="1" content="比赛结果" node_id="4" head_word="结果" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="15" tagged="false" instance="本场比赛的结果" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="本场比赛" node_id="14" head_word="比赛" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="结果" node_id="16" head_word="结果" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="56" tagged="false" instance="本场比赛的结果" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="两场比赛" node_id="55" head_word="比赛" sem_cat="">
+			<sub_pattern node_id="55" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="磨合" node_id="57" head_word="磨合" sem_cat="">
+			<sub_pattern node_id="57" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="讲" pattern="ADV-对于_POB-n(A0)_SBV-nr(Af)_Pred[讲]_SBV-r(Af)_VOB-知道" syntax_pattern="ADV-对于_POB-n(A)_SBV-nr(A)_Pred[讲]_SBV-r(A)_VOB-知道" taggedType="a" pred_id="7" tagged="false" instance="比赛结果，瓜迪奥拉讲到，自己并不在意本场比赛的结果，这是我们新赛季的首场比赛，对我们来说是一次很好的锻炼机会，你" feature="0-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="比赛结果" node_id="4" head_word="结果" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-对于" syn_pattern="ADV-对于"/>
+		</argument>
+		<argument id="1" content="瓜迪奥拉" node_id="6" head_word="瓜迪奥拉" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="你" node_id="40" head_word="你" sem_cat="Af">
+			<sub_pattern node_id="40" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="42" sem_pattern="VOB-知道" syn_pattern="VOB-知道"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="在意" pattern="SBV-r(Af)_Pred[在意]_VOB-n(A0)" syntax_pattern="SBV-r(A)_Pred[在意]_VOB-n(A)" taggedType="a" pred_id="12" tagged="false" instance="自己并不在意本场比赛的结果" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="自己" node_id="10" head_word="自己" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="结果" node_id="16" head_word="结果" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="6" pred="是" pattern="SBV-r(Ca)_Pred[是]_VOB-n(A0)" syntax_pattern="SBV-r(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="19" tagged="false" instance="这是我们新赛季的首场比赛" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这" node_id="18" head_word="这" sem_cat="Ca">
+			<sub_pattern node_id="18" sem_pattern="SBV-r(Ca)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="首场比赛" node_id="26" head_word="比赛" sem_cat="">
+			<sub_pattern node_id="26" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="7" pred="是" pattern="ADV-对_POB-r(Af)_Pred[是]_VOB-n(Ca)" syntax_pattern="ADV-对_POB-r(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="31" tagged="true" instance="我们来说是一次很好的锻炼机会" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我们" node_id="29" head_word="我们" sem_cat="Af">
+			<sub_pattern node_id="29" sem_pattern="POB-r(Af)" syn_pattern="POB-r(A)"/>
+			<sub_pattern node_id="28" sem_pattern="ADV-对" syn_pattern="ADV-对"/>
+		</argument>
+		<argument id="1" content="一次很好的锻炼机会" node_id="38" head_word="机会" sem_cat="Ca">
+			<sub_pattern node_id="38" sem_pattern="VOB-n(Ca)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="8" pred="有" pattern="ADV-在_POB-f(Ca)_Pred[有]_VOB-n(A0)" syntax_pattern="ADV-在_POB-f(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="51" tagged="false" instance="本场比赛之前，已经有过两场比赛的磨合" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="本场比赛之前" node_id="48" head_word="之前" sem_cat="Ca">
+			<sub_pattern node_id="48" sem_pattern="POB-f(Ca)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="45" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="磨合" node_id="57" head_word="磨合" sem_cat="">
+			<sub_pattern node_id="57" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="9" pred="是" pattern="SBV-r(Af)_Pred[是]_VOB-q(Dn)" syntax_pattern="SBV-r(A)_Pred[是]_VOB-q(A)" taggedType="a" pred_id="61" tagged="true" instance="我们是第一次" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我们" node_id="60" head_word="我们" sem_cat="Af">
+			<sub_pattern node_id="60" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="第一次" node_id="63" head_word="次" sem_cat="Dn">
+			<sub_pattern node_id="63" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>瓜迪奥拉也谈到了本场比赛上场的00后小将福登，福登是我们的青训小将，他是一名实力出众的年轻球员，他很热爱曼城，今天他在球场上的表现让我对他的评价又到了新的高度。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-f(A0)_Pred[de]_dobj-n(Di)" syntax_pattern="nsubj-f(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="41" tagged="false" instance="球场上的表现" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="球场上" node_id="40" head_word="上" sem_cat="">
+			<sub_pattern node_id="40" sem_pattern="nsubj-f(A0)" syn_pattern="nsubj-f(A)"/>
+		</argument>
+		<argument id="1" content="表现" node_id="42" head_word="表现" sem_cat="Di">
+			<sub_pattern node_id="42" sem_pattern="dobj-n(Di)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-r(Af)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-r(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="47" tagged="false" instance="他的评价" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="他" node_id="46" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="46" sem_pattern="nsubj-r(Af)" syn_pattern="nsubj-r(A)"/>
+		</argument>
+		<argument id="1" content="评价" node_id="48" head_word="评价" sem_cat="">
+			<sub_pattern node_id="48" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="谈" pattern="SBV-nr(Af)_Pred[谈]_VOB-nr(Af)" syntax_pattern="SBV-nr(A)_Pred[谈]_VOB-nr(A)" taggedType="a" pred_id="2" tagged="true" instance="瓜迪奥拉也谈到了本场比赛上场的00后小将福登" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="瓜迪奥拉" node_id="0" head_word="瓜迪奥拉" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="福登" node_id="12" head_word="福登" sem_cat="Af">
+			<sub_pattern node_id="12" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="12" tagged="true" instance="小将福登" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="福登" node_id="12" head_word="福登" sem_cat="Af">
+			<sub_pattern node_id="12" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="小将" node_id="11" head_word="小将" sem_cat="Af">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="是" pattern="SBV-nr(Af)_Pred[是]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="15" tagged="true" instance="福登是我们的青训小将" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="福登" node_id="14" head_word="福登" sem_cat="Af">
+			<sub_pattern node_id="14" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="小将" node_id="19" head_word="小将" sem_cat="Af">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="6" pred="是" pattern="SBV-r(Af)_Pred[是]_VOB-n(Af)" syntax_pattern="SBV-r(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="22" tagged="true" instance="他是一名实力出众的年轻球员" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="他" node_id="21" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="21" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="一名实力出众的年轻球员" node_id="29" head_word="球员" sem_cat="Af">
+			<sub_pattern node_id="29" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="7" pred="热爱" pattern="SBV-r(Af)_Pred[热爱]_VOB-ns(Cb)" syntax_pattern="SBV-r(A)_Pred[热爱]_VOB-ns(A)" taggedType="a" pred_id="33" tagged="true" instance="他很热爱曼城" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="他" node_id="31" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="31" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="曼城" node_id="34" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="34" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+	<relation id="8" pred="让" pattern="ADV-t(Ca)_SBV-r(Af)_ADV-在_POB-n(Di)_Pred[让]_VOB-r(Af)" syntax_pattern="ADV-t(A)_SBV-r(A)_ADV-在_POB-n(A)_Pred[让]_VOB-r(A)" taggedType="a" pred_id="43" tagged="true" instance="今天他在球场上的表现让我" feature="0-0-1-0-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="今天" node_id="36" head_word="今天" sem_cat="Ca">
+			<sub_pattern node_id="36" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="他" node_id="37" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="37" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="2" content="表现" node_id="42" head_word="表现" sem_cat="Di">
+			<sub_pattern node_id="42" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="38" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="3" content="我" node_id="44" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="44" sem_pattern="VOB-r(Af)" syn_pattern="VOB-r(A)"/>
+		</argument>
+	</relation>
+	<relation id="9" pred="到" pattern="ADV-对_POB-n(A0)_Pred[到]_VOB-n(Dn)" syntax_pattern="ADV-对_POB-n(A)_Pred[到]_VOB-n(A)" taggedType="a" pred_id="50" tagged="false" instance="评价又到了新的高度" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="评价" node_id="48" head_word="评价" sem_cat="">
+			<sub_pattern node_id="48" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="45" sem_pattern="ADV-对" syn_pattern="ADV-对"/>
+		</argument>
+		<argument id="1" content="高度" node_id="54" head_word="高度" sem_cat="Dn">
+			<sub_pattern node_id="54" sem_pattern="VOB-n(Dn)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="12">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

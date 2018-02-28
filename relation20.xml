@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title年幼儿子能不能跟妈妈进女更衣室？</origin_text>
+	<relation id="1" pred="进" pattern="SBV-n(Af)_ADV-跟_POB-n(Af)_Pred[进]_VOB-n(Bn)" syntax_pattern="SBV-n(A)_ADV-跟_POB-n(A)_Pred[进]_VOB-n(A)" taggedType="a" pred_id="9" tagged="true" instance="Title年幼儿子能不能跟妈妈进女更衣室" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="Title年幼儿子" node_id="3" head_word="儿子" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="妈妈" node_id="8" head_word="妈妈" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-跟" syn_pattern="ADV-跟"/>
+		</argument>
+		<argument id="2" content="女更衣室" node_id="11" head_word="更衣室" sem_cat="Bn">
+			<sub_pattern node_id="11" sem_pattern="VOB-n(Bn)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>/Title</origin_text>
+</sentence>
+<sentence id="8">
+	<origin_text>浙江嘉兴一妈妈发帖称带儿子去游泳，管理员阿姨坚决不让男孩在女更衣室换衣服。</origin_text>
+	<relation id="1" pred="让" pattern="SBV-n(Af)_Pred[让]_VOB-n(Dd)" syntax_pattern="SBV-n(A)_Pred[让]_VOB-n(A)" taggedType="a" pred_id="15" tagged="true" instance="管理员阿姨坚决不让男孩" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="管理员阿姨" node_id="12" head_word="阿姨" sem_cat="Af">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="男孩" node_id="16" head_word="男孩" sem_cat="Dd">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Dd)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="换" pattern="ADV-在_POB-n(Bn)_Pred[换]_VOB-n(Bq)" syntax_pattern="ADV-在_POB-n(A)_Pred[换]_VOB-n(A)" taggedType="a" pred_id="20" tagged="true" instance="女更衣室换衣服" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="女更衣室" node_id="19" head_word="更衣室" sem_cat="Bn">
+			<sub_pattern node_id="19" sem_pattern="POB-n(Bn)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="17" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="衣服" node_id="21" head_word="衣服" sem_cat="Bq">
+			<sub_pattern node_id="21" sem_pattern="VOB-n(Bq)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>她觉得委屈，表示小孩只有3-4周岁，管理员阿姨还是不同意，她说自己被骂哭，“以后去游泳，爸爸带年幼的女儿是不能去的？</origin_text>
+	<relation id="1" pred="有" pattern="SBV-n(Af)_Pred[有]_VOB-t(Ca)" syntax_pattern="SBV-n(A)_Pred[有]_VOB-t(A)" taggedType="a" pred_id="7" tagged="true" instance="小孩只有3-4周岁" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="小孩" node_id="5" head_word="小孩" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="3-4周岁" node_id="9" head_word="周岁" sem_cat="Ca">
+			<sub_pattern node_id="9" sem_pattern="VOB-t(Ca)" syn_pattern="VOB-t(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="带" pattern="SBV-n(Af)_Pred[带]_VOB-n(Af)" syntax_pattern="SBV-n(A)_Pred[带]_VOB-n(A)" taggedType="a" pred_id="30" tagged="true" instance="爸爸带年幼的女儿" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="爸爸" node_id="29" head_word="爸爸" sem_cat="Af">
+			<sub_pattern node_id="29" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="女儿" node_id="33" head_word="女儿" sem_cat="Af">
+			<sub_pattern node_id="33" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>妈妈带年幼儿子也不能进游泳馆咯wenjin</origin_text>
+	<relation id="1" pred="进" pattern="SBV-n(Af)_Pred[进]_VOB-nx(A0)" syntax_pattern="SBV-n(A)_Pred[进]_VOB-nx(A)" taggedType="a" pred_id="7" tagged="false" instance="妈妈带年幼儿子也不能进游泳馆咯wenjin" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="妈妈" node_id="0" head_word="妈妈" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="wenjin" node_id="10" head_word="wenjin" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="VOB-nx(A0)" syn_pattern="VOB-nx(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>按规定，孩子超过3岁一律不能进异性更衣室。</origin_text>
+	<relation id="1" pred="超过" pattern="ADV-按_POB-n(Di)_SBV-n(Af)_Pred[超过]_SBV-q(Dn)_VOB-进_VOB-n(Bn)" syntax_pattern="ADV-按_POB-n(A)_SBV-n(A)_Pred[超过]_SBV-q(A)_VOB-进_VOB-n(A)" taggedType="a" pred_id="4" tagged="true" instance="规定，孩子超过3岁一律不能进异性更衣室" feature="0-1-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="规定" node_id="1" head_word="规定" sem_cat="Di">
+			<sub_pattern node_id="1" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-按" syn_pattern="ADV-按"/>
+		</argument>
+		<argument id="1" content="孩子" node_id="3" head_word="孩子" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="3岁" node_id="6" head_word="岁" sem_cat="Dn">
+			<sub_pattern node_id="6" sem_pattern="SBV-q(Dn)" syn_pattern="SBV-q(A)"/>
+			<sub_pattern node_id="10" sem_pattern="VOB-进" syn_pattern="VOB-进"/>
+		</argument>
+		<argument id="3" content="异性更衣室" node_id="12" head_word="更衣室" sem_cat="Bn">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Bn)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>对此，有女性觉得能接受，也有女性反感，感觉尴尬。</origin_text>
+</sentence>
+<sentence id="13">
+	<origin_text>事件发展趋势分析。</origin_text>
+</sentence>
+<sentence id="14">
+	<origin_text>鹰击微博舆情显示，2017年7月23日0时至7月24日18时，有关“带4岁儿子进女更衣室”引发微博网友热议，相关舆情在24日12:20-12:25到达高峰。</origin_text>
+	<relation id="1" pred="引发" pattern="ADV-t(Ca)_ADV-有关_POB-n(Bn)_Pred[引发]_VOB-n(A0)" syntax_pattern="ADV-t(A)_ADV-有关_POB-n(A)_Pred[引发]_VOB-n(A)" taggedType="a" pred_id="24" tagged="false" instance="2017年7月23日0时至7月24日18时，有关“带4岁儿子进女更衣室”引发微博网友热议" feature="1-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="2017年7月23日0时至7月24日18时" node_id="12" head_word="18时" sem_cat="Ca">
+			<sub_pattern node_id="12" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="带4岁儿子进女更衣室" node_id="22" head_word="更衣室" sem_cat="Bn">
+			<sub_pattern node_id="22" sem_pattern="POB-n(Bn)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="14" sem_pattern="ADV-有关" syn_pattern="ADV-有关"/>
+		</argument>
+		<argument id="2" content="网友热议" node_id="27" head_word="热议" sem_cat="">
+			<sub_pattern node_id="27" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="到达" pattern="SBV-n(Dk)_ADV-在_POB-n(A0)_ADV-m(Dn)_Pred[到达]_VOB-n(Be)" syntax_pattern="SBV-n(A)_ADV-在_POB-n(A)_ADV-m(A)_Pred[到达]_VOB-n(A)" taggedType="a" pred_id="38" tagged="false" instance="相关舆情在24日12:20-12:25到达高峰" feature="1-0-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="相关舆情" node_id="30" head_word="舆情" sem_cat="Dk">
+			<sub_pattern node_id="30" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="24日12:20-12:" node_id="36" head_word=":" sem_cat="">
+			<sub_pattern node_id="36" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="31" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="25" node_id="37" head_word="25" sem_cat="Dn">
+			<sub_pattern node_id="37" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+		</argument>
+		<argument id="3" content="高峰" node_id="39" head_word="高峰" sem_cat="Be">
+			<sub_pattern node_id="39" sem_pattern="VOB-n(Be)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="15">
+	<origin_text>事件热门微博分。</origin_text>
+</sentence>
+<sentence id="16">
+	<origin_text>鹰击微博舆情显示，2017年7月24日10时50分，微博用户@财经网所发布的有关“带4岁儿子进女更衣室”的博文被转发次数最多，达到2846次，评论14000条，影响3860.85万人。</origin_text>
+	<relation id="1" pred="达到" pattern="ADV-t(Ca)_Pred[达到]_VOB-q(Dn)" syntax_pattern="ADV-t(A)_Pred[达到]_VOB-q(A)" taggedType="a" pred_id="37" tagged="true" instance="2017年7月24日10时50分，微博用户@财经网所发布的有关“带4岁儿子进女更衣室”的博文被转发次数最多，达到2846次" feature="1-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="2017年7月24日10时50分" node_id="9" head_word="50分" sem_cat="Ca">
+			<sub_pattern node_id="9" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="2846次" node_id="39" head_word="次" sem_cat="Dn">
+			<sub_pattern node_id="39" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="@" pattern="SBV-n(Di)_Pred[@]_SBV-n(A1)_VOB-发布_ATT-u_SBV-n(A0)" syntax_pattern="SBV-n(A)_Pred[@]_SBV-n(A)_VOB-发布_ATT-u_SBV-n(A)" taggedType="a" pred_id="13" tagged="false" instance="用户@财经网所发布的有关“带4岁儿子进女更衣室”的博文" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="用户" node_id="12" head_word="用户" sem_cat="Di">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="13" sem_pattern="DE-@" syn_pattern="DE-@"/>
+			<sub_pattern node_id="18" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="30" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="财经网" node_id="15" head_word="网" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="SBV-n(A1)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="17" sem_pattern="VOB-发布" syn_pattern="VOB-发布"/>
+		</argument>
+		<argument id="2" content="博文" node_id="30" head_word="博文" sem_cat="">
+		</argument>
+	</relation>
+	<relation id="3" pred="转发" pattern="SBV-n(A0)_Pred[转发]_SBV-n(Dn)_VOB-a" syntax_pattern="SBV-n(A)_Pred[转发]_SBV-n(A)_VOB-a" taggedType="a" pred_id="32" tagged="false" instance="博文被转发次数" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="博文" node_id="30" head_word="博文" sem_cat="">
+			<sub_pattern node_id="30" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="次数" node_id="33" head_word="次数" sem_cat="Dn">
+			<sub_pattern node_id="33" sem_pattern="SBV-n(Dn)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="35" sem_pattern="VOB-a" syn_pattern="VOB-a"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="评论" pattern="SBV-n(A0)_Pred[评论]_VOB-q(Dn)" syntax_pattern="SBV-n(A)_Pred[评论]_VOB-q(A)" taggedType="a" pred_id="42" tagged="false" instance="微博_用户_@_财经_网_所_发布_的_有关_“_带_4_岁_儿子_进_女_更衣室_”_的_博文评论14000条" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="微博用户@财经网所发布的有关带4岁儿子进女更衣室的博文(Z)" node_id="41" head_word="微博 用户 @ 财经 网 所 发布 的 有关 “ 带 4 岁 儿子 进 女 更衣室 ” 的 博文" sem_cat="">
+			<sub_pattern node_id="41" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="14000条" node_id="44" head_word="条" sem_cat="Dn">
+			<sub_pattern node_id="44" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="影响" pattern="SBV-n(A0)_Pred[影响]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[影响]_VOB-n(A)" taggedType="a" pred_id="47" tagged="false" instance="微博_用户_@_财经_网_所_发布_的_有关_“_带_4_岁_儿子_进_女_更衣室_”_的_博文影响3860.85万人" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="微博用户@财经网所发布的有关带4岁儿子进女更衣室的博文(Z)" node_id="46" head_word="微博 用户 @ 财经 网 所 发布 的 有关 “ 带 4 岁 儿子 进 女 更衣室 ” 的 博文" sem_cat="">
+			<sub_pattern node_id="46" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="3860.85万人" node_id="49" head_word="人" sem_cat="">
+			<sub_pattern node_id="49" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="17">
+	<origin_text>事件话题热词分析。</origin_text>
+</sentence>
+<sentence id="18">
+	<origin_text>鹰击微博舆情显示，该事件话题热词主要为“妈妈”、“管理员”、“游泳馆”、“游泳”、“孩子”等。</origin_text>
+</sentence>
+<sentence id="19">
+	<origin_text>网民情感分析。</origin_text>
+</sentence>
+<sentence id="20">
+	<origin_text>鹰眼全网监测显示，网民持正面情绪和负面情绪的比例相差不大，各占48.6%、40.2%，峰值出现在7月24日12:00-13:00。</origin_text>
+	<relation id="1" pred="持" pattern="SBV-n(A0)_Pred[持]_VOB-n(Df)_ATT-u_SBV-n(Dn)" syntax_pattern="SBV-n(A)_Pred[持]_VOB-n(A)_ATT-u_SBV-n(A)" taggedType="a" pred_id="8" tagged="false" instance="网民持正面情绪和负面情绪的比例" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="网民" node_id="7" head_word="网民" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="8" sem_pattern="DE-持" syn_pattern="DE-持"/>
+			<sub_pattern node_id="14" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="15" sem_pattern="SBV-n(Dn)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="正面情绪和负面情绪" node_id="13" head_word="情绪" sem_cat="Df">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(Df)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="2" content="比例" node_id="15" head_word="比例" sem_cat="Dn">
+		</argument>
+	</relation>
+	<relation id="2" pred="占" pattern="ADV-r(Dn)_Pred[占]_VOB-m(Dn)" syntax_pattern="ADV-r(A)_Pred[占]_VOB-m(A)" taggedType="a" pred_id="21" tagged="true" instance="各占48.6%、40.2%" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="各" node_id="20" head_word="各" sem_cat="Dn">
+			<sub_pattern node_id="20" sem_pattern="ADV-r(Dn)" syn_pattern="ADV-r(A)"/>
+		</argument>
+		<argument id="1" content="48.6%、40.2%" node_id="24" head_word="40.2%" sem_cat="Dn">
+			<sub_pattern node_id="24" sem_pattern="VOB-m(Dn)" syn_pattern="VOB-m(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="出现" pattern="SBV-n(Dj)_Pred[出现]_ADV-m(Dn)_VOB-:_VOB-m(Dn)" syntax_pattern="SBV-n(A)_Pred[出现]_ADV-m(A)_VOB-:_VOB-m(A)" taggedType="a" pred_id="27" tagged="true" instance="峰值出现在7月24日12:00-13:00" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="峰值" node_id="26" head_word="峰值" sem_cat="Dj">
+			<sub_pattern node_id="26" sem_pattern="SBV-n(Dj)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="00-13" node_id="33" head_word="00-13" sem_cat="Dn">
+			<sub_pattern node_id="33" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+			<sub_pattern node_id="34" sem_pattern="VOB-:" syn_pattern="VOB-:"/>
+		</argument>
+		<argument id="2" content="00" node_id="35" head_word="00" sem_cat="Dn">
+			<sub_pattern node_id="35" sem_pattern="VOB-m(Dn)" syn_pattern="VOB-m(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="21">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="22">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

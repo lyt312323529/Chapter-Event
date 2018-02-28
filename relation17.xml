@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title尘埃落定！</origin_text>
+</sentence>
+<sentence id="7">
+	<origin_text>孙宏斌当选乐视网董事长/Title</origin_text>
+</sentence>
+<sentence id="8">
+	<origin_text>融创中国董事局孙宏斌毫无悬念地当选为乐视网新一任董事长，这意味着以孙宏斌为首的“新乐视”团队的正式成立。</origin_text>
+	<relation id="1" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Di)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="3" tagged="true" instance="中国董事局孙宏斌" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="孙宏斌" node_id="3" head_word="孙宏斌" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="中国董事局" node_id="2" head_word="董事局" sem_cat="Di">
+			<sub_pattern node_id="3" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="当选" pattern="SBV-nr(Af)_Pred[当选]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[当选]_VOB-n(A)" taggedType="a" pred_id="7" tagged="true" instance="孙宏斌毫无悬念地当选为乐视网新一任董事长" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="孙宏斌" node_id="3" head_word="孙宏斌" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="乐视网新一任董事长" node_id="13" head_word="董事长" sem_cat="Af">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>腾讯财经从消息人士处获悉，7月21日下午，以电话会议形式召开的乐视网董事会上，孙宏斌当选为乐视网董事长。</origin_text>
+	<relation id="1" pred="当选" pattern="ADV-t(Ca)_ADV-以_POB-f(A0)_SBV-nr(Af)_Pred[当选]_VOB-n(Af)" syntax_pattern="ADV-t(A)_ADV-以_POB-f(A)_SBV-nr(A)_Pred[当选]_VOB-n(A)" taggedType="a" pred_id="22" tagged="false" instance="7月21日下午，以电话会议形式召开的乐视网董事会上，孙宏斌当选为乐视网董事长" feature="1-1-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="7月21日下午" node_id="10" head_word="下午" sem_cat="Ca">
+			<sub_pattern node_id="10" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="乐视网董事会上" node_id="19" head_word="上" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="12" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="2" content="孙宏斌" node_id="21" head_word="孙宏斌" sem_cat="Af">
+			<sub_pattern node_id="21" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="3" content="董事长" node_id="25" head_word="董事长" sem_cat="Af">
+			<sub_pattern node_id="25" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>在7月17日晚间，乐视网发布公告称，该公司第二次临时股东大会以现场和网络投票方式表决通过了包括融创中国实际控制人孙宏斌、乐视网CEO梁军、乐视影业CEO张昭以非独立董事身份进入乐视网董事会；乐视网董事会成员增加至8位。</origin_text>
+	<relation id="1" pred="称" pattern="ADV-在_POB-t(Ca)_Pred[称]_SBV-n(Af)_VOB-增加_VOB-q(Dn)" syntax_pattern="ADV-在_POB-t(A)_Pred[称]_SBV-n(A)_VOB-增加_VOB-q(A)" taggedType="a" pred_id="8" tagged="true" instance="7月17日晚间，乐视网发布公告称，该公司第二次临时股东大会以现场和网络投票方式表决通过了包括融创中国实际控制人孙宏斌、乐视网CEO梁军、乐视影业CEO张昭以非独立董事身份进入乐视网董事会；乐视网董事会成员增加至8位" feature="0-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="7月17日晚间" node_id="3" head_word="晚间" sem_cat="Ca">
+			<sub_pattern node_id="3" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="乐视网董事会成员" node_id="53" head_word="成员" sem_cat="Af">
+			<sub_pattern node_id="53" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="54" sem_pattern="VOB-增加" syn_pattern="VOB-增加"/>
+		</argument>
+		<argument id="2" content="8位" node_id="57" head_word="位" sem_cat="Dn">
+			<sub_pattern node_id="57" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="通过" pattern="SBV-n(Di)_ADV-以_POB-n(Db)_Pred[通过]_VOB-进入_VOB-n(Di)" syntax_pattern="SBV-n(A)_ADV-以_POB-n(A)_Pred[通过]_VOB-进入_VOB-n(A)" taggedType="a" pred_id="24" tagged="true" instance="该公司第二次临时股东大会以现场和网络投票方式表决通过了包括融创中国实际控制人孙宏斌、乐视网CEO梁军、乐视影业CEO张昭以非独立董事身份进入乐视网董事会" feature="0-0-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="该公司第二次临时股东大会" node_id="16" head_word="大会" sem_cat="Di">
+			<sub_pattern node_id="16" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="现场和网络投票方式" node_id="22" head_word="方式" sem_cat="Db">
+			<sub_pattern node_id="22" sem_pattern="POB-n(Db)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="17" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="2" content="董事会" node_id="49" head_word="董事会" sem_cat="Di">
+			<sub_pattern node_id="49" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="47" sem_pattern="VOB-进入" syn_pattern="VOB-进入"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="41" tagged="false" instance="孙宏斌、乐视网CEO梁军、乐视影业CEO张昭" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="CEO梁军、乐视影业CEO张昭" node_id="41" head_word="张昭" sem_cat="Af">
+			<sub_pattern node_id="41" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="孙宏斌、乐视网" node_id="34" head_word="网" sem_cat="">
+			<sub_pattern node_id="41" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="进入" pattern="ADV-融创_POB-nr(Af)_ADV-以_POB-n(Dd)_Pred[进入]" syntax_pattern="ADV-融创_POB-nr(A)_ADV-以_POB-n(A)_Pred[进入]" taggedType="a" pred_id="47" tagged="true" instance="CEO梁军、乐视影业CEO张昭以非独立董事身份进入" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="CEO梁军、乐视影业CEO张昭" node_id="41" head_word="张昭" sem_cat="Af">
+			<sub_pattern node_id="41" sem_pattern="POB-nr(Af)" syn_pattern="POB-nr(A)"/>
+			<sub_pattern node_id="27" sem_pattern="ADV-融创" syn_pattern="ADV-融创"/>
+		</argument>
+		<argument id="1" content="独立董事身份" node_id="46" head_word="身份" sem_cat="Dd">
+			<sub_pattern node_id="46" sem_pattern="POB-n(Dd)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="42" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>在7月17日的股东大会上，乐视网董秘赵凯表示，乐视网将在三日后召开董事会，选举新的董事长和确定董事会各下属委员会的委员。</origin_text>
+	<relation id="1" pred="表示" pattern="ADV-在_POB-f(A0)_SBV-nr(Af)_Pred[表示]_VOB-选举_VOB-n(Af)" syntax_pattern="ADV-在_POB-f(A)_SBV-nr(A)_Pred[表示]_VOB-选举_VOB-n(A)" taggedType="a" pred_id="10" tagged="false" instance="股东大会上，乐视网董秘赵凯表示，乐视网将在三日后召开董事会，选举新的董事长和确定董事会各下属委员会的委员" feature="0-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="股东大会上" node_id="6" head_word="上" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="董秘赵凯" node_id="9" head_word="董秘赵凯" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="董事长和确定董事会各下属委员会的委员" node_id="32" head_word="委员" sem_cat="Af">
+			<sub_pattern node_id="32" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="21" sem_pattern="VOB-选举" syn_pattern="VOB-选举"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="9" tagged="false" instance="孙宏斌、乐视网CEO梁军、乐视影业CEO张昭" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="董秘赵凯" node_id="9" head_word="董秘赵凯" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="乐视网" node_id="8" head_word="乐视网" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="召开" pattern="SBV-n(A0)_ADV-在_POB-f(A1)_Pred[召开]_VOB-n(Di)" syntax_pattern="SBV-n(A)_ADV-在_POB-f(A)_Pred[召开]_VOB-n(A)" taggedType="a" pred_id="18" tagged="false" instance="网将在三日后召开董事会" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="网" node_id="13" head_word="网" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="三日后" node_id="17" head_word="后" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="POB-f(A1)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="15" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="董事会" node_id="19" head_word="董事会" sem_cat="Di">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>随后，董事会延期至7月21日举行。</origin_text>
+	<relation id="1" pred="举行" pattern="SBV-n(Di)_ADV-至_POB-t(Ca)_Pred[举行]" syntax_pattern="SBV-n(A)_ADV-至_POB-t(A)_Pred[举行]" taggedType="a" pred_id="7" tagged="true" instance="董事会延期至7月21日举行" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="董事会" node_id="2" head_word="董事会" sem_cat="Di">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="7月21日" node_id="6" head_word="21日" sem_cat="Ca">
+			<sub_pattern node_id="6" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="4" sem_pattern="ADV-至" syn_pattern="ADV-至"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="13">
+	<origin_text>融创中国在2017年年初投资了遇到资金危机的乐视。</origin_text>
+	<relation id="1" pred="投资" pattern="ADV-在_POB-t(Ca)_Pred[投资]_VOB-n(A0)" syntax_pattern="ADV-在_POB-t(A)_Pred[投资]_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="2017年年初投资了遇到资金危机的乐视" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="2017年年初" node_id="4" head_word="年初" sem_cat="Ca">
+			<sub_pattern node_id="4" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="2" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="乐视" node_id="11" head_word="乐视" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="14">
+	<origin_text>2017年1月13日，融创中国与乐视网分别发布公告称，融创中国战略入股乐视网，共计支出150.41亿元。</origin_text>
+	<relation id="1" pred="共计" pattern="ADV-t(Ca)_Pred[共计]_VOB-支出_VOB-q(Dn)" syntax_pattern="ADV-t(A)_Pred[共计]_VOB-支出_VOB-q(A)" taggedType="a" pred_id="21" tagged="true" instance="2017年1月13日，融创中国与乐视网分别发布公告称，融创中国战略入股乐视网，共计支出150.41亿元" feature="1-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="2017年1月13日" node_id="2" head_word="13日" sem_cat="Ca">
+			<sub_pattern node_id="2" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="150.41亿元" node_id="24" head_word="元" sem_cat="Dn">
+			<sub_pattern node_id="24" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+			<sub_pattern node_id="22" sem_pattern="VOB-支出" syn_pattern="VOB-支出"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="称" pattern="SBV-ns(Cb)_ADV-与_POB-n(A0)_Pred[称]" syntax_pattern="SBV-ns(A)_ADV-与_POB-n(A)_Pred[称]" taggedType="a" pred_id="12" tagged="false" instance="中国与乐视网分别发布公告称" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="中国" node_id="6" head_word="中国" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="乐视网" node_id="8" head_word="乐视网" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-与" syn_pattern="ADV-与"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="15">
+	<origin_text>其中，以人民币60.41亿元收购乐视网8.61%股权，以79.5亿元获得增发后乐视致新33.5%股权，以10.5亿元收购乐视影业15%股权。</origin_text>
+	<relation id="1" pred="收购" pattern="ADV-r(Da)_ADV-以_POB-n(Dj)_Pred[收购]_VOB-n(Di)" syntax_pattern="ADV-r(A)_ADV-以_POB-n(A)_Pred[收购]_VOB-n(A)" taggedType="a" pred_id="6" tagged="true" instance="其中，以人民币60.41亿元收购乐视网8.61%股权" feature="1-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="其中" node_id="0" head_word="其中" sem_cat="Da">
+			<sub_pattern node_id="0" sem_pattern="ADV-r(Da)" syn_pattern="ADV-r(A)"/>
+		</argument>
+		<argument id="1" content="人民币60.41亿元" node_id="3" head_word="人民币" sem_cat="Dj">
+			<sub_pattern node_id="3" sem_pattern="POB-n(Dj)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="2" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="2" content="网8.61%股权" node_id="10" head_word="股权" sem_cat="Di">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="致新" pattern="ADV-f(A0)_Pred[致新]_VOB-n(Di)" syntax_pattern="ADV-f(A)_Pred[致新]_VOB-n(A)" taggedType="a" pred_id="19" tagged="false" instance="后乐视致新33.5%股权" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="后" node_id="17" head_word="后" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="33.5%股权" node_id="21" head_word="股权" sem_cat="Di">
+			<sub_pattern node_id="21" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="收购" pattern="ADV-以_POB-q(Dn)_Pred[收购]_VOB-n(Di)" syntax_pattern="ADV-以_POB-q(A)_Pred[收购]_VOB-n(A)" taggedType="a" pred_id="26" tagged="true" instance="10.5亿元收购乐视影业15%股权" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="10.5亿元" node_id="25" head_word="元" sem_cat="Dn">
+			<sub_pattern node_id="25" sem_pattern="POB-q(Dn)" syn_pattern="POB-q(A)"/>
+			<sub_pattern node_id="23" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="1" content="15%股权" node_id="30" head_word="股权" sem_cat="Di">
+			<sub_pattern node_id="30" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="16">
+	<origin_text>交易完成后，融创中国将成为乐视体系中上市板块乐视网的第二大股东，同时成为乐视超级电视和影业板块的重要股东。</origin_text>
+	<relation id="1" pred="成为" pattern="ADV-f(A0)_SBV-ns(Cb)_Pred[成为]_VOB-n(Af)" syntax_pattern="ADV-f(A)_SBV-ns(A)_Pred[成为]_VOB-n(A)" taggedType="a" pred_id="8" tagged="false" instance="后，融创中国将成为乐视体系中上市板块乐视网的第二大股东" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="后" node_id="2" head_word="后" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="中国" node_id="6" head_word="中国" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="2" content="第二大股东" node_id="18" head_word="股东" sem_cat="Af">
+			<sub_pattern node_id="18" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="上市" pattern="ADV-f(A0)_Pred[上市]_VOB-n(A1)_ATT-u_VOB-n(Af)" syntax_pattern="ADV-f(A)_Pred[上市]_VOB-n(A)_ATT-u_VOB-n(A)" taggedType="a" pred_id="12" tagged="false" instance="乐视体系中上市板块乐视网的第二大股东" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="乐视体系中" node_id="11" head_word="中" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+			<sub_pattern node_id="12" sem_pattern="DE-上市" syn_pattern="DE-上市"/>
+			<sub_pattern node_id="15" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="18" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="1" content="板块乐视网" node_id="14" head_word="乐视网" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="2" content="股东" node_id="18" head_word="股东" sem_cat="Af">
+		</argument>
+	</relation>
+	<relation id="3" pred="成为" pattern="SBV-ns(Cb)_Pred[成为]_VOB-n(Af)" syntax_pattern="SBV-ns(A)_Pred[成为]_VOB-n(A)" taggedType="a" pred_id="22" tagged="true" instance="中国同时成为乐视超级电视和影业板块的重要股东" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="中国(Z)" node_id="20" head_word="中国" sem_cat="Cb">
+			<sub_pattern node_id="20" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="重要股东" node_id="31" head_word="股东" sem_cat="Af">
+			<sub_pattern node_id="31" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="17">
+	<origin_text>融创的投资并未彻底解决乐视网的资金危机。</origin_text>
+	<relation id="1" pred="解决" pattern="SBV-n(A0)_Pred[解决]_VOB-n(Da)" syntax_pattern="SBV-n(A)_Pred[解决]_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="投资并未彻底解决乐视网的资金危机" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="投资" node_id="2" head_word="投资" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="资金危机" node_id="9" head_word="危机" sem_cat="Da">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="18">
+	<origin_text>7月6日上午，贾跃亭通过社交媒体表示，我会承担全部的责任，会对乐视的员工、用户、客户和投资者尽责到底。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-m(Dn)_Pred[de]_dobj-n(Di)" syntax_pattern="nsubj-m(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="14" tagged="true" instance="全部的责任" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="全部" node_id="13" head_word="全部" sem_cat="Dn">
+			<sub_pattern node_id="13" sem_pattern="nsubj-m(Dn)" syn_pattern="nsubj-m(A)"/>
+		</argument>
+		<argument id="1" content="责任" node_id="15" head_word="责任" sem_cat="Di">
+			<sub_pattern node_id="15" sem_pattern="dobj-n(Di)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="表示" pattern="ADV-t(Ca)_SBV-nr(Af)_ADV-通过_POB-n(Af)_Pred[表示]" syntax_pattern="ADV-t(A)_SBV-nr(A)_ADV-通过_POB-n(A)_Pred[表示]" taggedType="a" pred_id="8" tagged="true" instance="7月6日上午，贾跃亭通过社交媒体表示" feature="1-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="7月6日上午" node_id="2" head_word="上午" sem_cat="Ca">
+			<sub_pattern node_id="2" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="贾跃亭" node_id="4" head_word="贾跃亭" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="社交媒体" node_id="7" head_word="媒体" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="5" sem_pattern="ADV-通过" syn_pattern="ADV-通过"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="承担" pattern="SBV-r(Af)_Pred[承担]_VOB-n(Di)" syntax_pattern="SBV-r(A)_Pred[承担]_VOB-n(A)" taggedType="a" pred_id="12" tagged="true" instance="我会承担全部的责任" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我" node_id="10" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="责任" node_id="15" head_word="责任" sem_cat="Di">
+			<sub_pattern node_id="15" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="19">
+	<origin_text>我仍旧是乐视控股的执行董事和最大股东，辞去上市公司CEO、甚至更多其他重要职务，就是为了全力以赴实现FF91最快量产上市。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-r(Af)_Pred[是]_VOB-n(Af)" syntax_pattern="SBV-r(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="2" tagged="true" instance="我仍旧是乐视控股的执行董事和最大股东" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我" node_id="0" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="执行董事和最大股东" node_id="11" head_word="股东" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="辞去" pattern="SBV-r(Af)_Pred[辞去]_VOB-n(Di)" syntax_pattern="SBV-r(A)_Pred[辞去]_VOB-n(A)" taggedType="a" pred_id="14" tagged="true" instance="我辞去上市公司CEO、甚至更多其他重要职务" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我(Z)" node_id="13" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="13" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="上市公司CEO、甚至更多其他重要职务" node_id="24" head_word="职务" sem_cat="Di">
+			<sub_pattern node_id="24" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="20">
+	<origin_text>当日晚间，乐视网发布公告，贾跃亭辞去其在乐视网的所有职务——董事长、董事等。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-r(A0)_Pred[de]_dobj-n(Di)" syntax_pattern="nsubj-r(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="12" tagged="false" instance="其在乐视网的所有职务" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="其" node_id="9" head_word="其" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="nsubj-r(A0)" syn_pattern="nsubj-r(A)"/>
+		</argument>
+		<argument id="1" content="所有职务" node_id="14" head_word="职务" sem_cat="Di">
+			<sub_pattern node_id="14" sem_pattern="dobj-n(Di)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="发布" pattern="ADV-t(Ca)_Pred[发布]_VOB-n(Dk)" syntax_pattern="ADV-t(A)_Pred[发布]_VOB-n(A)" taggedType="a" pred_id="4" tagged="true" instance="当日晚间，乐视网发布公告" feature="1-1-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="当日晚间" node_id="1" head_word="晚间" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="公告" node_id="5" head_word="公告" sem_cat="Dk">
+			<sub_pattern node_id="5" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="辞去" pattern="SBV-nr(Af)_Pred[辞去]_VOB-n(Di)" syntax_pattern="SBV-nr(A)_Pred[辞去]_VOB-n(A)" taggedType="a" pred_id="8" tagged="true" instance="贾跃亭辞去其在乐视网的所有职务" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="贾跃亭" node_id="7" head_word="贾跃亭" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="所有职务" node_id="14" head_word="职务" sem_cat="Di">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="21">
+	<origin_text>同日，乐视超级汽车发布，贾跃亭出任乐视汽车生态全球董事长。</origin_text>
+	<relation id="1" pred="出任" pattern="SBV-nr(Af)_Pred[出任]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[出任]_VOB-n(A)" taggedType="a" pred_id="8" tagged="true" instance="贾跃亭出任乐视汽车生态全球董事长" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="贾跃亭" node_id="7" head_word="贾跃亭" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="汽车生态全球董事长" node_id="13" head_word="董事长" sem_cat="Af">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="22">
+	<origin_text>在此期间，贾跃亭身居美国，针对FaradayFuture现况订定了新战略，以包管FF尽快拜托量产车。</origin_text>
+	<relation id="1" pred="身居" pattern="ADV-在_POB-f(Ca)_SBV-nr(Af)_Pred[身居]_VOB-ns(Cb)" syntax_pattern="ADV-在_POB-f(A)_SBV-nr(A)_Pred[身居]_VOB-ns(A)" taggedType="a" pred_id="5" tagged="true" instance="此期间，贾跃亭身居美国" feature="0-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="此期间" node_id="2" head_word="期间" sem_cat="Ca">
+			<sub_pattern node_id="2" sem_pattern="POB-f(Ca)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="贾跃亭" node_id="4" head_word="贾跃亭" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="美国" node_id="6" head_word="美国" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="订定" pattern="SBV-nr(Af)_ADV-针对_POB-n(Da)_Pred[订定]_VOB-n(Df)" syntax_pattern="SBV-nr(A)_ADV-针对_POB-n(A)_Pred[订定]_VOB-n(A)" taggedType="a" pred_id="13" tagged="true" instance="贾跃亭针对FaradayFuture现况订定了新战略" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="贾跃亭(Z)" node_id="8" head_word="贾跃亭" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="FaradayFuture现况" node_id="12" head_word="现况" sem_cat="Da">
+			<sub_pattern node_id="12" sem_pattern="POB-n(Da)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="9" sem_pattern="ADV-针对" syn_pattern="ADV-针对"/>
+		</argument>
+		<argument id="2" content="新战略" node_id="16" head_word="战略" sem_cat="Df">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Df)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="包管" pattern="SBV-nr(Af)_Pred[包管]_SBV-nx(A0)_VOB-拜_VOB-n(A1)" syntax_pattern="SBV-nr(A)_Pred[包管]_SBV-nx(A)_VOB-拜_VOB-n(A)" taggedType="a" pred_id="20" tagged="false" instance="贾跃亭以包管FF尽快拜托量产车" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="贾跃亭(Z)" node_id="18" head_word="贾跃亭" sem_cat="Af">
+			<sub_pattern node_id="18" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="FF" node_id="21" head_word="FF" sem_cat="">
+			<sub_pattern node_id="21" sem_pattern="SBV-nx(A0)" syn_pattern="SBV-nx(A)"/>
+			<sub_pattern node_id="23" sem_pattern="VOB-拜" syn_pattern="VOB-拜"/>
+		</argument>
+		<argument id="2" content="托量产车" node_id="25" head_word="产车" sem_cat="">
+			<sub_pattern node_id="25" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="23">
+	<origin_text>有消息称，贾跃亭将于本周回国。</origin_text>
+	<relation id="1" pred="回国" pattern="SBV-nr(Af)_ADV-于_POB-t(Ca)_Pred[回国]" syntax_pattern="SBV-nr(A)_ADV-于_POB-t(A)_Pred[回国]" taggedType="a" pred_id="8" tagged="true" instance="贾跃亭将于本周回国" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="贾跃亭" node_id="4" head_word="贾跃亭" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="本周" node_id="7" head_word="本周" sem_cat="Ca">
+			<sub_pattern node_id="7" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="6" sem_pattern="ADV-于" syn_pattern="ADV-于"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="24">
+	<origin_text>在7月17日召开的乐视网股东大会现场，孙宏斌称，“现在的三家公司成绩没有五年是做不来的，乐视超级电视是互联网品牌第一名，乐视影业也是中国最好的影业公司之一，乐视网还是A股的上市公司，这三块肯定是看好的。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-t(Ca)_Pred[de]_dobj-n(Da)" syntax_pattern="nsubj-t(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="15" tagged="true" instance="现在的三家公司成绩" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="现在" node_id="14" head_word="现在" sem_cat="Ca">
+			<sub_pattern node_id="14" sem_pattern="nsubj-t(Ca)" syn_pattern="nsubj-t(A)"/>
+		</argument>
+		<argument id="1" content="三家公司成绩" node_id="19" head_word="成绩" sem_cat="Da">
+			<sub_pattern node_id="19" sem_pattern="dobj-n(Da)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(Dm)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="55" tagged="false" instance="乐视网还是A股的上市公司" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="A股" node_id="54" head_word="股" sem_cat="">
+			<sub_pattern node_id="54" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="乐视网还是A股的上市公司" node_id="57" head_word="公司" sem_cat="Dm">
+			<sub_pattern node_id="57" sem_pattern="dobj-n(Dm)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="称" pattern="ADV-在_POB-s(Cb)_SBV-nr(Af)_Pred[称]_VOB-是_VOB-q(Dn)" syntax_pattern="ADV-在_POB-s(A)_SBV-nr(A)_Pred[称]_VOB-是_VOB-q(A)" taggedType="a" pred_id="11" tagged="true" instance="股东大会现场，孙宏斌称，“现在的三家公司成绩没有五年是做不来的，乐视超级电视是互联网品牌第一名" feature="0-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="股东大会现场" node_id="8" head_word="现场" sem_cat="Cb">
+			<sub_pattern node_id="8" sem_pattern="POB-s(Cb)" syn_pattern="POB-s(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="孙宏斌" node_id="10" head_word="孙宏斌" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="第一名" node_id="36" head_word="名" sem_cat="Dn">
+			<sub_pattern node_id="36" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+			<sub_pattern node_id="32" sem_pattern="VOB-是" syn_pattern="VOB-是"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="没有" pattern="SBV-n(Da)_Pred[没有]_VOB-q(Dn)" syntax_pattern="SBV-n(A)_Pred[没有]_VOB-q(A)" taggedType="a" pred_id="20" tagged="true" instance="三家公司成绩没有五年" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="三家公司成绩" node_id="19" head_word="成绩" sem_cat="Da">
+			<sub_pattern node_id="19" sem_pattern="SBV-n(Da)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="五年" node_id="22" head_word="年" sem_cat="Dn">
+			<sub_pattern node_id="22" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="是" pattern="TPC-n(Dm)_SBV-q(Dn)_Pred[是]" syntax_pattern="TPC-n(A)_SBV-q(A)_Pred[是]" taggedType="a" pred_id="63" tagged="true" instance="乐视网还是A股的上市公司，这三块肯定是" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="乐视网还是A股的上市公司" node_id="57" head_word="公司" sem_cat="Dm">
+			<sub_pattern node_id="57" sem_pattern="TPC-n(Dm)" syn_pattern="TPC-n(A)"/>
+		</argument>
+		<argument id="1" content="这三块" node_id="61" head_word="块" sem_cat="Dn">
+			<sub_pattern node_id="61" sem_pattern="SBV-q(Dn)" syn_pattern="SBV-q(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="25">
+	<origin_text>“我们要从实际出发，我们看好这个行业，看未来三年五年，而不只是看今天明天，如果看现在真的没有什么可承诺的。”</origin_text>
+	<relation id="1" pred="出发" pattern="SBV-r(Af)_ADV-从_POB-n(Da)_Pred[出发]" syntax_pattern="SBV-r(A)_ADV-从_POB-n(A)_Pred[出发]" taggedType="a" pred_id="5" tagged="true" instance="我们要从实际出发" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我们" node_id="1" head_word="我们" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="实际" node_id="4" head_word="实际" sem_cat="Da">
+			<sub_pattern node_id="4" sem_pattern="POB-n(Da)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="3" sem_pattern="ADV-从" syn_pattern="ADV-从"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="看好" pattern="SBV-r(Af)_Pred[看好]_VOB-n(Di)" syntax_pattern="SBV-r(A)_Pred[看好]_VOB-n(A)" taggedType="a" pred_id="8" tagged="true" instance="我们看好这个行业" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我们" node_id="7" head_word="我们" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="这个行业" node_id="10" head_word="行业" sem_cat="Di">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="看" pattern="ADV-看_VOB-q(Dn)_Pred[看]_ADV-t(Ca)_VOB-承诺" syntax_pattern="ADV-看_VOB-q(A)_Pred[看]_ADV-t(A)_VOB-承诺" taggedType="a" pred_id="27" tagged="true" instance="未来三年五年，而不只是看今天明天，如果看现在" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="未来三年五年" node_id="17" head_word="年" sem_cat="Dn">
+			<sub_pattern node_id="17" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+			<sub_pattern node_id="12" sem_pattern="ADV-看" syn_pattern="ADV-看"/>
+		</argument>
+		<argument id="1" content="现在" node_id="28" head_word="现在" sem_cat="Ca">
+			<sub_pattern node_id="28" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+			<sub_pattern node_id="33" sem_pattern="VOB-承诺" syn_pattern="VOB-承诺"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="26">
+	<origin_text>孙宏斌称，目前的“新乐视”的债权是比较稳定的，新乐视、新团队、新文化。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-t(Ca)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-t(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="4" tagged="false" instance="目前的“新乐视”" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="目前" node_id="3" head_word="目前" sem_cat="Ca">
+			<sub_pattern node_id="3" sem_pattern="nsubj-t(Ca)" syn_pattern="nsubj-t(A)"/>
+		</argument>
+		<argument id="1" content="新乐视" node_id="7" head_word="乐视" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="称" pattern="SBV-nr(Af)_Pred[称]_VOB-n(Dk)" syntax_pattern="SBV-nr(A)_Pred[称]_VOB-n(A)" taggedType="a" pred_id="1" tagged="true" instance="孙宏斌称，目前的“新乐视”的债权是比较稳定的，新乐视、新团队、新文化" feature="1-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="孙宏斌" node_id="0" head_word="孙宏斌" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="新乐视、新团队、新文化" node_id="23" head_word="文化" sem_cat="Dk">
+			<sub_pattern node_id="23" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="27">
+	<origin_text>“资金不是问题，现在主要的两个问题是关联交易怎么办，上市公司体系的股权接下来如何处理。”</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-t(Ca)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-t(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="8" tagged="false" instance="目前的“新乐视”" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="现在" node_id="6" head_word="现在" sem_cat="Ca">
+			<sub_pattern node_id="6" sem_pattern="nsubj-t(Ca)" syn_pattern="nsubj-t(A)"/>
+		</argument>
+		<argument id="1" content="两个问题" node_id="11" head_word="问题" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-n(Dd)_Pred[de]_dobj-n(Di)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="20" tagged="true" instance="上市公司体系的股权" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="上市公司体系" node_id="19" head_word="体系" sem_cat="Dd">
+			<sub_pattern node_id="19" sem_pattern="nsubj-n(Dd)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="股权" node_id="21" head_word="股权" sem_cat="Di">
+			<sub_pattern node_id="21" sem_pattern="dobj-n(Di)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="是" pattern="SBV-n(Dj)_Pred[是]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="3" tagged="false" instance="资金不是问题" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="资金" node_id="1" head_word="资金" sem_cat="Dj">
+			<sub_pattern node_id="1" sem_pattern="SBV-n(Dj)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="问题" node_id="4" head_word="问题" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="是" pattern="SBV-n(A0)_Pred[是]_SBV-n(Di)_ADV-r(A1)_VOB-处理" syntax_pattern="SBV-n(A)_Pred[是]_SBV-n(A)_ADV-r(A)_VOB-处理" taggedType="a" pred_id="12" tagged="false" instance="两个问题是关联交易怎么办，上市公司体系的股权接下来如何" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="两个问题" node_id="11" head_word="问题" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="股权" node_id="21" head_word="股权" sem_cat="Di">
+			<sub_pattern node_id="21" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="24" sem_pattern="VOB-处理" syn_pattern="VOB-处理"/>
+		</argument>
+		<argument id="2" content="如何" node_id="23" head_word="如何" sem_cat="">
+			<sub_pattern node_id="23" sem_pattern="ADV-r(A1)" syn_pattern="ADV-r(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="交易" pattern="SBV-n(A0)_Pred[交易]_VOB-r(Da)" syntax_pattern="SBV-n(A)_Pred[交易]_VOB-r(A)" taggedType="a" pred_id="14" tagged="false" instance="关联交易怎么办" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="关联" node_id="13" head_word="关联" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="怎么办" node_id="15" head_word="怎么办" sem_cat="Da">
+			<sub_pattern node_id="15" sem_pattern="VOB-r(Da)" syn_pattern="VOB-r(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="28">
+	<origin_text>据了解，乐视网将在今日晚些时候发布关于孙宏斌出任乐视网董事长的相关公告。</origin_text>
+	<relation id="1" pred="发布" pattern="SBV-n(A0)_ADV-在_POB-n(Ca)_Pred[发布]_VOB-n(Dk)" syntax_pattern="SBV-n(A)_ADV-在_POB-n(A)_Pred[发布]_VOB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="网将在今日晚些时候发布关于孙宏斌出任乐视网董事长的相关公告" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="网" node_id="4" head_word="网" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="今日晚些时候" node_id="10" head_word="时候" sem_cat="Ca">
+			<sub_pattern node_id="10" sem_pattern="POB-n(Ca)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="6" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="相关公告" node_id="19" head_word="公告" sem_cat="Dk">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="出任" pattern="ADV-关于_POB-nr(Af)_Pred[出任]_VOB-n(Af)_ATT-u_VOB-n(Dk)" syntax_pattern="ADV-关于_POB-nr(A)_Pred[出任]_VOB-n(A)_ATT-u_VOB-n(A)" taggedType="a" pred_id="14" tagged="true" instance="孙宏斌出任乐视网董事长的相关公告" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="孙宏斌" node_id="13" head_word="孙宏斌" sem_cat="Af">
+			<sub_pattern node_id="13" sem_pattern="POB-nr(Af)" syn_pattern="POB-nr(A)"/>
+			<sub_pattern node_id="12" sem_pattern="ADV-关于" syn_pattern="ADV-关于"/>
+			<sub_pattern node_id="14" sem_pattern="DE-出任" syn_pattern="DE-出任"/>
+			<sub_pattern node_id="17" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="19" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="1" content="董事长" node_id="16" head_word="董事长" sem_cat="Af">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="2" content="公告" node_id="19" head_word="公告" sem_cat="Dk">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="29">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="30">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

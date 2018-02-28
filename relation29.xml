@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title大快人心！</origin_text>
+</sentence>
+<sentence id="7">
+	<origin_text>那几个诈骗大学新生学费的主犯被判无期了/Title</origin_text>
+	<relation id="1" pred="判" pattern="SBV-n(Af)_Pred[判]_VOB-n(A0)_VOB-nx(A1)_PUN-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[判]_VOB-n(A)_VOB-nx(A)_PUN-ns(A)" taggedType="a" pred_id="10" tagged="false" instance="那几个诈骗大学新生学费的主犯被判无期了/Title" feature="1-0-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="那几个诈骗大学新生学费的主犯" node_id="8" head_word="主犯" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="无期" node_id="11" head_word="无期" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="2" content="/Title" node_id="15" head_word="Title" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="VOB-nx(A1)" syn_pattern="VOB-nx(A)"/>
+		</argument>
+		<argument id="3" content="" node_id="16" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="16" sem_pattern="PUN-ns(Cb)" syn_pattern="PUN-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>据新华社报道，徐玉玉被电信诈骗案今天（19日）上午在临沂中院一审宣判，主犯陈文辉一审因诈骗罪、非法获取公民个人信息罪被判无期徒刑，没收个人全部财产。</origin_text>
+	<relation id="1" pred="诈骗" pattern="SBV-nr(Af)_ADV-被_POB-n(Di)_Pred[诈骗]_SBV-n(A0)_ADV-t(Ca)_ADV-t(Ca)_VOB-宣判" syntax_pattern="SBV-nr(A)_ADV-被_POB-n(A)_Pred[诈骗]_SBV-n(A)_ADV-t(A)_ADV-t(A)_VOB-宣判" taggedType="a" pred_id="7" tagged="false" instance="徐玉玉被电信诈骗案今天（19日）上午" feature="0-0-0-1-0-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="徐玉玉" node_id="4" head_word="徐玉玉" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="电信" node_id="6" head_word="电信" sem_cat="Di">
+			<sub_pattern node_id="6" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="5" sem_pattern="ADV-被" syn_pattern="ADV-被"/>
+		</argument>
+		<argument id="2" content="案" node_id="8" head_word="案" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="18" sem_pattern="VOB-宣判" syn_pattern="VOB-宣判"/>
+		</argument>
+		<argument id="3" content="今天" node_id="9" head_word="今天" sem_cat="Ca">
+			<sub_pattern node_id="9" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="4" content="上午" node_id="13" head_word="上午" sem_cat="Ca">
+			<sub_pattern node_id="13" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="判" pattern="SBV-n(A0)_Pred[判]_VOB-n(Di)" syntax_pattern="SBV-n(A)_Pred[判]_VOB-n(A)" taggedType="a" pred_id="33" tagged="false" instance="陈文辉一审因诈骗罪、非法获取公民个人信息罪被判无期徒刑" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="陈文辉一审" node_id="22" head_word="一审" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="无期徒刑" node_id="35" head_word="徒刑" sem_cat="Di">
+			<sub_pattern node_id="35" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>其他六名被告人被判15年到3年不等的有期徒刑并处罚金。</origin_text>
+	<relation id="1" pred="判" pattern="SBV-n(Af)_Pred[判]_ADV-q(Dn)_VOB-不等_ATT-u_SBV-n(Di)" syntax_pattern="SBV-n(A)_Pred[判]_ADV-q(A)_VOB-不等_ATT-u_SBV-n(A)" taggedType="a" pred_id="5" tagged="true" instance="其他六名被告人被判15年到3年不等的有期徒刑" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="其他六名被告人" node_id="3" head_word="被告人" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="5" sem_pattern="DE-判" syn_pattern="DE-判"/>
+			<sub_pattern node_id="12" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="14" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="15年到3年" node_id="10" head_word="年" sem_cat="Dn">
+			<sub_pattern node_id="10" sem_pattern="ADV-q(Dn)" syn_pattern="ADV-q(A)"/>
+			<sub_pattern node_id="11" sem_pattern="VOB-不等" syn_pattern="VOB-不等"/>
+		</argument>
+		<argument id="2" content="徒刑" node_id="14" head_word="徒刑" sem_cat="Di">
+		</argument>
+	</relation>
+	<relation id="2" pred="并处" pattern="SBV-n(Di)_Pred[并处]_VOB-n(Dj)" syntax_pattern="SBV-n(A)_Pred[并处]_VOB-n(A)" taggedType="a" pred_id="15" tagged="true" instance="有期徒刑并处罚金" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="有期徒刑" node_id="14" head_word="徒刑" sem_cat="Di">
+			<sub_pattern node_id="14" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="罚金" node_id="16" head_word="罚金" sem_cat="Dj">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Dj)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>具体如下：以诈骗罪判处被告人陈文辉无期徒刑，剥夺政治权利终身，并处没收个人全部财产，以侵犯公民个人信息罪判处其有期徒刑五年，并处罚金人民币三万元，决定执行无期徒刑，剥夺政治权利终身，并处没收个人全部财产；以诈骗罪判处被告人郑金锋有期徒刑十五年，并处罚金人民币六十万元；以诈骗罪判处被告人黄进春有期徒刑十二年，并处罚金人民币四十万元；以诈骗罪判处被告人熊超有期徒刑八年，并处罚金人民币二十万元；以诈骗罪判处被告人陈宝生有期徒刑七年，并处罚金人民币十五万元；以诈骗罪判处被告人郑贤聪有期徒刑六年，并处罚金人民币十万元；以诈骗罪判处被告人陈福地有期徒刑三年，并处罚金人民币十万元；责令各被告人向被害人退赔诈骗款项。</origin_text>
+	<relation id="1" pred="判处" pattern="ADV-以_POB-n(Di)_Pred[判处]_VOB-n(Di)" syntax_pattern="ADV-以_POB-n(A)_Pred[判处]_VOB-n(A)" taggedType="t" pred_id="5" tagged="true" instance="诈骗罪判处被告人陈文辉无期徒刑" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-1-0-0-0-0-0-0-0-1">
+		<argument id="0" content="诈骗罪" node_id="4" head_word="诈骗罪" sem_cat="Di">
+			<sub_pattern node_id="4" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="3" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="1" content="陈文辉无期徒刑" node_id="9" head_word="徒刑" sem_cat="Di">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="判处" pattern="ADV-以_POB-n(Di)_Pred[判处]_VOB-n(Di)" syntax_pattern="ADV-以_POB-n(A)_Pred[判处]_VOB-n(A)" taggedType="t" pred_id="55" tagged="true" instance="诈骗罪判处被告人陈文辉无期徒刑" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-1-0-0-0-0-0-0-0-1">
+		<argument id="0" content="诈骗罪" node_id="54" head_word="诈骗罪" sem_cat="Di">
+			<sub_pattern node_id="54" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="53" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="1" content="郑金锋有期徒刑十五年" node_id="58" head_word="有期徒刑" sem_cat="Di">
+			<sub_pattern node_id="58" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="判处" pattern="ADV-以_POB-n(Di)_Pred[判处]_VOB-n(Di)" syntax_pattern="ADV-以_POB-n(A)_Pred[判处]_VOB-n(A)" taggedType="t" pred_id="70" tagged="true" instance="诈骗罪判处被告人陈文辉无期徒刑" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-1-0-0-0-0-0-0-0-1">
+		<argument id="0" content="诈骗罪" node_id="69" head_word="诈骗罪" sem_cat="Di">
+			<sub_pattern node_id="69" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="68" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="1" content="黄进春有期徒刑十二年" node_id="73" head_word="有期徒刑" sem_cat="Di">
+			<sub_pattern node_id="73" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="判处" pattern="ADV-以_POB-n(Di)_Pred[判处]_VOB-n(Di)" syntax_pattern="ADV-以_POB-n(A)_Pred[判处]_VOB-n(A)" taggedType="t" pred_id="85" tagged="true" instance="诈骗罪判处被告人陈文辉无期徒刑" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-1-0-0-0-0-0-0-0-1">
+		<argument id="0" content="诈骗罪" node_id="84" head_word="诈骗罪" sem_cat="Di">
+			<sub_pattern node_id="84" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="83" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="1" content="熊超有期徒刑八年" node_id="88" head_word="有期徒刑" sem_cat="Di">
+			<sub_pattern node_id="88" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="判处" pattern="ADV-以_POB-n(Di)_Pred[判处]_VOB-n(Di)" syntax_pattern="ADV-以_POB-n(A)_Pred[判处]_VOB-n(A)" taggedType="t" pred_id="100" tagged="true" instance="诈骗罪判处被告人陈文辉无期徒刑" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-1-0-0-0-0-0-0-0-1">
+		<argument id="0" content="诈骗罪" node_id="99" head_word="诈骗罪" sem_cat="Di">
+			<sub_pattern node_id="99" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="98" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="1" content="陈宝生有期徒刑七年" node_id="103" head_word="有期徒刑" sem_cat="Di">
+			<sub_pattern node_id="103" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="6" pred="判处" pattern="ADV-以_POB-n(Di)_Pred[判处]_VOB-n(Di)" syntax_pattern="ADV-以_POB-n(A)_Pred[判处]_VOB-n(A)" taggedType="t" pred_id="115" tagged="true" instance="诈骗罪判处被告人陈文辉无期徒刑" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-1-0-0-0-0-0-0-0-1">
+		<argument id="0" content="诈骗罪" node_id="114" head_word="诈骗罪" sem_cat="Di">
+			<sub_pattern node_id="114" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="113" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="1" content="郑贤聪有期徒刑六年" node_id="118" head_word="有期徒刑" sem_cat="Di">
+			<sub_pattern node_id="118" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="7" pred="判处" pattern="ADV-以_POB-n(Di)_Pred[判处]_VOB-n(Di)" syntax_pattern="ADV-以_POB-n(A)_Pred[判处]_VOB-n(A)" taggedType="t" pred_id="130" tagged="true" instance="诈骗罪判处被告人陈文辉无期徒刑" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-1-0-0-0-0-0-0-0-1">
+		<argument id="0" content="诈骗罪" node_id="129" head_word="诈骗罪" sem_cat="Di">
+			<sub_pattern node_id="129" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="128" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="1" content="陈福地有期徒刑三年" node_id="133" head_word="有期徒刑" sem_cat="Di">
+			<sub_pattern node_id="133" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="8" pred="退赔" pattern="ADV-向_POB-n(Af)_Pred[退赔]_VOB-n(Dj)" syntax_pattern="ADV-向_POB-n(A)_Pred[退赔]_VOB-n(A)" taggedType="a" pred_id="148" tagged="true" instance="被害人退赔诈骗款项" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="被害人" node_id="147" head_word="被害人" sem_cat="Af">
+			<sub_pattern node_id="147" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="146" sem_pattern="ADV-向" syn_pattern="ADV-向"/>
+		</argument>
+		<argument id="1" content="诈骗款项" node_id="150" head_word="款项" sem_cat="Dj">
+			<sub_pattern node_id="150" sem_pattern="VOB-n(Dj)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>“徐玉玉被电信诈骗案”回顾。</origin_text>
+	<relation id="1" pred="诈骗" pattern="SBV-nr(Af)_ADV-被_POB-n(Di)_Pred[诈骗]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_ADV-被_POB-n(A)_Pred[诈骗]_VOB-n(A)" taggedType="a" pred_id="4" tagged="false" instance="徐玉玉被电信诈骗案" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="徐玉玉" node_id="1" head_word="徐玉玉" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="电信" node_id="3" head_word="电信" sem_cat="Di">
+			<sub_pattern node_id="3" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="2" sem_pattern="ADV-被" syn_pattern="ADV-被"/>
+		</argument>
+		<argument id="2" content="案" node_id="5" head_word="案" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>2016年，18岁的徐玉玉以568分的成绩被南京邮电大学英语专业录取，将在9月1日入校报到。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-q(Dn)_Pred[de]_dobj-nr(Af)" syntax_pattern="nsubj-q(A)_Pred[de]_dobj-nr(A)" taggedType="a" pred_id="4" tagged="true" instance="18岁的徐玉玉" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="18岁" node_id="3" head_word="岁" sem_cat="Dn">
+			<sub_pattern node_id="3" sem_pattern="nsubj-q(Dn)" syn_pattern="nsubj-q(A)"/>
+		</argument>
+		<argument id="1" content="徐玉玉" node_id="5" head_word="徐玉玉" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="dobj-nr(Af)" syn_pattern="dobj-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-q(Dn)_Pred[de]_dobj-n(Da)" syntax_pattern="nsubj-q(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="9" tagged="true" instance="568分的成绩" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="568分" node_id="8" head_word="分" sem_cat="Dn">
+			<sub_pattern node_id="8" sem_pattern="nsubj-q(Dn)" syn_pattern="nsubj-q(A)"/>
+		</argument>
+		<argument id="1" content="成绩" node_id="10" head_word="成绩" sem_cat="Da">
+			<sub_pattern node_id="10" sem_pattern="dobj-n(Da)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="报到" pattern="ADV-t(Ca)_SBV-nr(Af)_ADV-以_POB-n(Da)_ADV-被_POB-n(A0)_ADV-在_POB-t(Ca)_Pred[报到]" syntax_pattern="ADV-t(A)_SBV-nr(A)_ADV-以_POB-n(A)_ADV-被_POB-n(A)_ADV-在_POB-t(A)_Pred[报到]" taggedType="a" pred_id="24" tagged="false" instance="2016年，18岁的徐玉玉以568分的成绩被南京邮电大学英语专业录取，将在9月1日入校报到" feature="1-1-0-0-1-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="2016年" node_id="0" head_word="2016年" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="徐玉玉" node_id="5" head_word="徐玉玉" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="成绩" node_id="10" head_word="成绩" sem_cat="Da">
+			<sub_pattern node_id="10" sem_pattern="POB-n(Da)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="6" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="3" content="南京邮电大学英语专业录取" node_id="17" head_word="录取" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="11" sem_pattern="ADV-被" syn_pattern="ADV-被"/>
+		</argument>
+		<argument id="4" content="9月1日" node_id="22" head_word="1日" sem_cat="Ca">
+			<sub_pattern node_id="22" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="20" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="13">
+	<origin_text>8月19日，徐玉玉接到了陌生电话，对方称有一笔2600元的助学金要发放给她。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-q(Dn)_Pred[de]_dobj-n(Dj)" syntax_pattern="nsubj-q(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="16" tagged="true" instance="一笔2600元的助学金" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="2600元" node_id="15" head_word="元" sem_cat="Dn">
+			<sub_pattern node_id="15" sem_pattern="nsubj-q(Dn)" syn_pattern="nsubj-q(A)"/>
+		</argument>
+		<argument id="1" content="一笔2600元的助学金" node_id="17" head_word="助学金" sem_cat="Dj">
+			<sub_pattern node_id="17" sem_pattern="dobj-n(Dj)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="接到" pattern="ADV-t(Ca)_SBV-nr(Af)_Pred[接到]_VOB-n(Bo)" syntax_pattern="ADV-t(A)_SBV-nr(A)_Pred[接到]_VOB-n(A)" taggedType="a" pred_id="4" tagged="true" instance="8月19日，徐玉玉接到了陌生电话" feature="1-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="8月19日" node_id="1" head_word="19日" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="徐玉玉" node_id="3" head_word="徐玉玉" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="陌生电话" node_id="7" head_word="电话" sem_cat="Bo">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="称" pattern="SBV-n(A0)_Pred[称]_VOB-有_VOB-n(Dj)" syntax_pattern="SBV-n(A)_Pred[称]_VOB-有_VOB-n(A)" taggedType="a" pred_id="10" tagged="false" instance="对方称有一笔2600元的助学金" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="对方" node_id="9" head_word="对方" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="一笔2600元的助学金" node_id="17" head_word="助学金" sem_cat="Dj">
+			<sub_pattern node_id="17" sem_pattern="VOB-n(Dj)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="11" sem_pattern="VOB-有" syn_pattern="VOB-有"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="14">
+	<origin_text>因前一天也曾接到教育部门发放助学金的通知，她并未怀疑电话的真伪。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Bo)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="18" tagged="false" instance="电话的真伪" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="电话" node_id="17" head_word="电话" sem_cat="Bo">
+			<sub_pattern node_id="17" sem_pattern="nsubj-n(Bo)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="真伪" node_id="19" head_word="真伪" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="接到" pattern="ADV-因_POB-q(Dn)_Pred[接到]_VOB-n(Dk)" syntax_pattern="ADV-因_POB-q(A)_Pred[接到]_VOB-n(A)" taggedType="a" pred_id="6" tagged="true" instance="一天也曾接到教育部门发放助学金的通知" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="一天" node_id="3" head_word="天" sem_cat="Dn">
+			<sub_pattern node_id="3" sem_pattern="POB-q(Dn)" syn_pattern="POB-q(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-因" syn_pattern="ADV-因"/>
+		</argument>
+		<argument id="1" content="通知" node_id="12" head_word="通知" sem_cat="Dk">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="发放" pattern="SBV-n(A0)_Pred[发放]_VOB-n(Dj)_ATT-u_VOB-n(Dk)" syntax_pattern="SBV-n(A)_Pred[发放]_VOB-n(A)_ATT-u_VOB-n(A)" taggedType="a" pred_id="9" tagged="false" instance="教育部门发放助学金的通知" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="教育部门" node_id="8" head_word="部门" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="9" sem_pattern="DE-发放" syn_pattern="DE-发放"/>
+			<sub_pattern node_id="11" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="1" content="助学金" node_id="10" head_word="助学金" sem_cat="Dj">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(Dj)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="2" content="通知" node_id="12" head_word="通知" sem_cat="Dk">
+		</argument>
+	</relation>
+	<relation id="4" pred="怀疑" pattern="SBV-r(A0)_Pred[怀疑]_VOB-n(A1)" syntax_pattern="SBV-r(A)_Pred[怀疑]_VOB-n(A)" taggedType="a" pred_id="16" tagged="false" instance="她并未怀疑电话的真伪" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="她" node_id="14" head_word="她" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="真伪" node_id="19" head_word="真伪" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="15">
+	<origin_text>按对方要求，她将准备交学费的9900元打入了对方提供的账号……。</origin_text>
+	<relation id="1" pred="打入" pattern="SBV-r(A0)_ADV-d_POB-q(Dn)_Pred[打入]_VOB-n(A1)" syntax_pattern="SBV-r(A)_ADV-d_POB-q(A)_Pred[打入]_VOB-n(A)" taggedType="a" pred_id="12" tagged="false" instance="她将准备交学费的9900元打入了对方提供的账号" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="她" node_id="4" head_word="她" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="9900元" node_id="11" head_word="元" sem_cat="Dn">
+			<sub_pattern node_id="11" sem_pattern="POB-q(Dn)" syn_pattern="POB-q(A)"/>
+			<sub_pattern node_id="5" sem_pattern="ADV-d" syn_pattern="ADV-d"/>
+		</argument>
+		<argument id="2" content="账号" node_id="17" head_word="账号" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="16">
+	<origin_text>发现被骗后，徐玉玉十分难过，当晚和父亲去派出所报案。</origin_text>
+	<relation id="1" pred="报案" pattern="ADV-t(Ca)_SBV-n(Af)_Pred[报案]" syntax_pattern="ADV-t(A)_SBV-n(A)_Pred[报案]" taggedType="a" pred_id="14" tagged="true" instance="当晚和父亲去派出所报案" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="当晚" node_id="9" head_word="当晚" sem_cat="Ca">
+			<sub_pattern node_id="9" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="父亲" node_id="11" head_word="父亲" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="17">
+	<origin_text>可在回家路上，她突然晕厥，虽经医院全力抢救，仍因心脏骤停而不幸于21日离世。</origin_text>
+	<relation id="1" pred="晕厥" pattern="ADV-在_POB-s(Cb)_SBV-r(A0)_Pred[晕厥]" syntax_pattern="ADV-在_POB-s(A)_SBV-r(A)_Pred[晕厥]" taggedType="a" pred_id="7" tagged="false" instance="路上，她突然晕厥" feature="0-1-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="路上" node_id="3" head_word="路上" sem_cat="Cb">
+			<sub_pattern node_id="3" sem_pattern="POB-s(Cb)" syn_pattern="POB-s(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="她" node_id="5" head_word="她" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="抢救" pattern="SBV-r(A0)_ADV-经_POB-n(Dm)_Pred[抢救]" syntax_pattern="SBV-r(A)_ADV-经_POB-n(A)_Pred[抢救]" taggedType="a" pred_id="14" tagged="false" instance="她虽经医院全力抢救" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="她(Z)" node_id="9" head_word="她" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="医院" node_id="12" head_word="医院" sem_cat="Dm">
+			<sub_pattern node_id="12" sem_pattern="POB-n(Dm)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="11" sem_pattern="ADV-经" syn_pattern="ADV-经"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="离" pattern="SBV-r(A0)_ADV-于_POB-t(Ca)_Pred[离]_VOB-n(A1)" syntax_pattern="SBV-r(A)_ADV-于_POB-t(A)_Pred[离]_VOB-n(A)" taggedType="a" pred_id="25" tagged="false" instance="她仍因心脏骤停而不幸于21日离世" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="她(Z)" node_id="16" head_word="她" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="21日" node_id="24" head_word="21日" sem_cat="Ca">
+			<sub_pattern node_id="24" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="23" sem_pattern="ADV-于" syn_pattern="ADV-于"/>
+		</argument>
+		<argument id="2" content="世" node_id="26" head_word="世" sem_cat="">
+			<sub_pattern node_id="26" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="18">
+	<origin_text>据了解，“徐玉玉被电信诈骗案”7名被告人先后交叉结伙，在多地设立诈骗窝点，以发放助学金、购房补贴的名义拨打电话实施诈骗。</origin_text>
+	<relation id="1" pred="诈骗" pattern="SBV-nr(Af)_ADV-被_POB-n(Di)_Pred[诈骗]" syntax_pattern="SBV-nr(A)_ADV-被_POB-n(A)_Pred[诈骗]" taggedType="a" pred_id="7" tagged="true" instance="徐玉玉被电信诈骗" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="徐玉玉" node_id="4" head_word="徐玉玉" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="电信" node_id="6" head_word="电信" sem_cat="Di">
+			<sub_pattern node_id="6" sem_pattern="POB-n(Di)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="5" sem_pattern="ADV-被" syn_pattern="ADV-被"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="结伙" pattern="SBV-n(Af)_Pred[结伙]_VOB-实施_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[结伙]_VOB-实施_VOB-n(A)" taggedType="a" pred_id="15" tagged="false" instance="“徐玉玉被电信诈骗案”7名被告人先后交叉结伙，徐玉玉_被_电信_诈骗_案_”_7_名_被告人在多地设立诈骗窝点，以发放助学金、购房补贴的名义拨打电话实施诈骗" feature="1-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="徐玉玉被电信诈骗案7名被告人" node_id="12" head_word="被告人" sem_cat="Af">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="诈骗" node_id="36" head_word="诈骗" sem_cat="">
+			<sub_pattern node_id="36" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="35" sem_pattern="VOB-实施" syn_pattern="VOB-实施"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="设立" pattern="SBV-n(A0)_ADV-在_POB-n(A1)_Pred[设立]_VOB-n(Cb)" syntax_pattern="SBV-n(A)_ADV-在_POB-n(A)_Pred[设立]_VOB-n(A)" taggedType="a" pred_id="21" tagged="false" instance="徐玉玉_被_电信_诈骗_案_”_7_名_被告人在多地设立诈骗窝点" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="徐玉玉被电信诈骗案7名被告人(Z)" node_id="17" head_word="徐玉玉 被 电信 诈骗 案 ” 7 名 被告人" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="多地" node_id="20" head_word="地" sem_cat="">
+			<sub_pattern node_id="20" sem_pattern="POB-n(A1)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="18" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="诈骗窝点" node_id="23" head_word="窝点" sem_cat="Cb">
+			<sub_pattern node_id="23" sem_pattern="VOB-n(Cb)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="19">
+	<origin_text>公安机关出具的死亡原因分析报告认为，徐玉玉应系被诈骗后出现忧伤、焦虑、情绪压抑等不良精神和心理因素的情况下发生心源性休克，行心肺复苏后继发多器官功能衰竭而死亡。</origin_text>
+	<relation id="1" pred="认为" pattern="SBV-n(Dk)_Pred[认为]_ADV-f(A0)_VOB-继发_VOB-n(Da)" syntax_pattern="SBV-n(A)_Pred[认为]_ADV-f(A)_VOB-继发_VOB-n(A)" taggedType="a" pred_id="8" tagged="false" instance="死亡原因分析报告认为，徐玉玉应系被诈骗后出现忧伤、焦虑、情绪压抑等不良精神和心理因素的情况下发生心源性休克，行心肺复苏后继发多器官功能" feature="0-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="死亡原因分析报告" node_id="7" head_word="报告" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="后" node_id="39" head_word="后" sem_cat="">
+			<sub_pattern node_id="39" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+			<sub_pattern node_id="40" sem_pattern="VOB-继发" syn_pattern="VOB-继发"/>
+		</argument>
+		<argument id="2" content="多器官功能" node_id="43" head_word="功能" sem_cat="Da">
+			<sub_pattern node_id="43" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="系" pattern="SBV-nr(Af)_Pred[系]_ADV-f(A0)_VOB-发生_VOB-n(A1)" syntax_pattern="SBV-nr(A)_Pred[系]_ADV-f(A)_VOB-发生_VOB-n(A)" taggedType="a" pred_id="12" tagged="false" instance="徐玉玉应系被诈骗后出现忧伤、焦虑、情绪压抑等不良精神和心理因素的情况下发生心源性休克" feature="1-0-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="徐玉玉" node_id="10" head_word="徐玉玉" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="情况下" node_id="31" head_word="下" sem_cat="">
+			<sub_pattern node_id="31" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+			<sub_pattern node_id="32" sem_pattern="VOB-发生" syn_pattern="VOB-发生"/>
+		</argument>
+		<argument id="2" content="心源性休克" node_id="34" head_word="休克" sem_cat="">
+			<sub_pattern node_id="34" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="出现" pattern="ADV-f(A0)_Pred[出现]_VOB-n(A1)" syntax_pattern="ADV-f(A)_Pred[出现]_VOB-n(A)" taggedType="a" pred_id="16" tagged="false" instance="后出现忧伤" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="后" node_id="15" head_word="后" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="忧伤" node_id="17" head_word="忧伤" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="20">
+	<origin_text>警惕新生招录季诈骗。</origin_text>
+</sentence>
+<sentence id="21">
+	<origin_text>2017年高考结束，新生招录季已经到来。</origin_text>
+</sentence>
+<sentence id="22">
+	<origin_text>尽管相关部门采取严打态势，电信诈骗却仍未绝迹。</origin_text>
+</sentence>
+<sentence id="23">
+	<origin_text>就在近日，重庆再次出现了“徐玉玉案”式骗局。</origin_text>
+	<relation id="1" pred="出现" pattern="ADV-在_POB-t(Ca)_SBV-ns(Cb)_Pred[出现]_VOB-n(Dg)" syntax_pattern="ADV-在_POB-t(A)_SBV-ns(A)_Pred[出现]_VOB-n(A)" taggedType="a" pred_id="6" tagged="true" instance="近日，重庆再次出现了“徐玉玉案”式骗局" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="近日" node_id="2" head_word="近日" sem_cat="Ca">
+			<sub_pattern node_id="2" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="重庆" node_id="4" head_word="重庆" sem_cat="Cb">
+			<sub_pattern node_id="4" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="2" content="骗局" node_id="13" head_word="骗局" sem_cat="Dg">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(Dg)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="24">
+	<origin_text>据媒体报道，有人自称班主任给学生母亲打电话，说要发放一笔3800元的补助金。</origin_text>
+	<relation id="2" pred="自称" pattern="SBV-r(Af)_Pred[自称]_SBV-n(Af)_VOB-打电话" syntax_pattern="SBV-r(A)_Pred[自称]_SBV-n(A)_VOB-打电话" taggedType="a" pred_id="5" tagged="true" instance="有人自称班主任" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="有人" node_id="4" head_word="有人" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="班主任" node_id="6" head_word="班主任" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="10" sem_pattern="VOB-打电话" syn_pattern="VOB-打电话"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="25">
+	<origin_text>学生母女俩差点在骗子的诱导下将3800元打入所谓“特殊账户”，好在银行工作人员及时发现进行了阻止。</origin_text>
+	<relation id="1" pred="发现" pattern="SBV-n(Af)_SBV-n(Af)_Pred[发现]_VOB-进行_VOB-n{阻止}" syntax_pattern="SBV-n(A)_SBV-n(A)_Pred[发现]_VOB-进行_VOB-n{阻止}" taggedType="a" pred_id="24" tagged="true" instance="学生母女俩差点在骗子的诱导下将3800元打入所谓“特殊账户”，好在银行工作人员及时发现进行了阻止" feature="1-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="学生母女" node_id="1" head_word="母女" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="银行工作人员" node_id="22" head_word="人员" sem_cat="Af">
+			<sub_pattern node_id="22" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="打入" pattern="ADV-在_POB-f(A0)_ADV-将_POB-q(Dn)_Pred[打入]_VOB-n(Bp)" syntax_pattern="ADV-在_POB-f(A)_ADV-将_POB-q(A)_Pred[打入]_VOB-n(A)" taggedType="a" pred_id="12" tagged="false" instance="下将3800元打入所谓“特殊账户”" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="下" node_id="8" head_word="下" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="4" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="3800元" node_id="11" head_word="元" sem_cat="Dn">
+			<sub_pattern node_id="11" sem_pattern="POB-q(Dn)" syn_pattern="POB-q(A)"/>
+			<sub_pattern node_id="9" sem_pattern="ADV-将" syn_pattern="ADV-将"/>
+		</argument>
+		<argument id="2" content="特殊账户" node_id="16" head_word="账户" sem_cat="Bp">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Bp)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="26">
+	<origin_text>但是，未察觉受骗之前，母女俩一度非常气愤，认为银行人员“多事”。</origin_text>
+</sentence>
+<sentence id="27">
+	<origin_text>全国学生资助管理中心副主任马建斌说，诈骗分子往往会在新生招录季前后，冒充教育部门、学校、基金会等工作人员，以发放奖学金、助学金、教育退费等为名，引诱学生及家长上当受骗。</origin_text>
+	<relation id="1" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="全国学生资助管理中心副主任马建斌" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="马建斌" node_id="7" head_word="马建斌" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="全国学生资助管理中心副主任" node_id="6" head_word="主任" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="为名" pattern="SBV-n(Af)_ADV-在_POB-f(A0)_Pred[为名]" syntax_pattern="SBV-n(A)_ADV-在_POB-f(A)_Pred[为名]" taggedType="a" pred_id="39" tagged="false" instance="诈骗分子往往会在新生招录季前后，全国_学生_资助_管理_中心_副_主任_马建斌冒充教育部门、学校、基金会等工作人员，以发放奖学金、助学金、教育退费等为名" feature="1-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="诈骗分子" node_id="11" head_word="分子" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="新生招录季前后" node_id="16" head_word="前后" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="14" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="冒充" pattern="SBV-nr(Af)_Pred[冒充]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[冒充]_VOB-n(A)" taggedType="a" pred_id="19" tagged="true" instance="全国_学生_资助_管理_中心_副_主任_马建斌冒充教育部门、学校、基金会等工作人员" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="全国学生资助管理中心副主任马建斌(Z)" node_id="18" head_word="全国 学生 资助 管理 中心 副 主任 马建斌" sem_cat="Af">
+			<sub_pattern node_id="18" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="教育部门、学校、基金会等工作人员" node_id="28" head_word="人员" sem_cat="Af">
+			<sub_pattern node_id="28" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="28">
+	<origin_text>希望大家提高警惕，不要被电话、短信、微信中的诈骗信息蒙蔽。</origin_text>
+</sentence>
+<sentence id="29">
+	<origin_text>马建斌再三强调，任何资助项目都不会要求学生交纳任何费用，不会要求学生在ATM机上进行任何操作。</origin_text>
+	<relation id="1" pred="强调" pattern="SBV-nr(Af)_Pred[强调]_VOB-要求_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[强调]_VOB-要求_VOB-n(A)" taggedType="a" pred_id="2" tagged="true" instance="马建斌再三强调，任何资助项目都不会要求学生交纳任何费用，不会要求学生" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="马建斌" node_id="0" head_word="马建斌" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="学生" node_id="17" head_word="学生" sem_cat="Af">
+			<sub_pattern node_id="17" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="16" sem_pattern="VOB-要求" syn_pattern="VOB-要求"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="要求" pattern="SBV-n(Dd)_Pred[要求]_VOB-n(Af)" syntax_pattern="SBV-n(A)_Pred[要求]_VOB-n(A)" taggedType="a" pred_id="9" tagged="true" instance="任何资助项目都不会要求学生" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="任何资助项目" node_id="6" head_word="项目" sem_cat="Dd">
+			<sub_pattern node_id="6" sem_pattern="SBV-n(Dd)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="学生" node_id="10" head_word="学生" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="30">
+	<origin_text>即使学生的受助资格得到确认，有关部门也不会与学生通过电话办理。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Af)_Pred[de]_dobj-n(Dd)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="2" tagged="true" instance="学生的受助资格" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="学生" node_id="1" head_word="学生" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="nsubj-n(Af)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="受助资格" node_id="4" head_word="资格" sem_cat="Dd">
+			<sub_pattern node_id="4" sem_pattern="dobj-n(Dd)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="得到" pattern="SBV-n(Dd)_Pred[得到]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[得到]_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="受助资格得到确认" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="受助资格" node_id="4" head_word="资格" sem_cat="Dd">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(Dd)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="确认" node_id="6" head_word="确认" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="办理" pattern="SBV-n(A0)_ADV-与_POB-n(Af)_ADV-通过_POB-n(Bo)_Pred[办理]" syntax_pattern="SBV-n(A)_ADV-与_POB-n(A)_ADV-通过_POB-n(A)_Pred[办理]" taggedType="a" pred_id="16" tagged="false" instance="有关部门也不会与学生通过电话办理" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="有关部门" node_id="9" head_word="部门" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="学生" node_id="13" head_word="学生" sem_cat="Af">
+			<sub_pattern node_id="13" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="12" sem_pattern="ADV-与" syn_pattern="ADV-与"/>
+		</argument>
+		<argument id="2" content="电话" node_id="15" head_word="电话" sem_cat="Bo">
+			<sub_pattern node_id="15" sem_pattern="POB-n(Bo)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="14" sem_pattern="ADV-通过" syn_pattern="ADV-通过"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="31">
+	<origin_text>南都：“徐玉玉案”的一个细节是，骗子冒充的是教育局干部。</origin_text>
+</sentence>
+<sentence id="32">
+	<origin_text>信息有没有可能是教育系统内部泄露的？</origin_text>
+	<relation id="1" pred="有" pattern="SBV-n(Da)_Pred[有]_VOB-n(Dd)" syntax_pattern="SBV-n(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="3" tagged="true" instance="信息有没有可能" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="信息" node_id="0" head_word="信息" sem_cat="Da">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Da)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="可能" node_id="4" head_word="可能" sem_cat="Dd">
+			<sub_pattern node_id="4" sem_pattern="VOB-n(Dd)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="泄露" pattern="SBV-n(A0)_ADV-f(Da)_Pred[泄露]" syntax_pattern="SBV-n(A)_ADV-f(A)_Pred[泄露]" taggedType="a" pred_id="9" tagged="false" instance="教育系统内部泄露" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="教育系统" node_id="7" head_word="系统" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="内部" node_id="8" head_word="内部" sem_cat="Da">
+			<sub_pattern node_id="8" sem_pattern="ADV-f(Da)" syn_pattern="ADV-f(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="33">
+	<origin_text>马建斌：媒体报道确实给公众这样一种错觉。</origin_text>
+	<relation id="1" pred="报道" pattern="SBV-n(Af)_Pred[报道]_VOB-n(Df)" syntax_pattern="SBV-n(A)_Pred[报道]_VOB-n(A)" taggedType="a" pred_id="3" tagged="true" instance="媒体报道确实给公众这样一种错觉" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="媒体" node_id="2" head_word="媒体" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="这样一种错觉" node_id="10" head_word="错觉" sem_cat="Df">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(Df)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="34">
+	<origin_text>但是大家当时如果能冷静思考一下，这种错觉就会排除，因为如果骗子真的从教育系统内精准获取了学生的信息，为什么不直接打电话给学生，而是给她的母亲打电话？</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Af)_Pred[de]_dobj-n(Da)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="28" tagged="true" instance="学生的信息" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="学生" node_id="27" head_word="学生" sem_cat="Af">
+			<sub_pattern node_id="27" sem_pattern="nsubj-n(Af)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="信息" node_id="29" head_word="信息" sem_cat="Da">
+			<sub_pattern node_id="29" sem_pattern="dobj-n(Da)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="思考" pattern="SBV-r(A0)_ADV-t(Ca)_Pred[思考]_CMP-m(Dn)" syntax_pattern="SBV-r(A)_ADV-t(A)_Pred[思考]_CMP-m(A)" taggedType="a" pred_id="6" tagged="false" instance="大家当时如果能冷静思考一下" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="大家" node_id="1" head_word="大家" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="当时" node_id="2" head_word="当时" sem_cat="Ca">
+			<sub_pattern node_id="2" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="2" content="一下" node_id="7" head_word="一下" sem_cat="Dn">
+			<sub_pattern node_id="7" sem_pattern="CMP-m(Dn)" syn_pattern="CMP-m(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="获取" pattern="SBV-n(Af)_ADV-从_POB-f(A0)_Pred[获取]_VOB-n(Da)" syntax_pattern="SBV-n(A)_ADV-从_POB-f(A)_Pred[获取]_VOB-n(A)" taggedType="a" pred_id="25" tagged="false" instance="骗子真的从教育系统内精准获取了学生的信息" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="骗子" node_id="17" head_word="骗子" sem_cat="Af">
+			<sub_pattern node_id="17" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="教育系统内" node_id="22" head_word="内" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="19" sem_pattern="ADV-从" syn_pattern="ADV-从"/>
+		</argument>
+		<argument id="2" content="信息" node_id="29" head_word="信息" sem_cat="Da">
+			<sub_pattern node_id="29" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="打电话" pattern="ADV-r(A0)_Pred[打电话]_CMP-给_VOB-n(Af)" syntax_pattern="ADV-r(A)_Pred[打电话]_CMP-给_VOB-n(A)" taggedType="a" pred_id="34" tagged="false" instance="为什么不直接打电话给学生" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="为什么" node_id="31" head_word="为什么" sem_cat="">
+			<sub_pattern node_id="31" sem_pattern="ADV-r(A0)" syn_pattern="ADV-r(A)"/>
+		</argument>
+		<argument id="1" content="学生" node_id="36" head_word="学生" sem_cat="Af">
+			<sub_pattern node_id="36" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="35" sem_pattern="CMP-给" syn_pattern="CMP-给"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="35">
+	<origin_text>另外我们了解到，徐玉玉的好几个同学家里都接到了类似的电话。</origin_text>
+	<relation id="1" pred="接到" pattern="SBV-s(Af)_Pred[接到]_VOB-n(Bo)" syntax_pattern="SBV-s(A)_Pred[接到]_VOB-n(A)" taggedType="a" pred_id="12" tagged="true" instance="好几个同学家里都接到了类似的电话" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="好几个同学家里" node_id="10" head_word="家里" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="SBV-s(Af)" syn_pattern="SBV-s(A)"/>
+		</argument>
+		<argument id="1" content="电话" node_id="16" head_word="电话" sem_cat="Bo">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Bo)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="36">
+	<origin_text>所以骗子采取的还是“遍地撒网”的形式。</origin_text>
+</sentence>
+<sentence id="37">
+	<origin_text>最后，公安部门侦查结果也证明信息不是教育系统人士泄露的。</origin_text>
+	<relation id="1" pred="证明" pattern="ADV-f(Da)_SBV-n(A0)_Pred[证明]_SBV-n(Da)_VOB-是" syntax_pattern="ADV-f(A)_SBV-n(A)_Pred[证明]_SBV-n(A)_VOB-是" taggedType="a" pred_id="6" tagged="false" instance="最后，公安部门侦查结果也证明信息" feature="0-1-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="最后" node_id="0" head_word="最后" sem_cat="Da">
+			<sub_pattern node_id="0" sem_pattern="ADV-f(Da)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="公安部门侦查结果" node_id="4" head_word="结果" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="信息" node_id="7" head_word="信息" sem_cat="Da">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(Da)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="9" sem_pattern="VOB-是" syn_pattern="VOB-是"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="38">
+	<origin_text>在学生的信息保护方面，我们对各地教育部门和学校是有严格要求的。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Af)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="2" tagged="false" instance="学生的信息保护方面" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="学生" node_id="1" head_word="学生" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="nsubj-n(Af)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="信息保护方面" node_id="5" head_word="方面" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="ADV-在_POB-n(A0)_SBV-r(Af)_ADV-对_POB-n(Dm)_Pred[是]_VOB-有_VOB-n(Df)" syntax_pattern="ADV-在_POB-n(A)_SBV-r(A)_ADV-对_POB-n(A)_Pred[是]_VOB-有_VOB-n(A)" taggedType="a" pred_id="14" tagged="false" instance="信息保护方面，我们对各地教育部门和学校是有严格要求" feature="0-1-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="信息保护方面" node_id="5" head_word="方面" sem_cat="">
+			<sub_pattern node_id="5" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="0" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="我们" node_id="7" head_word="我们" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="2" content="各地教育部门和学校" node_id="13" head_word="学校" sem_cat="Dm">
+			<sub_pattern node_id="13" sem_pattern="POB-n(Dm)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="8" sem_pattern="ADV-对" syn_pattern="ADV-对"/>
+		</argument>
+		<argument id="3" content="严格要求" node_id="17" head_word="要求" sem_cat="Df">
+			<sub_pattern node_id="17" sem_pattern="VOB-n(Df)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="15" sem_pattern="VOB-有" syn_pattern="VOB-有"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="39">
+	<origin_text>南都：骗子以发放助学金需要激活银行卡为名，诱导徐玉玉完成了转账操作。</origin_text>
+</sentence>
+<sentence id="40">
+	<origin_text>正常的助学金发放流程是什么样的？</origin_text>
+	<relation id="1" pred="发放" pattern="SBV-n(Dj)_Pred[发放]_VOB-n(Dd)" syntax_pattern="SBV-n(A)_Pred[发放]_VOB-n(A)" taggedType="a" pred_id="3" tagged="true" instance="助学金发放流程" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="助学金" node_id="2" head_word="助学金" sem_cat="Dj">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(Dj)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="流程" node_id="4" head_word="流程" sem_cat="Dd">
+			<sub_pattern node_id="4" sem_pattern="VOB-n(Dd)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="41">
+	<origin_text>马建斌：首先，所有手续都要现场办理，相关部门不会通过电话办理。</origin_text>
+	<relation id="1" pred="办理" pattern="SBV-n(Db)_ADV-s(Cb)_Pred[办理]" syntax_pattern="SBV-n(A)_ADV-s(A)_Pred[办理]" taggedType="a" pred_id="9" tagged="true" instance="所有手续都要现场办理" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="所有手续" node_id="5" head_word="手续" sem_cat="Db">
+			<sub_pattern node_id="5" sem_pattern="SBV-n(Db)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="现场" node_id="8" head_word="现场" sem_cat="Cb">
+			<sub_pattern node_id="8" sem_pattern="ADV-s(Cb)" syn_pattern="ADV-s(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="42">
+	<origin_text>其次，如果学生申请到助学贷款，这笔钱不会直接打到学生的个人银行卡上，而是打到学校账户。</origin_text>
+	<relation id="2" pred="打" pattern="SBV-n(A0)_SBV-不会_Pred[打]_VOB-f(A1)" syntax_pattern="SBV-n(A)_SBV-不会_Pred[打]_VOB-f(A)" taggedType="a" pred_id="14" tagged="false" instance="这笔钱不会直接打到学生的个人银行卡上" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这笔钱" node_id="11" head_word="钱" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="12" sem_pattern="SBV-不会" syn_pattern="SBV-不会"/>
+		</argument>
+		<argument id="1" content="个人银行卡上" node_id="20" head_word="上" sem_cat="">
+			<sub_pattern node_id="20" sem_pattern="VOB-f(A1)" syn_pattern="VOB-f(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="43">
+	<origin_text>学校在扣除了学费、住宿费等费用后，把剩下的钱转入到学生的账户里。</origin_text>
+	<relation id="1" pred="转入" pattern="SBV-n(Dm)_ADV-在_POB-f(A0)_ADV-把_POB-n(A1)_Pred[转入]_VOB-f(A2)" syntax_pattern="SBV-n(A)_ADV-在_POB-f(A)_ADV-把_POB-n(A)_Pred[转入]_VOB-f(A)" taggedType="a" pred_id="15" tagged="false" instance="学校在扣除了学费、住宿费等费用后，把剩下的钱转入到学生的账户里" feature="1-1-0-0-1-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="学校" node_id="0" head_word="学校" sem_cat="Dm">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Dm)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="后" node_id="9" head_word="后" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="钱" node_id="14" head_word="钱" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="POB-n(A1)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="11" sem_pattern="ADV-把" syn_pattern="ADV-把"/>
+		</argument>
+		<argument id="3" content="账户里" node_id="20" head_word="里" sem_cat="">
+			<sub_pattern node_id="20" sem_pattern="VOB-f(A2)" syn_pattern="VOB-f(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="44">
+	<origin_text>南都：所以一旦有人要求学生用自己的银行卡操作，绝对可以肯定是骗子。</origin_text>
+	<relation id="2" pred="要求" pattern="SBV-r(Af)_Pred[要求]_VOB-n(Af)" syntax_pattern="SBV-r(A)_Pred[要求]_VOB-n(A)" taggedType="a" pred_id="5" tagged="true" instance="有人要求学生" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="有人" node_id="4" head_word="有人" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="学生" node_id="6" head_word="学生" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="45">
+	<origin_text>马建斌：是的。</origin_text>
+</sentence>
+<sentence id="46">
+	<origin_text>所有的资助项目都不会要求学生交纳任何费用，也不会要求学生在ATM机或网上进行任何操作。</origin_text>
+	<relation id="1" pred="不会" pattern="SBV-n(Dd)_Pred[不会]_VOB-要求_VOB-n(Af)" syntax_pattern="SBV-n(A)_Pred[不会]_VOB-要求_VOB-n(A)" taggedType="a" pred_id="5" tagged="true" instance="资助项目都不会要求学生" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="资助项目" node_id="3" head_word="项目" sem_cat="Dd">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Dd)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="学生" node_id="7" head_word="学生" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="6" sem_pattern="VOB-要求" syn_pattern="VOB-要求"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="要求" pattern="SBV-n(A0)_Pred[要求]_VOB-n(Af)" syntax_pattern="SBV-n(A)_Pred[要求]_VOB-n(A)" taggedType="a" pred_id="15" tagged="false" instance="所有_的_资助_项目也不会要求学生" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="所有的资助项目(Z)" node_id="12" head_word="所有 的 资助 项目" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="学生" node_id="16" head_word="学生" sem_cat="Af">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="47">
+	<origin_text>南都：“徐玉玉案”发生后，全国学生资助管理中心是否采取新的措施以避免此类悲剧再次发生？</origin_text>
+	<relation id="1" pred="发生" pattern="SBV-n(A0)_Pred[发生]_ADV-f(A1)" syntax_pattern="SBV-n(A)_Pred[发生]_ADV-f(A)" taggedType="a" pred_id="6" tagged="false" instance="“徐玉玉案”发生后" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="徐玉玉案" node_id="4" head_word="案" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="6" sem_pattern="ATT-发生" syn_pattern="ATT-发生"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-f(A1)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="后" node_id="7" head_word="后" sem_cat="">
+		</argument>
+	</relation>
+	<relation id="2" pred="避免" pattern="SBV-n(A0)_Pred[避免]_VOB-n(Dk)" syntax_pattern="SBV-n(A)_Pred[避免]_VOB-n(A)" taggedType="a" pred_id="20" tagged="false" instance="全国学生资助管理中心是否采取新的措施以避免此类悲剧" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="全国学生资助管理中心" node_id="13" head_word="中心" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="此类悲剧" node_id="22" head_word="悲剧" sem_cat="Dk">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="48">
+	<origin_text>马建斌：这个事件之后，我们从三个方面加强对学生个人信息的保密工作。</origin_text>
+	<relation id="1" pred="加强" pattern="ADV-f(Ca)_SBV-r(Af)_ADV-从_POB-n(A0)_Pred[加强]_VOB-n(Di)" syntax_pattern="ADV-f(A)_SBV-r(A)_ADV-从_POB-n(A)_Pred[加强]_VOB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="这个事件之后，我们从三个方面加强对学生个人信息的保密工作" feature="0-1-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这个事件之后" node_id="4" head_word="之后" sem_cat="Ca">
+			<sub_pattern node_id="4" sem_pattern="ADV-f(Ca)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="我们" node_id="6" head_word="我们" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="2" content="三个方面" node_id="10" head_word="方面" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-从" syn_pattern="ADV-从"/>
+		</argument>
+		<argument id="3" content="保密工作" node_id="18" head_word="工作" sem_cat="Di">
+			<sub_pattern node_id="18" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="49">
+	<origin_text>一是出台相文件，对各级各类学校学生信息管理作出进一步的明确要求。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-m(Dn)_Pred[是]_VOB-作出_VOB-n(Df)" syntax_pattern="SBV-m(A)_Pred[是]_VOB-作出_VOB-n(A)" taggedType="a" pred_id="1" tagged="true" instance="一是一出台相文件，对各级各类学校学生信息管理作出进一步的明确要求" feature="1-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="一" node_id="0" head_word="一" sem_cat="Dn">
+			<sub_pattern node_id="0" sem_pattern="SBV-m(Dn)" syn_pattern="SBV-m(A)"/>
+		</argument>
+		<argument id="1" content="明确要求" node_id="18" head_word="要求" sem_cat="Df">
+			<sub_pattern node_id="18" sem_pattern="VOB-n(Df)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="14" sem_pattern="VOB-作出" syn_pattern="VOB-作出"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="出台" pattern="SBV-m(Dn)_Pred[出台]_VOB-n(Dk)" syntax_pattern="SBV-m(A)_Pred[出台]_VOB-n(A)" taggedType="a" pred_id="3" tagged="true" instance="一出台相文件" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="一(Z)" node_id="2" head_word="一" sem_cat="Dn">
+			<sub_pattern node_id="2" sem_pattern="SBV-m(Dn)" syn_pattern="SBV-m(A)"/>
+		</argument>
+		<argument id="1" content="相文件" node_id="5" head_word="文件" sem_cat="Dk">
+			<sub_pattern node_id="5" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="50">
+	<origin_text>二是人员管理，各地必须每年对学生信息管理人员轮训一遍，并且要与他们签保密协议。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-m(Dn)_Pred[是]_ATT-n(Af)_VOB-管理" syntax_pattern="SBV-m(A)_Pred[是]_ATT-n(A)_VOB-管理" taggedType="a" pred_id="1" tagged="true" instance="二是人员" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="二" node_id="0" head_word="二" sem_cat="Dn">
+			<sub_pattern node_id="0" sem_pattern="SBV-m(Dn)" syn_pattern="SBV-m(A)"/>
+		</argument>
+		<argument id="1" content="人员" node_id="2" head_word="人员" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="ATT-n(Af)" syn_pattern="ATT-n(A)"/>
+			<sub_pattern node_id="3" sem_pattern="VOB-管理" syn_pattern="VOB-管理"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="轮训" pattern="SBV-r(Cb)_ADV-r(Ca)_ADV-对_POB-n(Af)_Pred[轮训]_VOB-q(Dn)" syntax_pattern="SBV-r(A)_ADV-r(A)_ADV-对_POB-n(A)_Pred[轮训]_VOB-q(A)" taggedType="a" pred_id="13" tagged="true" instance="各地必须每年对学生信息管理人员轮训一遍" feature="1-0-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="各地" node_id="5" head_word="各地" sem_cat="Cb">
+			<sub_pattern node_id="5" sem_pattern="SBV-r(Cb)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="每年" node_id="7" head_word="每年" sem_cat="Ca">
+			<sub_pattern node_id="7" sem_pattern="ADV-r(Ca)" syn_pattern="ADV-r(A)"/>
+		</argument>
+		<argument id="2" content="学生信息管理人员" node_id="12" head_word="人员" sem_cat="Af">
+			<sub_pattern node_id="12" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="8" sem_pattern="ADV-对" syn_pattern="ADV-对"/>
+		</argument>
+		<argument id="3" content="一遍" node_id="15" head_word="遍" sem_cat="Dn">
+			<sub_pattern node_id="15" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="签" pattern="ADV-与_POB-r(Af)_Pred[签]_VOB-n(A0)" syntax_pattern="ADV-与_POB-r(A)_Pred[签]_VOB-n(A)" taggedType="a" pred_id="21" tagged="false" instance="他们签保密协议" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="他们" node_id="20" head_word="他们" sem_cat="Af">
+			<sub_pattern node_id="20" sem_pattern="POB-r(Af)" syn_pattern="POB-r(A)"/>
+			<sub_pattern node_id="19" sem_pattern="ADV-与" syn_pattern="ADV-与"/>
+		</argument>
+		<argument id="1" content="保密协议" node_id="23" head_word="协议" sem_cat="">
+			<sub_pattern node_id="23" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="51">
+	<origin_text>三是设备管理，在技术保密方面不断升级。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-m(Dn)_Pred[是]_SBV-n(A0)_VOB-升级" syntax_pattern="SBV-m(A)_Pred[是]_SBV-n(A)_VOB-升级" taggedType="a" pred_id="1" tagged="false" instance="三是设备管理" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="三" node_id="0" head_word="三" sem_cat="Dn">
+			<sub_pattern node_id="0" sem_pattern="SBV-m(Dn)" syn_pattern="SBV-m(A)"/>
+		</argument>
+		<argument id="1" content="设备管理" node_id="3" head_word="管理" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="10" sem_pattern="VOB-升级" syn_pattern="VOB-升级"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="52">
+	<origin_text>南都：对于大学新生们有没有针对性的举措？</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Dd)_Pred[de]_dobj-n(Di)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="10" tagged="true" instance="针对性的举措" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="针对性" node_id="9" head_word="针对性" sem_cat="Dd">
+			<sub_pattern node_id="9" sem_pattern="nsubj-n(Dd)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="举措" node_id="11" head_word="举措" sem_cat="Di">
+			<sub_pattern node_id="11" sem_pattern="dobj-n(Di)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="有" pattern="ADV-对于_POB-n(Af)_Pred[有]_VOB-n(Di)" syntax_pattern="ADV-对于_POB-n(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="8" tagged="true" instance="大学新生们有没有针对性的举措" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="大学新生" node_id="4" head_word="新生" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="2" sem_pattern="ADV-对于" syn_pattern="ADV-对于"/>
+		</argument>
+		<argument id="1" content="举措" node_id="11" head_word="举措" sem_cat="Di">
+			<sub_pattern node_id="11" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="53">
+	<origin_text>马建斌：为了让学生们了解资助政策，今年5月8日，全国学生资助管理中心将政策内容写成了“致初中/高中毕业生一封信”的形式，要求各地各级教育部门将信件印制并发放给每一位初、高中毕业学生。</origin_text>
+	<relation id="1" pred="写" pattern="ADV-t(Ca)_SBV-n(A0)_ADV-将_POB-n(Dk)_Pred[写]_VOB-n(Dc)" syntax_pattern="ADV-t(A)_SBV-n(A)_ADV-将_POB-n(A)_Pred[写]_VOB-n(A)" taggedType="a" pred_id="22" tagged="false" instance="今年5月8日，全国学生资助管理中心将政策内容写成了“致初中/高中毕业生一封信”的形式" feature="1-1-0-0-1-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="今年5月8日" node_id="12" head_word="8日" sem_cat="Ca">
+			<sub_pattern node_id="12" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="全国学生资助管理中心" node_id="18" head_word="中心" sem_cat="">
+			<sub_pattern node_id="18" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="政策内容" node_id="21" head_word="内容" sem_cat="Dk">
+			<sub_pattern node_id="21" sem_pattern="POB-n(Dk)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="19" sem_pattern="ADV-将" syn_pattern="ADV-将"/>
+		</argument>
+		<argument id="3" content="形式" node_id="36" head_word="形式" sem_cat="Dc">
+			<sub_pattern node_id="36" sem_pattern="VOB-n(Dc)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="要求" pattern="SBV-n(A0)_Pred[要求]_SBV-n(A1)_VOB-发放" syntax_pattern="SBV-n(A)_Pred[要求]_SBV-n(A)_VOB-发放" taggedType="a" pred_id="39" tagged="false" instance="全国_学生_资助_管理_中心要求各地各级教育部门" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="全国学生资助管理中心(Z)" node_id="38" head_word="全国 学生 资助 管理 中心" sem_cat="">
+			<sub_pattern node_id="38" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="各地各级教育部门" node_id="43" head_word="部门" sem_cat="">
+			<sub_pattern node_id="43" sem_pattern="SBV-n(A1)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="48" sem_pattern="VOB-发放" syn_pattern="VOB-发放"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="毕业" pattern="ADV-给_POB-n(Dm)_Pred[毕业]_VOB-n(Af)" syntax_pattern="ADV-给_POB-n(A)_Pred[毕业]_VOB-n(A)" taggedType="a" pred_id="56" tagged="true" instance="每一位初、高中毕业学生" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="每一位初、高中" node_id="55" head_word="高中" sem_cat="Dm">
+			<sub_pattern node_id="55" sem_pattern="POB-n(Dm)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="49" sem_pattern="ADV-给" syn_pattern="ADV-给"/>
+		</argument>
+		<argument id="1" content="学生" node_id="57" head_word="学生" sem_cat="Af">
+			<sub_pattern node_id="57" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="54">
+	<origin_text>同时，每个班级的班主任都要把信件张贴在班里。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Di)_Pred[de]_dobj-n(Af)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="4" tagged="true" instance="每个班级的班主任" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="每个班级" node_id="3" head_word="班级" sem_cat="Di">
+			<sub_pattern node_id="3" sem_pattern="nsubj-n(Di)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="班主任" node_id="5" head_word="班主任" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="dobj-n(Af)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="张贴" pattern="SBV-n(Af)_ADV-把_POB-n(Dk)_Pred[张贴]_CMP-在_POB-n(Cb)" syntax_pattern="SBV-n(A)_ADV-把_POB-n(A)_Pred[张贴]_CMP-在_POB-n(A)" taggedType="a" pred_id="10" tagged="true" instance="班主任都要把信件张贴在班里" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="班主任" node_id="5" head_word="班主任" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="信件" node_id="9" head_word="信件" sem_cat="Dk">
+			<sub_pattern node_id="9" sem_pattern="POB-n(Dk)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="8" sem_pattern="ADV-把" syn_pattern="ADV-把"/>
+		</argument>
+		<argument id="2" content="班里" node_id="12" head_word="班里" sem_cat="Cb">
+			<sub_pattern node_id="12" sem_pattern="POB-n(Cb)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="11" sem_pattern="CMP-在" syn_pattern="CMP-在"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="55">
+	<origin_text>另外，国家资助政策简介、学生家庭情况调查表会随着每一份录取通知书寄到学生手里。</origin_text>
+	<relation id="1" pred="寄" pattern="SBV-n(A0)_ADV-随着_POB-n(A1)_Pred[寄]_VOB-s(Cb)" syntax_pattern="SBV-n(A)_ADV-随着_POB-n(A)_Pred[寄]_VOB-s(A)" taggedType="a" pred_id="18" tagged="false" instance="国家资助政策简介、学生家庭情况调查表会随着每一份录取通知书寄到学生手里" feature="1-0-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="国家资助政策简介、学生家庭情况调查表会" node_id="11" head_word="表会" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="每一份录取通知书" node_id="17" head_word="通知书" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="POB-n(A1)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="12" sem_pattern="ADV-随着" syn_pattern="ADV-随着"/>
+		</argument>
+		<argument id="2" content="学生手里" node_id="21" head_word="手里" sem_cat="Cb">
+			<sub_pattern node_id="21" sem_pattern="VOB-s(Cb)" syn_pattern="VOB-s(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="56">
+	<origin_text>家庭经济困难的学生可以按照材料中的指导申请资助，有不明白的还可以拨打上面的热线电话咨询。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-f(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-f(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="9" tagged="false" instance="材料中的指导申请" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="材料中" node_id="8" head_word="中" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="nsubj-f(A0)" syn_pattern="nsubj-f(A)"/>
+		</argument>
+		<argument id="1" content="指导申请" node_id="11" head_word="申请" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-f(A0)_Pred[de]_dobj-n(A1)" syntax_pattern="nsubj-f(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="23" tagged="false" instance="材料中的指导申请" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="上面" node_id="22" head_word="上面" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="nsubj-f(A0)" syn_pattern="nsubj-f(A)"/>
+		</argument>
+		<argument id="1" content="热线电话咨询" node_id="26" head_word="咨询" sem_cat="">
+			<sub_pattern node_id="26" sem_pattern="dobj-n(A1)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="资助" pattern="SBV-n(Af)_ADV-按照_POB-n(A0)_Pred[资助]" syntax_pattern="SBV-n(A)_ADV-按照_POB-n(A)_Pred[资助]" taggedType="a" pred_id="12" tagged="false" instance="学生可以按照材料中的指导申请资助" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="学生" node_id="4" head_word="学生" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="指导申请" node_id="11" head_word="申请" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="6" sem_pattern="ADV-按照" syn_pattern="ADV-按照"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="有" pattern="SBV-n(A0)_Pred[有]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="15" tagged="false" instance="家庭_经济_困难_的_学生有不明白的还可以拨打上面的热线电话咨询" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="家庭经济困难的学生(Z)" node_id="14" head_word="家庭 经济 困难 的 学生" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="热线电话咨询" node_id="26" head_word="咨询" sem_cat="">
+			<sub_pattern node_id="26" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="57">
+	<origin_text>南都：重庆的“徐玉玉案骗局再现”的新闻报道出来后，教育部立即发出了预警。</origin_text>
+	<relation id="1" pred="出来" pattern="ATT-n(Da)_SBV-报道_Pred[出来]_ADV-f(A0)" syntax_pattern="ATT-n(A)_SBV-报道_Pred[出来]_ADV-f(A)" taggedType="a" pred_id="13" tagged="false" instance="新闻报道出来后" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="新闻" node_id="11" head_word="新闻" sem_cat="Da">
+			<sub_pattern node_id="11" sem_pattern="ATT-n(Da)" syn_pattern="ATT-n(A)"/>
+			<sub_pattern node_id="12" sem_pattern="SBV-报道" syn_pattern="SBV-报道"/>
+			<sub_pattern node_id="13" sem_pattern="ATT-出来" syn_pattern="ATT-出来"/>
+			<sub_pattern node_id="14" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="后" node_id="14" head_word="后" sem_cat="">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="58">
+	<origin_text>是您在网上看到了这则新闻？</origin_text>
+	<relation id="1" pred="看到" pattern="SBV-r(Af)_ADV-在_POB-s(Cb)_Pred[看到]_VOB-n(Da)" syntax_pattern="SBV-r(A)_ADV-在_POB-s(A)_Pred[看到]_VOB-n(A)" taggedType="a" pred_id="4" tagged="true" instance="您在网上看到了这则新闻" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="您" node_id="1" head_word="您" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="网上" node_id="3" head_word="网上" sem_cat="Cb">
+			<sub_pattern node_id="3" sem_pattern="POB-s(Cb)" syn_pattern="POB-s(A)"/>
+			<sub_pattern node_id="2" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="这则新闻" node_id="8" head_word="新闻" sem_cat="Da">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="59">
+	<origin_text>马建斌：对。</origin_text>
+</sentence>
+<sentence id="60">
+	<origin_text>招生录取的环节确实很多，犯罪分子利用了一切方法钻空子，导致学生及家长被蒙蔽的情况还时有发生。</origin_text>
+	<relation id="1" pred="利用" pattern="SBV-n(Af)_Pred[利用]_ATT-n(Db)_VOB-钻空子" syntax_pattern="SBV-n(A)_Pred[利用]_ATT-n(A)_VOB-钻空子" taggedType="a" pred_id="10" tagged="true" instance="犯罪分子利用了一切方法" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="犯罪分子" node_id="9" head_word="分子" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="一切方法" node_id="13" head_word="方法" sem_cat="Db">
+			<sub_pattern node_id="13" sem_pattern="ATT-n(Db)" syn_pattern="ATT-n(A)"/>
+			<sub_pattern node_id="14" sem_pattern="VOB-钻空子" syn_pattern="VOB-钻空子"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="导致" pattern="SBV-n(A0)_Pred[导致]_SBV-n(Af)_VOB-时有发生" syntax_pattern="SBV-n(A)_Pred[导致]_SBV-n(A)_VOB-时有发生" taggedType="a" pred_id="17" tagged="false" instance="犯罪_分子导致学生及家长" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="犯罪分子(Z)" node_id="16" head_word="犯罪 分子" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="学生及家长" node_id="20" head_word="家长" sem_cat="Af">
+			<sub_pattern node_id="20" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="26" sem_pattern="VOB-时有发生" syn_pattern="VOB-时有发生"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="61">
+	<origin_text>除了政策宣讲，我们现在也密切关注媒体上的相关案例，及时发布预警。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-f(A0)_Pred[de]_dobj-n(Da)" syntax_pattern="nsubj-f(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="11" tagged="false" instance="电话、短信、微信中的诈骗信息" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="媒体上" node_id="10" head_word="上" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="nsubj-f(A0)" syn_pattern="nsubj-f(A)"/>
+		</argument>
+		<argument id="1" content="相关案例" node_id="13" head_word="案例" sem_cat="Da">
+			<sub_pattern node_id="13" sem_pattern="dobj-n(Da)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="关注" pattern="SBV-r(Af)_ADV-t(Ca)_Pred[关注]_VOB-n(Da)" syntax_pattern="SBV-r(A)_ADV-t(A)_Pred[关注]_VOB-n(A)" taggedType="a" pred_id="8" tagged="true" instance="我们现在也密切关注媒体上的相关案例" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我们" node_id="4" head_word="我们" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="现在" node_id="5" head_word="现在" sem_cat="Ca">
+			<sub_pattern node_id="5" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="2" content="相关案例" node_id="13" head_word="案例" sem_cat="Da">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="62">
+	<origin_text>官方：重拳打击电信网络诈骗，致他人身亡等从重处罚一系列电信网络诈骗案件的曝光引发社会关注，中国官方也出重拳打击犯罪。</origin_text>
+	<relation id="1" pred="打击" pattern="SBV-n(A0)_Pred[打击]_VOB-n(Bb)" syntax_pattern="SBV-n(A)_Pred[打击]_VOB-n(A)" taggedType="a" pred_id="3" tagged="false" instance="重拳打击电信网络" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="重拳" node_id="2" head_word="重拳" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="电信网络" node_id="5" head_word="网络" sem_cat="Bb">
+			<sub_pattern node_id="5" sem_pattern="VOB-n(Bb)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="诈骗" pattern="SBV-n(Bb)_Pred[诈骗]_VOB-n(Da)_ATT-u_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[诈骗]_VOB-n(A)_ATT-u_VOB-n(A)" taggedType="a" pred_id="18" tagged="false" instance="一系列电信网络诈骗案件的曝光" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="电信网络" node_id="17" head_word="网络" sem_cat="Bb">
+			<sub_pattern node_id="17" sem_pattern="SBV-n(Bb)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="18" sem_pattern="DE-诈骗" syn_pattern="DE-诈骗"/>
+			<sub_pattern node_id="20" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="21" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="1" content="案件" node_id="19" head_word="案件" sem_cat="Da">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="2" content="曝光" node_id="21" head_word="曝光" sem_cat="">
+		</argument>
+	</relation>
+	<relation id="3" pred="出" pattern="SBV-n(Dd)_Pred[出]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[出]_VOB-n(A)" taggedType="a" pred_id="29" tagged="false" instance="中国官方也出重拳" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="中国官方" node_id="27" head_word="官方" sem_cat="Dd">
+			<sub_pattern node_id="27" sem_pattern="SBV-n(Dd)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="重拳" node_id="30" head_word="重拳" sem_cat="">
+			<sub_pattern node_id="30" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="63">
+	<origin_text>2016年9月23日，最高人民法院、最高人民检察院、公安部、工信部、中国人民银行、中国银监会等六部门联合发布《关于防范和打击电信网络诈骗犯罪的通告》。</origin_text>
+	<relation id="1" pred="发布" pattern="ADV-t(Ca)_SBV-n(A0)_Pred[发布]_VOB-bo(Dk)" syntax_pattern="ADV-t(A)_SBV-n(A)_Pred[发布]_VOB-bo(A)" taggedType="a" pred_id="25" tagged="false" instance="2016年9月23日，最高人民法院、最高人民检察院、公安部、工信部、中国人民银行、中国银监会等六部门联合发布《关于防范和打击电信网络诈骗犯罪的通告》" feature="1-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="2016年9月23日" node_id="2" head_word="23日" sem_cat="Ca">
+			<sub_pattern node_id="2" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="最高人民法院、最高人民检察院、公安部、工信部、中国人民银行、中国银监会等六部门" node_id="23" head_word="部门" sem_cat="">
+			<sub_pattern node_id="23" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="关于防范和打击电信网络诈骗犯罪的通告" node_id="36" head_word="通告" sem_cat="Dk">
+			<sub_pattern node_id="36" sem_pattern="VOB-bo(Dk)" syn_pattern="VOB-bo(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="64">
+	<origin_text>通告要求，凡是实施电信网络诈骗犯罪的人员，必须立即停止一切违法犯罪活动。</origin_text>
+	<relation id="1" pred="要求" pattern="SBV-n(Dk)_Pred[要求]_VOB-停止_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[要求]_VOB-停止_VOB-n(A)" taggedType="a" pred_id="1" tagged="false" instance="通告要求，通告凡是实施电信网络诈骗犯罪的人员，必须立即停止一切违法犯罪活动" feature="1-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="通告" node_id="0" head_word="通告" sem_cat="Dk">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="一切违法犯罪活动" node_id="19" head_word="活动" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="15" sem_pattern="VOB-停止" syn_pattern="VOB-停止"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="实施" pattern="SBV-n(Dk)_Pred[实施]_VOB-n(Af)" syntax_pattern="SBV-n(A)_Pred[实施]_VOB-n(A)" taggedType="a" pred_id="5" tagged="true" instance="通告凡是实施电信网络诈骗犯罪的人员" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="通告(Z)" node_id="3" head_word="通告" sem_cat="Dk">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="人员" node_id="11" head_word="人员" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="65">
+	<origin_text>通告要求，自2016年12月1日起，个人通过银行自助柜员机向非同名账户转账的，资金24小时后到账。</origin_text>
+	<relation id="1" pred="转账" pattern="ADV-自_POB-f(Dn)_SBV-n(Af)_ADV-通过_POB-n(Bo)_ADV-向_POB-n(Bp)_Pred[转账]" syntax_pattern="ADV-自_POB-f(A)_SBV-n(A)_ADV-通过_POB-n(A)_ADV-向_POB-n(A)_Pred[转账]" taggedType="a" pred_id="18" tagged="true" instance="2016年12月1日起，个人通过银行自助柜员机向非同名账户转账" feature="0-1-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="2016年12月1日起" node_id="7" head_word="起" sem_cat="Dn">
+			<sub_pattern node_id="7" sem_pattern="POB-f(Dn)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="3" sem_pattern="ADV-自" syn_pattern="ADV-自"/>
+		</argument>
+		<argument id="1" content="个人" node_id="9" head_word="个人" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="银行自助柜员机" node_id="13" head_word="柜员机" sem_cat="Bo">
+			<sub_pattern node_id="13" sem_pattern="POB-n(Bo)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="10" sem_pattern="ADV-通过" syn_pattern="ADV-通过"/>
+		</argument>
+		<argument id="3" content="同名账户" node_id="17" head_word="账户" sem_cat="Bp">
+			<sub_pattern node_id="17" sem_pattern="POB-n(Bp)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="14" sem_pattern="ADV-向" syn_pattern="ADV-向"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="到" pattern="ADV-f(A0)_Pred[到]_VOB-n(Dj)" syntax_pattern="ADV-f(A)_Pred[到]_VOB-n(A)" taggedType="a" pred_id="25" tagged="false" instance="资金24小时后到账" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="资金24小时后" node_id="24" head_word="后" sem_cat="">
+			<sub_pattern node_id="24" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="账" node_id="26" head_word="账" sem_cat="Dj">
+			<sub_pattern node_id="26" sem_pattern="VOB-n(Dj)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="66">
+	<origin_text>通告要求，严禁任何单位和个人非法获取、非法出售、非法向他人提供公民个人信息。</origin_text>
+	<relation id="1" pred="严禁" pattern="SBV-n(Dk)_Pred[严禁]_SBV-n(Af)_VOB-提供_VOB-n(Da)" syntax_pattern="SBV-n(A)_Pred[严禁]_SBV-n(A)_VOB-提供_VOB-n(A)" taggedType="a" pred_id="4" tagged="true" instance="通告严禁任何单位和个人非法获取、非法出售、非法向他人提供公民个人信息" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="通告(Z)" node_id="3" head_word="通告" sem_cat="Dk">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="任何单位和个人" node_id="8" head_word="个人" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="18" sem_pattern="VOB-提供" syn_pattern="VOB-提供"/>
+		</argument>
+		<argument id="2" content="公民个人信息" node_id="21" head_word="信息" sem_cat="Da">
+			<sub_pattern node_id="21" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="67">
+	<origin_text>对泄露、买卖个人信息的违法犯罪行为，坚决依法打击。</origin_text>
+</sentence>
+<sentence id="68">
+	<origin_text>对互联网上发布的贩卖信息、软件、木马病毒等要及时监控、封堵、删除。</origin_text>
+</sentence>
+<sentence id="69">
+	<origin_text>对相关网站和网络账号要依法关停，构成犯罪的依法追究刑事责任。</origin_text>
+</sentence>
+<sentence id="70">
+	<origin_text>此外，2016年12月6日，公安部会同银监会制定出台了电信网络新型违法犯罪案件冻结资金返还若干规定实施细则。</origin_text>
+	<relation id="1" pred="制定" pattern="ADV-t(Ca)_SBV-nt(Dm)_Pred[制定]_VOB-返还_VOB-n(Di)" syntax_pattern="ADV-t(A)_SBV-nt(A)_Pred[制定]_VOB-返还_VOB-n(A)" taggedType="a" pred_id="9" tagged="true" instance="2016年12月6日，公安部会同银监会制定出台了电信网络新型违法犯罪案件冻结资金返还若干规定实施细则" feature="1-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="2016年12月6日" node_id="4" head_word="6日" sem_cat="Ca">
+			<sub_pattern node_id="4" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="公安部" node_id="6" head_word="公安部" sem_cat="Dm">
+			<sub_pattern node_id="6" sem_pattern="SBV-nt(Dm)" syn_pattern="SBV-nt(A)"/>
+		</argument>
+		<argument id="2" content="若干规定实施细则" node_id="24" head_word="细则" sem_cat="Di">
+			<sub_pattern node_id="24" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="20" sem_pattern="VOB-返还" syn_pattern="VOB-返还"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="71">
+	<origin_text>2016年12月20日，公安部会同最高法、最高检研究出台了《关于办理电信网络诈骗等刑事案件适用法律若干问题的意见》，明确了达到相应数额标准的电信网络诈骗犯罪“酌情从重处罚”的10种情形。</origin_text>
+	<relation id="1" pred="出台" pattern="ADV-t(Ca)_SBV-nt(Dm)_Pred[出台]_VOB-bo(Dk)" syntax_pattern="ADV-t(A)_SBV-nt(A)_Pred[出台]_VOB-bo(A)" taggedType="a" pred_id="12" tagged="true" instance="2016年12月20日，公安部会同最高法、最高检研究出台了《关于办理电信网络诈骗等刑事案件适用法律若干问题的意见》" feature="1-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="2016年12月20日" node_id="2" head_word="20日" sem_cat="Ca">
+			<sub_pattern node_id="2" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="公安部" node_id="4" head_word="公安部" sem_cat="Dm">
+			<sub_pattern node_id="4" sem_pattern="SBV-nt(Dm)" syn_pattern="SBV-nt(A)"/>
+		</argument>
+		<argument id="2" content="关于办理电信网络诈骗等刑事案件适用法律若干问题的意见" node_id="28" head_word="意见" sem_cat="Dk">
+			<sub_pattern node_id="28" sem_pattern="VOB-bo(Dk)" syn_pattern="VOB-bo(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="明确" pattern="SBV-nt(Dm)_Pred[明确]_VOB-n(Bb)" syntax_pattern="SBV-nt(A)_Pred[明确]_VOB-n(A)" taggedType="a" pred_id="32" tagged="true" instance="公安部明确了达到相应数额标准的电信网络" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="公安部(Z)" node_id="31" head_word="公安部" sem_cat="Dm">
+			<sub_pattern node_id="31" sem_pattern="SBV-nt(Dm)" syn_pattern="SBV-nt(A)"/>
+		</argument>
+		<argument id="1" content="电信网络" node_id="40" head_word="网络" sem_cat="Bb">
+			<sub_pattern node_id="40" sem_pattern="VOB-n(Bb)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="72">
+	<origin_text>1．造成被害人或其近亲属自杀、死亡或者精神失常等严重后果的；2．冒充司法机关等国家机关工作人员实施诈骗的；3．组织、指挥电信网络诈骗犯罪团伙的；4．在境外实施电信网络诈骗的；5．曾因电信网络诈骗犯罪受过刑事处罚或者二年内曾因电信网络诈骗受过行政处罚的；6．诈骗残疾人、老年人、未成年人、在校学生、丧失劳动能力人的财物，或者诈骗重病患者及其亲属财物的；7．诈骗救灾、抢险、防汛、优抚、扶贫、移民、救济、医疗等款物的；8．以赈灾、募捐等社会公益、慈善名义实施诈骗的；9．利用电话追呼系统等技术手段严重干扰公安机关等部门工作的；10．利用“钓鱼网站”链接、“木马”程序链接、网络渗透等隐蔽技术手段实施诈骗的。</origin_text>
+	<relation id="2" pred="受" pattern="ADV-f(A0)_Pred[受]_VOB-n(A1)" syntax_pattern="ADV-f(A)_Pred[受]_VOB-n(A)" taggedType="a" pred_id="75" tagged="false" instance="二年内曾因电信网络诈骗受过行政处罚" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="二年内" node_id="69" head_word="内" sem_cat="">
+			<sub_pattern node_id="69" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="行政处罚" node_id="78" head_word="处罚" sem_cat="">
+			<sub_pattern node_id="78" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="实施" pattern="ADV-以_POB-n(Dd)_Pred[实施]_VOB-n(A0)" syntax_pattern="ADV-以_POB-n(A)_Pred[实施]_VOB-n(A)" taggedType="a" pred_id="143" tagged="false" instance="社会公益、慈善名义实施诈骗" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="社会公益、慈善名义" node_id="142" head_word="名义" sem_cat="Dd">
+			<sub_pattern node_id="142" sem_pattern="POB-n(Dd)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="133" sem_pattern="ADV-以" syn_pattern="ADV-以"/>
+		</argument>
+		<argument id="1" content="诈骗" node_id="144" head_word="诈骗" sem_cat="">
+			<sub_pattern node_id="144" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="实施" pattern="SBV-n(Df)_Pred[实施]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[实施]_VOB-n(A)" taggedType="a" pred_id="186" tagged="false" instance="10．利用“钓鱼网站”链接、“木马”程序链接、网络渗透等隐蔽技术手段实施诈骗" feature="0-0-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="10．利用钓鱼网站链接、木马程序链接、网络渗透等隐蔽技术手段" node_id="185" head_word="手段" sem_cat="Df">
+			<sub_pattern node_id="185" sem_pattern="SBV-n(Df)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="诈骗" node_id="187" head_word="诈骗" sem_cat="">
+			<sub_pattern node_id="187" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="73">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="74">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title14岁成亿万粉丝TFboys队长，15岁破世界纪录，17岁和刘德华合作，这个00后不简单！</origin_text>
+	<relation id="1" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-nx(A0)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-nx" taggedType="a" pred_id="1" tagged="false" instance="Title" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="" node_id="1" head_word="" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="Title" node_id="0" head_word="Title" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="VOB-nx(A0)" syn_pattern="VOB-nx"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="成" pattern="TPC-nr(Af)_SBV-q(Dn)_Pred[成]_VOB-n(A0)" syntax_pattern="TPC-nr(A)_SBV-q(A)_Pred[成]_VOB-n(A)" taggedType="a" pred_id="4" tagged="false" instance="14岁成亿万粉丝TFboys队长" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="" node_id="1" head_word="" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="TPC-nr(Af)" syn_pattern="TPC-nr(A)"/>
+		</argument>
+		<argument id="1" content="14岁" node_id="3" head_word="岁" sem_cat="Dn">
+			<sub_pattern node_id="3" sem_pattern="SBV-q(Dn)" syn_pattern="SBV-q(A)"/>
+		</argument>
+		<argument id="2" content="亿万粉丝TFboys队长" node_id="8" head_word="队长" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="破" pattern="SBV-q(Dn)_Pred[破]_VOB-n(A0)" syntax_pattern="SBV-q(A)_Pred[破]_VOB-n(A)" taggedType="a" pred_id="12" tagged="false" instance="15岁破世界纪录" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="15岁" node_id="11" head_word="岁" sem_cat="Dn">
+			<sub_pattern node_id="11" sem_pattern="SBV-q(Dn)" syn_pattern="SBV-q(A)"/>
+		</argument>
+		<argument id="1" content="世界纪录" node_id="14" head_word="纪录" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>/Title</origin_text>
+</sentence>
+<sentence id="8">
+	<origin_text>要说有颜值、有才华、有名气，一直被模仿、从未被超越的火爆组合，非三小只莫属了，请大声喊出他们的名字——TFBoys！</origin_text>
+</sentence>
+<sentence id="9">
+	<origin_text>2014年夏天，一首《青春修炼手册》让他们一夜爆红。</origin_text>
+	<relation id="1" pred="让" pattern="ADV-t(Ca)_SBV-n(Bp)_Pred[让]_VOB-r(Af)" syntax_pattern="ADV-t(A)_SBV-n(A)_Pred[让]_VOB-r(A)" taggedType="a" pred_id="10" tagged="true" instance="2014年夏天，一首《青春修炼手册》让他们" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="2014年夏天" node_id="1" head_word="夏天" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="一首青春修炼手册" node_id="8" head_word="手册" sem_cat="Bp">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(Bp)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="他们" node_id="11" head_word="他们" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="VOB-r(Af)" syn_pattern="VOB-r(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>满大街男女老少都唱着同一首歌“跟着我左手右手一个慢动作，右手左手慢动作重播”，堪称洗脑神曲。</origin_text>
+	<relation id="1" pred="唱" pattern="SBV-n(Af)_Pred[唱]_VOB-n(Dk)" syntax_pattern="SBV-n(A)_Pred[唱]_VOB-n(A)" taggedType="a" pred_id="3" tagged="true" instance="满大街男女老少都唱着同一首歌" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="满大街男女老少" node_id="1" head_word="男女老少" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="一首歌" node_id="8" head_word="歌" sem_cat="Dk">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="作" pattern="ADV-跟着_VOB-n(Di)_SBV-n(Cb)_Pred[作]" syntax_pattern="ADV-跟着_VOB-n(A)_SBV-n(A)_Pred[作]" taggedType="a" pred_id="21" tagged="true" instance="我左手右手一个慢动作，右手左手慢动作" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我左手右手一个慢动作" node_id="16" head_word="动作" sem_cat="Di">
+			<sub_pattern node_id="16" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="10" sem_pattern="ADV-跟着" syn_pattern="ADV-跟着"/>
+		</argument>
+		<argument id="1" content="右手左手" node_id="19" head_word="左手" sem_cat="Cb">
+			<sub_pattern node_id="19" sem_pattern="SBV-n(Cb)" syn_pattern="SBV-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>后来，他们频繁亮相各大颁奖礼、各大晚会。</origin_text>
+	<relation id="1" pred="亮相" pattern="ADV-t(Ca)_SBV-r(Af)_Pred[亮相]_VOB-n(Di)" syntax_pattern="ADV-t(A)_SBV-r(A)_Pred[亮相]_VOB-n(A)" taggedType="a" pred_id="4" tagged="true" instance="后来，他们频繁亮相各大颁奖礼、各大晚会" feature="1-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="后来" node_id="0" head_word="后来" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="他们" node_id="2" head_word="他们" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="2" content="各大颁奖礼、各大晚会" node_id="11" head_word="晚会" sem_cat="Di">
+			<sub_pattern node_id="11" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>2016年，他们甚至登上了万众瞩目的央视春晚舞台。</origin_text>
+	<relation id="1" pred="登" pattern="ADV-t(Ca)_SBV-r(Af)_Pred[登]_VOB-n(Bn)" syntax_pattern="ADV-t(A)_SBV-r(A)_Pred[登]_VOB-n(A)" taggedType="a" pred_id="4" tagged="true" instance="2016年，他们甚至登上了万众瞩目的央视春晚舞台" feature="1-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="2016年" node_id="0" head_word="2016年" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="他们" node_id="2" head_word="他们" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="2" content="春晚舞台" node_id="12" head_word="舞台" sem_cat="Bn">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Bn)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="13">
+	<origin_text>成员王源15岁生日，粉丝花钱租下了美国纽约时代广场1号大厦的LED屏，作为送给他的生日礼物。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Bn)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="17" tagged="false" instance="美国纽约时代广场1号大厦的LED屏" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="美国纽约时代广场1号大厦" node_id="16" head_word="大厦" sem_cat="Bn">
+			<sub_pattern node_id="16" sem_pattern="nsubj-n(Bn)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="LED屏" node_id="19" head_word="屏" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="租下" pattern="SBV-n(Br)_Pred[租下]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[租下]_VOB-n(A)" taggedType="a" pred_id="8" tagged="false" instance="粉丝花钱租下了美国纽约时代广场1号大厦的LED屏" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="粉丝" node_id="6" head_word="粉丝" sem_cat="Br">
+			<sub_pattern node_id="6" sem_pattern="SBV-n(Br)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="LED屏" node_id="19" head_word="屏" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="14">
+	<origin_text>16岁生日，粉丝又在美国纽约时代广场包下LED屏，滚动播放为其庆生。</origin_text>
+	<relation id="1" pred="包" pattern="SBV-n(Br)_ADV-在_POB-n(A0)_Pred[包]_VOB-n(A1)" syntax_pattern="SBV-n(A)_ADV-在_POB-n(A)_Pred[包]_VOB-n(A)" taggedType="a" pred_id="11" tagged="false" instance="粉丝又在美国纽约时代广场包下LED屏" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="粉丝" node_id="4" head_word="粉丝" sem_cat="Br">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(Br)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="美国纽约时代广场" node_id="10" head_word="广场" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="6" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="LED屏" node_id="14" head_word="屏" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="15">
+	<origin_text>敢情时代广场是小汤圆（王源粉丝）自己家的吧。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-n(A0)_Pred[是]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="3" tagged="false" instance="时代广场是小汤圆（王源粉丝）自己家" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="时代广场" node_id="2" head_word="广场" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="小汤圆（王源粉丝）自己家" node_id="11" head_word="家" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="16">
+	<origin_text>当然对于TFBoys，也有很多人有争议，某著名媒体人就曾在微博上直呼他们“掏粪小子”。</origin_text>
+	<relation id="1" pred="有" pattern="ADV-对于_POB-nx(A0)_Pred[有]_VOB-n(A1)" syntax_pattern="ADV-对于_POB-nx(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="TFBoys，也有很多人" feature="0-1-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="TFBoys" node_id="2" head_word="TFBoys" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="POB-nx(A0)" syn_pattern="POB-nx(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ADV-对于" syn_pattern="ADV-对于"/>
+		</argument>
+		<argument id="1" content="很多人" node_id="7" head_word="人" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="呼" pattern="SBV-n(A0)_ADV-在_POB-f(A1)_Pred[呼]_VOB-n(Af)" syntax_pattern="SBV-n(A)_ADV-在_POB-f(A)_Pred[呼]_VOB-n(A)" taggedType="a" pred_id="21" tagged="false" instance="某著名媒体人就曾在微博上直呼他们“掏粪小子”" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="某著名媒体人" node_id="14" head_word="人" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="上" node_id="19" head_word="上" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="POB-f(A1)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="17" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="他们掏粪小子" node_id="26" head_word="小子" sem_cat="Af">
+			<sub_pattern node_id="26" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="17">
+	<origin_text>小小年纪那么红，又要承担那么多黑，真心是不容易的。</origin_text>
+</sentence>
+<sentence id="18">
+	<origin_text>不过卡妞想说，70后遇见了beyond，80后遇见了小虎队，90后遇见了周杰伦，为什么不允许他们和00后、10后一起遇见TFBoys？</origin_text>
+	<relation id="1" pred="说" pattern="SBV-nr(Af)_Pred[说]_ADV-r(A0)_VOB-允许" syntax_pattern="SBV-nr(A)_Pred[说]_ADV-r(A)_VOB-允许" taggedType="a" pred_id="3" tagged="false" instance="卡妞想说，卡妞70后遇见了beyond，卡妞80后遇见了小虎队，卡妞90后遇见了周杰伦，为什么" feature="0-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="卡妞" node_id="1" head_word="卡妞" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="为什么" node_id="26" head_word="为什么" sem_cat="">
+			<sub_pattern node_id="26" sem_pattern="ADV-r(A0)" syn_pattern="ADV-r(A)"/>
+			<sub_pattern node_id="28" sem_pattern="VOB-允许" syn_pattern="VOB-允许"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="遇见" pattern="SBV-nr(Af)_ADV-f(A0)_Pred[遇见]_VOB-nx(A1)" syntax_pattern="SBV-nr(A)_ADV-f(A)_Pred[遇见]_VOB-nx(A)" taggedType="a" pred_id="8" tagged="false" instance="卡妞70后遇见了beyond" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="卡妞(Z)" node_id="5" head_word="卡妞" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="70后" node_id="7" head_word="后" sem_cat="">
+			<sub_pattern node_id="7" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="2" content="beyond" node_id="10" head_word="beyond" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="VOB-nx(A1)" syn_pattern="VOB-nx(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="遇见" pattern="SBV-nr(Af)_ADV-f(A0)_Pred[遇见]_VOB-n(A1)" syntax_pattern="SBV-nr(A)_ADV-f(A)_Pred[遇见]_VOB-n(A)" taggedType="a" pred_id="15" tagged="false" instance="卡妞80后遇见了小虎队" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="卡妞(Z)" node_id="12" head_word="卡妞" sem_cat="Af">
+			<sub_pattern node_id="12" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="80后" node_id="14" head_word="后" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="2" content="小虎队" node_id="17" head_word="小虎队" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="遇见" pattern="SBV-nr(Af)_ADV-f(A0)_Pred[遇见]_VOB-nr(Af)" syntax_pattern="SBV-nr(A)_ADV-f(A)_Pred[遇见]_VOB-nr(A)" taggedType="a" pred_id="22" tagged="false" instance="卡妞90后遇见了周杰伦" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="卡妞(Z)" node_id="19" head_word="卡妞" sem_cat="Af">
+			<sub_pattern node_id="19" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="90后" node_id="21" head_word="后" sem_cat="">
+			<sub_pattern node_id="21" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="2" content="周杰伦" node_id="24" head_word="周杰伦" sem_cat="Af">
+			<sub_pattern node_id="24" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="遇见" pattern="SBV-r(Af)_Pred[遇见]_VOB-nx(A0)" syntax_pattern="SBV-r(A)_Pred[遇见]_VOB-nx(A)" taggedType="a" pred_id="37" tagged="false" instance="他们和00后、10后一起遇见TFBoys" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="他们" node_id="29" head_word="他们" sem_cat="Af">
+			<sub_pattern node_id="29" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="TFBoys" node_id="38" head_word="TFBoys" sem_cat="">
+			<sub_pattern node_id="38" sem_pattern="VOB-nx(A0)" syn_pattern="VOB-nx(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="19">
+	<origin_text>每个年代的人都有自己效仿的偶像嘛，四岁的甜馨也是他们的迷妹呢，看这羞涩的小样儿。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Ca)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="2" tagged="false" instance="每个年代的人" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="每个年代" node_id="1" head_word="年代" sem_cat="Ca">
+			<sub_pattern node_id="1" sem_pattern="nsubj-n(Ca)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="人" node_id="3" head_word="人" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-q(Dn)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-q(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="14" tagged="false" instance="四岁的甜馨" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="四岁" node_id="13" head_word="岁" sem_cat="Dn">
+			<sub_pattern node_id="13" sem_pattern="nsubj-q(Dn)" syn_pattern="nsubj-q(A)"/>
+		</argument>
+		<argument id="1" content="甜馨" node_id="15" head_word="甜馨" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="有" pattern="SBV-n(A0)_Pred[有]_VOB-n(Af)" syntax_pattern="SBV-n(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="人都有自己效仿的偶像" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="人" node_id="3" head_word="人" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="偶像" node_id="9" head_word="偶像" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="是" pattern="SBV-n(A0)_Pred[是]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="17" tagged="false" instance="时代广场是小汤圆（王源粉丝）自己家" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="甜馨" node_id="15" head_word="甜馨" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="迷妹" node_id="20" head_word="迷妹" sem_cat="">
+			<sub_pattern node_id="20" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="20">
+	<origin_text>这不，就在昨天，队长王俊凯又上微博热搜了！</origin_text>
+	<relation id="1" pred="微博热搜" pattern="TPC-r(Ca)_ADV-在_POB-t(Ca)_SBV-nr(Af)_Pred[微博热搜]" syntax_pattern="TPC-r(A)_ADV-在_POB-t(A)_SBV-nr(A)_Pred[微博热搜]" taggedType="a" pred_id="11" tagged="true" instance="这不，就在昨天，队长王俊凯又上微博热搜" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="这" node_id="0" head_word="这" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="TPC-r(Ca)" syn_pattern="TPC-r(A)"/>
+		</argument>
+		<argument id="1" content="昨天" node_id="5" head_word="昨天" sem_cat="Ca">
+			<sub_pattern node_id="5" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="4" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="王俊凯" node_id="8" head_word="王俊凯" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="8" tagged="false" instance="队长王俊凯" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="王俊凯" node_id="8" head_word="王俊凯" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="队长" node_id="7" head_word="队长" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="21">
+	<origin_text>原来小凯被北京电影学院录取了，收到了一封来自娱乐圈的通知书，很好的结果、很好的开始，祝贺祝贺！</origin_text>
+	<relation id="1" pred="录取" pattern="SBV-nr(Af)_ADV-被_POB-n(Dm)_Pred[录取]" syntax_pattern="SBV-nr(A)_ADV-被_POB-n(A)_Pred[录取]" taggedType="a" pred_id="6" tagged="true" instance="小凯被北京电影学院录取" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="小凯" node_id="1" head_word="小凯" sem_cat="Af">
+			<sub_pattern node_id="1" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="北京电影学院" node_id="5" head_word="学院" sem_cat="Dm">
+			<sub_pattern node_id="5" sem_pattern="POB-n(Dm)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="2" sem_pattern="ADV-被" syn_pattern="ADV-被"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="收到" pattern="SBV-nr(Af)_Pred[收到]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[收到]_VOB-n(A)" taggedType="a" pred_id="10" tagged="false" instance="小凯收到了一封来自娱乐圈的通知书" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="小凯(Z)" node_id="9" head_word="小凯" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="一封来自娱乐圈的通知书" node_id="17" head_word="通知书" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="22">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="23">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

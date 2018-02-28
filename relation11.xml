@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title《军舰岛》片尾鸣谢宋慧乔柳昇完导演揭露原因/Title</origin_text>
+	<relation id="1" pred="鸣谢" pattern="SBV-n(A0)_Pred[鸣谢]_VOB-nr(Af)" syntax_pattern="SBV-n(A)_Pred[鸣谢]_VOB-nr(A)" taggedType="a" pred_id="7" tagged="false" instance="《军舰岛》片尾鸣谢宋慧乔" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="军舰岛片尾" node_id="6" head_word="片尾" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="宋慧乔" node_id="8" head_word="宋慧乔" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="揭露" pattern="SBV-n(A0)_Pred[揭露]_VOB-n(Db)" syntax_pattern="SBV-n(A)_Pred[揭露]_VOB-n(A)" taggedType="a" pred_id="13" tagged="false" instance="Title__《_军舰_岛_》_片尾柳昇完导演揭露原因" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="Title军舰岛片尾(Z)" node_id="9" head_word="Title  《 军舰 岛 》 片尾" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="原因" node_id="14" head_word="原因" sem_cat="Db">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(Db)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>腾讯娱乐讯（编译/雷米）宋仲基主演的电影《军舰岛》在结尾字幕的鸣谢名单中出现了宋慧乔的名字。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-nr(Af)_Pred[de]_dobj-n(Dd)" syntax_pattern="nsubj-nr(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="24" tagged="true" instance="宋慧乔的名字" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="宋慧乔" node_id="23" head_word="宋慧乔" sem_cat="Af">
+			<sub_pattern node_id="23" sem_pattern="nsubj-nr(Af)" syn_pattern="nsubj-nr(A)"/>
+		</argument>
+		<argument id="1" content="名字" node_id="25" head_word="名字" sem_cat="Dd">
+			<sub_pattern node_id="25" sem_pattern="dobj-n(Dd)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="is" pattern="SBV-n(Be)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-n(A)_Pred[is]_VOB-n" taggedType="a" pred_id="12" tagged="true" instance="电影《军舰岛》" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="军舰岛" node_id="12" head_word="岛" sem_cat="Be">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(Be)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="电影军舰岛" node_id="9" head_word="电影" sem_cat="Dk">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="出现" pattern="SBV-n(Be)_ADV-在_POB-f(A0)_Pred[出现]_VOB-n(Dd)" syntax_pattern="SBV-n(A)_ADV-在_POB-f(A)_Pred[出现]_VOB-n(A)" taggedType="a" pred_id="21" tagged="false" instance="《军舰岛》在结尾字幕的鸣谢名单中出现了宋慧乔的名字" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="军舰岛" node_id="12" head_word="岛" sem_cat="Be">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(Be)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="鸣谢名单中" node_id="20" head_word="中" sem_cat="">
+			<sub_pattern node_id="20" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="14" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="名字" node_id="25" head_word="名字" sem_cat="Dd">
+			<sub_pattern node_id="25" sem_pattern="VOB-n(Dd)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>柳昇完导演在本月19日的媒体试映会上，首次将希望致予谢意的导演、演员等电影相关人士的名字加入了结尾字幕中。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(﻿A)_Pred[de]_dobj-n(Dd)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="24" tagged="true" instance="导演、演员等电影相关人士的名字" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="导演、演员等电影相关人士" node_id="23" head_word="人士" sem_cat="﻿A">
+			<sub_pattern node_id="23" sem_pattern="nsubj-n(﻿A)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="名字" node_id="25" head_word="名字" sem_cat="Dd">
+			<sub_pattern node_id="25" sem_pattern="dobj-n(Dd)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="希望" pattern="SBV-n(Af)_ADV-在_POB-f(A0)_ADV-m(Dn)_Pred[希望]" syntax_pattern="SBV-n(A)_ADV-在_POB-f(A)_ADV-m(A)_Pred[希望]" taggedType="a" pred_id="13" tagged="false" instance="导演在本月19日的媒体试映会上，首次将希望" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="导演" node_id="2" head_word="导演" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="媒体试映会上" node_id="9" head_word="上" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="3" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="首次" node_id="11" head_word="首次" sem_cat="Dn">
+			<sub_pattern node_id="11" sem_pattern="ADV-m(Dn)" syn_pattern="ADV-m(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="加入" pattern="SBV-n(Dd)_Pred[加入]_VOB-f(A0)" syntax_pattern="SBV-n(A)_Pred[加入]_VOB-f(A)" taggedType="a" pred_id="26" tagged="false" instance="名字加入了结尾字幕中" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="名字" node_id="25" head_word="名字" sem_cat="Dd">
+			<sub_pattern node_id="25" sem_pattern="SBV-n(Dd)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="结尾字幕中" node_id="30" head_word="中" sem_cat="">
+			<sub_pattern node_id="30" sem_pattern="VOB-f(A0)" syn_pattern="VOB-f(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>其中也包含了即将在10月与宋仲基成婚的宋慧乔。</origin_text>
+	<relation id="1" pred="包含" pattern="SBV-r(Da)_Pred[包含]_VOB-nr(Af)" syntax_pattern="SBV-r(A)_Pred[包含]_VOB-nr(A)" taggedType="a" pred_id="2" tagged="true" instance="其中也包含了即将在10月与宋仲基成婚的宋慧乔" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="其中" node_id="0" head_word="其中" sem_cat="Da">
+			<sub_pattern node_id="0" sem_pattern="SBV-r(Da)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="宋慧乔" node_id="11" head_word="宋慧乔" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="成婚" pattern="ADV-在_POB-t(Ca)_ADV-与_POB-nr(Af)_Pred[成婚]_ATT-u_VOB-nr(Af)" syntax_pattern="ADV-在_POB-t(A)_ADV-与_POB-nr(A)_Pred[成婚]_ATT-u_VOB-nr(A)" taggedType="a" pred_id="9" tagged="true" instance="10月与宋仲基成婚的宋慧乔" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="10月" node_id="6" head_word="10月" sem_cat="Ca">
+			<sub_pattern node_id="6" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="5" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+			<sub_pattern node_id="9" sem_pattern="DE-成婚" syn_pattern="DE-成婚"/>
+			<sub_pattern node_id="10" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="11" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+		<argument id="1" content="宋仲基" node_id="8" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="POB-nr(Af)" syn_pattern="POB-nr(A)"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-与" syn_pattern="ADV-与"/>
+		</argument>
+		<argument id="2" content="宋慧乔" node_id="11" head_word="宋慧乔" sem_cat="Af">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>对此，柳导演笑着解释说，“宋慧乔和刘亚仁因为在同一家经纪公司，他们派来过咖啡车。</origin_text>
+	<relation id="1" pred="说" pattern="SBV-n(A0)_Pred[说]_SBV-nr(Af)_SBV-r(Af)_VOB-派_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[说]_SBV-nr(A)_SBV-r(A)_VOB-派_VOB-n(A)" taggedType="a" pred_id="6" tagged="false" instance="柳导演笑着解释说，“宋慧乔和刘亚仁因为在同一家经纪公司，他们派来过咖啡车" feature="1-1-0-0-1-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="柳导" node_id="2" head_word="柳导" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="宋慧乔和刘亚仁" node_id="11" head_word="刘亚仁" sem_cat="Af">
+			<sub_pattern node_id="11" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+			<sub_pattern node_id="21" sem_pattern="VOB-派" syn_pattern="VOB-派"/>
+		</argument>
+		<argument id="2" content="他们" node_id="20" head_word="他们" sem_cat="Af">
+			<sub_pattern node_id="20" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="3" content="咖啡车" node_id="24" head_word="咖啡车" sem_cat="">
+			<sub_pattern node_id="24" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>我们既然吃了，就要对送东西的人表示感谢。”</origin_text>
+	<relation id="1" pred="表示" pattern="SBV-r(Af)_ADV-对_POB-n(A0)_Pred[表示]" syntax_pattern="SBV-r(A)_ADV-对_POB-n(A)_Pred[表示]" taggedType="a" pred_id="12" tagged="false" instance="我们就要对送东西的人表示" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="我们(Z)" node_id="5" head_word="我们" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="人" node_id="11" head_word="人" sem_cat="">
+			<sub_pattern node_id="11" sem_pattern="POB-n(A0)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-对" syn_pattern="ADV-对"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>之前刘亚仁曾出演过柳昇完导演的《老手》。</origin_text>
+</sentence>
+<sentence id="13">
+	<origin_text>宋慧乔在8月份时曾派咖啡车到《军舰岛》拍摄现场，上面写着“宋仲基先生、《军舰岛》所有工作人员们，加油哦!”</origin_text>
+	<relation id="1" pred="派" pattern="SBV-nr(Af)_ADV-在_POB-n(Ca)_Pred[派]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_ADV-在_POB-n(A)_Pred[派]_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="宋慧乔在8月份时曾派咖啡车" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="宋慧乔" node_id="0" head_word="宋慧乔" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="8月份时" node_id="3" head_word="时" sem_cat="Ca">
+			<sub_pattern node_id="3" sem_pattern="POB-n(Ca)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="咖啡车" node_id="6" head_word="咖啡车" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="写" pattern="SBV-f(A0)_Pred[写]_VOB-n(Af)" syntax_pattern="SBV-f(A)_Pred[写]_VOB-n(A)" taggedType="a" pred_id="16" tagged="false" instance="上面写着“宋仲基先生、《军舰岛》所有工作人员" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="上面" node_id="15" head_word="上面" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="SBV-f(A0)" syn_pattern="SBV-f(A)"/>
+		</argument>
+		<argument id="1" content="宋仲基先生、军舰岛所有工作人员" node_id="28" head_word="人员" sem_cat="Af">
+			<sub_pattern node_id="28" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="14">
+	<origin_text>那时不仅两人的结婚消息还没有公开，甚至恋爱消息也还未传出。</origin_text>
+</sentence>
+<sentence id="15">
+	<origin_text>电影《军舰岛》讲述了在1945年朝鲜即将光复的时候，被强征至日本军舰岛做劳工的朝鲜人冒着生命危险逃生的故事。</origin_text>
+	<relation id="1" pred="is" pattern="SBV-n(Be)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-n(A)_Pred[is]_VOB-n" taggedType="a" pred_id="3" tagged="true" instance="电影《军舰岛》" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="军舰岛" node_id="3" head_word="岛" sem_cat="Be">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Be)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="电影军舰岛" node_id="0" head_word="电影" sem_cat="Dk">
+			<sub_pattern node_id="3" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="讲述" pattern="SBV-n(Be)_Pred[讲述]_VOB-n(Dk)" syntax_pattern="SBV-n(A)_Pred[讲述]_VOB-n(A)" taggedType="a" pred_id="5" tagged="true" instance="《军舰岛》讲述了在1945年朝鲜即将光复的时候，被强征至日本军舰岛做劳工的朝鲜人冒着生命危险逃生的故事" feature="0-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="军舰岛" node_id="3" head_word="岛" sem_cat="Be">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Be)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="故事" node_id="32" head_word="故事" sem_cat="Dk">
+			<sub_pattern node_id="32" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="光复" pattern="ADV-t(Ca)_SBV-ns(Cb)_Pred[光复]_ATT-u_POB-n(Ca)" syntax_pattern="ADV-t(A)_SBV-ns(A)_Pred[光复]_ATT-u_POB-n(A)" taggedType="a" pred_id="11" tagged="true" instance="1945年朝鲜即将光复的时候" feature="0-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1" isDeStructure="true">
+		<argument id="0" content="1945年" node_id="8" head_word="1945年" sem_cat="Ca">
+			<sub_pattern node_id="8" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+			<sub_pattern node_id="11" sem_pattern="DE-光复" syn_pattern="DE-光复"/>
+			<sub_pattern node_id="12" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="13" sem_pattern="POB-n(Ca)" syn_pattern="POB-n(A)"/>
+		</argument>
+		<argument id="1" content="朝鲜" node_id="9" head_word="朝鲜" sem_cat="Cb">
+			<sub_pattern node_id="9" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="2" content="时候" node_id="13" head_word="时候" sem_cat="Ca">
+		</argument>
+	</relation>
+	<relation id="4" pred="做" pattern="ADV-在_POB-n(Ca)_Pred[做]_VOB-n(Af)_ATT-u_SBV-n(A0)" syntax_pattern="ADV-在_POB-n(A)_Pred[做]_VOB-n(A)_ATT-u_SBV-n(A)" taggedType="a" pred_id="21" tagged="false" instance="时候，被强征至日本军舰岛做劳工的朝鲜人" feature="0-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="时候" node_id="13" head_word="时候" sem_cat="Ca">
+			<sub_pattern node_id="13" sem_pattern="POB-n(Ca)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+			<sub_pattern node_id="21" sem_pattern="DE-做" syn_pattern="DE-做"/>
+			<sub_pattern node_id="23" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="25" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="劳工" node_id="22" head_word="劳工" sem_cat="Af">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="2" content="人" node_id="25" head_word="人" sem_cat="">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="16">
+	<origin_text>电影由黄政民、苏志燮、宋仲基、李贞贤主演，即将于本月26日在韩国上映。</origin_text>
+	<relation id="1" pred="主演" pattern="SBV-n(Dk)_ADV-由_POB-nr(Af)_Pred[主演]" syntax_pattern="SBV-n(A)_ADV-由_POB-nr(A)_Pred[主演]" taggedType="a" pred_id="9" tagged="true" instance="电影由黄政民、苏志燮、宋仲基、李贞贤主演" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="电影" node_id="0" head_word="电影" sem_cat="Dk">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="黄政民、苏志燮、宋仲基、李贞贤" node_id="8" head_word="李贞贤" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="POB-nr(Af)" syn_pattern="POB-nr(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ADV-由" syn_pattern="ADV-由"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="上映" pattern="SBV-n(Dk)_ADV-于_POB-t(Ca)_ADV-在_POB-ns(Cb)_Pred[上映]" syntax_pattern="SBV-n(A)_ADV-于_POB-t(A)_ADV-在_POB-ns(A)_Pred[上映]" taggedType="a" pred_id="18" tagged="true" instance="电影即将于本月26日在韩国上映" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="电影(Z)" node_id="11" head_word="电影" sem_cat="Dk">
+			<sub_pattern node_id="11" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="本月26日" node_id="15" head_word="26日" sem_cat="Ca">
+			<sub_pattern node_id="15" sem_pattern="POB-t(Ca)" syn_pattern="POB-t(A)"/>
+			<sub_pattern node_id="13" sem_pattern="ADV-于" syn_pattern="ADV-于"/>
+		</argument>
+		<argument id="2" content="韩国" node_id="17" head_word="韩国" sem_cat="Cb">
+			<sub_pattern node_id="17" sem_pattern="POB-ns(Cb)" syn_pattern="POB-ns(A)"/>
+			<sub_pattern node_id="16" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="17">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="18">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

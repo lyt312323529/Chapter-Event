@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title妈妈带4岁儿子进游泳馆女更衣室，被管理员骂哭，结果又被网友骂/Title</origin_text>
+	<relation id="1" pred="带" pattern="SBV-n(Af)_Pred[带]_VOB-n(Af)_VOB-n(Bn)" syntax_pattern="SBV-n(A)_Pred[带]_VOB-n(A)_VOB-n(A)" taggedType="a" pred_id="3" tagged="true" instance="Title妈妈带4岁儿子进游泳馆女更衣室" feature="1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="Title妈妈" node_id="2" head_word="妈妈" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="4岁儿子" node_id="6" head_word="儿子" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+		<argument id="2" content="游泳馆女更衣室" node_id="10" head_word="更衣室" sem_cat="Bn">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(Bn)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="骂" pattern="SBV-n(A0)_ADV-被_POB-n(Af)_Pred[骂]" syntax_pattern="SBV-n(A)_ADV-被_POB-n(A)_Pred[骂]" taggedType="a" pred_id="15" tagged="false" instance="Title__妈妈被管理员骂" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="Title妈妈(Z)" node_id="12" head_word="Title  妈妈" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="管理员" node_id="14" head_word="管理员" sem_cat="Af">
+			<sub_pattern node_id="14" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="13" sem_pattern="ADV-被" syn_pattern="ADV-被"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="骂" pattern="SBV-n(A0)_ADV-被_POB-n(Af)_Pred[骂]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_ADV-被_POB-n(A)_Pred[骂]_VOB-ns(A)" taggedType="a" pred_id="22" tagged="false" instance="结果又被网友骂/Title" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="结果" node_id="18" head_word="结果" sem_cat="">
+			<sub_pattern node_id="18" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="网友" node_id="21" head_word="网友" sem_cat="Af">
+			<sub_pattern node_id="21" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="20" sem_pattern="ADV-被" syn_pattern="ADV-被"/>
+		</argument>
+		<argument id="2" content="/Title" node_id="26" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="26" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>女网友发帖称带儿子去游泳，管理员阿姨坚决不让男孩在女更衣室换衣服。</origin_text>
+	<relation id="1" pred="让" pattern="SBV-n(Af)_Pred[让]_VOB-n(Dd)" syntax_pattern="SBV-n(A)_Pred[让]_VOB-n(A)" taggedType="a" pred_id="13" tagged="true" instance="管理员阿姨坚决不让男孩" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="管理员阿姨" node_id="10" head_word="阿姨" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="男孩" node_id="14" head_word="男孩" sem_cat="Dd">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(Dd)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="换" pattern="ADV-在_POB-n(Bn)_Pred[换]_VOB-n(Bq)" syntax_pattern="ADV-在_POB-n(A)_Pred[换]_VOB-n(A)" taggedType="a" pred_id="18" tagged="true" instance="女更衣室换衣服" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="女更衣室" node_id="17" head_word="更衣室" sem_cat="Bn">
+			<sub_pattern node_id="17" sem_pattern="POB-n(Bn)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="15" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="衣服" node_id="19" head_word="衣服" sem_cat="Bq">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(Bq)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>她觉得委屈，表示小孩只有3-4周岁，管理员阿姨还是不同意，她说自己被骂哭，“以后去游泳，爸爸带年幼的女儿是不能去的？</origin_text>
+	<relation id="1" pred="有" pattern="SBV-n(Af)_Pred[有]_VOB-t(Ca)" syntax_pattern="SBV-n(A)_Pred[有]_VOB-t(A)" taggedType="a" pred_id="7" tagged="true" instance="小孩只有3-4周岁" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="小孩" node_id="5" head_word="小孩" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="3-4周岁" node_id="9" head_word="周岁" sem_cat="Ca">
+			<sub_pattern node_id="9" sem_pattern="VOB-t(Ca)" syn_pattern="VOB-t(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="带" pattern="SBV-n(Af)_Pred[带]_VOB-n(Af)" syntax_pattern="SBV-n(A)_Pred[带]_VOB-n(A)" taggedType="a" pred_id="30" tagged="true" instance="爸爸带年幼的女儿" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="爸爸" node_id="29" head_word="爸爸" sem_cat="Af">
+			<sub_pattern node_id="29" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="女儿" node_id="33" head_word="女儿" sem_cat="Af">
+			<sub_pattern node_id="33" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>妈妈带年幼儿子也不能进游泳馆咯wenjin</origin_text>
+	<relation id="1" pred="进" pattern="SBV-n(Af)_Pred[进]_VOB-nx(A0)" syntax_pattern="SBV-n(A)_Pred[进]_VOB-nx(A)" taggedType="a" pred_id="7" tagged="false" instance="妈妈带年幼儿子也不能进游泳馆咯wenjin" feature="1-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="妈妈" node_id="0" head_word="妈妈" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="wenjin" node_id="10" head_word="wenjin" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="VOB-nx(A0)" syn_pattern="VOB-nx(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>不过，文中该女子并没有提到，游泳馆禁止异性儿童进入更衣室。</origin_text>
+	<relation id="1" pred="禁止" pattern="SBV-n(Bn)_Pred[禁止]_SBV-n(Af)_VOB-进入_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[禁止]_SBV-n(A)_VOB-进入_VOB-n(A)" taggedType="a" pred_id="10" tagged="false" instance="游泳馆禁止异性儿童进入更衣室" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="游泳馆" node_id="9" head_word="游泳馆" sem_cat="Bn">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(Bn)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="异性儿童" node_id="12" head_word="儿童" sem_cat="Af">
+			<sub_pattern node_id="12" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="13" sem_pattern="VOB-进入" syn_pattern="VOB-进入"/>
+		</argument>
+		<argument id="2" content="衣室" node_id="15" head_word="衣室" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>杭州游泳馆女更衣室入口贴着“异性儿童不得入内”。</origin_text>
+	<relation id="1" pred="贴" pattern="SBV-n(Cb)_Pred[贴]_SBV-n(Af)_VOB-入_VOB-f(A0)" syntax_pattern="SBV-n(A)_Pred[贴]_SBV-n(A)_VOB-入_VOB-f(A)" taggedType="a" pred_id="5" tagged="false" instance="杭州游泳馆女更衣室入口贴着“异性儿童不得入内" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="杭州游泳馆女更衣室入口" node_id="4" head_word="入口" sem_cat="Cb">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(Cb)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="异性儿童" node_id="9" head_word="儿童" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="11" sem_pattern="VOB-入" syn_pattern="VOB-入"/>
+		</argument>
+		<argument id="2" content="内" node_id="12" head_word="内" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="VOB-f(A0)" syn_pattern="VOB-f(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>游泳馆规定中详细规定，超过三岁的儿童不得进入异性更衣室。</origin_text>
+	<relation id="1" pred="规定" pattern="ADV-f(A0)_Pred[规定]_SBV-n(Af)_VOB-进入_VOB-n(Bn)" syntax_pattern="ADV-f(A)_Pred[规定]_SBV-n(A)_VOB-进入_VOB-n(A)" taggedType="a" pred_id="4" tagged="false" instance="游泳馆规定中详细规定，超过三岁的儿童不得进入异性更衣室" feature="1-1-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="游泳馆规定中" node_id="2" head_word="中" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="儿童" node_id="10" head_word="儿童" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="12" sem_pattern="VOB-进入" syn_pattern="VOB-进入"/>
+		</argument>
+		<argument id="2" content="异性更衣室" node_id="14" head_word="更衣室" sem_cat="Bn">
+			<sub_pattern node_id="14" sem_pattern="VOB-n(Bn)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="13">
+	<origin_text>事情在微博上引发了网友的热评。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Af)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="7" tagged="false" instance="网友的热评" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="网友" node_id="6" head_word="网友" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="nsubj-n(Af)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="热评" node_id="8" head_word="热评" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="引发" pattern="SBV-n(A0)_ADV-在_POB-f(A1)_Pred[引发]_VOB-n(A2)" syntax_pattern="SBV-n(A)_ADV-在_POB-f(A)_Pred[引发]_VOB-n(A)" taggedType="a" pred_id="4" tagged="false" instance="事情在微博上引发了网友的热评" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="事情" node_id="0" head_word="事情" sem_cat="">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="上" node_id="3" head_word="上" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="POB-f(A1)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="2" content="热评" node_id="8" head_word="热评" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="VOB-n(A2)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="14">
+	<origin_text>但大家几乎一致支持游泳馆的做法。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Bn)_Pred[de]_dobj-n(Db)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="6" tagged="true" instance="游泳馆的做法" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="游泳馆" node_id="5" head_word="游泳馆" sem_cat="Bn">
+			<sub_pattern node_id="5" sem_pattern="nsubj-n(Bn)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="做法" node_id="7" head_word="做法" sem_cat="Db">
+			<sub_pattern node_id="7" sem_pattern="dobj-n(Db)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="支持" pattern="SBV-r(A0)_Pred[支持]_VOB-n(Db)" syntax_pattern="SBV-r(A)_Pred[支持]_VOB-n(A)" taggedType="a" pred_id="4" tagged="false" instance="大家几乎一致支持游泳馆的做法" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="大家" node_id="1" head_word="大家" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="做法" node_id="7" head_word="做法" sem_cat="Db">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Db)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="15">
+	<origin_text>柔中带肛：允许弱者哭但别人不一定会为你的弱而买单。</origin_text>
+</sentence>
+<sentence id="16">
+	<origin_text>力大无穷吴大大海：三四岁怎么了！</origin_text>
+</sentence>
+<sentence id="17">
+	<origin_text>三四岁难道可以说明他不是个男孩子了？</origin_text>
+	<relation id="1" pred="说明" pattern="SBV-q(Dn)_Pred[说明]_SBV-r(Af)_VOB-是_VOB-n(Af)" syntax_pattern="SBV-q(A)_Pred[说明]_SBV-r(A)_VOB-是_VOB-n(A)" taggedType="a" pred_id="4" tagged="true" instance="三四岁难道可以说明他不是个男孩子" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="三四岁" node_id="1" head_word="岁" sem_cat="Dn">
+			<sub_pattern node_id="1" sem_pattern="SBV-q(Dn)" syn_pattern="SBV-q(A)"/>
+		</argument>
+		<argument id="1" content="他" node_id="5" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="7" sem_pattern="VOB-是" syn_pattern="VOB-是"/>
+		</argument>
+		<argument id="2" content="个男孩子" node_id="10" head_word="孩子" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="18">
+	<origin_text>我特么在换衣服，进来个小男孩？</origin_text>
+	<relation id="1" pred="进来" pattern="SBV-r(Af)_Pred[进来]_VOB-n(Dd)" syntax_pattern="SBV-r(A)_Pred[进来]_VOB-n(A)" taggedType="a" pred_id="6" tagged="true" instance="我特么在换衣服，进来个小男孩" feature="1-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我" node_id="0" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="个小男孩" node_id="9" head_word="男孩" sem_cat="Dd">
+			<sub_pattern node_id="9" sem_pattern="VOB-n(Dd)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="19">
+	<origin_text>麻烦也为别人考虑一下！</origin_text>
+	<relation id="1" pred="考虑" pattern="SBV-n(Da)_ADV-为_POB-r(Af)_Pred[考虑]_CMP-m(Dn)" syntax_pattern="SBV-n(A)_ADV-为_POB-r(A)_Pred[考虑]_CMP-m(A)" taggedType="a" pred_id="4" tagged="true" instance="麻烦也为别人考虑一下" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="麻烦" node_id="0" head_word="麻烦" sem_cat="Da">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Da)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="别人" node_id="3" head_word="别人" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="POB-r(Af)" syn_pattern="POB-r(A)"/>
+			<sub_pattern node_id="2" sem_pattern="ADV-为" syn_pattern="ADV-为"/>
+		</argument>
+		<argument id="2" content="一下" node_id="5" head_word="一下" sem_cat="Dn">
+			<sub_pattern node_id="5" sem_pattern="CMP-m(Dn)" syn_pattern="CMP-m(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="20">
+	<origin_text>声音：管理员阿姨做得对，一方面保护其他顾客隐私，另一方面帮你孩子培养性别概念，另外现在的孩子长的都大，四周岁虚岁是五六岁了，这么大一孩子还要带进去是不合适的。</origin_text>
+	<relation id="2" pred="保护" pattern="SBV-n(A0)_Pred[保护]_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[保护]_VOB-n(A)" taggedType="a" pred_id="10" tagged="false" instance="管理员_阿姨一方面保护其他顾客隐私" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="管理员阿姨(Z)" node_id="8" head_word="管理员 阿姨" sem_cat="">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="其他顾客隐私" node_id="13" head_word="隐私" sem_cat="">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="21">
+	<origin_text>采三葭：从来不见爸爸把女儿领到男澡堂………。</origin_text>
+	<relation id="1" pred="领到" pattern="ADV-把_POB-n(Af)_Pred[领到]_VOB-n(A0)" syntax_pattern="ADV-把_POB-n(A)_Pred[领到]_VOB-n(A)" taggedType="a" pred_id="9" tagged="false" instance="女儿领到男澡堂" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="女儿" node_id="8" head_word="女儿" sem_cat="Af">
+			<sub_pattern node_id="8" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-把" syn_pattern="ADV-把"/>
+		</argument>
+		<argument id="1" content="男澡堂" node_id="10" head_word="男澡堂" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="22">
+	<origin_text>幕远行：还真以为自己是全世界的小公举，哭什么哭哦。</origin_text>
+	<relation id="1" pred="远行" pattern="SBV-n(Bp)_Pred[远行]_VOB-哭_VOB-r(Ba)" syntax_pattern="SBV-n(A)_Pred[远行]_VOB-哭_VOB-r(A)" taggedType="a" pred_id="1" tagged="true" instance="幕远行：幕还真以为自己是全世界的小公举，哭什么" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="幕" node_id="0" head_word="幕" sem_cat="Bp">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Bp)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="什么" node_id="15" head_word="什么" sem_cat="Ba">
+			<sub_pattern node_id="15" sem_pattern="VOB-r(Ba)" syn_pattern="VOB-r(A)"/>
+			<sub_pattern node_id="14" sem_pattern="VOB-哭" syn_pattern="VOB-哭"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="以为" pattern="SBV-n(Bp)_Pred[以为]_SBV-r(Af)_VOB-是_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[以为]_SBV-r(A)_VOB-是_VOB-n(A)" taggedType="a" pred_id="6" tagged="false" instance="幕还真以为自己是全世界的小公举" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="幕(Z)" node_id="3" head_word="幕" sem_cat="Bp">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Bp)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="自己" node_id="7" head_word="自己" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="8" sem_pattern="VOB-是" syn_pattern="VOB-是"/>
+		</argument>
+		<argument id="2" content="小公举" node_id="12" head_word="公举" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="23">
+	<origin_text>咪西饭盖盖：前天游泳看见个七八岁小男孩在更衣室，我觉得自己裸着被看到很不舒服。</origin_text>
+	<relation id="1" pred="看见" pattern="ADV-t(Ca)_SBV-n(A0)_Pred[看见]_SBV-n(Dd)_VOB-p_VOB-n(Bn)" syntax_pattern="ADV-t(A)_SBV-n(A)_Pred[看见]_SBV-n(A)_VOB-p_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="前天游泳看见个七八岁小男孩在更衣室" feature="0-0-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="前天" node_id="3" head_word="前天" sem_cat="Ca">
+			<sub_pattern node_id="3" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="游泳" node_id="4" head_word="游泳" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="个七八岁小男孩" node_id="10" head_word="男孩" sem_cat="Dd">
+			<sub_pattern node_id="10" sem_pattern="SBV-n(Dd)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="11" sem_pattern="VOB-p" syn_pattern="VOB-p"/>
+		</argument>
+		<argument id="3" content="更衣室" node_id="12" head_word="更衣室" sem_cat="Bn">
+			<sub_pattern node_id="12" sem_pattern="VOB-n(Bn)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="觉得" pattern="SBV-r(Af)_Pred[觉得]_SBV-r(Af)_VOB-裸" syntax_pattern="SBV-r(A)_Pred[觉得]_SBV-r(A)_VOB-裸" taggedType="a" pred_id="15" tagged="true" instance="我觉得自己" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我" node_id="14" head_word="我" sem_cat="Af">
+			<sub_pattern node_id="14" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="自己" node_id="16" head_word="自己" sem_cat="Af">
+			<sub_pattern node_id="16" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="17" sem_pattern="VOB-裸" syn_pattern="VOB-裸"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="24">
+	<origin_text>顾红运：以我妈的口吻：你还有脸哭！</origin_text>
+</sentence>
+<sentence id="25">
+	<origin_text>妈妈带4岁儿子进游泳馆女更衣室被管理员骂哭，这事你怎么看？</origin_text>
+	<relation id="1" pred="带" pattern="SBV-n(Af)_Pred[带]_VOB-n(Af)" syntax_pattern="SBV-n(A)_Pred[带]_VOB-n(A)" taggedType="a" pred_id="1" tagged="true" instance="爸爸带年幼的女儿" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="妈妈" node_id="0" head_word="妈妈" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="4岁儿子" node_id="4" head_word="儿子" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="骂" pattern="SBV-n(Bn)_ADV-被_POB-n(Af)_Pred[骂]" syntax_pattern="SBV-n(A)_ADV-被_POB-n(A)_Pred[骂]" taggedType="a" pred_id="11" tagged="true" instance="游泳馆女更衣室被管理员骂" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="游泳馆女更衣室" node_id="8" head_word="更衣室" sem_cat="Bn">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(Bn)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="管理员" node_id="10" head_word="管理员" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="9" sem_pattern="ADV-被" syn_pattern="ADV-被"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="看" pattern="TPC-n(A0)_SBV-r(Af)_ADV-r(A1)_Pred[看]" syntax_pattern="TPC-n(A)_SBV-r(A)_ADV-r(A)_Pred[看]" taggedType="a" pred_id="18" tagged="false" instance="这事你怎么看" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="这事" node_id="15" head_word="事" sem_cat="">
+			<sub_pattern node_id="15" sem_pattern="TPC-n(A0)" syn_pattern="TPC-n(A)"/>
+		</argument>
+		<argument id="1" content="你" node_id="16" head_word="你" sem_cat="Af">
+			<sub_pattern node_id="16" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="2" content="怎么" node_id="17" head_word="怎么" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="ADV-r(A1)" syn_pattern="ADV-r(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="26">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="27">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

@@ -1,0 +1,30 @@
+﻿14	category_1.txt	Movement.Transport-Person	Time	4 月份	1096-1098	899-1098	1096-1098	NIL	ACTUAL	0.5	1099
+19	category_1.txt	Movement.Transport-Person	Person	副院长 彭 澎	1611-1615	1416-1615	1611-1615	NIL	ACTUAL	0.5	1616
+37	category_1.txt	Movement.Transport-Person	Person	采访 多 位 业内 人士	2691-2698	2499-2698	2691-2698	NIL	ACTUAL	0.5	2699
+23	category_1.txt	Movement.Transport-Person	Time	今年	1877-1878	1679-1878	1877-1878	NIL	ACTUAL	0.5	1885
+25	category_1.txt	Movement.Transport-Person	Time	6月 30日	1907-1911	1712-1911	1907-1911	NIL	ACTUAL	0.5	1904
+4	category_1.txt	Movement.Transport-Person	Time	上 月	356-357	158-357	356-357	NIL	ACTUAL	0.5	358
+17	category_1.txt	Movement.Transport-Person	Person	张大伟	1336-1338	1139-1338	1336-1338	NIL	ACTUAL	0.5	1339
+33	category_1.txt	Movement.Transport-Person	Time	近期	2291-2292	2093-2292	2291-2292	NIL	ACTUAL	0.5	2306
+10	category_1.txt	Movement.Transport-Person	Time	10 年	799-801	602-801	799-801	NIL	ACTUAL	0.5	798
+1	category_1.txt	Contact.Broadcast	Entity	本 报	145-146	0-199	145-146	NIL	ACTUAL	0.5	147
+16	category_1.txt	Movement.Transport-Person	Person	中原 地产 首席 市场 分析师 张大伟	1242-1255	1056-1255	1242-1255	NIL	ACTUAL	0.5	1256
+18	category_1.txt	Movement.Transport-Person	Person	副会长 丘育华	1545-1550	1351-1550	1545-1550	NIL	ACTUAL	0.5	1551
+11	category_1.txt	Movement.Transport-Person	Person	分析 人士	894-897	698-897	894-897	NIL	ACTUAL	0.5	898
+2	category_1.txt	Movement.Transport-Person	Person	的 多 名 各界 人士	149-155	0-199	149-155	NIL	ACTUAL	0.5	156
+9	category_1.txt	Movement.Transport-Person	Person	该 人士	639-641	442-641	639-641	NIL	ACTUAL	0.5	642
+12	category_1.txt	Movement.Transport-Person	Time	今年	1006-1007	808-1007	1006-1007	NIL	ACTUAL	0.5	1020
+22	category_1.txt	Movement.Transport-Person	Agent	地方 政府	1850-1853	1654-1853	1850-1853	NIL	ACTUAL	0.5	1854
+8	category_1.txt	Movement.Transport-Person	Time	5 月份	449-451	252-451	449-451	NIL	ACTUAL	0.5	463
+15	category_1.txt	Movement.Transport-Person	Time	4 月份	1174-1176	977-1176	1174-1176	NIL	ACTUAL	0.5	1177
+3	category_1.txt	Movement.Transport-Person	Time	5 月	247-248	49-248	247-248	NIL	ACTUAL	0.5	257
+35	category_1.txt	Movement.Transport-Person	Agent	多 家 机构 预测 下半年 政府	2628-2638	2439-2638	2628-2638	NIL	ACTUAL	0.5	2640
+20	category_1.txt	Movement.Transport-Person	Agent	地方 政府	1636-1639	1440-1639	1636-1639	NIL	ACTUAL	0.5	1640
+5	category_1.txt	Movement.Transport-Person	Time	今年	406-407	208-407	406-407	NIL	ACTUAL	0.5	410
+29	category_1.txt	Movement.Transport-Person	Time	9月 30日	1927-1931	1732-1931	1927-1931	NIL	ACTUAL	0.5	1925
+13	category_1.txt	Movement.Transport-Person	Time	1~5 月份	1050-1054	855-1054	1050-1054	NIL	ACTUAL	0.5	1066
+32	category_1.txt	Movement.Transport-Person	Person	他	2170-2170	1971-2170	2170-2170	NIL	ACTUAL	0.5	2171
+21	category_1.txt	Movement.Transport-Person	Time	本 月	1744-1745	1546-1745	1744-1745	NIL	ACTUAL	0.5	1747
+34	category_1.txt	Movement.Transport-Person	Person	首席 经济学家 沈建光	2381-2389	2190-2389	2381-2389	NIL	ACTUAL	0.5	2390
+36	category_1.txt	Movement.Transport-Person	Person	》 记者	2673-2675	2476-2675	2673-2675	NIL	ACTUAL	0.5	2676
+0	category_1.txt	Movement.Transport-Person	Agent	一些 专家	107-110	0-199	107-110	NIL	ACTUAL	0.5	120

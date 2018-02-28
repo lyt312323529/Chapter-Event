@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title17岁的菲尔-福登在#曼城#对#曼联#的友谊赛中表现出色，获得了瓜瓜迪奥拉的公开称赞/Title</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-nr(Af)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-nr(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="23" tagged="false" instance="迪奥拉的公开称赞" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="迪奥拉" node_id="22" head_word="迪奥拉" sem_cat="Af">
+			<sub_pattern node_id="22" sem_pattern="nsubj-nr(Af)" syn_pattern="nsubj-nr(A)"/>
+		</argument>
+		<argument id="1" content="公开称赞" node_id="25" head_word="称赞" sem_cat="">
+			<sub_pattern node_id="25" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="表现" pattern="SBV-nr(Af)_ADV-在_POB-f(A0)_Pred[表现]" syntax_pattern="SBV-nr(A)_ADV-在_POB-f(A)_Pred[表现]" taggedType="a" pred_id="15" tagged="false" instance="菲尔-福登在#曼城#对#曼联#的友谊赛中表现" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="菲尔-福登" node_id="5" head_word="菲尔-福登" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="友谊赛中" node_id="14" head_word="中" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="6" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="获得" pattern="SBV-nr(Af)_Pred[获得]_VOB-nx(A0)" syntax_pattern="SBV-nr(A)_Pred[获得]_VOB-nx(A)" taggedType="a" pred_id="19" tagged="false" instance="Title__17_岁_的_菲尔-福登获得了瓜瓜迪奥拉的公开称赞/Title" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="Title17岁的菲尔-福登(Z)" node_id="18" head_word="Title  17 岁 的 菲尔-福登" sem_cat="Af">
+			<sub_pattern node_id="18" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="/Title" node_id="28" head_word="Title" sem_cat="">
+			<sub_pattern node_id="28" sem_pattern="VOB-nx(A0)" syn_pattern="VOB-nx(A)"/>
+		</argument>
+	</relation>
+	<relation id="5" pred="is" pattern="SBV-nx(A0)_Pred[is]_VOB-n(A1)" syntax_pattern="SBV-nx(A)_Pred[is]_VOB-n" taggedType="a" pred_id="28" tagged="false" instance="公开称赞/Title" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="/Title" node_id="28" head_word="Title" sem_cat="">
+			<sub_pattern node_id="28" sem_pattern="SBV-nx(A0)" syn_pattern="SBV-nx(A)"/>
+		</argument>
+		<argument id="1" content="公开称赞" node_id="25" head_word="称赞" sem_cat="">
+			<sub_pattern node_id="28" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>17岁的菲尔-福登在#曼城#对#曼联#的友谊赛中表现出色，获得了瓜迪奥拉的公开称赞。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-q(Dn)_Pred[de]_dobj-nr(Af)" syntax_pattern="nsubj-q(A)_Pred[de]_dobj-nr(A)" taggedType="a" pred_id="2" tagged="true" instance="17岁的菲尔-福登" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="17岁" node_id="1" head_word="岁" sem_cat="Dn">
+			<sub_pattern node_id="1" sem_pattern="nsubj-q(Dn)" syn_pattern="nsubj-q(A)"/>
+		</argument>
+		<argument id="1" content="菲尔-福登" node_id="3" head_word="菲尔-福登" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="dobj-nr(Af)" syn_pattern="dobj-nr(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="de" pattern="nsubj-nr(Af)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-nr(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="20" tagged="false" instance="迪奥拉的公开称赞" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="瓜迪奥拉" node_id="19" head_word="瓜迪奥拉" sem_cat="Af">
+			<sub_pattern node_id="19" sem_pattern="nsubj-nr(Af)" syn_pattern="nsubj-nr(A)"/>
+		</argument>
+		<argument id="1" content="公开称赞" node_id="22" head_word="称赞" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="表现" pattern="SBV-nr(Af)_ADV-在_POB-f(A0)_Pred[表现]" syntax_pattern="SBV-nr(A)_ADV-在_POB-f(A)_Pred[表现]" taggedType="a" pred_id="13" tagged="false" instance="菲尔-福登在#曼城#对#曼联#的友谊赛中表现" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="菲尔-福登" node_id="3" head_word="菲尔-福登" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="友谊赛中" node_id="12" head_word="中" sem_cat="">
+			<sub_pattern node_id="12" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="4" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+	</relation>
+	<relation id="4" pred="获得" pattern="SBV-nr(Af)_Pred[获得]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[获得]_VOB-n(A)" taggedType="a" pred_id="17" tagged="false" instance="17_岁_的_菲尔-福登获得了瓜迪奥拉的公开称赞" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="17岁的菲尔-福登(Z)" node_id="16" head_word="17 岁 的 菲尔-福登" sem_cat="Af">
+			<sub_pattern node_id="16" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="公开称赞" node_id="22" head_word="称赞" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>赛后前曼联队长加里-内维尔在推特上表示：“他效力的曼彻斯特俱乐部不对，得不到连续的机会。</origin_text>
+	<relation id="1" pred="表示" pattern="ADV-f(A0)_SBV-nt(Dm)_ADV-在_POB-f(A1)_Pred[表示]_VOB-得_VOB-n(Ca)" syntax_pattern="ADV-f(A)_SBV-nt(A)_ADV-在_POB-f(A)_Pred[表示]_VOB-得_VOB-n(A)" taggedType="a" pred_id="7" tagged="false" instance="赛后前曼联队长加里-内维尔在推特上表示：“他效力的曼彻斯特俱乐部不对，得不到连续的机会" feature="1-1-0-0-1-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="赛后前" node_id="1" head_word="前" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="曼联队" node_id="2" head_word="曼联队" sem_cat="Dm">
+			<sub_pattern node_id="2" sem_pattern="SBV-nt(Dm)" syn_pattern="SBV-nt(A)"/>
+		</argument>
+		<argument id="2" content="上" node_id="6" head_word="上" sem_cat="">
+			<sub_pattern node_id="6" sem_pattern="POB-f(A1)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="4" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="3" content="机会" node_id="22" head_word="机会" sem_cat="Ca">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(Ca)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="17" sem_pattern="VOB-得" syn_pattern="VOB-得"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>曼城有很多优秀的孩子。</origin_text>
+	<relation id="1" pred="有" pattern="SBV-ns(Cb)_Pred[有]_VOB-n(Af)" syntax_pattern="SBV-ns(A)_Pred[有]_VOB-n(A)" taggedType="a" pred_id="1" tagged="true" instance="曼城有很多优秀的孩子" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="曼城" node_id="0" head_word="曼城" sem_cat="Cb">
+			<sub_pattern node_id="0" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="很多优秀的孩子" node_id="5" head_word="孩子" sem_cat="Af">
+			<sub_pattern node_id="5" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>他们应该获得比赛机会……”​​​</origin_text>
+	<relation id="1" pred="获得" pattern="SBV-r(Af)_Pred[获得]_VOB-n(Ca)" syntax_pattern="SBV-r(A)_Pred[获得]_VOB-n(A)" taggedType="a" pred_id="2" tagged="true" instance="他们应该获得比赛机会" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="他们" node_id="0" head_word="他们" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="比赛机会" node_id="4" head_word="机会" sem_cat="Ca">
+			<sub_pattern node_id="4" sem_pattern="VOB-n(Ca)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="12">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

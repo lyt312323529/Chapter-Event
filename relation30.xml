@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title网友选择赵丽颖放弃热巴就因为这个原因/Title</origin_text>
+	<relation id="1" pred="选择" pattern="SBV-n(Af)_Pred[选择]_VOB-nr(Af)" syntax_pattern="SBV-n(A)_Pred[选择]_VOB-nr(A)" taggedType="a" pred_id="3" tagged="true" instance="Title网友选择赵丽颖" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="Title网友" node_id="2" head_word="网友" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="赵丽颖" node_id="4" head_word="赵丽颖" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="7">
+	<origin_text>迪丽热巴和赵丽颖，两个小花旦，都是美美的女神，又都是资深吃货。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-nr(Af)_Pred[是]_VOB-吃_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[是]_VOB-吃_VOB-n(A)" taggedType="a" pred_id="17" tagged="false" instance="迪丽热巴和赵丽颖，两个小花旦，都是美美的女神，又都是资深吃货" feature="1-1-0-0-1-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="迪丽热巴和赵丽颖" node_id="2" head_word="赵丽颖" sem_cat="Af">
+			<sub_pattern node_id="2" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="货" node_id="20" head_word="货" sem_cat="">
+			<sub_pattern node_id="20" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+			<sub_pattern node_id="19" sem_pattern="VOB-吃" syn_pattern="VOB-吃"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="SBV-n(Af)_Pred[是]_VOB-n(Dh)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="10" tagged="true" instance="两个小花旦，都是美美的女神" feature="1-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="两个小花旦" node_id="7" head_word="花旦" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(Af)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="女神" node_id="13" head_word="女神" sem_cat="Dh">
+			<sub_pattern node_id="13" sem_pattern="VOB-n(Dh)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>虽有相同点，但一直没太有什么交集。</origin_text>
+</sentence>
+<sentence id="9">
+	<origin_text>不过，最近一个问题却硬是把俩人拴在了一起。</origin_text>
+	<relation id="1" pred="拴" pattern="ADV-t(Ca)_SBV-n(A0)_ADV-把_POB-n(A1)_Pred[拴]_VOB-s(Af)" syntax_pattern="ADV-t(A)_SBV-n(A)_ADV-把_POB-n(A)_Pred[拴]_VOB-s(A)" taggedType="a" pred_id="10" tagged="false" instance="最近一个问题却硬是把俩人拴在了一起" feature="1-0-0-1-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="最近" node_id="2" head_word="最近" sem_cat="Ca">
+			<sub_pattern node_id="2" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="一个问题" node_id="4" head_word="问题" sem_cat="">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="2" content="俩人" node_id="9" head_word="人" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="POB-n(A1)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-把" syn_pattern="ADV-把"/>
+		</argument>
+		<argument id="3" content="一起" node_id="13" head_word="一起" sem_cat="Af">
+			<sub_pattern node_id="13" sem_pattern="VOB-s(Af)" syn_pattern="VOB-s(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>迪丽热巴。</origin_text>
+</sentence>
+<sentence id="11">
+	<origin_text>近日，一项网络调查非常有意思：如果在赵丽颖和迪丽热巴中选一个，你更希望将谁娶回家？</origin_text>
+	<relation id="1" pred="选" pattern="ADV-在_POB-f(A0)_Pred[选]_VOB-m(Dn)" syntax_pattern="ADV-在_POB-f(A)_Pred[选]_VOB-m(A)" taggedType="a" pred_id="15" tagged="false" instance="赵丽颖和迪丽热巴中选一个" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="赵丽颖和迪丽热巴中" node_id="14" head_word="中" sem_cat="">
+			<sub_pattern node_id="14" sem_pattern="POB-f(A0)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="10" sem_pattern="ADV-在" syn_pattern="ADV-在"/>
+		</argument>
+		<argument id="1" content="一个" node_id="16" head_word="一个" sem_cat="Dn">
+			<sub_pattern node_id="16" sem_pattern="VOB-m(Dn)" syn_pattern="VOB-m(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>迪丽热巴。</origin_text>
+</sentence>
+<sentence id="13">
+	<origin_text>这个提问，可是相当困难啊。</origin_text>
+</sentence>
+<sentence id="14">
+	<origin_text>有网友说选择迪丽热巴，觉得热巴美，有网友则选择可爱的颖宝。</origin_text>
+</sentence>
+<sentence id="15">
+	<origin_text>最搞笑的答案居然是——有人说要选择赵丽颖，原因居然是她感觉热巴有了鹿晗。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-n(Dk)_Pred[是]_VOB-选择_VOB-nr(Af)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-选择_VOB-nr(A)" taggedType="a" pred_id="6" tagged="true" instance="答案居然是——有人说要选择赵丽颖" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="答案" node_id="4" head_word="答案" sem_cat="Dk">
+			<sub_pattern node_id="4" sem_pattern="SBV-n(Dk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="赵丽颖" node_id="12" head_word="赵丽颖" sem_cat="Af">
+			<sub_pattern node_id="12" sem_pattern="VOB-nr(Af)" syn_pattern="VOB-nr(A)"/>
+			<sub_pattern node_id="11" sem_pattern="VOB-选择" syn_pattern="VOB-选择"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="SBV-n(Db)_Pred[是]_SBV-r(A0)_VOB-有_VOB-n(A1)" syntax_pattern="SBV-n(A)_Pred[是]_SBV-r(A)_VOB-有_VOB-n(A)" taggedType="a" pred_id="16" tagged="false" instance="原因居然是她感觉热巴有了鹿晗" feature="1-0-1-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="原因" node_id="14" head_word="原因" sem_cat="Db">
+			<sub_pattern node_id="14" sem_pattern="SBV-n(Db)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="她" node_id="17" head_word="她" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="20" sem_pattern="VOB-有" syn_pattern="VOB-有"/>
+		</argument>
+		<argument id="2" content="鹿晗" node_id="22" head_word="鹿晗" sem_cat="">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="16">
+	<origin_text>不选择迪丽热巴的原因居然是：她是鹿晗的嘛。</origin_text>
+	<relation id="1" pred="是" pattern="SBV-n(Db)_Pred[是]_SBV-r(A0)_VOB-是" syntax_pattern="SBV-n(A)_Pred[是]_SBV-r(A)_VOB-是" taggedType="a" pred_id="7" tagged="false" instance="原因居然是：她" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="原因" node_id="5" head_word="原因" sem_cat="Db">
+			<sub_pattern node_id="5" sem_pattern="SBV-n(Db)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="她" node_id="9" head_word="她" sem_cat="">
+			<sub_pattern node_id="9" sem_pattern="SBV-r(A0)" syn_pattern="SBV-r(A)"/>
+			<sub_pattern node_id="10" sem_pattern="VOB-是" syn_pattern="VOB-是"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="17">
+	<origin_text>迪丽热巴和鹿晗。</origin_text>
+</sentence>
+<sentence id="18">
+	<origin_text>厉害了，这位大姐。</origin_text>
+</sentence>
+<sentence id="19">
+	<origin_text>鹿晗是该感谢你呢还是该感谢你呢？</origin_text>
+	<relation id="1" pred="是" pattern="SBV-nr(Af)_Pred[是]_ADV-r(A0)_VOB-感谢" syntax_pattern="SBV-nr(A)_Pred[是]_ADV-r(A)_VOB-感谢" taggedType="a" pred_id="1" tagged="false" instance="鹿晗是该" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="鹿晗" node_id="0" head_word="鹿晗" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="该" node_id="2" head_word="该" sem_cat="">
+			<sub_pattern node_id="2" sem_pattern="ADV-r(A0)" syn_pattern="ADV-r(A)"/>
+			<sub_pattern node_id="3" sem_pattern="VOB-感谢" syn_pattern="VOB-感谢"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="感谢" pattern="SBV-r(Af)_Pred[感谢]_VOB-r(Af)" syntax_pattern="SBV-r(A)_Pred[感谢]_VOB-r(A)" taggedType="a" pred_id="8" tagged="true" instance="你呢还是该感谢你" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="你" node_id="4" head_word="你" sem_cat="Af">
+			<sub_pattern node_id="4" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="你" node_id="9" head_word="你" sem_cat="Af">
+			<sub_pattern node_id="9" sem_pattern="VOB-r(Af)" syn_pattern="VOB-r(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="20">
+	<origin_text>不过，不管怎样，都说明“陆地夫妇”深入人心嘛。</origin_text>
+</sentence>
+<sentence id="21">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="22">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>

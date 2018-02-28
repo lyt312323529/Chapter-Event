@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+<sentence id="1">
+	<origin_text>﻿Article</origin_text>
+</sentence>
+<sentence id="2">
+	<origin_text>Category财经/Category</origin_text>
+	<relation id="1" pred="/" pattern="SBV-n(A0)_Pred[/]_VOB-ns(Cb)" syntax_pattern="SBV-n(A)_Pred[/]_VOB-ns(A)" taggedType="a" pred_id="4" tagged="false" instance="财经/Category" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="财经" node_id="3" head_word="" sem_cat="">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="Category" node_id="6" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="6" sem_pattern="VOB-ns(Cb)" syn_pattern="VOB-ns(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="3">
+	<origin_text>Source中国青年报/Source</origin_text>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Dk)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="中国青年报/Source" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="/Source" node_id="7" head_word="" sem_cat="Cb">
+			<sub_pattern node_id="7" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="中国青年报" node_id="3" head_word="青年报" sem_cat="Dk">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="4">
+	<origin_text>Author李松涛/Author</origin_text>
+</sentence>
+<sentence id="5">
+	<origin_text>Time2012-01-04/Time</origin_text>
+</sentence>
+<sentence id="6">
+	<origin_text>Title《太阳的后裔》之后，宋仲基、宋慧乔有情人终成眷属/Title</origin_text>
+</sentence>
+<sentence id="7">
+	<origin_text>《太阳的后裔》是韩国KBS电视台于2016年2月24日起播出的水木迷你连续剧，由李应福导演，金恩淑、金元锡编剧，宋仲基、宋慧乔领衔主演。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-bo(Dk)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-bo(A)" taggedType="a" pred_id="2" tagged="false" instance="《太阳的后裔》" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="太阳" node_id="1" head_word="太阳" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="太阳的后裔" node_id="3" head_word="后裔" sem_cat="Dk">
+			<sub_pattern node_id="3" sem_pattern="dobj-bo(Dk)" syn_pattern="dobj-bo(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="是" pattern="SBV-bo(Dk)_Pred[是]_SBV-n(A0)_VOB-迷_VOB-n(Dk)" syntax_pattern="SBV-bo(A)_Pred[是]_SBV-n(A)_VOB-迷_VOB-n(A)" taggedType="a" pred_id="5" tagged="false" instance="《太阳的后裔》是韩国KBS电视台于2016年2月24日起播出的水木迷你连续剧" feature="1-0-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="太阳的后裔" node_id="3" head_word="后裔" sem_cat="Dk">
+			<sub_pattern node_id="3" sem_pattern="SBV-bo(Dk)" syn_pattern="SBV-bo(A)"/>
+		</argument>
+		<argument id="1" content="水木" node_id="16" head_word="水木" sem_cat="">
+			<sub_pattern node_id="16" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="17" sem_pattern="VOB-迷" syn_pattern="VOB-迷"/>
+		</argument>
+		<argument id="2" content="你连续剧" node_id="19" head_word="连续剧" sem_cat="Dk">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(Dk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="播出" pattern="SBV-n(Di)_ADV-于_POB-f(Dn)_Pred[播出]_ATT-u_SBV-n(A0)" syntax_pattern="SBV-n(A)_ADV-于_POB-f(A)_Pred[播出]_ATT-u_SBV-n(A)" taggedType="a" pred_id="14" tagged="false" instance="韩国KBS电视台于2016年2月24日起播出的水木" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0" isDeStructure="true">
+		<argument id="0" content="韩国KBS电视台" node_id="8" head_word="电视台" sem_cat="Di">
+			<sub_pattern node_id="8" sem_pattern="SBV-n(Di)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="14" sem_pattern="DE-播出" syn_pattern="DE-播出"/>
+			<sub_pattern node_id="15" sem_pattern="ATT-u" syn_pattern="ATT-u"/>
+			<sub_pattern node_id="16" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="2016年2月24日起" node_id="13" head_word="起" sem_cat="Dn">
+			<sub_pattern node_id="13" sem_pattern="POB-f(Dn)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="9" sem_pattern="ADV-于" syn_pattern="ADV-于"/>
+		</argument>
+		<argument id="2" content="水木" node_id="16" head_word="水木" sem_cat="">
+		</argument>
+	</relation>
+</sentence>
+<sentence id="8">
+	<origin_text>宋仲基饰演33岁，太白部队MOLE总队长柳时镇，硬汉军官、撩妹高手。</origin_text>
+	<relation id="1" pred="饰演" pattern="SBV-nr(Af)_Pred[饰演]_VOB-q(Dn)" syntax_pattern="SBV-nr(A)_Pred[饰演]_VOB-q(A)" taggedType="a" pred_id="1" tagged="true" instance="宋仲基饰演33岁" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="宋仲基" node_id="0" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="33岁" node_id="3" head_word="岁" sem_cat="Dn">
+			<sub_pattern node_id="3" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="is" pattern="SBV-ns(Cb)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-ns(A)_Pred[is]_VOB-n" taggedType="a" pred_id="10" tagged="true" instance="白部队MOLE总队长柳时镇" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="柳时镇" node_id="10" head_word="柳时镇" sem_cat="Cb">
+			<sub_pattern node_id="10" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="白部队MOLE总队长" node_id="9" head_word="总队长" sem_cat="Af">
+			<sub_pattern node_id="10" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="撩" pattern="SBV-ns(Cb)_Pred[撩]_VOB-n(Af)" syntax_pattern="SBV-ns(A)_Pred[撩]_VOB-n(A)" taggedType="a" pred_id="15" tagged="true" instance="柳时镇，硬汉军官、撩妹高手" feature="0-1-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="柳时镇" node_id="10" head_word="柳时镇" sem_cat="Cb">
+			<sub_pattern node_id="10" sem_pattern="SBV-ns(Cb)" syn_pattern="SBV-ns(A)"/>
+		</argument>
+		<argument id="1" content="妹高手" node_id="17" head_word="高手" sem_cat="Af">
+			<sub_pattern node_id="17" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="9">
+	<origin_text>宋慧乔饰演34岁，胸外科专家姜暮烟，是被“撩妹高手”狂撩的那个人。</origin_text>
+	<relation id="1" pred="饰演" pattern="SBV-nr(Af)_Pred[饰演]_VOB-q(Dn)" syntax_pattern="SBV-nr(A)_Pred[饰演]_VOB-q(A)" taggedType="a" pred_id="1" tagged="true" instance="宋仲基饰演33岁" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="宋慧乔" node_id="0" head_word="宋慧乔" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="34岁" node_id="3" head_word="岁" sem_cat="Dn">
+			<sub_pattern node_id="3" sem_pattern="VOB-q(Dn)" syn_pattern="VOB-q(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="is" pattern="SBV-nr(Af)_Pred[is]_VOB-n(Af)" syntax_pattern="SBV-nr(A)_Pred[is]_VOB-n" taggedType="a" pred_id="7" tagged="true" instance="胸外科专家姜暮烟" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="姜暮烟" node_id="7" head_word="姜暮烟" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="胸外科专家" node_id="6" head_word="专家" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="VOB-n(Af)" syn_pattern="VOB-n"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="是" pattern="SBV-nr(Af)_Pred[是]_VOB-n(A0)" syntax_pattern="SBV-nr(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="9" tagged="false" instance="姜暮烟，是被“撩妹高手”狂撩的那个人" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="姜暮烟" node_id="7" head_word="姜暮烟" sem_cat="Af">
+			<sub_pattern node_id="7" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="1" content="那个人" node_id="20" head_word="人" sem_cat="">
+			<sub_pattern node_id="20" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="10">
+	<origin_text>剧中将军人的阳刚之气与面对恋人、朋友时的温柔一面进行了很好的融合，充满魅力的磁性嗓音同样给观众留下了深刻的印象。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Ca)_Pred[de]_dobj-f(Dd)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-f(A)" taggedType="a" pred_id="13" tagged="true" instance="气与面对恋人、朋友时的温柔一面" feature="0-0-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="气与面对恋人、朋友时" node_id="12" head_word="时" sem_cat="Ca">
+			<sub_pattern node_id="12" sem_pattern="nsubj-n(Ca)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="温柔一面" node_id="15" head_word="一面" sem_cat="Dd">
+			<sub_pattern node_id="15" sem_pattern="dobj-f(Dd)" syn_pattern="dobj-f(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="融合" pattern="SBV-n(Ca)_ADV-将_POB-f(Dd)_Pred[进行]_VOB-n{融合}" syntax_pattern="SBV-n(A)_ADV-将_POB-f(A)_Pred[进行]_VOB-n{融合}" taggedType="a" pred_id="16" tagged="true" instance="剧中将军人的阳刚之气与面对恋人、朋友时的温柔一面进行了很好的融合" feature="1-0-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="剧中" node_id="0" head_word="剧中" sem_cat="Ca">
+			<sub_pattern node_id="0" sem_pattern="SBV-n(Ca)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="温柔一面" node_id="15" head_word="一面" sem_cat="Dd">
+			<sub_pattern node_id="15" sem_pattern="POB-f(Dd)" syn_pattern="POB-f(A)"/>
+			<sub_pattern node_id="1" sem_pattern="ADV-将" syn_pattern="ADV-将"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="留下" pattern="SBV-n(Bg)_ADV-给_POB-n(Af)_Pred[留下]_VOB-n(Da)" syntax_pattern="SBV-n(A)_ADV-给_POB-n(A)_Pred[留下]_VOB-n(A)" taggedType="a" pred_id="31" tagged="true" instance="磁性嗓音同样给观众留下了深刻的印象" feature="0-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="磁性嗓音" node_id="27" head_word="嗓音" sem_cat="Bg">
+			<sub_pattern node_id="27" sem_pattern="SBV-n(Bg)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="观众" node_id="30" head_word="观众" sem_cat="Af">
+			<sub_pattern node_id="30" sem_pattern="POB-n(Af)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="29" sem_pattern="ADV-给" syn_pattern="ADV-给"/>
+		</argument>
+		<argument id="2" content="印象" node_id="35" head_word="印象" sem_cat="Da">
+			<sub_pattern node_id="35" sem_pattern="VOB-n(Da)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="11">
+	<origin_text>戏外，他长相帅气、形象积极明朗、充满男性美，受到了人们的喜爱。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(Af)_Pred[de]_dobj-n(A0)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="18" tagged="false" instance="人们的喜爱" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="人们" node_id="17" head_word="人们" sem_cat="Af">
+			<sub_pattern node_id="17" sem_pattern="nsubj-n(Af)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="喜爱" node_id="19" head_word="喜爱" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="dobj-n(A0)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="受到" pattern="ADV-f(A0)_SBV-r(Af)_Pred[受到]_VOB-n(A1)" syntax_pattern="ADV-f(A)_SBV-r(A)_Pred[受到]_VOB-n(A)" taggedType="a" pred_id="15" tagged="false" instance="戏外，他长相帅气、形象积极明朗、充满男性美，受到了人们的喜爱" feature="1-1-0-0-1-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="戏外" node_id="1" head_word="外" sem_cat="">
+			<sub_pattern node_id="1" sem_pattern="ADV-f(A0)" syn_pattern="ADV-f(A)"/>
+		</argument>
+		<argument id="1" content="他" node_id="3" head_word="他" sem_cat="Af">
+			<sub_pattern node_id="3" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="2" content="喜爱" node_id="19" head_word="喜爱" sem_cat="">
+			<sub_pattern node_id="19" sem_pattern="VOB-n(A1)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="12">
+	<origin_text>她姣好的面容，水汪汪的眼睛，尤其是那出名的好皮肤，美到让人没法妒忌。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-r(A0)_Pred[de]_dobj-n(Dc)" syntax_pattern="nsubj-r(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="2" tagged="false" instance="她姣好的面容" feature="1-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="她" node_id="0" head_word="她" sem_cat="">
+			<sub_pattern node_id="0" sem_pattern="nsubj-r(A0)" syn_pattern="nsubj-r(A)"/>
+		</argument>
+		<argument id="1" content="面容" node_id="3" head_word="面容" sem_cat="Dc">
+			<sub_pattern node_id="3" sem_pattern="dobj-n(Dc)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="让" pattern="SBV-n(Dc)_Pred[让]_VOB-n(A0)" syntax_pattern="SBV-n(A)_Pred[让]_VOB-n(A)" taggedType="a" pred_id="19" tagged="false" instance="面容，水汪汪的眼睛，尤其是那出名的好皮肤，美到让人" feature="0-1-0-1-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="面容" node_id="3" head_word="面容" sem_cat="Dc">
+			<sub_pattern node_id="3" sem_pattern="SBV-n(Dc)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="人" node_id="20" head_word="人" sem_cat="">
+			<sub_pattern node_id="20" sem_pattern="VOB-n(A0)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="3" pred="是" pattern="SBV-n(Bk)_Pred[是]_VOB-n(Bk)" syntax_pattern="SBV-n(A)_Pred[是]_VOB-n(A)" taggedType="a" pred_id="10" tagged="true" instance="眼睛，尤其是那出名的好皮肤" feature="0-1-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="眼睛" node_id="7" head_word="眼睛" sem_cat="Bk">
+			<sub_pattern node_id="7" sem_pattern="SBV-n(Bk)" syn_pattern="SBV-n(A)"/>
+		</argument>
+		<argument id="1" content="那出名的好皮肤" node_id="15" head_word="皮肤" sem_cat="Bk">
+			<sub_pattern node_id="15" sem_pattern="VOB-n(Bk)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="13">
+	<origin_text>最终，2017年7月5日，宋仲基与宋慧乔两人的经纪公司同时宣布两人2017年10月31日举行婚礼。</origin_text>
+	<relation id="1" pred="de" pattern="nsubj-n(A0)_Pred[de]_dobj-n(Dm)" syntax_pattern="nsubj-n(A)_Pred[de]_dobj-n(A)" taggedType="a" pred_id="11" tagged="false" instance="宋慧乔两人的经纪公司" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="宋慧乔两人" node_id="10" head_word="人" sem_cat="">
+			<sub_pattern node_id="10" sem_pattern="nsubj-n(A0)" syn_pattern="nsubj-n(A)"/>
+		</argument>
+		<argument id="1" content="经纪公司" node_id="13" head_word="公司" sem_cat="Dm">
+			<sub_pattern node_id="13" sem_pattern="dobj-n(Dm)" syn_pattern="dobj-n(A)"/>
+		</argument>
+	</relation>
+	<relation id="2" pred="宣布" pattern="ADV-t(Ca)_SBV-nr(Af)_ADV-与_POB-n(Dm)_Pred[宣布]_SBV-n(A0)_ADV-t(Ca)_VOB-举行_VOB-n(Di)" syntax_pattern="ADV-t(A)_SBV-nr(A)_ADV-与_POB-n(A)_Pred[宣布]_SBV-n(A)_ADV-t(A)_VOB-举行_VOB-n(A)" taggedType="a" pred_id="15" tagged="false" instance="2017年7月5日，宋仲基与宋慧乔两人的经纪公司同时宣布两人2017年10月31日举行婚礼" feature="1-1-0-0-1-0-0-0-1-0-0-0-1-0-0-0-0-0-0-0-0-1-0">
+		<argument id="0" content="2017年7月5日" node_id="4" head_word="5日" sem_cat="Ca">
+			<sub_pattern node_id="4" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="1" content="宋仲基" node_id="6" head_word="宋仲基" sem_cat="Af">
+			<sub_pattern node_id="6" sem_pattern="SBV-nr(Af)" syn_pattern="SBV-nr(A)"/>
+		</argument>
+		<argument id="2" content="经纪公司" node_id="13" head_word="公司" sem_cat="Dm">
+			<sub_pattern node_id="13" sem_pattern="POB-n(Dm)" syn_pattern="POB-n(A)"/>
+			<sub_pattern node_id="7" sem_pattern="ADV-与" syn_pattern="ADV-与"/>
+		</argument>
+		<argument id="3" content="两人" node_id="17" head_word="人" sem_cat="">
+			<sub_pattern node_id="17" sem_pattern="SBV-n(A0)" syn_pattern="SBV-n(A)"/>
+			<sub_pattern node_id="21" sem_pattern="VOB-举行" syn_pattern="VOB-举行"/>
+		</argument>
+		<argument id="4" content="2017年10月31日" node_id="20" head_word="31日" sem_cat="Ca">
+			<sub_pattern node_id="20" sem_pattern="ADV-t(Ca)" syn_pattern="ADV-t(A)"/>
+		</argument>
+		<argument id="5" content="婚礼" node_id="22" head_word="婚礼" sem_cat="Di">
+			<sub_pattern node_id="22" sem_pattern="VOB-n(Di)" syn_pattern="VOB-n(A)"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="14">
+	<origin_text>我们一起期待他们的婚礼可好？</origin_text>
+	<relation id="1" pred="期待" pattern="SBV-r(Af)_Pred[期待]_ATT-n(Di)_VOB-可好" syntax_pattern="SBV-r(A)_Pred[期待]_ATT-n(A)_VOB-可好" taggedType="a" pred_id="2" tagged="true" instance="我们一起期待他们的婚礼" feature="0-0-1-0-0-1-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-1">
+		<argument id="0" content="我们" node_id="0" head_word="我们" sem_cat="Af">
+			<sub_pattern node_id="0" sem_pattern="SBV-r(Af)" syn_pattern="SBV-r(A)"/>
+		</argument>
+		<argument id="1" content="婚礼" node_id="5" head_word="婚礼" sem_cat="Di">
+			<sub_pattern node_id="5" sem_pattern="ATT-n(Di)" syn_pattern="ATT-n(A)"/>
+			<sub_pattern node_id="6" sem_pattern="VOB-可好" syn_pattern="VOB-可好"/>
+		</argument>
+	</relation>
+</sentence>
+<sentence id="15">
+	<origin_text>/Content</origin_text>
+</sentence>
+<sentence id="16">
+	<origin_text>/Article</origin_text>
+</sentence>
+</doc>
